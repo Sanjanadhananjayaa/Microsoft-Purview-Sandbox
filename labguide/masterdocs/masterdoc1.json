@@ -8,27 +8,27 @@
         "Order": 1
         },
         {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Sentinel-with-XDR/main/labguide/part-01/lab02.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab02.md",
         "Order": 2
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Sentinel-with-XDR/main/labguide/part-01/lab03.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab03.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Sentinel-with-XDR/main/labguide/part-01/lab04.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab04.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Sentinel-with-XDR/main/labguide/part-01/lab05.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab05.md",
         "Order": 5
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Sentinel-with-XDR/main/labguide/part-01/lab05.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab06.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Sentinel-with-XDR/main/labguide/part-01/lab05.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab07.md",
         "Order": 7
       }
      ]  
