@@ -39,13 +39,13 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
     ![](../media/sc-900-lab13-01.png)
 
-1. From the left navigation panel of the Microsoft Purview, under Solutions, select **Information protection** and in the dropdown select **Overview** and click on **Turn on now**.
+1. From the left navigation panel of the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **labels** and click on **Turn on now**.
 
 1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
 
     ![](../media/sc-900-lab13-001.png)
 
-1. Now select the **Labels** tab from the dropdown and then select **Create a label**
+1. On **Labels** tab from the dropdown and then select **Create a label**
 
     ![](../media/sc-900-lab13-2.png)
 
@@ -71,7 +71,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
     ![](../media/sc-900-lab13-6.png)
   
-1. Click on **+Add Users or Groups**, select your **user name**  and **Megan Bowen** and click on **Add** then back to Assign permission page, Click on **Save**.and so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Click on **+Add Users or Groups**, select your **user name**  and click on **Add** then back to Assign permission page, Click on **Save**.and so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
       ![](../media/sc-900-lab13-7.png)
       
@@ -119,7 +119,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
      ![](../media/sc-900-lab13-18.png)
      
-1. Click on **Next** on Assign Admin Units(Preview). 
+1. Click on **Next** on Assign Admin Units(Preview) page.
 
      ![](../media/lab13-1-4.png)   
 
@@ -171,7 +171,7 @@ In this task, you will go through the process of applying a label from the persp
 
    ![](../media/lab13-1-5.png) 
 
-1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
+1. Select **blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
 1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
 
@@ -192,11 +192,11 @@ In addition to content marking, the label protection setting was set for encrypt
 
       ![](../media/lab13-1-6.png)
 
-1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
+1. Select **New Email** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
 
 1. Select **Attach**.
 
-1. Select **Browse cloud locations**.
+1. Select **One drive**.
 
 1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**.  Press **Send**.
 
