@@ -1,3 +1,2 @@
-# DLP Alerts > Alerts remediations 
+# Safe breach simulation
 
-content 
