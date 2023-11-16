@@ -4,32 +4,36 @@
     "Language": "English",
     "Files": [
         {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab01.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab1.md",
         "Order": 1
         },
         {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab02.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab2.md",
         "Order": 2
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab03.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab3.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab04.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab4.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab05.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab5.md",
         "Order": 5
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab06.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab6.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab07.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab7.md",
         "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/lab8.md",
+        "Order": 8
       }
      ]  
    }
