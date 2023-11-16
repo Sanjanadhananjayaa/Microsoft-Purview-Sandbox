@@ -1,3 +1,3 @@
 # DLP Alerts > Alerts remediations 
 
-content 
+## Content to be added
