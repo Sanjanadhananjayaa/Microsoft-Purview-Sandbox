@@ -5,7 +5,7 @@
 
 In this task, you will explore on different approaches using you can protect the Sensitive Data.
 
-1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credntials**.
+1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credntials** provided to you duing the lab.
 
 1. you can protect your sensitive data using **Sensitivity label, Encryption messages and cocuments, Microsoft Defender, Microsoft Information Protection SDK extension for web browser, Data classification**.
 
