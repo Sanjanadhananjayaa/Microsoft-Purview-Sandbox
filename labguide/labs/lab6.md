@@ -23,9 +23,12 @@
    ![Picture 1](../media/Purview_DLP_SettingsMitigationActions_12.png)
 
 
-### you can also manually perform the activities once received suspicious alerts.
+
+**you can also manually perform the activities once received suspicious alerts**.
+
 
 **Reset password**: 
+
 
 **Sign in to the Microsoft 365 Admin Center**:
 
