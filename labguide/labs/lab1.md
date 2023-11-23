@@ -12,9 +12,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Classification on sensitive data
 
 
-### Task 1: Protecting your data using Microsoft Purview 
-
-In this task, you will explore on different approaches using you can protect the Sensitive Data.
+### Protecting your data using Microsoft Purview 
 
 1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credntials** provided to you duing the lab.
 
@@ -22,7 +20,7 @@ In this task, you will explore on different approaches using you can protect the
 
 We will take a look into how they work in preceding labs and providing brief information about how it work
 
-### Task 2: Sensitivity Label 
+### Task 1: Sensitivity Label 
 
 In this task, you will create a sensitivity label to protect the data.
 
@@ -43,7 +41,7 @@ In this task, you will create a sensitivity label to protect the data.
 
 
 
-### Task 3: Overview and Activity Explorer
+### Task 2: Overview and Activity Explorer
 
 In this task, you will see how to get the insights from the security applied to your data.
 
@@ -59,7 +57,7 @@ In this task, you will see how to get the insights from the security applied to 
 
 
 
-### Task 4: Classification
+### Task 3: Classification
 
 In this task, you will be able to classify the sensitive data to detect it, protect it, retain it. Classifiers used to detect the specific contents  like budget, hr records, medical forms, credit card info, etc.
 
