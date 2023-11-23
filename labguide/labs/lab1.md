@@ -1,4 +1,15 @@
-# Protect Sensitive Data 
+# Excercise 1 - Protect Sensitive Data 
+
+## Lab scenario
+In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: knowhow on sensitivity labels
++ Task 2: overview and activity explorer
++ Task 3: Classification on sensitive data
 
 
 ### Task 1: Protecting your data using Microsoft Purview 
@@ -9,10 +20,9 @@ In this task, you will explore on different approaches using you can protect the
 
 1. you can protect your sensitive data using **Sensitivity label, Encryption messages and cocuments, Microsoft Defender, Microsoft Information Protection SDK extension for web browser, Data classification**.
 
-
 We will take a look into how they work in preceding labs and providing brief information about how it work
 
-### Sensitivity Label 
+### Task 2: Sensitivity Label 
 
 In this task, you will create a sensitivity label to protect the data.
 
@@ -33,7 +43,7 @@ In this task, you will create a sensitivity label to protect the data.
 
 
 
-### Overview and Activity Explorer
+### Task 3: Overview and Activity Explorer
 
 In this task, you will see how to get the insights from the security applied to your data.
 
@@ -49,7 +59,7 @@ In this task, you will see how to get the insights from the security applied to 
 
 
 
-### Classification
+### Task 4: Classification
 
 In this task, you will be able to classify the sensitive data to detect it, protect it, retain it. Classifiers used to detect the specific contents  like budget, hr records, medical forms, credit card info, etc.
 
