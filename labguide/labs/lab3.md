@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
 
-In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. In the next task, you will do the same thing but using PowerShell instead. 
+In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. 
 
 1. On the **Lab-instance** VM, you should still be logged into the Microsoft 365 admin center as lab user. If you closed your Edge browser or the Microsoft 365 admin center tab, then in Microsoft Edge navigate to `https://portal.office.com` and sign in as **labuser@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID) and the password that provided you on the environment details page. 
 
