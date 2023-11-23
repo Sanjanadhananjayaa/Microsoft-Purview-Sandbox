@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 We will take a look into how they work in preceding labs and providing brief information about the steps to configure.
 
-### Task 1: Sensitivity Label 
+### Task 1: Know how sensitivity label 
 
 In this task, you will create a sensitivity label to protect the data.
 
@@ -57,7 +57,7 @@ In this task, you will see how to get the insights from the security applied to 
 
 
 
-### Task 3: Classification
+### Task 3: Classification on sensitive data
 
 In this task, you will be able to classify the sensitive data to detect it, protect it, retain it. Classifiers used to detect the specific contents  like budget, hr records, medical forms, credit card info, etc.
 
