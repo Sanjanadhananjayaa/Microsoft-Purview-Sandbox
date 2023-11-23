@@ -1,18 +1,24 @@
-# Enable Encryption
+# Excercise 1 - Enable Encryption
 
-# Configure Microsoft 365 Message Encryption
+# Lab scenario
 
 In this lab, you will take on the persona of Holly Dickson, Adatum’s Security Administrator. You have been tasked with piloting the use of Microsoft 365 message encryption in Adatum’s Microsoft 365 deployment.
 
 In this exercise you will set up Azure Rights Management for your tenant. You will also learn how to create a mail flow encryption rule using the Exchange Admin Center.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
++ Task : Create a Mail Flow Encryption Rule using the Exchange admin center
+
 ### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
 
 In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. In the next task, you will do the same thing but using PowerShell instead. 
 
-1. On the **LON-CL1** VM, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If you closed your Edge browser or the Microsoft 365 admin center tab, then in Microsoft Edge navigate to `https://portal.office.com` and sign in as **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and the password that you set earlier. 
+1. On the **Lab-instance** VM, you should still be logged into the Microsoft 365 admin center as lab user. If you closed your Edge browser or the Microsoft 365 admin center tab, then in Microsoft Edge navigate to `https://portal.office.com` and sign in as **labuser@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID) and the password that provided you on the environment details page. 
 
-1. Return to the **Microsoft 365 admin center** `https://admin.microsoft.com/` > **Show all** > **Admin centers** > **Exchange**. This will open the Exchange admin center.
+1. Return to the **Microsoft 365 admin center** `https://admin.microsoft.com/` > **Show all** > **Exchange**. This will open the Exchange admin center.
 
 1. In the **Exchange admin center**, select **Mail flow** > **Rules** > **+ Add a rule** > **Create a new rule**.
 
@@ -20,7 +26,7 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **the recipient** and **is this person**. 
 
-1. For this condition, you must either select an existing name from the contact list or type a new email address in the **check names** box. In this case, enter `guest@contoso.com` in the **Check names** box and then select **OK**.
+1. For this condition, you must either select an existing name from the contact list or type a new email address in the **check names** box. In this case, enter `labuser@M365xZZZZZZ.onmicrosoft.com` in the **Check names** box and then select **OK**.
 
 1. You need to add more conditions, so click the **+** to the right.
 
