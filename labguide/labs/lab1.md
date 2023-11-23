@@ -14,17 +14,17 @@ In this lab, you will complete the following tasks:
 
 ### Protecting your data using Microsoft Purview 
 
-1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credntials** provided to you duing the lab.
+1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credentials** provided to you duing the lab.
 
-1. you can protect your sensitive data using **Sensitivity label, Encryption messages and cocuments, Microsoft Defender, Microsoft Information Protection SDK extension for web browser, Data classification**.
+1. you can protect your sensitive data using **Sensitivity label, Encryption messages and documents, Microsoft Defender, Microsoft Information Protection SDK extension for web browser, Data classification**.
 
-We will take a look into how they work in preceding labs and providing brief information about how it work
+We will take a look into how they work in preceding labs and providing brief information about the steps to configure.
 
 ### Task 1: Sensitivity Label 
 
 In this task, you will create a sensitivity label to protect the data.
 
-1. Navigate to the Lable section to create a label which you want to apply to your data
+1. Navigate to the lable section to create a label which you want to apply to your data
 
    ![Picture 1](../media/Purview_Label_01.png)
 
@@ -45,13 +45,13 @@ In this task, you will create a sensitivity label to protect the data.
 
 In this task, you will see how to get the insights from the security applied to your data.
 
-1. You should be back at the **overview** area of the Microsoft Purview portal.
+1. You should be back at the **overview** area of the Microsoft Purview Portal.
 
    ![Picture 1](../media/Purview_Overview_04.png)
 
    ![Picture 1](../media/Purview_Overview_05.png)
 
-1. Select **Activity Explorer** gives to itemized list of activities performed against yuor sensitive content.
+1. Select **Activity Explorer** gives to itemized list of activities performed against your sensitive content.
 
    ![Picture 1](../media/Purview_Activity_Explorer_06.png)
 
@@ -64,4 +64,4 @@ In this task, you will be able to classify the sensitive data to detect it, prot
  ![Picture 1](../media/Purview_Classifiers_07.png)
 
 
-In the next Labs you will get to know more on how to protect the Sensitive data using the Microsoft Purview.
+In the next Labs you will get to know more on how to protect the sensitive data using the Microsoft Purview.
