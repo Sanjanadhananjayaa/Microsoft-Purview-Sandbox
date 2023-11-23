@@ -1,5 +1,17 @@
 # Explore Insider Risk Management in Microsoft Purview
 
+## Lab scenario
+In this lab, you will explore the capabilities of Insider Risk Management to identify, mitigate, and respond to potential risks posed by individuals within the organization
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Process of setting up an insider risk policy.
++ Task 2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log.
++ Task 3: Apply to all insider risk management policies.
++ Task 4: Create policy.
+
 ## Task 1: Process of setting up an insider risk policy
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
@@ -8,9 +20,8 @@ In this task you, as the global administrator, will enable permissions for Insid
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
  
     * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
-
         
-1. On **Enter Password** blade, enter the following password   
+1. On **Enter Password** blade, enter the following password
 
     * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
 
@@ -131,7 +142,7 @@ In this task, you will walk through the creation of a policy.
 
     ![](../media/sc-900-lab14-T3-10.png)
          
-1. Content to prioritize: Read the description. Select **I dont't want to specify priority content right now**, then select **Next**.
+1. Content to prioritize: Read the description. Select **I dont't want to prioritize content right now**, then select **Next**.
 
    ![](../media/sc-900-lab14-T3-11.png)
                
@@ -139,7 +150,7 @@ In this task, you will walk through the creation of a policy.
 
    ![](../media/sc-900-lab14-T3-12.png)
         
-1. Triggering Thresholds: here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **Use custom thresholds**, By selecting this option, you can see the current default values. Leave the defaults and select **Next**.
+1. Triggering Thresholds: here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **choose your own thresholds**, By selecting this option, you can see the current default values. Leave the defaults and select **Next**.
 
     ![](../media/sc-900-lab14-T3-13.png)
     
@@ -151,7 +162,7 @@ In this task, you will walk through the creation of a policy.
    
     ![](../media/sc-900-lab14-T3-15.png)
     
-1. Indication thresholds: Review the information. Select **Customize thresholds** then Select **Next**.  
+1. Indication thresholds: Review the information. Select **Choose your own thresholds** then Select **Next**.  
 
    ![](../media/sc-900-lab14-T3-16.png)  
     
@@ -163,11 +174,7 @@ In this task, you will walk through the creation of a policy.
 
 1. You are back on the Policies tab of the Insider risk management page.  The policy you just created will be listed.  
 
-1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first.  To do this, select the empty circle next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  Populate each field, then select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
+1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first.  To do this, select the policy next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  Populate each field, then select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
 
     ![](../media/sc-900-lab14-T3-19.png) 
-
-
-
-
 
