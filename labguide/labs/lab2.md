@@ -19,7 +19,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. Sign in with your admin credentials.
    
-1. In the Sign in window enter you will see a login screen, in that enter the following email/username and then click on **Next**. 
+1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
@@ -49,7 +49,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../media/sc-900-lab13-2.png)
 
-1. Configuration starts provide a name and description for your label. Select **Next** at the bottom of the page.
+1. Provide a name and description for your label. Select **Next** at the bottom of the page.
 
     | Setting | Action |
     | -- | -- |
@@ -156,7 +156,6 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
     ![](../media/sc-900-lab13-27.png)    
     
-    >**Note**- The label created cannot be deleted, it can only be edited. 
 
 1. From the left navigation panel, select Home to return to the Microsoft Purview.
 
