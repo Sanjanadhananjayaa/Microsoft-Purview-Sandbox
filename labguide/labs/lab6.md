@@ -72,4 +72,4 @@ In this lab, you will complete the following tasks:
 
 ### Task 4 - educate user
 
-1. After disabling the user or resetting the password we can connect with user and educate the user on activities and what should do to avoid the same.
+1. After disabling the user or resetting the password. we can connect with user to educate on activities and what should do to avoid.
