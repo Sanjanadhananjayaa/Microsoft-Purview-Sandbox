@@ -1,4 +1,4 @@
-# DLP Alerts > Alerts remediations 
+# Excercise 6 - DLP Alerts > Alerts remediations 
 
 ## Lab scenario
 In this lab, you will explore on how to remediate a DLP alert if any user does not adhere the policies.
