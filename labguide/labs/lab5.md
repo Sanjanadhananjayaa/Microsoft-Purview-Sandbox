@@ -1,14 +1,28 @@
-# Manage DLP Policies
+# Excercise 5 - Manage DLP Policies
 
+## Lab scenario
 You are Joni Sherman, the newly hired Compliance Administrator for Contoso Ltd. tasked to configure the company's Microsoft 365 tenant for data loss prevention. Contoso Ltd. is a company that offers driving instruction in the United States and you need to make sure that sensitive customer information does not leave the organization.
 
+ **Note**: Please consider the lab user provided to you in the **Environemt Details** page as a user id replacement of Joni Sherman.
+ 
+## Lab objectives
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a DLP policy in test mode
++ Task 2: Modify a DLP policy
++ Task 3: How to Activate a policy in test mode
++ Task 4: Modify policy priority
++ Task 5: Enable file monitoring in Microsoft Defender for Cloud Apps
++ Task 6: Create File Policy for Microsoft Defender for Cloud Apps
++ Task 7: Create a DLP Policy for PowerPlatform
+  
 ### Task 1 – Create a DLP policy in test mode
 
 In this exercise, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information. The policy will be implemented in test mode because you do not want the block action to affect your users yet.
 
 1. Log into the Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
 
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** and log into the Microsoft Purview portal as **Joni Sherman**. sign in as JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Joni's password should be provided by your lab hosting provider.
+1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** and log into the Microsoft Purview portal as **Joni Sherman**. sign in as JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided).  Joni's password should be provided in environment details page.
 
 1. If the **Stay signed in?** dialog box appears, select the **Don’t show this again** checkbox and then select **No**.
 
@@ -86,41 +100,8 @@ In this task, you will modify the existing DLP policy you created in the previou
 
 You have now modified an existing DLP policy and changed the locations it scans for content.
 
-### Task 3 - Create a DLP policy in PowerShell
 
-In this task, you use PowerShell to create a DLP policy to protect the Contoso EmployeeIDs and prevent them from being shared in Exchange. Users will be informed that they are attempting to share sensitive data and are blocked from sending the e-mail if it includes Contoso EmployeeIDs.
-
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
-
-1. In the start menu, select **Windows PowerShell**.
-
-1. In the **PowerShell** window, enter
-	```powershell
-	 Connect-IPPSSession
-	 ```
-	 and then sign in as **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Joni's password should be provided by your lab hosting provider.
-
-1. Enter the following command into PowerShell to create a DLP policy that scans all Exchange mailboxes:
-
-	```powershell
-	 New-DlpCompliancePolicy -Name "EmployeeID DLP Policy" -Comment "This policy blocks sharing of Employee IDs" -ExchangeLocation All
-	```
-
-1. Enter the following command into PowerShell to add a DLP rule to the DLP policy you created in the previous step:
-
-	```powershell
-	New-DlpComplianceRule -Name "EmployeeID DLP rule" -Policy "EmployeeID DLP Policy" -BlockAccess $true -ContentContainsSensitiveInformation @{Name="Contoso Employee IDs"}
-	```
-
-1. Use the following command to review the **EmployeeID DLP rule**:
-
-	```powershell
-	Get-DLPComplianceRule -Identity "EmployeeID DLP rule"
-	```
-
-You have now created a DLP Policy that scans for Contoso EmpoloyeeIDs in Exchange by using PowerShell.
-
-### Task 4 - Activate a policy in test mode
+### Task 3 - How to Activate a policy in test mode
 
 In this task, you will activate the credit card information DLP policy you created in test mode so it enforces its protective actions.
 
@@ -140,17 +121,19 @@ In this task, you will activate the credit card information DLP policy you creat
 
 You have successfully activated the DLP Policy. If the policy detects an attempt to share credit card information, it will now block the attempt and allow the users to provide a business justification to override the block action.
 
-### Task 5 - Modify policy priority
+### Task 4 - Modify policy priority
+
+**Note**- If you have multiple DLP policies only then you can be able to perform the priority action
 
 After creating two DLP policies, you want to make sure that the more restrictive policy is processed at a higher priority than the less restrictive policy. For this reason, you want to move the EmployeeID DLP Policy into the higher priority.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman**. 
+1. You should still be logged into your lab-VM as the **lab-vm\labuser** account, and you should be logged into Microsoft 365 as **Joni Sherman**. 
 
 1. In **Microsoft Edge**, the Microsoft Purview portal tab should still be open. If so, select it and proceed to the next step. If you closed it, then in a new tab, navigate to **https://compliance.microsoft.com**.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, select **Policies** and under **Data** select **Data loss prevention**.
 
-1. In the **Data loss prevention** window select the **Policies** tab, select the three vertical dots next to the **EmployeeID DLP Policy** to open the **Actions** selection.
+1. In the **Data loss prevention** window select the **Policies** tab, select the policies you want to prioritize **Reprioritize** to open the **Actions** selection.
 
 1. Select **Move to top**.
 
@@ -158,37 +141,37 @@ After creating two DLP policies, you want to make sure that the more restrictive
 
 You successfully modified the priority of your DLP policies. If both policies match the same content the action of the higher priority policy will be enforced.
 
-### Task 6 - Enable file monitoring in Microsoft Defender for Cloud Apps
+### Task 5 - Enable file monitoring in Microsoft Defender for Cloud Apps
 
 You want to use file policies in Microsoft Defender for Cloud Apps to protect files in your OneDrive and SharePoint Online locations. Before you can create a file policy, you need to enable file monitoring so Microsoft Defender for Cloud Apps can scan files in your organization.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
+1. You should still be logged into your lab-vm as the **lab-vm\labuser** account.
 
 1. In **Microsoft Edge**, the Microsoft Purview portal tab should still be open. Select the **Profile picture** of Joni Sherman in the top right and select **Sign out**, then close the browser.
 
-1. Open **Microsoft Edge** and navigate to **https://portal.cloudappsecurity.com** and log into the Microsoft Defender for Cloud Apps portal as **MOD Administrator**. admin@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Admin's password should be provided by your lab hosting provider.
+1. Open **Microsoft Edge** and navigate to **https://portal.cloudappsecurity.com** and log into the Microsoft Defender for Cloud Apps portal as **MOD Administrator**. labuser@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Admin's password should be provided by your lab hosting provider.
 
-1. In the top-right corner, next to your profile information, select the **Settings** cogwheel and select **Settings** in the dropdown menu.
+1. In the left side, scroll down to settings, select the **CloudApps**,
 
-1. On the **Settings** page, under **Information Protection** select **Files**.
+1. On the **CloudApps** page, under **Information Protection** select **Files**.
 
 1. Select the **Enable file monitoring** checkbox and then select **Save** if it is not already marked.
 
 You successfully enabled file monitoring in Microsoft Defender for Cloud Apps and can now scan files for sensitive content using file policies.
 
-### Task 7 - Create File Policy for Microsoft Defender for Cloud Apps
+### Task 6 - Create File Policy for Microsoft Defender for Cloud Apps
 
 In this task, you want to create a file policy in Microsoft Defender for Cloud Apps to scan files in OneDrive and SharePoint Online and automatically quarantine files containing credit card information if they are shared.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
+1. You should still be logged into your lab-vm as the **labvm\labuser** account.
 
 1. In **Microsoft Edge**, the Microsoft Defender for Cloud Apps portal tab should still be open. Select the **Profile picture** of the MOD Admin in the top right and select **Sign out** next to the cogwheel, then close the  browser..
 
-1. Open **Microsoft Edge** and navigate to **https://portal.cloudappsecurity.com** and log into the Microsoft Defender for Cloud Apps portal as **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Joni Shermans password should be provided by your lab hosting provider.
+1. Open **Microsoft Edge** and navigate to **https://portal.cloudappsecurity.com** and log into the Microsoft Defender for Cloud Apps portal as **labuser** labuser@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Joni Shermans password should be provided by your lab hosting provider.
 
 1. In the **Microsoft Defender for Cloud Apps** portal, in the left navigation pane, expand **Control** and select **Policies**.
 
-1. On the **Policies** page, expand **+ Create policy** and then select **File policy**.
+1. On the **Policies** page, expand **Policy** and then select **Policy Management** click on Create **policy** Select **File Policy**.
 
 1. On the **Create file policy** page, type *Credit Card Information for files* in the **Policy name** field, and type *Protect credit card numbers from being shared in files.* in the **Description** field.
 
@@ -212,7 +195,7 @@ In this task, you want to create a file policy in Microsoft Defender for Cloud A
 
 You have now created a file policy that will continuously scan files saved in OneDrive and SharePoint for credit card information and quarantine them if they are shared inside your organization.
 
-### Task 8 - Create a DLP Policy for PowerPlatform
+### Task 7 - Create a DLP Policy for PowerPlatform
 
 Your company uses PowerAutomate flows to share data between SharePoint Online and SalesForce. In this task, you will create a DLP policy for PowerPlatform that allows your existing flows to keep working, but prevents the creation of flows that will share data between SharePoint Online and Apps defined as non-business.
 
