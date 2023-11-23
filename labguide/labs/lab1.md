@@ -7,7 +7,7 @@ In this lab, you will get know how on what are the basic primary steps to protec
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: knowhow on sensitivity labels
++ Task 1: know how on sensitivity labels
 + Task 2: overview and activity explorer
 + Task 3: Classification on sensitive data
 
