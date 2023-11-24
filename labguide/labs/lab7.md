@@ -95,7 +95,9 @@ Note: This setting is not available if you selected Malware Attachment or Link t
    **Microsoft default notification (recommended)**: The notifications that users will receive are shown on the page:
 
    **Microsoft default positive reinforcement notification** - **Deliver During Simulation**
+   
    **Microsoft default training assignment notification** - **Not Applicable**
+   
    **Microsoft default training reminder notification** - **Twice A Week**
 
     ![](../media/Purview_Attack_Simulation_end_usernotification_10.png)
