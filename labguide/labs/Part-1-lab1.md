@@ -34,7 +34,6 @@ In this task, you will create a sensitivity label to protect the data.
 
    ![Picture 1](../media/Purview_Label_Policies_02.png)
 
-
 1. Select **Label** to apply the policy to and provide the respective details to complete the policy.
 
     ![Picture 1](../media/Purview_Label_Policies_attachlabel_03.png)
