@@ -24,7 +24,6 @@ To launch a simulated phishing attack, do the following steps:
 
    ![](../media/PurviewAttackSimulationattackType(02).png)
 
-
    ![](../media/Purview_Attack_Simulation_attackType_03.png)
 
 1. On the **Name simulation** page, configure the following settings:
