@@ -10,7 +10,6 @@ In this lab, you will complete the following tasks:
 + Task 1: know how on sensitivity labels
 + Task 2: Classification on sensitive data
 
-
 ### Protecting your data using Microsoft Purview 
 
 1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credentials** provided to you duing the lab.
@@ -23,7 +22,7 @@ We will take a look into how they work in preceding labs and providing brief inf
 
 In this task, you will create a sensitivity label to protect the data.
 
-1. Navigate to the lable section to create a label which you want to apply to your data
+1. Navigate to the labels section to create a label which you want to apply to your data.
 
    ![Picture 1](../media/Purview_Label_01.png)
 
@@ -37,8 +36,6 @@ In this task, you will create a sensitivity label to protect the data.
 1. Select **Label** to apply the policy to and provide the respective details to complete the policy.
 
     ![Picture 1](../media/Purview_Label_Policies_attachlabel_03.png)
-
-
 
 ### Task 2: Classification on sensitive data
 
