@@ -32,15 +32,15 @@ To explore on Simulation Insights, go to the **Overview** tab, open the Microsof
 
    **The details table below the chart shows the following information**:
 
-```
-      1) Username
-      2) Email address
-      3) Included in simulation
-      4) Date of last simulation
-      5) Last simulation result
-      6) Count of clicked
-      7) Count of compromised
-```
+    ```
+          1) Username
+          2) Email address
+          3) Included in simulation
+          4) Date of last simulation
+          5) Last simulation result
+          6) Count of clicked
+          7) Count of compromised
+    ```
 
 ## Training completion
 
@@ -48,16 +48,16 @@ To explore on Simulation Insights, go to the **Overview** tab, open the Microsof
 
    **The details table below the chart shows the following information**:
 
-```
-     1)  Username
-      2) Email address
-      3) Included in simulation
-      4) Date of last simulation
-      5) Last simulation result
-      6) Name of most recent training completed
-      7) Date completed
-      8) All trainings
-```
+    ```
+         1)  Username
+          2) Email address
+          3) Included in simulation
+          4) Date of last simulation
+          5) Last simulation result
+          6) Name of most recent training completed
+          7) Date completed
+          8) All trainings
+    ```
 
 ## Repeat offenders
 
@@ -65,24 +65,24 @@ To explore on Simulation Insights, go to the **Overview** tab, open the Microsof
 
 2. On the **Repeat offenders tab**, the chart organizes repeat offender data by simulation type:
 
-```
-      1) All
-      2) Credential Harvest
-      3) Malware Attachment
-      4) Link in Attachment
-      5) Link to Malware
-      6) Drive-by URL
-```
+    ```
+          1) All
+          2) Credential Harvest
+          3) Malware Attachment
+          4) Link in Attachment
+          5) Link to Malware
+          6) Drive-by URL
+    ```
 3. If you **hover** over a **data point** in the chart, the actual **values** are shown.
 
 4. The details table below the chart shows the following information:
 
-```
-      1) User
-      2) Repeat count
-      3) Simulation types
-      4) Simulations
-```
+    ```
+          1) User
+          2) Repeat count
+          3) Simulation types
+          4) Simulations
+    ```
 
 5. If you select the **Export report button**, report generation progress is shown as a **percentage** of complete. In the dialog that opens, you can choose to open the **.csv file**, **save the .csv file**, and remember the selection.
 
