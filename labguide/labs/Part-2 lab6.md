@@ -1,4 +1,4 @@
-# Part-2 LAB 7 - Safe breach simulation
+# Part:2 lab 6 - Safe breach simulation
 
 ## Lab scenario
 In this lab, you will explore how the simulations are benign cyberattacks that you run in your organization. These simulations test your security policies and practices, as well as train your employees to increase their awareness and decrease their susceptibility to attacks.
@@ -84,4 +84,8 @@ To explore on Simulation Insights, go to the **Overview** tab, open the Microsof
       4) Simulations
 ```
 
-5. If you select the  **Export report button**, report generation progress is shown as a **percentage** of complete. In the dialog that opens, you can choose to open the **.csv file**, **save the .csv file**, and remember the selection.
+5. If you select the **Export report button**, report generation progress is shown as a **percentage** of complete. In the dialog that opens, you can choose to open the **.csv file**, **save the .csv file**, and remember the selection.
+
+## Review
+In this lab, you will complete the following tasks:
++ Insights and reports on the Overview tab of Attack simulation training 
