@@ -1,4 +1,4 @@
-# Part-2 LAB 8 - Explore Insider Risk Management in Microsoft Purview
+# Part:2 lab 08 - Explore Insider Risk Management in Microsoft Purview
 
 ## Lab scenario
 In this lab, you will explore the capabilities of Insider Risk Management to identify, mitigate, and respond to potential risks posed by individuals within the organization
@@ -38,3 +38,8 @@ In this task you, as the global administrator, will enable permissions for Insid
 2. Select the **Settings button**, and then select **Analytics**.
 
 3. On the **Analytics** page, turn the setting to **off**.
+
+## Review
+In this lab, you will complete the following tasks:
++ Enable insider risk analytics.
++ Disable insider risk analytics
