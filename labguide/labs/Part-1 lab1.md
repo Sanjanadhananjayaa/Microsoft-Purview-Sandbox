@@ -22,6 +22,8 @@ In this lab, you will complete the following tasks:
 
 In this task, you will create a sensitivity label to protect the data.
 
+**Note**: You can find complete steps on how to create sensitivity label in the next lab.
+
 1. Navigate to the labels section to create a label which you want to apply to your data.
 
    ![Picture 1](../media/Purview_Label_01.png)
@@ -48,3 +50,4 @@ In this lab, you will complete the following tasks:
 +  know how on sensitivity labels
 +  Classification on sensitive data
 
+In the Next lab you'll get more deep knoweldge on how to create and work with sensitivity labels and policies in Microsoft Purview.
