@@ -1,4 +1,4 @@
-# Part-2 lab 1 - Protect Sensitive Data 
+# Part:2 lab 01 - Protect Sensitive Data 
 
 ## Lab scenario
 In this lab, you will explore the Overview and Activity explorer to gives to itemized list of activities performed against your sensitive content.
