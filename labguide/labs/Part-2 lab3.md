@@ -10,31 +10,25 @@ In this exercise you will set up Azure Rights Management for your tenant. You wi
 
 In this lab, you will complete the following tasks:
 
-+ Task : Create a Mail Flow Encryption Rule using the Exchange admin center
++ Task : Updating the EAC mail flow rule
 
-### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
+### Task 1 – Updating the EAC mail flow rule
 
-In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. 
+**EAC to update an existing mail flow rule to use Microsoft Purview Message Encryption**
 
-1. On the **Lab-instance** VM, you should still be logged into the Microsoft 365 admin center as lab user. If you closed your Edge browser or the Microsoft 365 admin center tab, then in Microsoft Edge navigate to `https://portal.office.com` and sign in as **labuser@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID) and the password that provided you on the environment details page. 
+1. In a web browser, using a work or school account that has been granted global administrator permissions, sign in to **Office 365**.
 
-1. Return to the **Microsoft 365 admin center** `https://admin.microsoft.com/` > **Show all** > **Exchange**. This will open the Exchange admin center.
+2. Choose the **Admin tile**.
 
-1. In the **Exchange admin center**, select **Mail flow** > **Rules** > **+ Add a rule** > **Create a new rule**.
+3. In the Microsoft **365 admin center**, choose **Admin centers** > **Exchange**
+  
+4. In the **Exchange Admin Center**, go to **Mail flow** > **Rules**.
 
-1. In the **Set rule conditions** window, in the **Name** box, enter `Encrypt mail for guest@contoso.com` as the name of this rule.
+5. In the list of mail flow rules, select the rule you want to modify to use with Microsoft Purview Message Encryption and then choose **Edit** icon.
 
-1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **the recipient** and **is this person**. 
+6. To enable encryption using Microsoft Purview Message Encryption, from **Do the following**, choose **Modify the message security**and then choose **Apply Office 365 Message 
+   Encryption and rights protection**. Select an RMS template from the list, choose **Save** and then choose **OK**.
 
-1. For this condition, you must either select an existing name from the contact list or type a new email address in the **check names** box. In this case, enter `labuser@M365xZZZZZZ.onmicrosoft.com` in the **Check names** box and then select **OK**.
+7.From the **Do the following list**, remove any actions that are assigned to **Modify the message security** > **Apply the previous version of OME**.
 
-1. You need to add more conditions, so click the **+** to the right.
-
-1. Under **And** select **The recipient** and **is external/internal**. In the blade that opens to the right, select **Outside the organization** > **Save**.
-
-1. You now need to define an action to perform when this rule is applied. Under **Do the following…**, select **Modify the message security….** and **Apply Microsoft 365 Message Encryption and rights protection.**
-
-1. In the **select RMS template** dialog box, select **Encrypt** > **Save**. Click **Next**.
-1. On the **Set rule settings** window, click the checkbox next to **Activate this rule on**. That should automatically populate a date and time that will make the rule take effect immediately upon completion. Click **Next** > **Finish** > **Done**.
-1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule. Close the window.
-1. Leave your browser session open for the next exercise.
+8. Choose **Save**.
