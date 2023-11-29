@@ -7,7 +7,7 @@ In this lab, you will explore the Overview and Activity explorer to gives to ite
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: overview and activity explorer
++ Task 1: Overview and Activity Explorer
 
 
 ### Protecting your data using Microsoft Purview 
@@ -31,3 +31,7 @@ In this task, you will see how to get the insights from the security applied to 
 1. Select **Activity Explorer** gives to itemized list of activities performed against your sensitive content.
 
    ![Picture 1](../media/Purview_Activity_Explorer_06.png)
+
+## Review
+In this lab, you will complete the following tasks:
++ Overview and Activity Explorer
