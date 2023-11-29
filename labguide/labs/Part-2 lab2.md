@@ -1,7 +1,8 @@
-# Part-2 lab 2 - Protect Sensitive Data 
+# Part-2 lab 2 - Explore sensitivity labels and policies in Microsoft Purview
+
 
 ## Lab scenario
-In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
+In this lab, you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.  Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
 ## Lab objectives
 
