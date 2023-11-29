@@ -36,6 +36,6 @@ These lab scenarios are provided as reference guidance to help you initiate your
 + Part:2 Lab 01 - Protect Sensitive Data
 + Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 + Part:2 Lab 03 - Enable Encryption
-+ Part:2 Lab 04 - DLP Alerts > Alerts remediations
++ Part:2 Lab 04 - DLP Alerts remediations 
 + Part:2 Lab 05 - Safe breach simulation
 + Part:2 Lab 07 - Explore Insider Risk Management in Microsoft Purview
