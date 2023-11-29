@@ -1,4 +1,4 @@
-# Part-2 LAB 1 - Protect Sensitive Data 
+# Part-2 LAB 2 - Protect Sensitive Data 
 
 ## Lab scenario
 In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
