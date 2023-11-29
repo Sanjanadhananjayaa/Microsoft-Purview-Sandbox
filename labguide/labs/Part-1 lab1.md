@@ -27,7 +27,7 @@ In this task, you will create a sensitivity label to protect the data.
 
    ![Picture 1](../media/Purview_Label_01.png)
 
-1. after creating the label you also need to **publish** it so it can gets applied to your intended data.
+1. After creating the label you also need to **publish** it so it can gets applied to your intended data.
 
 1. Select the **Label Policies** create a policy.
 
