@@ -59,12 +59,11 @@ To launch a simulated phishing attack, do the following steps:
 
 1. Use landing pages from library: The following options are available:
 
-   **Payload indicators**: Select Add payload indicators to email to help users learn how do identify phishing email.
+    **Payload indicators**: Select Add payload indicators to email to help users learn how do identify phishing email.
 
-   **Note**: This setting is not available if you selected Malware Attachment or Link to Malware on the Select a social engineering technique page.
-
+    **Note**: This setting is not available if you selected Malware Attachment or Link to Malware on the Select a social engineering technique 
+      page.
       ![](../media/Purview_Attack_Simulation_tPhishinglanding_08.png)
-   
       ![](../media/Purview_Attack_Simulation_tPhishinglanding_09.png)
 
 1. **Global landing pages tab**: Contains the built-in landing pages. When you select a built-in landing page to use by selecting the 
@@ -89,46 +88,37 @@ To launch a simulated phishing attack, do the following steps:
 
     ![](../media/Purview_Attack_Simulation_end_usernotification_11.png)
 
-
 1. On the **Launch details page**, you choose when to start and end the simulation. We'll stop capturing interaction with this 
    simulation after the end date you specify.
 
 1. Choose one of the following values:
-
    **Launch this simulation as soon as I'm done**
-
    **Schedule this simulation to be launched later**: This value has the following associated options to configure:
-
    **Select launch date**
    **Select launch time hour**
    **Select launch time minute**
    **Select time format: Select AM or PM**
-   
    The default value for Configure number of days to end simulation after is 2 days, which is also the minimum value. The maximum value 
    is 30 days.
 
    If you select **Enable region aware time zone delivery**, the simulated attack messages are delivered to users during their regional 
    working hours.
 
-   ![](../media/Purview_Attack_Simulation_Launch_Details_Page_11.png)
+    ![](../media/Purview_Attack_Simulation_Launch_Details_Page_11.png)
 
-   When you're finished on the **Launch details page**, select **Next**.
+1. When you're finished on the **Launch details page**, select **Next**.
 
 1. On the **Review simulation page**, you can review the details of the simulation.
 
    Select the  **Send a test** button to send a copy of the payload email to yourself (the currently logged in user) for inspection.
 
     ![](../media/Purview_Attack_Simulation_SubmitPage_13.png)
-
-
     ![](../media/Purview_Attack_Simulation_SubmitPage_14.png)
-
-
     ![](../media/Purview_Attack_Simulation_SubmitPage_15.png)
 
     **Note**: You can select Edit in each section to modify the settings within the section. Or you can select Back or the specific page in the 
    wizard to modify the settings.
-
+   
 1. When you're finished on the Review simulation page, select **Submit**.
 
 ## Review
