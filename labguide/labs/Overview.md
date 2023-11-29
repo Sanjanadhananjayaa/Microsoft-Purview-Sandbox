@@ -15,7 +15,7 @@ Contoso, a multinational corporation, operates a complex IT infrastructure with 
 
 By implementing Azure Purview, Contoso achieves a unified and streamlined approach to data governance, allowing them to effectively manage, classify, and collaborate on their diverse data assets. This enhances their ability to meet compliance requirements and ensures a proactive stance in addressing data-related challenges across their complex IT infrastructure.
 
-### Using this sandbox
+### Using the sandbox
 
 In this sandbox environment, You'll have access to a predeployed environment with an active Azure subscription, a tenant, and a Microsoft 365 E5 license assigned to the user.
  
