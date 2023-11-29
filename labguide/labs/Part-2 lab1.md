@@ -1,7 +1,7 @@
 # Part-2 lab 1 - Protect Sensitive Data 
 
 ## Lab scenario
-In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
+In this lab, you will explore the Overview and Activity explorer to gives to itemized list of activities performed against your sensitive content.
 
 ## Lab objectives
 
