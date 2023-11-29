@@ -51,4 +51,7 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Close the open browser tabs.
 
-
+## Review
+In this lab, you will complete the following tasks:
++ How to apply a label
++ Impact of that label
