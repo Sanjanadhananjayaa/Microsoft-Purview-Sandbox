@@ -61,7 +61,7 @@ In this lab, you will complete the following tasks:
   
 ### Task 3 - Disable account
 
-1. Find and select the user account that you want to disable in microsoft office portal.
+1. Find and select the user account that you want to disable in Microsoft office portal.
   **Disable the Account**
 
 1. Look for an option like **Disable account** or **Block sign-in**
