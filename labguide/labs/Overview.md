@@ -15,12 +15,13 @@ Contoso, a multinational corporation, operates a complex IT infrastructure with 
 
 By implementing Azure Purview, Contoso achieves a unified and streamlined approach to data governance, allowing them to effectively manage, classify, and collaborate on their diverse data assets. This enhances their ability to meet compliance requirements and ensures a proactive stance in addressing data-related challenges across their complex IT infrastructure.
 
-In this lab, You'll have access to a predeployed environment with an active Azure subscription, a tenant, and a Microsoft 365 E5 license assigned to the user. 
-
-Using this lab, You'll be able explore complete features and offerings offered by Microsoft Purview.
-
 ### Using this sandbox
-These lab scenarios are provided as reference guidance to help you initiate your exploration. You have access to these environments, and you're encouraged to freely engage in the labs according to your interests and preferences.
+
+In this sandbox environment, You'll have access to a predeployed environment with an active Azure subscription, a tenant, and a Microsoft 365 E5 license assigned to the user.
+ 
+Using this environment, You'll be able explore complete features and offerings offered by Microsoft Purview.
+ 
+The lab scenarios are given as reference material to assist you to get started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences
 
 ### Sandbox Content:
 
