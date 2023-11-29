@@ -5,7 +5,7 @@ In this lab, you will explore how the simulations are benign cyberattacks that y
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 
 + Task : Create Attack Simulation
 
@@ -133,5 +133,5 @@ To launch a simulated phishing attack, do the following steps:
 1. When you're finished on the Review simulation page, select **Submit**.
 
 ## Review
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 + Create Attack Simulation
