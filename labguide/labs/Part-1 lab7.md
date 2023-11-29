@@ -49,8 +49,8 @@ To launch a simulated phishing attack, do the following steps:
 
     ![](../media/Purview_Attack_Simulation_Usersadd_06.png)
 
-1. On the Training assignment page, select the trainings that you want to add to the simulation by clickling on the **Training 
-   preference** > Select the Training as **Recommeded Microsoft Training** > Select **assign training for me**.
+1. On the Training assignment page, select the trainings that you want to add to the simulation by clicking on the **Training 
+   preference** > Select the Training as **Recommended Microsoft Training** > Select **assign training for me**.
  
     ![](../media/Purview_Attack_Simulation_trainingassign_07.png)
 
