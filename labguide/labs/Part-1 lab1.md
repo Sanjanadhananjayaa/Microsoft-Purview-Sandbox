@@ -8,8 +8,7 @@ In this lab, you will get know how on what are the basic primary steps to protec
 In this lab, you will complete the following tasks:
 
 + Task 1: know how on sensitivity labels
-+ Task 2: overview and activity explorer
-+ Task 3: Classification on sensitive data
++ Task 2: Classification on sensitive data
 
 
 ### Protecting your data using Microsoft Purview 
@@ -41,23 +40,7 @@ In this task, you will create a sensitivity label to protect the data.
 
 
 
-### Task 2: Overview and Activity Explorer
-
-In this task, you will see how to get the insights from the security applied to your data.
-
-1. You should be back at the **overview** area of the Microsoft Purview Portal.
-
-   ![Picture 1](../media/Purview_Overview_04.png)
-
-   ![Picture 1](../media/Purview_Overview_05.png)
-
-1. Select **Activity Explorer** gives to itemized list of activities performed against your sensitive content.
-
-   ![Picture 1](../media/Purview_Activity_Explorer_06.png)
-
-
-
-### Task 3: Classification on sensitive data
+### Task 2: Classification on sensitive data
 
 In this task, you will be able to classify the sensitive data to detect it, protect it, retain it. Classifiers used to detect the specific contents  like budget, hr records, medical forms, credit card info, etc.
 
