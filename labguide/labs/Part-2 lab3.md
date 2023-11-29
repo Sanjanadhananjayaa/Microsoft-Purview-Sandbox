@@ -10,7 +10,7 @@ In this exercise you will set up Azure Rights Management for your tenant. You wi
 
 In this lab, you will complete the following task:
 
-+ Task : Updating the EAC mail flow rule
++ Task 1 : Updating the EAC mail flow rule
 
 ### Task 1 – Updating the EAC mail flow rule
 
