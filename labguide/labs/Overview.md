@@ -28,3 +28,7 @@ Part 01
 + Part:1 Lab 01 - Protect Sensitive Data
 + Part:1 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 + Part:1 Lab 03 - Enable Encryption
++ Part-1 Lab 04 - Manage DLP Policies
++ Part:1 Lab 05 - Safe breach simulation
++ Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
+
