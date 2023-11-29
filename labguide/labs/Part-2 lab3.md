@@ -1,4 +1,4 @@
-# Part-2 LAB 3 - Enable Encryption
+# Part-2 lab 3 - Enable Encryption
 
 # Lab scenario
 
@@ -32,3 +32,7 @@ In this lab, you will complete the following tasks:
 7.From the **Do the following list**, remove any actions that are assigned to **Modify the message security** > **Apply the previous version of OME**.
 
 8. Choose **Save**.
+
+## Review
+In this lab, you will complete the following tasks:
++ Updating the EAC mail flow rule
