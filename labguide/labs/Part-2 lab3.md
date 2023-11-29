@@ -1,4 +1,4 @@
-# Part-2 lab 3 - Enable Encryption
+# Part:2 lab 03 - Enable Encryption
 
 # Lab scenario
 
