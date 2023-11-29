@@ -66,3 +66,10 @@ In this lab, you will complete the following tasks:
 ### Task 4 - educate user
 
 1. After disabling the user or resetting the password. we can connect with user to educate on activities and what should do to avoid.
+
+## Review
+In this lab, you will complete the following tasks:
++ Create DLP policy to Mitigate the risk of data loss and encrypt the data
++ Reset password
++ Disable account
++ educate user
