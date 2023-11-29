@@ -127,8 +127,11 @@ To launch a simulated phishing attack, do the following steps:
 
     ![](../media/Purview_Attack_Simulation_SubmitPage_15.png)
 
-   You can select Edit in each section to modify the settings within the section. Or you can select Back or the specific page in the 
+    **Note**: You can select Edit in each section to modify the settings within the section. Or you can select Back or the specific page in the 
    wizard to modify the settings.
 
-   When you're finished on the Review simulation page, select **Submit**.
+1. When you're finished on the Review simulation page, select **Submit**.
 
+## Review
+In this lab, you will complete the following tasks:
++ Create Attack Simulation
