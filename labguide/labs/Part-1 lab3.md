@@ -39,3 +39,6 @@ In this task, you will create an encryption rule for messages inside your Exchan
 1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule. Close the window.
 1. Leave your browser session open for the next exercise.
 
+## Review
+In this lab, you will complete the following tasks:
++ Create a Mail Flow Encryption Rule using the Exchange admin center
