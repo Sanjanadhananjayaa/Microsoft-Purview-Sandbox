@@ -1,75 +1,91 @@
-# Part-2 LAB 6 - DLP Alerts > Alerts remediations 
+# Part:2 lab 6 - Safe breach simulation
 
 ## Lab scenario
-In this lab, you will explore on how to remediate a DLP alert if any user does not adhere the policies.
+In this lab, you will explore how the simulations are benign cyberattacks that you run in your organization. These simulations test your security policies and practices, as well as train your employees to increase their awareness and decrease their susceptibility to attacks.
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 
-+ Task 1: Create DLP policy to Mitigate the risk of data loss and encrypt the data
-+ Task 2: Reset password
-+ Task 3: Disable account
-+ Task 4: educate user
++ Task 1: Insights and reports on the Overview tab of Attack simulation training 
 
-### Task 1 – Create DLP policy to Mitigate the risk of data loss and encrypt the data
+## Task 1: Insights and reports on the Overview tab of Attack simulation training
 
-
-1. Click on the **Policies** and click on create Policy and fill the details according learned in previous labs for DLP.
-
-   ![Picture 1](../media/Purview_DLP_Alrt_08.png)
+To explore on Simulation Insights, go to the **Overview** tab, open the Microsoft Defender portal at **https://security.microsoft.com**, go to **Email & collaboration** > **Attack simulation training**, and verify that the **Overview tab** is selected (it's the default). To go directly to the Overview tab on the **Attack simulation training** page, use **https://security.microsoft.com/attacksimulator?viewid=overview**, The rest of this section describes the information that's available on the Overview tab of Attack simulation training.
 
 
-1. Click on policy Settings Select **Create or Customize the advanced DLP rules**.
+1. The **Recent simulations** card on the **Overview tab** shows the last three simulations that you've created or run in your organization.
 
-   ![Picture 1](../media/Purview_DLP_SettingsPolicy_09.png)
+1. You can select a simulation to view details.
 
-1. In the Advanced DLP Rules tab on Create rule page you will get conditions and actions based on what condition the action should apply
+1. Selecting **View all simulations** takes you to the **Simulations** tab.
 
-   ![Picture 1](../media/Purview_DLP_SettingsAdvancedPolicy_10.png)
+1. Selecting **Launch a simulation** starts the new simulation wizard. For more information, see Simulate a phishing attack in Defender for Office 365.
 
-   ![Picture 1](../media/Purview_DLP_SettingsAdvancedPolicy_11.png)
+## Attack simulation report
 
-   ![Picture 1](../media/Purview_DLP_SettingsMitigationActions_12.png)
+1. You can open the **Attack simulation** report from the **Overview tab** by clicking on the **View Report**
 
+2. On the **Attack simulation report** page, the **Training efficacy tab** is selected by **default**.
 
+3. On the **User coverage tab**, the chart shows the **Simulated users** and **Non-simulated users**. If you hover over a data point in the chart, the actual values are shown.
 
-**you can also manually perform the activities once received suspicious alerts**.
+   **The details table below the chart shows the following information**:
 
+```
+      1) Username
+      2) Email address
+      3) Included in simulation
+      4) Date of last simulation
+      5) Last simulation result
+      6) Count of clicked
+      7) Count of compromised
+```
 
+## Training completion
 
-### Task 2 - Reset password
+1. On the **Training completion tab**, the chart shows the number of **Completed**, **In progress**, and **Incomplete**.
 
-**Sign in to the Microsoft 365 Admin Center**:
+   **The details table below the chart shows the following information**:
 
-1. Open a web browser and go to **https://admin.microsoft.com/**
-  Sign in with your admin credentials.
+```
+     1)  Username
+      2) Email address
+      3) Included in simulation
+      4) Date of last simulation
+      5) Last simulation result
+      6) Name of most recent training completed
+      7) Date completed
+      8) All trainings
+```
 
-1. Navigate to Users:
-   In the admin center, go to **Users** or **Active users** depending on your interface version.
-   **Select the User**
+## Repeat offenders
 
-1. Find and select the user account for which you want to reset the password.
-   **Reset Password**
+1. A **repeat offender** is a user who was compromised by **consecutive simulations**.
 
-1. Look for an option like **Reset password** or **Change password**
-   Follow the on-screen prompts to enter a new password for the user.
+2. On the **Repeat offenders tab**, the chart organizes repeat offender data by simulation type:
 
-1. Notify User:
-   Optionally, inform the user of their new password or advise them to reset it upon their next login.
+```
+      1) All
+      2) Credential Harvest
+      3) Malware Attachment
+      4) Link in Attachment
+      5) Link to Malware
+      6) Drive-by URL
+```
+3. If you **hover** over a **data point** in the chart, the actual **values** are shown.
 
-  
-### Task 3 - Disable account
+4. The details table below the chart shows the following information:
 
-1. Find and select the user account that you want to disable in microsoft office portal.
-  **Disable the Account**
+```
+      1) User
+      2) Repeat count
+      3) Simulation types
+      4) Simulations
+```
 
-1. Look for an option like **Disable account** or **Block sign-in**
-  Click on the option to **disable** the user account.
-  Confirm the Action
+5. If you select the **Export report button**, report generation progress is shown as a **percentage** of complete. In the dialog that opens, you can choose to open the **.csv file**, **save the .csv file**, and remember the selection.
 
-1. Confirm the action to disable the account. Depending on your settings, you may have the option to provide a reason for disabling the account.
-
-### Task 4 - educate user
-
-1. After disabling the user or resetting the password. we can connect with user to educate on activities and what should do to avoid.
+## Review
+In this lab, you will complete the following task:
++ Insights and reports on the Overview tab of Attack simulation training 
