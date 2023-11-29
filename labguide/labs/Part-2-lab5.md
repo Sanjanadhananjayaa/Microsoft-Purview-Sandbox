@@ -9,7 +9,7 @@ In this lab, you will complete the following task:
 
 + Task 1: Insights and reports on the Overview tab of Attack simulation training 
 
-## Task 1: Insights and reports on the Overview tab of Attack simulation training
+### Task 1: Insights and reports on the Overview tab of Attack simulation training
 
 To explore on Simulation Insights, go to the **Overview** tab, open the Microsoft Defender portal at **https://security.microsoft.com**, go to **Email & collaboration** > **Attack simulation training**, and verify that the **Overview tab** is selected (it's the default). To go directly to the Overview tab on the **Attack simulation training** page, use **https://security.microsoft.com/attacksimulator?viewid=overview**, The rest of this section describes the information that's available on the Overview tab of Attack simulation training.
 
@@ -22,7 +22,7 @@ To explore on Simulation Insights, go to the **Overview** tab, open the Microsof
 
 1. Selecting **Launch a simulation** starts the new simulation wizard. For more information, see Simulate a phishing attack in Defender for Office 365.
 
-## Attack simulation report
+### Attack simulation report
 
 1. You can open the **Attack simulation** report from the **Overview tab** by clicking on the **View Report**
 
