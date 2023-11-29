@@ -23,7 +23,7 @@ Using this environment, You'll be able explore complete features and offerings o
  
 The lab scenarios are given as reference material to assist you to get started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences
 
-### Sandbox Content:
+### Content:
 
 #### Part 01
 + Part:1 Lab 01 - Protect Sensitive Data
@@ -33,7 +33,7 @@ The lab scenarios are given as reference material to assist you to get started w
 + Part:1 Lab 05 - Safe breach simulation
 + Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
 
-**Note**: In Part 01 you will be configuring and creating the content.
+> In Part 01, you'll setting up and configuring features of Microsoft Purview.
 
 #### Part 02
 + Part:2 Lab 01 - Protect Sensitive Data
@@ -43,4 +43,4 @@ The lab scenarios are given as reference material to assist you to get started w
 + Part:2 Lab 05 - Safe breach simulation
 + Part:2 Lab 07 - Explore Insider Risk Management in Microsoft Purview
 
-**Note**: In Part 02 you will be exploring the content which you created in Part 01.
+> In Part 02, you'll be exploring the implementation and functionality of Microsoft Purview features.
