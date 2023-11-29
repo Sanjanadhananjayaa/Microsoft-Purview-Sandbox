@@ -221,5 +221,13 @@ Your company uses PowerAutomate flows to share data between SharePoint Online an
 
 You have now created a PowerPlatform DLP policy that prevents users from creating flows involving a SharePoint Online Connector and any connector that is not SalesForce.
 
-
-
+## Review
+In this lab, you will complete the following task:
++ Create a DLP policy in test mode
++ Modify a DLP policy
++ How to Activate a policy in test mode
++ Modify policy priority
++ Enable file monitoring in Microsoft Defender for Cloud Apps
++ Create File Policy for Microsoft Defender for Cloud Apps
++ Create a DLP Policy for PowerPlatform
+  
