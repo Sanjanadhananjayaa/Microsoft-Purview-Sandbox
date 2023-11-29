@@ -1,4 +1,4 @@
-# Part:1 lab 06 - Explore Insider Risk Management in Microsoft Purview
+# Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
 
 ## Lab scenario
 In this lab, you will explore the capabilities of Insider Risk Management to identify, mitigate, and respond to potential risks posed by individuals within the organization
