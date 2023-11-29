@@ -31,6 +31,3 @@ In this task, you will see how to get the insights from the security applied to 
 1. Select **Activity Explorer** gives to itemized list of activities performed against your sensitive content.
 
    ![Picture 1](../media/Purview_Activity_Explorer_06.png)
-
-
-In the next Labs you will get to know more on how to protect the sensitive data using the Microsoft Purview.
