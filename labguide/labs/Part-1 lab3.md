@@ -1,4 +1,4 @@
-# Excercise 3 - Enable Encryption
+# Part-1 LAB 3 - Enable Encryption
 
 # Lab scenario
 
