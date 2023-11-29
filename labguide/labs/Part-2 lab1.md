@@ -1,4 +1,4 @@
-# Part-2 LAB 1 - Protect Sensitive Data 
+# Part-2 lab 1 - Protect Sensitive Data 
 
 ## Lab scenario
 In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
@@ -7,9 +7,7 @@ In this lab, you will get know how on what are the basic primary steps to protec
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: know how on sensitivity labels
-+ Task 2: overview and activity explorer
-+ Task 3: Classification on sensitive data
++ Task 1: overview and activity explorer
 
 
 ### Protecting your data using Microsoft Purview 
@@ -20,28 +18,7 @@ In this lab, you will complete the following tasks:
 
 We will take a look into how they work in preceding labs and providing brief information about the steps to configure.
 
-### Task 1: Know how sensitivity label 
-
-In this task, you will create a sensitivity label to protect the data.
-
-1. Navigate to the lable section to create a label which you want to apply to your data
-
-   ![Picture 1](../media/Purview_Label_01.png)
-
-1. after creating the label you also need to **publish** it so it can gets applied to your intended data.
-
-1. Select the **Label Policies** create a policy.
-
-   ![Picture 1](../media/Purview_Label_Policies_02.png)
-
-
-1. Select **Label** to apply the policy to and provide the respective details to complete the policy.
-
-    ![Picture 1](../media/Purview_Label_Policies_attachlabel_03.png)
-
-
-
-### Task 2: Overview and Activity Explorer
+### Task 1: Overview and Activity Explorer
 
 In this task, you will see how to get the insights from the security applied to your data.
 
@@ -54,14 +31,6 @@ In this task, you will see how to get the insights from the security applied to 
 1. Select **Activity Explorer** gives to itemized list of activities performed against your sensitive content.
 
    ![Picture 1](../media/Purview_Activity_Explorer_06.png)
-
-
-
-### Task 3: Classification on sensitive data
-
-In this task, you will be able to classify the sensitive data to detect it, protect it, retain it. Classifiers used to detect the specific contents  like budget, hr records, medical forms, credit card info, etc.
-
- ![Picture 1](../media/Purview_Classifiers_07.png)
 
 
 In the next Labs you will get to know more on how to protect the sensitive data using the Microsoft Purview.
