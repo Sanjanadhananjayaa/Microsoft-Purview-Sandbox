@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 
 1. you can protect your sensitive data using **Sensitivity label, Encryption messages and documents, Microsoft Defender, Microsoft Information Protection SDK extension for web browser, Data classification**.
 
-We will take a look into how they work in preceding labs and providing brief information about the steps to configure.
+   **Note**: We will take a look into how they work in preceding labs and providing brief information about the steps to configure.
 
 ### Task 1: Know how sensitivity label 
 
