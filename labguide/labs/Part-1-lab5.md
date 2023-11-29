@@ -9,7 +9,7 @@ In this lab, you will complete the following task:
 
 + Task : Create Attack Simulation
 
-## Task 1: Create Attack Simulation
+### Task 1: Create Attack Simulation
 
 To launch a simulated phishing attack, do the following steps:
 
