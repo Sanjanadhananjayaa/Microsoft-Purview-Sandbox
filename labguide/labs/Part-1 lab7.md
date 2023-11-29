@@ -22,7 +22,7 @@ To launch a simulated phishing attack, do the following steps:
    
 1. Select the social engineering technique you want to use with this simulation.
 
-   ![](../media/Purview_Attack_Simulation_attackType_02.png)
+   ![](../media/PurviewAttackSimulationattackType(02).png)
 
 
    ![](../media/Purview_Attack_Simulation_attackType_03.png)
