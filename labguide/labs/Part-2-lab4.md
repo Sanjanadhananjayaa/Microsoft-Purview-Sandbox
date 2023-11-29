@@ -14,11 +14,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 1 – Create DLP policy to Mitigate the risk of data loss and encrypt the data
 
-
 1. Click on the **Policies** and click on create Policy and fill the details according learned in previous labs for DLP.
 
    ![Picture 1](../media/Purview_DLP_Alrt_08.png)
-
 
 1. Click on policy Settings Select **Create or Customize the advanced DLP rules**.
 
@@ -32,11 +30,7 @@ In this lab, you will complete the following tasks:
 
    ![Picture 1](../media/Purview_DLP_SettingsMitigationActions_12.png)
 
-
-
 **you can also manually perform the activities once received suspicious alerts**.
-
-
 
 ### Task 2 - Reset password
 
@@ -57,7 +51,6 @@ In this lab, you will complete the following tasks:
 
 1. Notify User:
    Optionally, inform the user of their new password or advise them to reset it upon their next login.
-
   
 ### Task 3 - Disable account
 
