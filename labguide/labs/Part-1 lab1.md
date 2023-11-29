@@ -43,5 +43,8 @@ In this task, you will be able to classify the sensitive data to detect it, prot
 
  ![Picture 1](../media/Purview_Classifiers_07.png)
 
+## Review
+In this lab, you will complete the following tasks:
++  know how on sensitivity labels
++  Classification on sensitive data
 
-In the next Labs you will get to know more on how to protect the sensitive data using the Microsoft Purview.
