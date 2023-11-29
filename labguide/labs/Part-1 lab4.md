@@ -1,4 +1,4 @@
-# Part-1 lab 04 - Manage DLP Policies
+# Part-1 Lab 04 - Manage DLP Policies
 
 ## Lab scenario
 You are Joni Sherman, the newly hired Compliance Administrator for Contoso Ltd. tasked to configure the company's Microsoft 365 tenant for data loss prevention. Contoso Ltd. is a company that offers driving instruction in the United States and you need to make sure that sensitive customer information does not leave the organization.
