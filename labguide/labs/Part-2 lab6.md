@@ -5,7 +5,7 @@ In this lab, you will explore how the simulations are benign cyberattacks that y
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 
 + Task : Insights and reports on the Overview tab of Attack simulation training 
 
@@ -87,5 +87,5 @@ To explore on Simulation Insights, go to the **Overview** tab, open the Microsof
 5. If you select the **Export report button**, report generation progress is shown as a **percentage** of complete. In the dialog that opens, you can choose to open the **.csv file**, **save the .csv file**, and remember the selection.
 
 ## Review
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 + Insights and reports on the Overview tab of Attack simulation training 
