@@ -6,7 +6,7 @@ In this lab, you will explore the capabilities of sensitivity labels.  You will 
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 
 + Task 1: Explore the capabilities of sensitivity labels
 
@@ -162,5 +162,5 @@ In this task you will gain an understanding of what sensitivity labels can do by
 1. It can take up to 24 hours to publish the labels to the selected users apps
 
 ## Review
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 + Explore the capabilities of sensitivity labels
