@@ -1,4 +1,4 @@
-# Part-2 lab 2 - Explore sensitivity labels and policies in Microsoft Purview
+# Part:2 lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 
 
 ## Lab scenario
