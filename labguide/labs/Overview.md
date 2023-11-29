@@ -24,7 +24,7 @@ These lab scenarios are provided as reference guidance to help you initiate your
 
 ### Sandbox Content:
 
-Part 01
+#### Part 01
 + Part:1 Lab 01 - Protect Sensitive Data
 + Part:1 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 + Part:1 Lab 03 - Enable Encryption
@@ -32,3 +32,10 @@ Part 01
 + Part:1 Lab 05 - Safe breach simulation
 + Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
 
+#### Part 02
++ Part:2 Lab 01 - Protect Sensitive Data
++ Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
++ Part:2 Lab 03 - Enable Encryption
++ Part:2 Lab 04 - DLP Alerts > Alerts remediations
++ Part:2 Lab 05 - Safe breach simulation
++ Part:2 Lab 07 - Explore Insider Risk Management in Microsoft Purview
