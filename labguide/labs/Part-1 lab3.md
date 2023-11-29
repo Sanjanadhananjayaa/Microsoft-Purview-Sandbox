@@ -8,7 +8,7 @@ In this lab you will set up Azure Rights Management for your tenant. You will al
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 
 + Task : Create a Mail Flow Encryption Rule using the Exchange admin center
 
@@ -40,5 +40,5 @@ In this task, you will create an encryption rule for messages inside your Exchan
 1. Leave your browser session open for the next exercise.
 
 ## Review
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 + Create a Mail Flow Encryption Rule using the Exchange admin center
