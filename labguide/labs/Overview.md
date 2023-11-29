@@ -32,6 +32,8 @@ These lab scenarios are provided as reference guidance to help you initiate your
 + Part:1 Lab 05 - Safe breach simulation
 + Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
 
+**Note**: In Part 01 you will be configuring and creating the content.
+
 #### Part 02
 + Part:2 Lab 01 - Protect Sensitive Data
 + Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
@@ -39,3 +41,5 @@ These lab scenarios are provided as reference guidance to help you initiate your
 + Part:2 Lab 04 - DLP Alerts remediations 
 + Part:2 Lab 05 - Safe breach simulation
 + Part:2 Lab 07 - Explore Insider Risk Management in Microsoft Purview
+
+**Note**: In Part 02 you will be exploring the content which you created in Part 01.
