@@ -5,7 +5,7 @@ In this lab, you will see how to get the insights from the security applied to y
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 
 + Task 1: Overview and Activity Explorer
 
@@ -33,5 +33,5 @@ In this task, you will see how to get the insights from the security applied to 
    ![Picture 1](../media/Purview_Activity_Explorer_06.png)
 
 ## Review
-In this lab, you will complete the following tasks:
+In this lab, you will complete the following task:
 + Overview and Activity Explorer
