@@ -1,4 +1,4 @@
-# Excercise 7 - Safe breach simulation
+# Part-1 LAB 7 - Safe breach simulation
 
 ## Lab scenario
 In this lab, you will explore how the simulations are benign cyberattacks that you run in your organization. These simulations test your security policies and practices, as well as train your employees to increase their awareness and decrease their susceptibility to attacks.
