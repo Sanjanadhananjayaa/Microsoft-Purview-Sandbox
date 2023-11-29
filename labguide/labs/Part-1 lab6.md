@@ -8,7 +8,7 @@ In this lab, you will explore the capabilities of Insider Risk Management to ide
 In this lab, you will complete the following tasks:
 
 + Task 1: Process of setting up an insider risk policy.
-+ Task 2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log.
++ Task 2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log).
 + Task 3: Apply to all insider risk management policies.
 + Task 4: Create policy.
 
