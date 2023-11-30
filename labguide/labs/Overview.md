@@ -27,20 +27,20 @@ The lab scenarios are given as reference material to assist you in getting start
 
 ### Part - 01:
 + Part:1 Lab 01 - Protect Sensitive Data
-+ Part:1 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
-+ Part:1 Lab 03 - Enable Encryption
-+ Part-1 Lab 04 - Manage DLP Policies
-+ Part:1 Lab 05 - Safe breach simulation
-+ Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
++ Part:1 Lab 02 - Configure sensitivity labels and policies in Microsoft Purview
++ Part:1 Lab 03 - Configure EAC rule to enable encryption
++ Part-1 Lab 04 - Configure DLP Policies
++ Part:1 Lab 05 - Configure Safe breach simulation
++ Part:1 Lab 06 - Configure Insider Risk Management Policies in Microsoft Purview
 
 > In Part 1, you will set up and configure Microsoft Purview features.
 
 ### Part - 02:
 + Part:2 Lab 01 - Explore Monitoring on Protected Sensitive Data
-+ Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft
++ Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 + Part:2 Lab 03 - Explore on updating Enable Encryption
 + Part:2 Lab 04 - Explore options on DLP Alerts remediations
 + Part:2 Lab 05 - Explore Insights & Reports on safe breach simulation
-+ Part:2 Lab 06 - Explore Insider Risk Management in Microsoft
++ Part:2 Lab 06 - Explore Insider Risk Management in Microsoft Purview
 
 > In Part 2, you will look at the implementation and functionality of Microsoft Purview features.
