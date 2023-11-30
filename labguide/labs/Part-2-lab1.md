@@ -1,4 +1,4 @@
-# Part:2 Lab 01 - Protect Sensitive Data 
+# Part:2 Lab 01 - Explore Monitoring on Protected Sensitive Data 
 
 ## Lab scenario
 In this lab, you will see how to get the insights from the security applied to your data.
