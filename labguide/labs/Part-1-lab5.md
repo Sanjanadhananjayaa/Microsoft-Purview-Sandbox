@@ -9,6 +9,9 @@ In this lab, you will complete the following task:
 
 + Task : Create Attack Simulation
 
+## Architecture diagram
+![](../media/part1lab5.png)
+
 ### Task 1: Create Attack Simulation
 
 To launch a simulated phishing attack, do the following steps:
