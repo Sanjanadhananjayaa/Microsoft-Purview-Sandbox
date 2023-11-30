@@ -15,7 +15,10 @@ In this lab, you will complete the following tasks:
 + Task 5: Enable file monitoring in Microsoft Defender for Cloud Apps
 + Task 6: Create File Policy for Microsoft Defender for Cloud Apps
 + Task 7: Create a DLP Policy for PowerPlatform
-  
+
+## Architecture diagram
+![](../media/part1lab4.png)  
+
 ### Task 1 – Create a DLP policy in test mode
 
 In this exercise, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information. The policy will be implemented in test mode because you do not want the block action to affect your users yet.
