@@ -10,6 +10,9 @@ In this lab, you will complete the following tasks:
 + Task 1: Enable insider risk analytics.
 + Task 2: Disable insider risk analytics
 
+## Architecture diagram
+![](../media/part2lab6.png)
+
 ### Task 1: Enable insider risk analytics
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features. 
 
