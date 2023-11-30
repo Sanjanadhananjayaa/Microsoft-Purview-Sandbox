@@ -7,7 +7,7 @@ In this lab, you will explore how the simulations are benign cyberattacks that y
 
 In this lab, you will complete the following task:
 
-+ Task : Create Attack Simulation
++ Task 1: Create Attack Simulation
 
 ## Architecture diagram
 ![](../media/part1lab5.png)
