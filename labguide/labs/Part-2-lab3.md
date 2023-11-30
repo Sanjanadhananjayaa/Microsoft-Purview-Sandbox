@@ -12,6 +12,9 @@ In this lab, you will complete the following task:
 
 + Task 1 : Updating the EAC mail flow rule
 
+## Architecture diagram
+![](../media/part2lab3.png)
+
 ### Task 1 – Updating the EAC mail flow rule
 
 **EAC to update an existing mail flow rule to use Microsoft Purview Message Encryption**
