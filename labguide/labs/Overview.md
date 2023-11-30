@@ -25,7 +25,7 @@ The lab scenarios are given as reference material to assist you to get started w
 
 ### Content:
 
-#### Part 01
+#### Part - 01:
 + Part:1 Lab 01 - Protect Sensitive Data
 + Part:1 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 + Part:1 Lab 03 - Enable Encryption
@@ -35,7 +35,7 @@ The lab scenarios are given as reference material to assist you to get started w
 
 > In Part 01, you'll setting up and configuring features of Microsoft Purview.
 
-#### Part 02
+#### Part - 02:
 + Part:2 Lab 01 - Protect Sensitive Data
 + Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
 + Part:2 Lab 03 - Enable Encryption
