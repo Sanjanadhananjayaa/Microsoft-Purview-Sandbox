@@ -9,6 +9,8 @@ In this lab, you will complete the following task:
 
 + Task 1: Overview and Activity Explorer
 
+## Architecture diagram
+![](../media/part2lab1.png)
 
 ### Protecting your data using Microsoft Purview 
 
