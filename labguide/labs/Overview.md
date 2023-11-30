@@ -19,9 +19,9 @@ By implementing Azure Purview, Contoso achieves a unified and streamlined approa
 
 In this sandbox environment, You'll have access to a predeployed environment with an active Azure subscription, a tenant, and a Microsoft 365 E5 license assigned to the user.
  
-Using this environment, You'll be able explore complete features and offerings offered by Microsoft Purview.
+Using this environment, You'll be able to explore complete features and offerings offered by Microsoft Purview.
  
-The lab scenarios are given as reference material to assist you to get started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences
+The lab scenarios are given as reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences
 
 ## Content:
 
@@ -33,7 +33,7 @@ The lab scenarios are given as reference material to assist you to get started w
 + Part:1 Lab 05 - Safe breach simulation
 + Part:1 Lab 06 - Explore Insider Risk Management in Microsoft Purview
 
-> In Part 01, you'll setting up and configuring features of Microsoft Purview.
+> In Part 1, you will set up and configure Microsoft Purview features.
 
 ### Part - 02:
 + Part:2 Lab 01 - Protect Sensitive Data
@@ -43,4 +43,4 @@ The lab scenarios are given as reference material to assist you to get started w
 + Part:2 Lab 05 - Safe breach simulation
 + Part:2 Lab 07 - Explore Insider Risk Management in Microsoft Purview
 
-> In Part 02, you'll be exploring the implementation and functionality of Microsoft Purview features.
+> In Part 2, you will look at the implementation and functionality of Microsoft Purview features.
