@@ -1,4 +1,4 @@
-# Part:1 Lab 03 - Configuring EAC rule to enable encryption
+# Part:1 Lab 03 - Configure EAC rule to enable encryption
 
 # Lab scenario
 
