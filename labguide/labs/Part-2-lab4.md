@@ -1,4 +1,4 @@
-# Part:2 Lab 04 - DLP Alerts remediations 
+# Part:2 Lab 04 - Explore options on DLP Alerts remediations 
 
 ## Lab scenario
 In this lab, you will explore on how to remediate a DLP alert if any user does not adhere the policies.
