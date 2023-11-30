@@ -12,6 +12,9 @@ In this lab, you will complete the following tasks:
 + Task 3: Disable account
 + Task 4: educate user
 
+## Architecture diagram
+![](../media/part2lab4.png)
+
 ### Task 1 – Create DLP policy to Mitigate the risk of data loss and encrypt the data
 
 1. Click on the **Policies** and click on create Policy and fill the details according learned in previous labs for DLP.
