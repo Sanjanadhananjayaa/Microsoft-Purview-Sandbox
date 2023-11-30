@@ -10,6 +10,9 @@ In this lab, you will complete the following tasks:
 + Task 1: know how on sensitivity labels
 + Task 2: Classification on sensitive data
 
+## Architecture diagram
+![](../media/part1lab1.png)
+
 ### Protecting your data using Microsoft Purview 
 
 1. In the Search bar of the browser, type *https://compliance.microsoft.com/homepage*, then  sign in using the **credentials** provided to you duing the lab.
