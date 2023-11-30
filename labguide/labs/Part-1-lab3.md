@@ -12,6 +12,9 @@ In this lab, you will complete the following task:
 
 + Task : Create a Mail Flow Encryption Rule using the Exchange admin center
 
+## Architecture diagram
+![](../media/part1lab3.png)
+
 ### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
 
 In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. 
