@@ -1,3 +1,7 @@
+# Lab 01 - d.	Deploy AIP Unified Labeling Client 
+
+
+
 Download AzInfoProtection_UL.exe from the Microsoft Download Center.
 
 Run the executable file that was downloaded, and if you are prompted to continue, click Yes.
