@@ -1,4 +1,4 @@
-# Part:1 Lab 01 - Protect Sensitive Data
+# Lab 01 - Configure Sensitive Labels 
 
 ## Lab scenario
 In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
