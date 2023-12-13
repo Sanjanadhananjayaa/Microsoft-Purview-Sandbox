@@ -72,8 +72,9 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
     ![](../media/lab1-image6.png)
 
-1. Select your **user name**  and click on **Add**
-    ![](../media/lab1-image7.png)
+1. Select your **user name**  and click on **Add**.
+
+   ![](../media/lab1-image7.png)
 
 1. Then back to Assign permission page, Click on **Save**.
 
@@ -122,10 +123,6 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
    ![](../media/lab1-image17.png)
       
-1. Click on **Publish label** from the **Label** Window.
-
-      ![](../media/lab13-1-(2).png)     
-    
 ## Review
 In this lab, you will complete the following task:
 + Explored and configure Sensitive Labels 
