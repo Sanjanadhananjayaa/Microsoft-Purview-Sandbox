@@ -19,28 +19,32 @@ In this task, you will go through the process of applying a label from the persp
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
-   ![](../media/lab13-1-5.png) 
+   ![](../media/lab5-image1.png) 
 
 1. Select **blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
+   ![](../media/lab5-image2.png) 
+
 1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
 
-      ![](../media/95.png)      
+    ![](../media/lab5-image3.png) 
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
-      ![](../media/96.png)            
+     ![](../media/lab5-image4.png)       
 
-1. Notice how the document includes the watermark.  
+1. Notice how the document includes the watermark.
+
+    ![](../media/lab5-image7.png) 
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
-### Task 2 (optional): Impact of that label
+### Task 2 : Impact of that label
 In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
-      ![](../media/lab13-1-6.png)
+      ![](../media/lab5-image5.png) 
 
 1. Select **New Email** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
 
