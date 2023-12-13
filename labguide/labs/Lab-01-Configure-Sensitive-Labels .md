@@ -34,7 +34,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../media/sc-900-lab15-1-01.png)
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview.  
+1. Under Admin centers, select **Compliance**. a new browser page will open, navigates you to the Microsoft Purview welcome page..  
 
     ![](../media/sc-900-lab15-1-2.png)
     
