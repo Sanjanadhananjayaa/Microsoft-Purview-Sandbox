@@ -40,31 +40,30 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
 
-    ![](../media/sc-900-lab14-002.png)
+    ![](../media/lab11-image1.png)
 
 1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass).  Notice the five roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
 
-    ![](../media/sc-900-lab14-03.png)
-    
-    ![](../media/sc-900-lab14-4.png)
+    ![](../media/lab11-image2.png)
 
 1. In the window that opens, next to where it says Members, select **Edit**. you may need to scroll to find it.
 
-    ![](../media/insiderriskmanagementedit1.png)
+     ![](../media/lab11-image3.png)
 
-1. To add members to this role group, select **Choose users**.
+1. On **Edit members of the role group** page To add members to this role group, click on **Choose users**, select **<inject key="AzureAdUserEmail"></inject>** and then 
+   click on **Next**.
 
-    ![](../media/chooseuser21.png).
+     ![](../media/lab11-image4.png)
 
-1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
-
-    ![](../media/chooseusers31.png)
+1. Back on **Edit members of the role group** page.
+   
+    ![](../media/lab11-image5.png)
 
 1. Verify the added members is correct then select **Save**.
 
-    ![](../media/save2.png)
+    ![](../media/lab11-image6.png)
 
-1. From the bottom of the Insider Risk Management window, select **Close**.
+1. From the bottom of the Insider Risk Management window, click on **Done**.
 
     ![](../media/sc-900-lab14-11.png)
 
