@@ -177,7 +177,7 @@ In this task, you will walk through the creation of a policy.
 
    - select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
 
-    ![](../media/lab11-image22.png)
+    ![](../media/lab11-image(22).png)
 
 ## Review
 In this lab, you will complete the following tasks:
