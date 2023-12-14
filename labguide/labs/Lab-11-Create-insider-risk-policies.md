@@ -98,7 +98,9 @@ In this task you will walk through the settings associated with the Insider Risk
     ![](../media/sc-900-lab14-T3-1.png)
 
 1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
-    
+
+     ![](../media/sc-900-lab14-T3-1.png)
+   
     i. Privacy tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**.  Select the  **Policy indicators** tab.
 
       ![](../media/sc-900-lab14-T3-2.png)
@@ -130,55 +132,74 @@ In this task, you will walk through the creation of a policy.
 
 1. From the Insider risk management overview page, select the **Policies** tab then select **+ Create**.  Configure each of the following policy tabs.
 
-    ![](../media/sc-900-lab14-T3-7.png)
+    ![](../media/lab11-image9.png)
 
 1. Policy template:  From the list of categories, select **Data leaks**. Read the details associated with this template, then select **Next**.
 
-    ![](../media/sc-900-lab14-T3-8.png)
+    ![](../media/lab11-image10.png)
     
-1. Name and description:  enter a name, **SC900-InsiderRiskPolicy**, then select **Next**.
+1. On **Name your policy** page, enter **InsiderRiskPolicy**, then select **Next**.
 
-    ![](../media/sc-900-lab14-T3-9.png)
+    ![](../media/lab11-image11.png)
     
-1. Users and groups:  Review the information box.  Leave the default setting, **Include all users and groups**.  Select **Next**.
+1. On **Choose users and groups** page, select **Include all users and groups** and click on **Next**.
 
-    ![](../media/sc-900-lab14-T3-10.png)
+   ![](../media/lab11-image12.png)
          
-1. Content to prioritize: Read the description. Select **I dont't want to prioritize content right now**, then select **Next**.
+1. On **Decide whether to prioritize content** page, read the description and select **I dont't want to prioritize content right now**, then select **Next**.
 
-   ![](../media/sc-900-lab14-T3-11.png)
+   ![](../media/lab11-image13.png)
                
-1. Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and Leave the defaults and click **Next**
+1. On **Choose triggering event for this policy** page, select **User performs an exfiltration activity** and click **Next**.
 
-   ![](../media/sc-900-lab14-T3-12.png)
-        
-1. Triggering Thresholds: here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **choose your own thresholds**, By selecting this option, you can see the current default values. Leave the defaults and select **Next**.
-
-    ![](../media/sc-900-lab14-T3-13.png)
-    
-1. Indicators: Review the detailed information. Leave the default setting, Select **Next**.    
-
-    ![](../media/sc-900-lab14-T3-14.png)
-    
-1. Detection options: Review the information, Select **Next**.   
+   ![](../media/lab11-image14.png)
    
-    ![](../media/sc-900-lab14-T3-15.png)
-    
-1. Indication thresholds: Review the information. Select **Choose your own thresholds** then Select **Next**.  
+   >**Note** Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and Leave the defaults
 
-   ![](../media/sc-900-lab14-T3-16.png)  
-    
-1. Finish:  review the settings, select **Submit**, then select **Done**.
+1. On **Choose thresholds for triggering events**  page, select **choose your own thresholds**  and click **Next**.
 
-   ![](../media/sc-900-lab14-T3-17.png)  
+   ![](../media/lab11-image15.png)
    
-   ![](../media/sc-900-lab14-T3-18.png)  
+   >**Note**: Triggering Thresholds: here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **choose your own thresholds**, By selecting this option, you can see the current default values. Leave the defaults.
 
-1. You are back on the Policies tab of the Insider risk management page.  The policy you just created will be listed.  
+    
+1. On **Indicators** page, review the detailed information. Leave the default setting, Select **Next**.    
 
-1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first.  To do this, select the policy next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  Populate each field, then select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
+   ![](../media/lab11-image16.png)
+    
+1. On **Detection options** page, review the information, Select **Next**.   
+   
+    ![](../media/lab11-image17.png)
+    
+1. On **Choose threshold type for indicators** page, review the information. Select **Choose your own thresholds** then Select **Next**.  
 
-    ![](../media/sc-900-lab14-T3-19.png) 
+   ![](../media/lab11-image18.png)
+    
+1. On **Review settings and finish** page, review the settings and select **Submit**.
+
+   ![](../media/lab11-image19.png)
+  
+1. Click on **Done**.
+ 
+1. You are back on the Policies tab of the Insider risk management page.  The policy you just created will be listed.
+
+    ![](../media/lab11-image20.png)
+
+1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first.  To do this, select the policy next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.
+
+    ![](../media/lab11-image21.png)  
+  
+1. On **Start score activity for users** window, provide the following information:
+
+   - Reason for scoring activity : Provide any reason.
+
+   - Score activity for this many days: 5
+
+   - Score activity for these users: **<inject key="AzureAdUserEmail"></inject>** 
+
+   - select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
+
+    ![](../media/lab11-image22.png)
 
 ## Review
 In this lab, you will complete the following tasks:
