@@ -1,4 +1,4 @@
-# Part:1 Lab 06 - Configure Insider Risk Management Policies in Microsoft Purview
+# Lab 11 - Configure Insider Risk Management Policies in Microsoft Purview
 
 ## Lab scenario
 In this lab, you will explore the capabilities of Insider Risk Management to identify, mitigate, and respond to potential risks posed by individuals within the organization
