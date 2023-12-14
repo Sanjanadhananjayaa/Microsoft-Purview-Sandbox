@@ -1,6 +1,7 @@
 # Lab12 - Investigate insider risk activities
 
 
+### Task 1 : Create Insider Risk Management Investigators
 
 1. If you not already login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
 
@@ -48,11 +49,13 @@
   
 1. On **You successfully updated the role group** page, click on **Done**.
   
+### Task 2 : Investigate insider risk activities
+
+1. Navigate to **Insider risk management** page, and select to user tab where you can view user activity
+
+    ![](../media/lab12-image6.png)
    
-
-
-
-
+   >**Note**: 1. Review the settings for your insider risk policy. The policy will take effect immediately after you create it, but may take up to 24 hours to start generating alerts. User productivity won't be impacted in any way. 
 
 
 
