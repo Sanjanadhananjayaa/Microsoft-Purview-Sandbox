@@ -8,9 +8,8 @@ In this lab, you will explore the capabilities of Insider Risk Management to ide
 In this lab, you will complete the following tasks:
 
 + Task 1: Process of setting up an insider risk policy.
-+ Task 2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log).
-+ Task 3: Apply to all insider risk management policies.
-+ Task 4: Create policy.
++ Task 2: Apply to all insider risk management policies.
++ Task 3: Create policy.
 
 ## Architecture diagram
 ![](../media/risk.png)
@@ -51,11 +50,11 @@ In this task you, as the global administrator, will enable permissions for Insid
      ![](../media/lab11-image3.png)
 
 1. On **Edit members of the role group** page To add members to this role group, click on **Choose users**, select **<inject key="AzureAdUserEmail"></inject>** and then 
-   click on **Next**.
+   click on **select**.
 
      ![](../media/lab11-image4.png)
 
-1. Back on **Edit members of the role group** page.
+1. Back on **Edit members of the role group** page, click **Next**.
    
     ![](../media/lab11-image5.png)
 
@@ -65,30 +64,9 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. From the bottom of the Insider Risk Management window, click on **Done**.
 
-    ![](../media/sc-900-lab14-11.png)
-
 1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
 
-### Task-2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log)
-Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you will enable the Audit log search capability. Note:  It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
-
-1. Select the browser tab labeled, **Microsoft 365 admin center - Home**.  If you previously closed this browser tab, open Microsoft Edge and in the address bar enter **admin.microsoft.com** and sign in with your admin credentials.
-
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
-
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
-
-1. In the left navigation panel, under solutions, select **Audit**.
-
-1. Verify that the **Search** tab is selected (underlined).
-
-1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present then auditing is already enabled, and no further action is required.
-
-1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
-
-1. Keep this browser tab open, as you will use it in the next task.
-
-### Task 3: Apply to all insider risk management policies
+### Task 2: Apply to all insider risk management policies
 In this task you will walk through the settings associated with the Insider Risk Management solution.  Insider risk management settings apply to all insider risk management policies, regardless of the template you choose when creating a policy. 
 
 1. You should be on the Microsoft 365 compliance center home page. If not, Open the browser tab **Home - Microsoft 365 compliance**.
@@ -125,7 +103,7 @@ In this task you will walk through the settings associated with the Insider Risk
 
 1. Keep this browser tab open, as you will use it in the next task.
 
-### Task 4: Create policy
+### Task 3: Create policy
 In this task, you will walk through the creation of a policy.
 
 1. You should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
@@ -204,7 +182,6 @@ In this task, you will walk through the creation of a policy.
 ## Review
 In this lab, you will complete the following tasks:
 + Process of setting up an insider risk policy.
-+ Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log.
 + Apply to all insider risk management policies.
 + Create policy.
 
