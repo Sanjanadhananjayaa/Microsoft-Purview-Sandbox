@@ -1,8 +1,4 @@
----
-lab:
-    title: 'Exercise 3 - Configure Information Barriers'
-    module: 'Module 5 - Manage insider and privacy risk in Microsoft 365'
----
+# lab 13 - Configure Information Barriers
 
 # Lab 5 - Exercise 3 - Configure Information Barriers
 
