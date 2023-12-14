@@ -2,9 +2,7 @@
 
 In this exercise, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information. The policy will be implemented in test mode because you do not want the block action to affect your users yet.
 
-1. Log into the Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
-
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** and log into the Microsoft Purview portal as **Joni Sherman**. sign in as JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided).  Joni's password should be provided in environment details page.
+1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
 1. If the **Stay signed in?** dialog box appears, select the **Don’t show this again** checkbox and then select **No**.
 
