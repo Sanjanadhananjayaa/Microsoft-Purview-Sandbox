@@ -47,11 +47,8 @@ To launch a simulated phishing attack, do the following steps:
 
    >**Note**: For built-in payloads, the value is **Global**. For custom payloads, the value is **Tenant**.
    
-   ![](../media/lab10-image-5.png)
+   ![](../media/lab10-image-6.png)
 
-   
-1. Payload **Renew Office 365 subscription** click on **Next**.
-    ![](../media/lab10-image-6.png)
 
 1. On the **Target users** page, select who receives the simulation. Use the following options to select users
    
@@ -83,12 +80,6 @@ To launch a simulated phishing attack, do the following steps:
    
     **Note**: This setting is not available if you selected Malware Attachment or Link to Malware on the Select a social engineering technique 
       page.
-
-     
-1. **Global landing pages tab**: Contains the built-in landing pages. When you select a built-in landing page to use by selecting the 
-   check box next to name, an Edit layout section appears with the following options:
-   **Select default language**: This setting is required. Select one of the following values: Chinese (Simplified), Chinese 
-    (Traditional),English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, and Dutch.
 
 1. On the **Select end user notification** page, select **Microsoft default notification (recommended)**: The notifications that users will receive are shown on the page select the following option.
 
@@ -129,9 +120,10 @@ To launch a simulated phishing attack, do the following steps:
    wizard to modify the settings.
 
 1. On Send Test Email pop up click in **Confirm**.
-   ![](../media/lab10-image-13.png)
 
    ![](../media/lab10-image-14.png)
+
+   ![](../media/lab10-image-15.png)
 
 1. In another tab browser for (https://security.microsoft.com) select app launcher and select outlook.
    ![](../media/lab5-image5.png)
