@@ -179,7 +179,6 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. The search should appear on the list.  If you don't immediately see it, select **Refresh**
 
-    ![](../media/lab15-image29.png)
 
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
@@ -195,19 +194,13 @@ With a hold in place, you will create a search query.  Once your search is compl
 
       ![](../media/lab15-image33.png)
     
-1. From the **Test case** page, select **Exports** from the top of the page.
+1. From the **Test case** page, select **Exports** tab and select **Test Hold - Sales Search_Export**, the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
 
-    ![](../media/lab15-image34.png)
-    
-1. Select **Test Hold - Sales Search_Export**
-
-     ![](../media/lab15-image35.png)
-
-1. In the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
-
-      ![](../media/lab15-image36.png)
+      ![](../media/lab15-image35.png)
 
 1. From the top of the window, select **Download results**.(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+
+   ![](../media/lab15-image36.png)
 
    ![](../media/lab15-image37.png)
         
