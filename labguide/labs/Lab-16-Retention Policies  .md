@@ -18,7 +18,6 @@ In order to adhere to this law your organization has created a retention plan to
 
 In this exercise you will create a company-wide retention policy, apply a retention period, and set the locations that the policy will be applied to.
 
-1. Log into Client 1 VM (LON-CL1) as the **lon-cl1\admin** account.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** and log into the Microsoft Purview portal as **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Joni's password should be provided by your lab hosting provider.
 
