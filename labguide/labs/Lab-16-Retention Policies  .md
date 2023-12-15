@@ -13,24 +13,24 @@ In this exercise you will create a company-wide retention policy, apply a retent
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data lifecycle management** then select **Microsoft 365**.
 
-    ![](..media/lab16-image1.png)
+    ![](../media/lab16-image1.png)
 
 1. On the **Data lifecycle management** page, in the **Retention policies** tab select **+ New retention policy**.
-    ![](..media/lab16-image2.png)
+    ![](../media/lab16-image2.png)
 
 1. On the **Name your retention policy** page, for the **Name** enter **Retention policies** and  click **Next**.
 
-      ![](..media/lab16-image3.png)
+      ![](../media/lab16-image3.png)
 
 
 1. On the **Policy Scope** page select **Next**.
 
-   ![](..media/lab16-image4.png)
+   ![](../media/lab16-image4.png)
 
 
 1. In the **Choose the type of retention policy to create** area, select **Static** then select **Next**.
 
-   ![](..media/lab16-image5.png)
+   ![](../media/lab16-image5.png)
 
 1. In the **Choose where to apply this policy** enable and select **Next**.
 
@@ -39,7 +39,7 @@ In this exercise you will create a company-wide retention policy, apply a retent
    - **OneDrive accounts**
    - **Microsoft 365 Group mailboxes & sites**
 
-     ![](..media/lab16-image6.png)
+     ![](../media/lab16-image6.png)
 
 1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section, enter the following information and select **Next**.
 
@@ -48,12 +48,12 @@ In this exercise you will create a company-wide retention policy, apply a retent
    - **Start the retention period based on**: When items were last modified.
    - **At the end of the retention period**: Delete items automatically.
 
-      ![](..media/lab16-image7.png)
-      ![](..media/lab16-image8.png)
+      ![](../media/lab16-image7.png)
+      ![](../media/lab16-image8.png)
 
 1. On the **Review and finish** page select **Submit**.
 
-    ![](..media/lab16-image9.png)
+    ![](../media/lab16-image9.png)
 
 1. Once your policy is created select **Done**.
 
@@ -69,26 +69,26 @@ In this exercise you will create a retention policy for the finance and legal de
 
 1. In the **Microsoft Purview** portal on the left navigation pane expand **Roles & scopes** then select **Adaptive scopes**.
 
-   ![](..media/lab16-image11.png)
+   ![](../media/lab16-image11.png)
 
 1. On the **Adaptive scopes** page select **+ Create scope**.
 
-   ![](..media/lab16-image12.png)
+   ![](../media/lab16-image12.png)
 
 1. On the **Name your adaptive policy scope** page input and select **Next**.
 
     - **Name**: Legal Documents Retention
     - **Description**: Retention for legal related documents
 
-       ![](..media/lab16-image13.png)
+       ![](../media/lab16-image13.png)
 
 1. On the **Assign admin unit** page select **Next**.
 
-    ![](..media/lab16-image14.png)
+    ![](../media/lab16-image14.png)
 
 1. On the **What type of scope do you want to create?** page select **Users** then select **Next**.
 
-    ![](..media/lab16-image15.png)
+    ![](../media/lab16-image15.png)
 
 1. On the **Create the query to define users** page, under **User attributes** sepcify the following:
     
@@ -96,12 +96,10 @@ In this exercise you will create a retention policy for the finance and legal de
     - Attribute field select **is equal to** as the operator.
     - Enter **Legal** in the **Value** field.
 
-        ![](..media/lab16-image16.png)
-
 
 1. To add a second attribute, select **+ Add attribute** on the **Create the query to define users** page.
 
-    ![](..media/lab16-image17.png)
+    ![](../media/lab16-image16.png)
 
 1. For the **Query operator**, **Attribute**, **Operator**, and **Value** input, ensure the checkboxes are selected next to each attribute then select **Next**.
 
@@ -110,14 +108,14 @@ In this exercise you will create a retention policy for the finance and legal de
    - **Operator**: is equal to
    - **Value**: Retail
 
-   ![](..media/lab16-image18.png)
+   ![](../media/lab16-image17.png)
 
 1. Ensure the checkboxes are selected next to each attribute then select **Next**.
-    ![](..media/lab16-image29.png)
+    ![](../media/lab16-image29.png)
 
 1. On the **Review and finish** page select **Submit**.
 
-    ![](..media/lab16-image19.png)
+    ![](../media/lab16-image18.png)
 
 1. On the **Your scope was created page** select **Done**.
 
@@ -130,20 +128,20 @@ In this exercise you will create a retention policy for the finance and legal de
     - **Name**: Legal Data Retention
     - **Description**: Retention of all documents within the legal and retail departments.
 
-      ![](..media/lab16-image21.png)
+      ![](../media/lab16-image21.png)
 
 1. On the **Policy Scope** page select **Next**.
 
-   ![](..media/lab16-image22.png)
+   ![](../media/lab16-image22.png)
 
 1. On the **Choose the type of retention policy to create** page select **Adaptive** then select **Next**.
 
-   ![](..media/lab16-image23.png)
+   ![](../media/lab16-image23.png)
 
 1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes** and in the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention** then select the **Add** button.
 
 
-     ![](..media/lab16-image24.png)
+     ![](../media/lab16-image24.png)
 
 1. Back on the **Choose locations to apply the policy** enable and select **Next**.
 
@@ -151,7 +149,7 @@ In this exercise you will create a retention policy for the finance and legal de
     - **OneDrive accounts**
     - Leave all other locations disabled.
  
-      ![](..media/lab16-image25.png)
+      ![](../media/lab16-image25.png)
 
 1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section input and select **Next**.
 
@@ -160,11 +158,11 @@ In this exercise you will create a retention policy for the finance and legal de
     - **Start the retention period based on**: When items were created
     - **At the end of the retention period**: Do nothing
 
-        ![](..media/lab16-image26.png)
+        ![](../media/lab16-image26.png)
 
 1. On the **Review and finish** page select **Submit**.
 
-    ![](..media/lab16-image27.png)
+    ![](../media/lab16-image27.png)
 
 1. Once your policy is created, select the **Done** button.
 
