@@ -53,7 +53,7 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
 1. Unser **User notifications** select toggle for **Use notifications to inform your user and help educate them on the proper use of sensitive info** and enable check box for **Show the policy tip as a dialog for the end user before send**.
 
-   ![](../media/cc10.png)
+   ![](../media/cc11.png)
 
 1. Under **Incident reports** select **severity level** as **Medium** click on  the toggle for **Under send an alert to admins when a rule match occurs** and click on **Save**.
 
