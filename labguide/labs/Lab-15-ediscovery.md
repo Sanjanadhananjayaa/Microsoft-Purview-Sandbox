@@ -51,24 +51,27 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
    
 1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
-    ![](../Images/sc-900-lab15-1-5.png)
-    
-    ![](../Images/sc-900-lab15-1-6.png)
-
+    ![](../media/lab15-image1.png)
+     
 1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group.
 
 1. Select **Edit** 
 
-    ![](../Images/image1.png)
+    ![](../media/lab15-image2.png)
 
 1. On **eDiscovery Manager** page select **Next** on  **Manager eDiscovery Manager**.
 
-   ![](../Images/image2.png)
+   ![](../media/lab15-image3.png)
 
 1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User and Megan Bowen** from the list and click on **select** and **Next**.
 
-   ![](../Images/image3.png)
+   ![](../media/lab15-image4.png)
+   ![](../media/lab15-image5.png)
 
+1. Back on **Manage ediscovery Administrator** page, click on **Next**.
+   
+   ![](../media/lab15-image6.png)
+   
 1. On **Review and finish** page, select **Save**.
 
    ![](../Images/image4.png)
