@@ -37,20 +37,18 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/sc-900-lab15-1-01.png)
+    ![](../media/sc-900-lab15-1-01.png)
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.
 
-    ![](../Images/sc-900-lab15-1-02.png)
+    ![](../media/sc-900-lab15-1-02.png)
 
 1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**.  You may need to scroll down to see this option.
 
-    ![](../Images/sc-900-lab15-1-3.png)
-
 1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
 
-    ![](../Images/sc-900-lab15-1-4.png)
-
+    ![](../media/lab11-image1.png)
+   
 1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
     ![](../Images/sc-900-lab15-1-5.png)
