@@ -179,7 +179,9 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. The search should appear on the list.  If you don't immediately see it, select **Refresh**
 
+    ![](../media/lab15-image39.png)
 
+ 
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
     ![](../media/lab15-image30.png)
