@@ -66,16 +66,18 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User and Megan Bowen** from the list and click on **select** and **Next**.
 
    ![](../media/lab15-image4.png)
-   ![](../media/lab15-image5.png)
 
 1. Back on **Manage ediscovery Administrator** page, click on **Next**.
    
-   ![](../media/lab15-image6.png)
+    ![](../media/lab15-image5.png)
    
-1. On **Review and finish** page, select **Save**.
+1. On **Review the role group and finish** page, select **Save**.
 
-   ![](../Images/image4.png)
+    ![](../media/lab15-image6.png)
 
+1. On **You successfully updated the role group** page, select **Done**.
+
+ 
 1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
 ## Task 2: Create a case to start using Core eDiscovery
@@ -87,21 +89,21 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
     ![](../Images/sc-900-lab15-1-2.png)
 
-1. You are now in the Microsoft Purview. From the left navigation panel, select **Show all**.
-
 1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
 
+     ![](../media/lab15-image9.png)
+   
 1. From the top of the Core eDiscovery page, select **+ Create a case**.
 
-    ![](../Images/sc-900-lab15-T1-1.png)
+    ![](../media/lab15-image10.png)
 
-1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
+1. In the New case window, enter a Case name, **Test Case** then select the **Save** at the bottom of the page.
 
-    ![](../Images/sc-900-lab15-T2-2.png)
+     ![](../media/lab15-image11.png)
 
 1. The case should now appear on the list.
 
-    ![](../Images/sc-900-lab15-T2-3.png)
+     ![](../media/lab15-image12.png)
 
 1. As the creator of the case and because you have eDiscovery Administrator privileges, you can begin to work with it.  
 
@@ -112,29 +114,39 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 
 1. Open the Core eDiscovery tab on your browser.
 
-1. From the Core eDiscovery page, select the case you created in the previous tab, **SC900 Test Case**. 
+1. From the Core eDiscovery page, select the case you created in the previous tab, **Test Case**. 
 
-1. From the Home page of the case, select the **Hold** tab then select **+Create**.
+1. From the Home page of the case, select the **Hold** tab then select **+ Create**.
 
-    ![](../Images/sc-900-lab15-T2-4.png)
+   ![](../media/lab15-image13.png)
 
 1. In the name field, enter **Test hold** then select Next.
 
-    ![](../Images/sc-900-lab15-T2-5.png)
+    ![](../media/lab15-image14.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
+1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
     
-    ![](../Images/lab15-1-1.png)
+    ![](../media/lab15-image15.png)
+   
+    ![](../media/lab15-image16.png)
+
+
+1. Back on **Choose locations** page, click **Next**.
+
+   ![](../media/lab15-image17.png)
+
+1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+Add condition** to view the available options.  Select **Next**. Without selecting any conditions, the hold will preserve all content in the specified location.
+
+    ![](../media/lab15-image18.png)
     
-1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+Add condition** to view the available options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
+1. On **Review your settings** page, select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select 
+   **Refresh**
 
-    ![](../Images/sc-900-lab15-T2-7.png)
-    
-    ![](../Images/sc-900-lab15-T2-8.png)
+    ![](../media/lab15-image19.png)
 
-1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
+1. The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
 
-    ![](../Images/sc-900-lab15-T2-9.png)
+   ![](../media/lab15-image21.png)
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
@@ -143,65 +155,76 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Open the SC900 Test case tab on your browser.
 
-1. From the Holds page of the case, select **Searches**.
+1. From the Holds page of the case, select **Searches** and from the Search page, select **+ New Search**.
 
-1. From the Search page, select **+ New Search**.
-
-    ![](../Images/sc-900-lab15-T2-10.png)
+     ![](../media/lab15-image22.png)
 
 1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
 
-    ![](../Images/sc-900-lab15-T2-11.png)
+     ![](../media/lab15-image23.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
+1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
 
-    ![](../Images/lab15-1-2.png)
+    ![](../media/lab15-image24.png)
+   
+    ![](../media/lab15-image25.png)
+
+1. Back on **Choose locations** page, click **Next**.
+
+    ![](../media/lab15-image26.png)
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
-    ![](../Images/sc-900-lab15-T2-13.png)
+    ![](../media/lab15-image27.png)
 
-1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list.  If you don't immediately see it, select **Refresh**
+1. On **Review your search and create it** page, select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list.  If you don't immediately see it, select **Refresh**
 
-    ![](../Images/sc-900-lab15-T2-14.png)
-    
-     ![](../Images/sc-900-lab15-T2-15.png)
+    ![](../media/lab15-image28.png)
+
+1. The search should appear on the list.  If you don't immediately see it, select **Refresh**
+
+    ![](../media/lab15-image29.png)
 
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
-    ![](../Images/sc-900-lab15-T2-16.png)
+    ![](../media/lab15-image30.png)
 
-1. From the bottom of the page, select **Actions**.  Note the available options. By selecting **Export results**, search results can be downloaded. 
+    ![](../media/lab15-image31.png)
 
-      ![](../Images/sc-900-lab15-T2-18.png)
-    
-      ![](../Images/sc-900-lab15-T2-19.png)
-      
+1. Select **Summary** tab and from the bottom of the page, select **Actions**.  Note the available options. By selecting **Export results**, search results can be downloaded. 
+
+      ![](../media/lab15-image32.png)
+          
 1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** on the bottom of the page.
 
-      ![](../Images/sc-900-lab15-T2-20.png)  
+      ![](../media/lab15-image33.png)
     
-1. From the SC900-Test case page, select **Exports** from the top of the page.
+1. From the **Test case** page, select **Exports** from the top of the page.
 
+    ![](../media/lab15-image34.png)
+    
 1. Select **Test Hold - Sales Search_Export**
+
+     ![](../media/lab15-image35.png)
 
 1. In the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
 
-      ![](../Images/sc-900-lab15-T2-22.png)
+      ![](../media/lab15-image36.png)
+
 1. From the top of the window, select **Download results**.(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
 
-      ![](../Images/sc-900-lab15-T2-23.png)
-         
-      ![](../Images/sc-900-lab15-T2-024.png)
+   ![](../media/lab15-image37.png)
+        
+
 1. If this is the first time you do a download of a content search, you will be prompted to install the Microsoft Office 365 eDiscovery Export tool.  Select **Install**.
 
-      ![](../Images/sc-900-lab15-T2-25.png)
          
-1. Once the install is completed, the eDiscovery export tool window opens.  In the first field, paste the export key that you copied to your clipboard, paste it in now (Control V on your keyboard or right-click on your mouse and select paste). 
+1. Once the install is completed, the eDiscovery export tool window opens.
+   - In the first field, paste the export key that you copied to your clipboard, paste it in now 
  
-1. In the second field, Click on **Browse** and set the location to C:\LabFiles to store the downloaded file , then select **Start**.  Once the download process is completed, select **Close** and close this browser tab.
+   - In the second field, Click on **Browse** and set the location to C:\LabFiles to store the downloaded file , then select **Start**.  Once the download process is completed, select **Close** and close this browser tab.
 
-      ![](../Images/sc-900-lab15-T2-26.png)
+      ![](../media/lab15-image38.png)
       
 1. You are back on the "Test Hold - Sales Search_Export" window.  Select **Close**.
 
