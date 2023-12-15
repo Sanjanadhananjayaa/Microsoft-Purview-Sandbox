@@ -1,4 +1,4 @@
-# Lab 16 - Configure Retention Policies'
+# Lab 16 - Configure Retention Policies
 
 
 In this exercise, you will assume the role of Joni Sherman, a System Administrator for Contoso Ltd. Your organization is based in Texas and wants to implement retention policies to adhere to state laws, which stipulates that records may be deleted after 1 day without constituting an offense.
