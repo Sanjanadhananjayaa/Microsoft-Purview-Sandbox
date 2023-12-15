@@ -1,9 +1,11 @@
 # Lab 16 - Configure Retention Policies'
 
 
-In this exercise, you will assume the role of Joni Sherman, a System Administrator for Contoso Ltd. Your organization is based in Texas and wants to implement retention policies to adhere to state laws, which stipulates that records may be deleted after three years without constituting an offense.
+In this exercise, you will assume the role of Joni Sherman, a System Administrator for Contoso Ltd. Your organization is based in Texas and wants to implement retention policies to adhere to state laws, which stipulates that records may be deleted after 1 day without constituting an offense.
 
-In order to adhere to this law your organization has created a retention plan to retain all items in the organization for three years.
+In order to adhere to this law your organization has created a retention plan to retain all items in the organization for 1 day.
+
+>**Note**: When you create and submit a retention policy, it can take up to seven days for the retention policy to be applied.
 
 ## Task 1 – Create company-wide Retention Policy
 
@@ -169,14 +171,3 @@ In this exercise you will create a retention policy for the finance and legal de
 1. On the **You successfully created a retention policy** page select **Done**.
 
 You have successfully applied an adaptive scope to a retention policy.
-
-## Task 5 – Test adaptive scope policy
-
-In this exercise you will verify the users affected by the adaptive scope and test the new adaptive retention policy.
-
->**Note**: When you create and submit a retention policy, it can take up to seven days for the retention policy to be applied.
-
-
-
-You have verified the success of your adaptive scope.
-
