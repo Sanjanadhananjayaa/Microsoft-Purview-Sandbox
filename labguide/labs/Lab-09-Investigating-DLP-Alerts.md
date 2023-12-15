@@ -13,18 +13,19 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
      ![](../media/cc20.png)
 
-1. On the Overview tab you can find and try to investigate the alerts 
-    
-1. If you scroll down you can find alert information
+1. Scroll down and you can see **Alert information**
 
-    ![](../media/cc24.png)
 
-1. Click on **Event** tab and review each of the tab notice the details of alerts   
+   ![](../media/cc24.png)
 
+1. Click on Event tab and review the details.
+   
    ![](../media/cc25.png)
 
-   ![](../media/cc25.png)
    ![](../media/cc26.png)
+
+1. On Overview tab you can find and review all the Alerts details for user activity.
+
    ![](../media/cc27.png)
 
 1. Click on Activity Explorer menu, here you can view activity of user by hover your mouse on bar chat.
