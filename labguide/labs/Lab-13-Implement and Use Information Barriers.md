@@ -18,7 +18,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 1. On **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter HR and click on **Next**.
 
     ![](../media/lab13-image22.png)
-    ![](../media/lab13-image23.png)
+    ![](../media/lab13-image(23).png)
    
 1. On Summary page, click on **Submit**.
 
@@ -33,12 +33,14 @@ In this task, you'll create Information barrier policies to block communication 
 1. Click on + **Create policy**.
 
 1. On **Provide a policy name** page, enter **Block communication from HR to Finance** and click on **Next**.
-    ![](../media/lab13-image24.png)
+
+     ![](../media/lab13-image24.png)
 
 1. On Add assigned segment details page, select **+ Choose segment**.
 
 1. On Select assigned segment for this policy window select **HR** and click on **Add**.
-    ![](../media/lab13-image25.png)
+
+   ![](../media/lab13-image25.png)
 
 1. Back on **Add assigned segment details** page and click **Next**.
 
@@ -48,7 +50,8 @@ In this task, you'll create Information barrier policies to block communication 
    - Click **Next**
 
 1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
-    ![](../media/lab13-image26.png)
+
+   ![](../media/lab13-image26.png)
 
 1. On Summary page click on **Submit** and **Done**
 
@@ -70,7 +73,8 @@ In this task, you'll create Information barrier policies to block communication 
    - Click **Next**
 
 1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
-    ![](../media/lab13-image26.png)
+
+   ![](../media/lab13-image26.png)
 
 1. On Summary page click on **Submit** and **Done**
 
@@ -79,7 +83,8 @@ In this task, you'll create Information barrier policies to block communication 
 In this task, you will apply the active Information barrier policies and check their application status.
 
 1. From the left Navigation Pane, expand Information Barrier and select Policy Application.
-    ![](../media/lab13-image27.png)
+
+   ![](../media/lab13-image27.png)
 
 1. On Policy Application page, click on Apply All Policies.
 
