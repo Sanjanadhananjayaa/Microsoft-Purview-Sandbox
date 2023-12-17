@@ -13,9 +13,13 @@ The main goal of the investigation stage is for the assigned owner to correlate 
 
 1. In preview, you see severity column with the values of Low, Medium, High and None.
 
+1. Select any one alerts and review information and click on **View details** to verify the alerts.
+
+     ![](../media/cc20.png)
+
 1. Select the Events tab to view all of the events associated with the alert. You can choose a particular event to view its details. For a list of some of the available event details, select one alert to check the details.
 
-1. Select View details to open the **Overview** page for the alert. The overview page provides a summary:
+1. Select  **Overview** tab page for the alert. The overview page provides a summary:
 
    - of what happened
    - who performed the actions that caused the policy match
@@ -35,42 +39,6 @@ The main goal of the investigation stage is for the assigned owner to correlate 
 
     ![](../media/lab12-image8.png)
 
-    ![](../media/lab12-image9.png)
-
-   
+    ![](../media/lab12-image(9).png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. Select any one alerts and review information and click on **View details** to verify the alerts.
-
-     ![](../media/cc20.png)
-
-1. Scroll down and you can see **Alert information**
-
-
-   ![](../media/cc24.png)
-
-1. Click on Event tab and review the details.
-   
-   ![](../media/cc25.png)
-
-   ![](../media/cc26.png)
-
-1. On Overview tab you can find and review all the Alerts details for user activity.
-
-   ![](../media/cc27.png)
-
-1. Click on Activity Explorer menu, here you can view activity of user by hover your mouse on bar chat.
-   ![](../media/cc23.png)
