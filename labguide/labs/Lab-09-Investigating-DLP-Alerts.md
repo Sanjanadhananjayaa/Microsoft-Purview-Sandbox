@@ -9,6 +9,47 @@ The main goal of the investigation stage is for the assigned owner to correlate 
 
    ![](../media/cc19.png)
 
+1. Choose filters to refine the list of alerts. Choose Customize columns to list the properties you want to see. You can also choose to sort the alerts in ascending or descending order in any column.
+
+1. In preview, if you have enabled sharing of the insider risk management severity level, you see a Insider risk severity column with the values of Low, Medium, High and None.
+
+1. Select the Events tab to view all of the events associated with the alert. You can choose a particular event to view its details. For a list of some of the available event details, see Get started with the data loss prevention alerts.
+
+1. Select View details to open the Overview page for the alert. The overview page provides a summary:
+
+- of what happened
+- who performed the actions that caused the policy match
+- information about the matched policy, and more
+- Choose the Events tab to access the:
+
+Source content involved
+Event Details
+Classifiers that detected a match
+File activity details
+Metadata associated with the event
+In preview, you can share the insider risk management severity level with DLP. Select the User activity summary tab to see all of the exfiltration activities the user has engaged in up to the past 120 days. Users must be in scope of an insider risk management policy policy to see the User activity summary tab.
+
+Select any Actions you want to take on the file.
+
+After you investigate the alert, return to the Overview tab where you can manage triage and manage the disposition of the alert,add comments and assign ownership of the alert.
+
+To see the history of workflow management, choose Management log.
+After you take the required action for the alert, set the status of the alert to Resolved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. Select any one alerts and review information and click on **View details** to verify the alerts.
 
      ![](../media/cc20.png)
