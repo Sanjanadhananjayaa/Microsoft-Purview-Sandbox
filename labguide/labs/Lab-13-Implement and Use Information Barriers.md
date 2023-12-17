@@ -2,142 +2,92 @@
 
 As Joni, the Compliance Administrator for Contoso Ltd., your responsibility is to configure and manage Information Barriers in Microsoft 365. Information Barriers play a critical role in maintaining clear boundaries and preventing unauthorized communication between specific groups or individuals within your organization. By implementing Information Barriers, you ensure compliance with regulations, protect sensitive information, and minimize conflicts of interest. This setup will create a secure work environment, safeguarding data confidentiality and supporting Contoso Ltd.'s commitment to compliance.
 
-## Task 1: Verify search by name is enabled in Microsoft Teams
+## Task 1: Creating segments for Information Barriers
 
-In this task, you'll verify the **Search by name** feature is enabled in Microsoft Teams. This feature allows users to search and find specific individuals within their organization easily. By following the steps provided, you will configure and activate this feature to enhance collaboration and streamline communication within your organization's Microsoft Teams environment.
+In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
+1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
-1. In **Microsoft Edge**, navigate to **https://admin.teams.microsoft.com**.
+1. Under Information Barrier, select Segment and  and click on **+ New segment**.
+   ![](../media/lab13-image4.png)
 
-1. In the left navigation pane, under the **Teams** drop down, select **Teams settings**
+1. On **Provide a segment name** page enter **HR** in name field and click **Next**.
 
-1. Scroll down to **Search by name**. If this feature is set to Off, toggle this feature **On**, then select **Save** to save this setting.
+    ![](../media/lab13-image21.png)
 
-1. On the **Changes will take time to take effect** pop up select **Confirm**
+1. On **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter HR and click on **Next**.
 
-    >**Note:** It may take a few hours for this change to take effect.
+    ![](../media/lab13-image22.png)
+    ![](../media/lab13-image23.png)
+   
+1. On Summary page, click on **Submit**.
 
-## Task 2: Enable Admin Consent for Information barriers in Microsoft Teams
+1. Repeat last 4 step to create another segment with name **Finance**. 
 
-In this task, you'll enable Admin Consent for Information barriers (IB) in Microsoft Teams. This configuration ensures compliance by allowing the removal of non-IB compliant users from groups like Teams channels.
+## Task 2: Create Information barrier policies
 
-1. Open an elevated PowerShell window by selecting the Windows button with the right mouse button and then select **Windows PowerShell (Admin)**.
+In this task, you'll create Information barrier policies to block communication between the  **HR** and **Finance** departments.
 
-1. Confirm the **User Account Control** window with **Yes**.
+1. From left navigation page of Microsoft Purview, expand Information Barrier and select Policies.
 
-1. Enter the following cmdlet to install the latest version of the Azure AD module:
+1. Click on + **Create policy**.
 
-    ```powershell
-    Install-Module AzureAD
-    ```
+1. On **Provide a policy name** page, enter **Block communication from HR to Finance** and click on **Next**.
+    ![](../media/lab13-image24.png)
 
-1. Confirm the NuGet provider security dialog with **Y** for Yes and press **Enter**. This process may take some seconds to complete.
+1. On Add assigned segment details page, select **+ Choose segment**.
 
-1. Confirm the Untrusted repository security dialog with **Y** for Yes and press **Enter**.  This process may take some seconds to complete.
+1. On Select assigned segment for this policy window select **HR** and click on **Add**.
+    ![](../media/lab13-image25.png)
 
-1. Run the following PowerShell cmdlets:
+1. Back on **Add assigned segment details** page and click **Next**.
 
-    ````powershell
-    Connect-AzureAD -Tenant "WWLxZZZZZZ"
-    $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
-    $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
-    if ($sp -eq $null) { New-AzureADServicePrincipal -AppId $appId }
-    Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
-    ````
+1. On **Configure communication and collaboration details** page
+   - **Communication and collaboration** : Blocked
+   - **+ Choose segment**: select Finance
+   - Click **Next**
 
-    >**Note:** Be sure to update ZZZZZZ. ZZZZZZ is your unique tenant ID provided by your lab hosting provider.
+1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
+    ![](../media/lab13-image26.png)
 
-1. When prompted, login with the MOD Administrator account
+1. On Summary page click on **Submit** and **Done**
 
-1. In the **Permissions requested** dialog box, review the information, and then select **Accept**.
+1. Back on **Policies** page.
 
-You have successfully installed the Azure AD module, granted the necessary permissions, and accepted the requested permissions, enabling you to proceed with the configurations using PowerShell.
+1. Click on + **Create policy**.
 
-## Task 3: Segment users in your organization
+1. On **Provide a policy name** page, enter **Block communication from Finance to HR** and click on **Next**.
+   
+1. On Add assigned segment details page, select **+ Choose segment**.
 
-In this task, you will use PowerShell to connect to the Security & Compliance module and create organization segments for the **Legal** and **Marketing** departments.
+1. On Select assigned segment for this policy window select **Finance** and click on **Add**.
+    
+1. Back on **Add assigned segment details** page and click **Next**.
 
-1. The elevated PowerShell window should still be open.
+1. On **Configure communication and collaboration details** page
+   - **Communication and collaboration** : Blocked
+   - **+ Choose segment**: select HR
+   - Click **Next**
 
-1. In the **PowerShell** window, enter the cmdlet to connect to the Security & Compliance PowerShell
+1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
+    ![](../media/lab13-image26.png)
 
-    ````powershell
-    Connect-IPPSSession
-    ````
+1. On Summary page click on **Submit** and **Done**
 
-    and sign in as **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).  Joni's password should be provided by your lab hosting provider.
+## Task 3: Apply Information barrier policies
 
-1. Run the **New-OrganizationSegment** cmdlet with the **UserGroupFilter** parameter to create a **Legal** segment:
+In this task, you will apply the active Information barrier policies and check their application status.
 
-    ````powershell
-    New-OrganizationSegment -Name "Legal" -UserGroupFilter "Department -eq 'Legal'"
-    ````
+1. From the left Navigation Pane, expand Information Barrier and select Policy Application.
+    ![](../media/lab13-image27.png)
 
-1. Run the **New-OrganizationSegment** cmdlet again to create a **Marketing** segment:
+1. On Policy Application page, click on Apply All Policies.
 
-    ````powershell
-    New-OrganizationSegment -Name "Marketing" -UserGroupFilter "Department -eq 'Marketing'"
-    ````
-
-1. Run the **Get-OrganizationSegment** cmdlet to view the segments that were created.
-
-    ````powershell
-    Get-OrganizationSegment
-    ````
-
-You have successfully connected to the Security & Compliance PowerShell, created organization segments for the Legal and Marketing departments, and viewed the segments using the Get-OrganizationSegment cmdlet.
-
-## Task 4: Create Information barrier policies
-
-In this task, you will use PowerShell to create Information barrier policies to block communication between the Legal and Marketing departments.
-
-1. The elevated PowerShell window should still be open.
-
-1. Run the **New-InformationBarrierPolicy** cmdlet with the **SegmentsBlocked** parameter to create a new **Legal-Marketing** policy:
-
-    ````powershell
-    New-InformationBarrierPolicy -Name "Legal-Marketing" -AssignedSegment "Legal" -SegmentsBlocked "Marketing" -State Active
-    ````
-
-1. When the notice on Information barriers policy warning is displayed in PowerShell type **Y** then press **Enter** to proceed with creating the policy.
-
-1. Now an information barrier policy must be created to block in the opposite direction. Run the **New-InformationBarrierPolicy** cmdlet with the **SegmentsBlocked** parameter to create a new **Marketing-Legal** policy:
-
-    ````powershell
-    New-InformationBarrierPolicy -Name "Marketing-Legal" -AssignedSegment "Marketing" -SegmentsBlocked "Legal" -State Active
-    ````
-
-1. Run the **Get-InformationBarrierPolicy** cmdlet to view the policies that were created.
-
-    ````powershell
-    Get-InformationBarrierPolicy
-    ````
-
-    >**Note:** Ensure the policies are marked as **Active** when reviewing the policies that were created. Information barrier policies must be active before they are applied.
-
-You have successfully created the Legal-Marketing and Marketing-Legal information barrier policies using PowerShell and verified their status as active by running the Get-InformationBarrierPolicy cmdlet.
-
-## Task 5: Apply Information barrier policies
-
-In this task, you will use PowerShell to apply the active Information barrier policies and check their application status.
-
-1. The elevated PowerShell window should still be open.
-
-1. Run the **Start-InformationBarrierPoliciesApplication** cmdlet to apply the active Information barrier policies:
-
-    ````powershell
-    Start-InformationBarrierPoliciesApplication
-    ````
-
-1. Run the **Get-InformationBarrierPoliciesApplicationStatus** cmdlet to view the applied policies.
-
-    ````powershell
-    Get-InformationBarrierPoliciesApplicationStatus
-    ````
-
-    >**Note:** Allow 30 minutes for the system to start applying the policies.
-
+    ![](../media/lab13-image28.png)
+   
 1. Once the policy is applied, the **Status** will update from **NotStarted** to **Completed**.
 
-You have successfully applied the Information barrier policies by running the Start-InformationBarrierPoliciesApplication cmdlet and verified their application status using the Get-InformationBarrierPoliciesApplicationStatus cmdlet.
+    ![](../media/lab13-image29.png)
+
+
 
