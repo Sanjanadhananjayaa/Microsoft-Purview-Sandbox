@@ -8,6 +8,10 @@
         "Order": 1
         }, 
        {
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-01-Configure-Sensitive-Labels%E2%80%AF.md",
+        "Order": 2
+       },
+       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/main/labguide/labs/Overview.md",
         "Order": 2
         },
