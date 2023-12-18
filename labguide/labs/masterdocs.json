@@ -28,44 +28,40 @@
         "Order": 6
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-06-Create%20DLP%20Policies.md",
         "Order": 7
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-08-Configure-DLP-Alerts.md",
         "Order": 8
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-09-Investigating-DLP-Alerts.md",
         "Order": 9
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-10-Conduct-Configure-Safe-breach-simulation.md",
         "Order": 10
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-11-Create-insider-risk-policies.md",
         "Order": 11
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-12-Investigate-insider-risk-activities.md",
         "Order": 12
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-13-Implement%20and%20Use%20Information%20Barriers.md",
         "Order": 13
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-15-ediscovery.md",
         "Order": 14
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-16-Retention%20Policies%E2%80%AF%E2%80%AF.md",
         "Order": 15
-       },
-       {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
-        "Order": 16
        }
      ]  
    }
