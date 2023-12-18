@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Deploy AIP Unified Labeling Client 
 
-1. Download AzInfoProtection_UL.exe from the Microsoft Download Center.
+1. Download AzInfoProtection_UL.exe from the Microsoft Download Center(https://www.microsoft.com/en-us/download/details.aspx?id=53018).
 
 1. On Azure Information Protection page click on **Download**.
 
