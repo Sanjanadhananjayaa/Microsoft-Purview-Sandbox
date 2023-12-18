@@ -56,6 +56,12 @@ A data provider creates a share by selecting a data source that is registered in
 
 1.  Once validation passed click on **Create**.
 
+1. Once storage account is created, click on the storage account which you created.
+1. Under Data Storage section, select Containers option and click on **+ container**. Provide some name and click on create.
+1. Open the File Explorer and create some text file.
+1. Back on **Storage account** window, select the container which you created and click on the upload, select browse for the files and select the text file which you created and click on upload.
+
+
 ### Task 3 : 
 
 1. Sign in to Purview(https://purview.microsoft.com/)
@@ -67,11 +73,11 @@ A data provider creates a share by selecting a data source that is registered in
 
    ![](../media/lab14-image6.png)
 
- 1. On **Register Data Source** window, in the search bar, search and select **Azure Data Lake Storage Gen2** and click on Continue.
+1. On **Register Data Source** window, in the search bar, search and select **Azure Data Lake Storage Gen2** and click on Continue.
 
      ![](../media/lab14-image7.png)
 
- 1. On Registered data source (Azure Data Lake storage Gen2), specify the following  and click on Register.   
+1. On Registered data source (Azure Data Lake storage Gen2), specify the following  and click on Register.   
 
      |   **Option** | **Value** *        |
      | ------------ | ------------------ | 
@@ -83,10 +89,14 @@ A data provider creates a share by selecting a data source that is registered in
     ![](../media/lab14-image8.png)
 
 1. In the Azure portal, in the search bar, search for subscription and select Subscription which is listed.
-2. Under Settings section, select **Preview features** option.
-3. In Search bar search for allow,  select **AllowDataSharingInheroRegion** and **AllowDataSharing**, click on **+ Register**.
-4. Under Setting section, select **Resource providers** and in search bar search for storage and select **Microsoft.StorageActions**,  **Microsoft.StorageTasks** and click on **Register**.
-5. Return back to **Purview(https://purview.microsoft.com/)** and 
+
+1. Under Settings section, select **Preview features** option.
+
+1. In Search bar search for allow,  select **AllowDataSharingInheroRegion** and **AllowDataSharing**, click on **+ Register**.
+
+1. Under Setting section, select **Resource providers** and in search bar search for storage and select **Microsoft.StorageActions**,  **Microsoft.StorageTasks** and click on **Register**.
+
+1. Return back to **Purview(https://purview.microsoft.com/)** and 
 
 1. Select **Data Map**, Under Data Sharing section  select **Shares** and click on **+ New share**.
 
@@ -106,4 +116,6 @@ A data provider creates a share by selecting a data source that is registered in
 
 1. Back on shares notice Sent shares.
 
-1. Check your email id where you have received the Invite link. 
+    ![](../media/lab14-image12.png)
+
+1. Check your email id  you have received the Invite link. 
