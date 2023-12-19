@@ -72,7 +72,6 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab2-image14.png)   
 
-1. It can take up to 24 hours to publish the labels to the selected users apps
 
 ## Review
 + Explore on how to Publish sensitivity labels
