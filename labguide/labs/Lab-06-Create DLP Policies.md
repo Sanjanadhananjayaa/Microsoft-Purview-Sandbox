@@ -1,7 +1,13 @@
-# lab - 06 : Create a DLP policy
+# lab 06 - Create a DLP policy
+
+## Lab scenario
 
 In this lab, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
++ Task 1 – Create a DLP policy
 
 ### Task 1 – Create a DLP policy
 
