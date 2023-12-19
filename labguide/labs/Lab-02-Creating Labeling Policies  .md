@@ -1,5 +1,18 @@
 # lab02 - Creating Labeling Policies  
 
+## Lab scenario
+In this lab, you will get know how to publish sensitive label.
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Publish sensitivity labels
+  
+## Architecture diagram
+
+
+### Task 1 : Publish sensitivity labels
 
 1. On the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Label policies** and click on **Publish label**.
 
@@ -62,4 +75,4 @@
 1. It can take up to 24 hours to publish the labels to the selected users apps
 
 ## Review
-+ Explore on how to publish label.
++ Explore on how to Publish sensitivity labels
