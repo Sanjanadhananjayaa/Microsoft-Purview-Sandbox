@@ -30,7 +30,9 @@ A data provider creates a share by selecting a data source that is registered in
 
 1.  Validation is passed. Click on Create.
 
-### Task 1 : Create Storage account in Azure Portal
+### Task 2 : Create Storage account in Azure Portal
+
+In this task, you'll create storage account and container 
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Storage accounts**, and then select  **Storage accounts** under services.
 
@@ -62,7 +64,9 @@ A data provider creates a share by selecting a data source that is registered in
 1. Back on **Storage account** window, select the container which you created and click on the upload, select browse for the files and select the text file which you created and click on upload.
 
 
-### Task 3 : 
+### Task 3 : Azure Storage in-place data sharing with Microsoft Purview
+
+In this task, you'll work on Azure Storage in-place data sharing with Microsoft Purview
 
 1. Sign in to Purview(https://purview.microsoft.com/)
 
