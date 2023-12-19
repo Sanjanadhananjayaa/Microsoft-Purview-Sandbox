@@ -4,11 +4,15 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
-3. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
 
    ![](../media/lab6-image1.png)
 
-1. On **Policies** page, select **+ Create policy** to start the wizard for creating a new data loss prevention policy.
+1. On **Policies** page, select **settings** icon at top right conner and expland **Browser and domain restrictions to sensitive data** and under **Unallowed browsers** click on **+ Add or edit unallowed browsers** select Firefox and Google Chrome, click on **Add**.
+
+    ![](../media/lab6-image6.png)
+
+1. Back on **Policies** page, select **+ Create policy** to start the wizard for creating a new data loss prevention policy.
 
     ![](../media/lab6-image2.png)
 
