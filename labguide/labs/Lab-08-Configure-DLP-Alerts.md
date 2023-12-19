@@ -4,8 +4,20 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
-1. 
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
 
+   ![](../media/lab6-image1.png)
+
+1. Select the **Credit card policy** and click **Edit**.
+
+1. Navigate to **Customize advanced DLP rules** page and select **Edit** icon.
+
+1. Under **Investigate** notice the setting and here you can change Serverity on alerts as per your requirement.
+
+1. For now keep as it is and select cancel.
+   
+    >**Note**: This configuration allows you to set up a policy to generate an alert every time an activity matches the policy conditions or when a certain threshold is 
+    exceeded, based on the number of activities or based on the volume of exfiltrated data.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts**.
 
