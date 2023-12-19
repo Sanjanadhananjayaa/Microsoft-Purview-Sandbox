@@ -1,4 +1,4 @@
-# lab02 - Creating Labeling Policies  
+# lab 02 - Creating Labeling Policies  
 
 ## Lab scenario
 
