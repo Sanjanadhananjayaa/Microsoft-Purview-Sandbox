@@ -16,8 +16,7 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
 1. For now keep as it is and select cancel.
    
-    >**Note**: This configuration allows you to set up a policy to generate an alert every time an activity matches the policy conditions or when a certain threshold is 
-    exceeded, based on the number of activities or based on the volume of exfiltrated data.
+    >**Note**: This configuration allows you to see these options when you create or edit a DLP policy. Use this option to create an alert that's raised every time a DLP rule match happens.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts**.
 
@@ -31,6 +30,8 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
 1. Add email address of outside organization people and provide subject, enter some demo credit card number and try to send this mail.
    ![](../media/cc17.png)
+
+   >**Note**: Notice policy tip.
 
 1. Notice that email is restricted by policy and you receive mail as showed below.
     
