@@ -1,4 +1,3 @@
-
 # Lab 05 - Use M365 Apps to Label data
 
 ## Lab scenario
