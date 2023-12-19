@@ -1,7 +1,8 @@
 # lab02 - Creating Labeling Policies  
 
 ## Lab scenario
-In this lab, you will get know how to publish existing sensitive label.
+
+After you create your sensitivity labels, you need to publish them to make them available to people and services in your organization. The sensitivity labels can then be applied to Office documents and emails, and other items that support sensitivity labels.
 
 ## Lab objectives
 
