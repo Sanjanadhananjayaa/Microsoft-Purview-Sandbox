@@ -127,3 +127,17 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
    >**Note**: If you have your personal purview account you can select Share invites. If you received an email invitation, you can also select the View share invite link in the email to select a Microsoft Purview account.
 
    >**Note**: When a share is attached, a new asset of type received share is ingested into the Microsoft Purview catalog, in the same collection as the storage account to which you attached the share is registered. You can search or browse for it like any other asset.
+
+# Task 4 : Update received share (Read only)
+
+>**Note** : If you have personal purview account you can perform the task.
+
+1. In purview portal, select the Data Map icon from the left navigation. In the new portal, navigate to the Data Catalog application.
+
+1. Select Share invites. If you received an email invitation, you can also select the View share invite link in the email to select a Microsoft Purview account.
+
+1. If you're a guest user of a tenant, you'll be asked to verify your email address for the tenant before viewing share invitation for the first time.
+
+1. After you've selected your data share to edit, you can reattach the share to a new storage account or path in your current storage account by selecting a storage account, providing a path, and providing the folder.
+
+1. If you're updating the target, select Attach to target to save your changes. Attaching can take a couple minutes to complete after the process has been started.
