@@ -4,6 +4,9 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
+1. 
+
+
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts**.
 
    ![](../media/cc22.png)
