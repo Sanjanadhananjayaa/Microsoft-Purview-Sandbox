@@ -106,6 +106,7 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
 ## Task 3: Create an eDiscovery hold
+
 Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the exchange mailbox belonging to ODL-User.
 
 1. Open the Core eDiscovery tab on your browser.
@@ -149,7 +150,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 ## Task 4: Create a search query
 With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
-1. Open the SC900 Test case tab on your browser.
+1. Open the Test case tab on your browser.
 
 1. From the Holds page of the case, select **Searches** and from the Search page, select **+ New Search**.
 
