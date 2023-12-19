@@ -1,15 +1,14 @@
 # Lab 01 - Configure Sensitive Labels 
 
 ## Lab scenario
-In this lab, you will get know how on what are the basic primary steps to protect the sensitive data.
+In this lab, you will get know how to on create sensitive label.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: know how on sensitivity labels
-+ Task 2: Classification on sensitive data
-
++ Task 1: Explore the capabilities of sensitivity labels
+  
 ## Architecture diagram
 ![](../media/part1lab1.png)
 
