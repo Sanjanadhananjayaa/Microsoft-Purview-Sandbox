@@ -1,11 +1,16 @@
 # Lab 16 - Configure Retention Policies
 
+## Lab scenario
 
 In this exercise, you will assume the role of Joni Sherman, a System Administrator for Contoso Ltd. Your organization is based in Texas and wants to implement retention policies to adhere to state laws, which stipulates that records may be deleted after 1 day without constituting an offense.
 
 In order to adhere to this law your organization has created a retention plan to retain all items in the organization for 1 day.
 
 >**Note**: When you create and submit a retention policy, it can take up to seven days for the retention policy to be applied.
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
 
 ## Task 1 – Create company-wide Retention Policy
 
