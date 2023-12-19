@@ -1,7 +1,8 @@
 # Lab 01 - Configure Sensitive Labels 
 
 ## Lab scenario
-In this lab, you'll get know how to on create sensitive label.
+
+Microsoft Purview Information Protection's Sensitivity labels empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
 
 ## Lab objectives
 
@@ -15,7 +16,7 @@ In this lab, you will complete the following tasks:
 ### Task 1: Explore the capabilities of sensitivity labels
 In this task you will understand what sensitivity labels by the creating sensitivity label.
 
-1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**.
+1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**(https://admin.microsoft.com/).
 
 1. Sign in with your admin credentials.
    
@@ -39,11 +40,9 @@ In this task you will understand what sensitivity labels by the creating sensiti
     
     ![](../media/sc-900-lab13-01.png)
 
-1. From the left navigation panel of the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Overview**.
+1. From the left navigation panel of the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Overview** and review the information.
 
-1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
-
-    ![](../media/lab1-image1.png)
+1. From left menu select **labels** and in the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
 
 1. On **Labels** tab from the dropdown and then select **+ Create a label**
 
