@@ -1,7 +1,7 @@
 # Lab 01 - Configure Sensitive Labels 
 
 ## Lab scenario
-In this lab, you will get know how to on create sensitive label.
+In this lab, you'll get know how to on create sensitive label.
 
 ## Lab objectives
 
@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 ![](../media/part1lab1.png)
 
 ### Task 1: Explore the capabilities of sensitivity labels
-In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
+In this task you will understand what sensitivity labels by the creating sensitivity label.
 
 1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**.
 
