@@ -1,5 +1,10 @@
-# Lab12 - Investigate insider risk activities
+# Lab 12 - Investigate insider risk activities
 
+## Lab scenario
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
 
 ### Task 1 : Create Insider Risk Management Investigators
 
