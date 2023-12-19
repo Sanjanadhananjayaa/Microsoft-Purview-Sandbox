@@ -1,7 +1,8 @@
-# Part:1 Lab 05 - Configure Safe breach simulation
+# Lab 10 - Configure Safe breach simulation
 
 ## Lab scenario
 In this lab, you will explore how the simulations are benign cyberattacks that you run in your organization. These simulations test your security policies and practices, as well as train your employees to increase their awareness and decrease their susceptibility to attacks.
+
 
 ## Lab objectives
 
