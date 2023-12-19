@@ -1,7 +1,7 @@
 # lab02 - Creating Labeling Policies  
 
 ## Lab scenario
-In this lab, you will get know how to publish sensitive label.
+In this lab, you will get know how to publish existing sensitive label.
 
 ## Lab objectives
 
@@ -13,6 +13,8 @@ In this lab, you will complete the following tasks:
 
 
 ### Task 1 : Publish sensitivity labels
+
+In this lab, you will publish existing sensitive label.
 
 1. On the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Label policies** and click on **Publish label**.
 
