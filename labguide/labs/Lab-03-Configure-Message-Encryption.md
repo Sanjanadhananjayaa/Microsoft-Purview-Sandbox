@@ -2,9 +2,9 @@
 
 # Lab scenario
 
-In this lab, you will take on the persona of Holly Dickson, Adatum’s Security Administrator. You have been tasked with piloting the use of Microsoft 365 message encryption in Adatum’s Microsoft 365 deployment.
+Microsoft Purview Message Encryption enables organizations to securely share protected emails across any device. Users can send encrypted messages not only within Microsoft 365 organizations but also with external parties using services like Outlook.com, Gmail, and other email platforms.
 
-In this lab you will set up Azure Rights Management for your tenant. You will also learn how to create a mail flow encryption rule using the Exchange Admin Center.
+You will also learn how to create a mail flow encryption rule using the Exchange Admin Center.
 
 ## Lab objectives
 
@@ -52,7 +52,7 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule. Close the window.
    ![Picture 1](../media/image8-lab3.png)
-1. Leave your browser session open for the next exercise.
+
 
 ## Review
 In this lab, you will complete the following task:
