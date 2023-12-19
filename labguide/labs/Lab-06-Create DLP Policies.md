@@ -1,6 +1,6 @@
-### Task 1 – Create a DLP policy in test mode
+### Task 1 – Create a DLP policy
 
-In this exercise, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information. The policy will be implemented in test mode because you do not want the block action to affect your users yet.
+In this exercise, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
