@@ -1,4 +1,4 @@
-# lab 06 - Create a DLP policy
+# Lab 06 - Create a DLP policy
 
 ## Lab scenario
 
