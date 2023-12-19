@@ -47,4 +47,4 @@ In this lab, you will complete the following tasks:
 
     ![](../media/lab12-image(9).png)
 
-
+You Investigated the alert in the DLP alert management dashboard and also explored on  Activity explorer to investigate alerts. You can also share alerts with other users in your organization.
