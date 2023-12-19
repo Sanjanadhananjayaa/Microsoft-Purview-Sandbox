@@ -69,4 +69,4 @@ In this exercise, you will create a Data Loss Prevention policy in the Microsoft
 1. On the Review and finish review the information and click **submit**. 
      ![](../media/cc15.png)
 
-You have now created a DLP policy that scans for Credit Card numbers in Microsoft Teams chats and channels and allows users to provide a business justification to override the policy.
+You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.
