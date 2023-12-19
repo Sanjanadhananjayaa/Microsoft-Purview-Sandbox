@@ -1,4 +1,4 @@
-# Part:1 Lab 03 - Configure Message Encryption  
+# Lab 03 - Configure Message Encryption  
 
 # Lab scenario
 
