@@ -69,7 +69,8 @@ In this task you, as the global administrator, will enable permissions for Insid
 ### Task 2: Apply to all insider risk management policies
 In this task you will walk through the settings associated with the Insider Risk Management solution.  Insider risk management settings apply to all insider risk management policies, regardless of the template you choose when creating a policy. 
 
-1. You should be on the Microsoft 365 compliance center home page. If not, Open the browser tab **Home - Microsoft 365 compliance**.
+1. You should be on the Microsoft 365 compliance center home page. If not, Open the browser tab **Home - Microsoft 365 compliance**. 
+    https://compliance.microsoft.com/insiderriskmgmt
 
 1. From the left navigation panel under Solutions, select **Insider risk management**.
 
