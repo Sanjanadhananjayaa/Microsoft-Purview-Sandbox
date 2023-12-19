@@ -4,8 +4,6 @@
 
 Microsoft Purview Message Encryption enables organizations to securely share protected emails across any device. Users can send encrypted messages not only within Microsoft 365 organizations but also with external parties using services like Outlook.com, Gmail, and other email platforms.
 
-You will also learn how to create a mail flow encryption rule using the Exchange Admin Center.
-
 ## Lab objectives
 
 In this lab, you will complete the following task:
