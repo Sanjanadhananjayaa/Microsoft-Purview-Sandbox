@@ -1,4 +1,4 @@
-# Lab - 14 - Azure Storage in-place data share with Microsoft Purview Data Sharing 
+# Lab  14 - Azure Storage in-place data share with Microsoft Purview Data Sharing 
 
 ## Lab scenario
 
