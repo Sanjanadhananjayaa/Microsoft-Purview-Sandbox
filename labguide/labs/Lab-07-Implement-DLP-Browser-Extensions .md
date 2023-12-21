@@ -22,6 +22,17 @@ In this lab, you will complete the following tasks:
 
    >**Note**: This will affect all applications including Windows services which use WinHTTP with default proxy.
 
+### Onboard Windows devices into Microsoft 365
+
+
+
+
+
+
+
+
+
+
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
