@@ -65,8 +65,6 @@ In this lab, you will complete the following tasks:
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
 
 1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says **Successfully onboarded machine to Microsoft Defender for Endpoint**.
-
-   ![Picture 1](../media/image6-lab3.png)
    
 1. Press any key to continue. This will close the Command Prompt window.
 
