@@ -22,19 +22,40 @@ In this lab, you will complete the following tasks:
 
    >**Note**: This will affect all applications including Windows services which use WinHTTP with default proxy.
 
+### Join device to Microsoft Entra
+
+
+
+
+
+
+
+
 ### Onboard Windows devices into Microsoft 365
 
 
+1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
+1. Choose Settings > Device onboarding > Devices.
+1. On the Device, choose **Turn on device onboarding**.
+
+   >**Note**: It takes some time kindly for 2-3 mins refresh the page 
+
+1. Choose Onboarding to begin the onboarding process, follow the below steps:
+
+   - Select operating system to start onboarding process: **Window 10**
+   - Deployment method: **Local script (for up to 10 machines)**
+   - Click **Download package**
+  
+1. Once downloading is completed click on **show on folder** icon.
+1. On File Explorer, right click on the **DeviceComplianceOnboardingPackage** file and select extract all.
+2. On Extract Compressed zip folder, window with default loaction click on Extract.   
+
+1. Choose the way you want to deploy to these other devices from the Deployment method list and then download package.
+
+>**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
 
 
-
-
-
-
-
-
-
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
+1. Open Microsoft Edge and go to  **https://compliance.microsoft.com** 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
 
