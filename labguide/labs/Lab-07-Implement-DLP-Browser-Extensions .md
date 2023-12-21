@@ -178,7 +178,7 @@ In this lab, you will complete the following tasks:
 1. Back on **Customize advanced DLP rules** page, and click on **Next**.
 
 
-1. On **Policy mode** select **Run the policy in test mode** and click **Next**.
+1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
   
 
 1. On the Review and finish review the information and click **submit**. 
