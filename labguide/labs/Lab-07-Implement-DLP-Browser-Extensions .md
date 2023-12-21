@@ -1,4 +1,4 @@
-# Lab  07 - Implement data lose preventention browser extension 
+# Lab  07 - Implementing Microsoft Purview extension for Chrome
 
 ## Lab scenario
 
