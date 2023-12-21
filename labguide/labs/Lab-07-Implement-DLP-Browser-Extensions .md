@@ -179,5 +179,3 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
    ![](lab7-image12.png)
 
-1. Open word document sensitive information that conatains, click on file menu and select **Print** notice how printing sensetive file is blocked by policy
-   
