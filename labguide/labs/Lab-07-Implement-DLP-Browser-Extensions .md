@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 
 ### Configure the proxy server manually using "netsh" command
 
->**Note**: If you're onboarding Windows 10 or Windows 11 devices, to make sure that the device can communicate with the cloud DLP service.
+>**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
 1. From start menu Start and type cmd right-click **Command prompt** and select **Run as administrator**.
 
