@@ -74,9 +74,8 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
     ![](../media/cc13.png)
 
-1. On **Policy mode** select **Run the policy in test mode** and click **Next**.
-   ![](../media/cc14.png)
-
+1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
+  
 1. On the Review and finish review the information and click **submit**. 
      ![](../media/cc15.png)
 
