@@ -100,4 +100,4 @@ In this task, you will apply the active Information barrier policies and check t
     ![](../media/lab13-image29.png)
 
 
-
+Microsoft Purview Information Barriers enable you to create policies to keep people or groups from communicating with one another (when there's no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below).
