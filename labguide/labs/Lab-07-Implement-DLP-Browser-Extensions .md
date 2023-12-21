@@ -28,7 +28,9 @@ In this lab, you will complete the following tasks:
 ### Join device to Microsoft Entra
 
 1. From start menu search and select **Settings**.
+   
 1. From the left menu select **Account** > **Access work or school** and click on **Connect** button.
+   
 1. On Sign in page select join to **Microsoft Entra ID** and sign in with following crendential
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
@@ -41,9 +43,11 @@ In this lab, you will complete the following tasks:
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
 
-1. Choose Settings > Device onboarding > Devices.
+1. Choose Settings > Device onboarding. 
 
-1. On the Device, choose **Turn on device onboarding**.
+    ![](../media/lab7-image7.png)
+
+1. Select Device on **Device Onboarding**, choose **Turn on device onboarding**.
 
    >**Note**: It takes some time kindly for 2-3 mins refresh the page 
 
@@ -52,8 +56,12 @@ In this lab, you will complete the following tasks:
    - Select operating system to start onboarding process: **Window 10**
    - Deployment method: **Local script (for up to 10 machines)**
    - Click **Download package**
-  
+
+  ![](../media/lab7-image8.png)
+
 1. Once downloading is completed click on **show on folder** icon.
+
+   ![](../media/lab7-image9.png)
 
 1. On File Explorer, right click on the **DeviceComplianceOnboardingPackage** file and select extract all.
 
@@ -170,6 +178,8 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 1. Navigate to the Policies page and choose the Settings icon located in the top-right corner of the page.
 1. From the left menu select **Endpoint settings** and expand **browser and domain restriction to sensitive data**, under Unallowed browsers click on **+ Add or Edit Unallowed browser**, and **Google Chrome** then click on Save.
+
+   ![](../media/lab7-image11.png)
 
    >**Note**  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
 
