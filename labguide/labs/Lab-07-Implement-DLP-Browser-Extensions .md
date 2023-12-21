@@ -24,18 +24,19 @@ In this lab, you will complete the following tasks:
 
 ### Join device to Microsoft Entra
 
+1. From start menu search and select **Settings**.
+1. From the left menu select **Account** > **Access work or school** and click on **Connect** button.
+1. On Sign in page select join to **Microsoft Entra ID** and sign in with following crendential
 
-
-
-
-
-
+1.    
 
 ### Onboard Windows devices into Microsoft 365
 
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
+
 1. Choose Settings > Device onboarding > Devices.
+
 1. On the Device, choose **Turn on device onboarding**.
 
    >**Note**: It takes some time kindly for 2-3 mins refresh the page 
@@ -47,8 +48,10 @@ In this lab, you will complete the following tasks:
    - Click **Download package**
   
 1. Once downloading is completed click on **show on folder** icon.
+
 1. On File Explorer, right click on the **DeviceComplianceOnboardingPackage** file and select extract all.
-2. On Extract Compressed zip folder, window with default loaction click on Extract.   
+
+1. On Extract Compressed zip folder, window with default loaction click on Extract.   
 
 >**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
 
@@ -57,7 +60,6 @@ In this lab, you will complete the following tasks:
     ![Picture 1](../media/sc200-mod2-unblock.png)
 
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
-
 
 1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says **Successfully onboarded machine to Microsoft Defender for Endpoint**.
 
@@ -76,10 +78,6 @@ In this lab, you will complete the following tasks:
    **Note:** The window closes automatically after running the script.
 
    >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
-
-
-
-
 
 
 1. In the Microsoft Defender portal, in the left-hand menu, under the **Assets** area, select **Devices**. If the device is not shown, complete the next task and come back to check it back later. It can take up to 60 minutes for the first device to be displayed in the portal.
