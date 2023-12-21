@@ -171,7 +171,13 @@ In this task you'll configure Browser and domain restrictions to sensitive data
    >**Note**  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
 
 
+### Task 4 : Test the Extension
 
+1. Search and select google chrome from start menu  and copy the link of a word document containing sensitive information, and then try to paste it in Google Chrome. Observe the notification indicating a lack of permission to access the file.
 
+1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the document that containing sensitive information notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress
 
+   ![](lab7-image12.png)
 
+1. Open word document sensitive information that conatains, click on file menu and select **Print** notice how printing sensetive file is blocked by policy
+   
