@@ -2,6 +2,8 @@
 
 ## Lab scenario
 
+DLP triggers an alert if a user takes an action that aligns with a DLP policy, and you have configured Incident reports to generate alerts. The alert is then posted in the DLP Alerts dashboard for further investigation.
+
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
