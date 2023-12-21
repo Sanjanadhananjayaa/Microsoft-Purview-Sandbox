@@ -8,6 +8,10 @@ DLP triggers an alert if a user takes an action that aligns with a DLP policy, a
 
 In this lab, you will complete the following tasks:
 
+### Task 1 : create a dlp policies 
+
+In this task you'll create dlp policy in Microsoft purview
+
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
