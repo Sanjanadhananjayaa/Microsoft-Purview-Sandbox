@@ -42,7 +42,7 @@ In this task you'll create dlp policy in Microsoft purview
 
 1. Select **New Email** from the top left corner of the screen.
 
-1. Add email address of outside organization people and provide subject, enter some demo credit card number and try to send this mail.
+1. Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and provide subject, enter some demo credit card number and try to send this mail.
    ![](../media/cc17.png)
 
    >**Note**: Notice policy tip.
