@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 
 >**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
-1. From start menu Start and type cmd right-click **Command prompt** and select **Run as administrator**.
+1. From Start menu type cmd right-click **Command prompt** and select **Run as administrator**.
 
 1. Enter the following command and press Enter:
     ```
@@ -27,7 +27,7 @@ In this lab, you will complete the following tasks:
 
 ### Join device to Microsoft Entra
 
-1. From start menu search and select **Settings**.
+1. Select the Start menu and type, then choose **Settings** from the search results.
    
 1. From the left menu select **Account** > **Access work or school** and click on **Connect** button.
    
@@ -37,7 +37,7 @@ In this lab, you will complete the following tasks:
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
-### Onboard Windows devices into Microsoft 365
+### Onboard Windows 11 devices into Microsoft 365
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
 
@@ -45,17 +45,17 @@ In this lab, you will complete the following tasks:
 
     ![](../media/lab7-image7.png)
 
-1. Select **Device** on **Device Onboarding**, choose **Turn on device onboarding**.
+1. Select **Device** on **Device Onboarding**, window and choose **Turn on device onboarding**.
 
    >**Note**: Wait for a few minutes for the device to turn on, and refresh the page every now and then.
 
-1. Choose Onboarding to begin the onboarding process and follow the below steps:
+1. Select "Onboarding" to start the onboarding process and follow the steps below:
 
    - Select operating system to start onboarding process: **Window 10**
    - Deployment method: **Local script (for up to 10 machines)**
    - Click **Download package**
 
-  ![](../media/lab7-image8.png)
+    ![](../media/lab7-image8.png)
 
 1. Once downloading is completed click on **show on folder** icon.
 
@@ -65,7 +65,7 @@ In this lab, you will complete the following tasks:
 
 1. On Extract Compressed zip folder, window with default loaction click on Extract.   
 
->**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
+   >**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
 
 1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
 
@@ -77,7 +77,7 @@ In this lab, you will complete the following tasks:
    
 1. Press any key to continue. This will close the Command Prompt window.
 
-1. Back in the Onboarding page from the Microsoft Defender portal, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+1. Back in the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
     ![Picture 1](../media/image_55.png)
 
@@ -89,15 +89,11 @@ In this lab, you will complete the following tasks:
 
    >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
-
-1. In the Microsoft Defender portal, in the left-hand menu, under the **Assets** area, select **Devices**. If the device is not shown, complete the next task and come back to check it back later. It can take up to 60 minutes for the first device to be displayed in the portal.
-
-     ![Picture 1](../media/dd3.png)
+1. In the purview portal, in the left-hand menu, select **Devices** and if the device isn't displayed, please wait for a while.
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
     
-
-### Task 2 : Create policy
+### Task 2 : Create a policy
 
 1. Open Microsoft Edge and go to  **https://compliance.microsoft.com** 
 
@@ -171,6 +167,7 @@ In this lab, you will complete the following tasks:
 In this task you'll configure Browser and domain restrictions to sensitive data
 
 1. Navigate to the Policies page and choose the Settings icon located in the top-right corner of the page.
+
 1. From the left menu select **Endpoint settings** and expand **browser and domain restriction to sensitive data**, under Unallowed browsers click on **+ Add or Edit Unallowed browser**, and **Google Chrome** then click on Save.
 
    ![](../media/lab7-image11.png)
