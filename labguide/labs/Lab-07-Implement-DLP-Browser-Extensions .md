@@ -37,9 +37,7 @@ In this lab, you will complete the following tasks:
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
-
 ### Onboard Windows devices into Microsoft 365
-
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
 
@@ -47,11 +45,11 @@ In this lab, you will complete the following tasks:
 
     ![](../media/lab7-image7.png)
 
-1. Select Device on **Device Onboarding**, choose **Turn on device onboarding**.
+1. Select **Device** on **Device Onboarding**, choose **Turn on device onboarding**.
 
-   >**Note**: It takes some time kindly for 2-3 mins refresh the page 
+   >**Note**: Wait for a few minutes for the device to turn on, and refresh the page every now and then.
 
-1. Choose Onboarding to begin the onboarding process, follow the below steps:
+1. Choose Onboarding to begin the onboarding process and follow the below steps:
 
    - Select operating system to start onboarding process: **Window 10**
    - Deployment method: **Local script (for up to 10 machines)**
@@ -107,11 +105,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab6-image1.png)
 
-1. On **Policies** page, select **settings** icon at top right conner and expland **Browser and domain restrictions to sensitive data** and under **Unallowed browsers** click on **+ Add or edit unallowed browsers** select Firefox and Google Chrome, click on **Add**.
-
-    ![](../media/lab6-image6.png)
-
-1. Back on **Policies** page, select **+ Create policy** to start the wizard for creating a new data loss prevention policy.
+1.  On **Policies** page, select **+ Create policy** to start the wizard for creating a new data loss prevention policy.
 
     ![](../media/lab6-image2.png)
 
