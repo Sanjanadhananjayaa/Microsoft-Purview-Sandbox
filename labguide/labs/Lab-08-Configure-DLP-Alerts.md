@@ -22,7 +22,11 @@ In this task you'll create dlp policy in Microsoft purview
 
 1. Navigate to **Customize advanced DLP rules** page and select **Edit** icon.
 
-1. Under **Investigate** notice the setting and here you can change Serverity on alerts as per your requirement.
+1. Under **Investigate** notice the setting and here you can change Severity on alerts as per your requirement.
+
+   - Single-event alerts are typically used in policies that monitor for highly sensitive events that occur in a low volume, like a single email with 10 or more customer credit card numbers being sent outside your organization.
+
+   - Aggregate-event alerts are typically used in policies that monitor for events that occur in a higher volume over a period of time. For example, an aggregate alert can be triggered when 10 individual emails each with one customer credit card number is sent outside your org over 48 hours.
 
 1. For now keep as it is and select cancel.
    
@@ -43,7 +47,8 @@ In this task you'll create dlp policy in Microsoft purview
 
    >**Note**: Notice policy tip.
 
-1. Notice that email is restricted by policy and you receive mail as showed below.
+1. Observe that email is restricted by the policy, and you'll receive a message as demonstrated below.
     
-    ![](../media/cc18.png)
+    ![](../media/cc18.png)  
 
+Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time. There are two types of alerts that can be configured in DLP policies.
