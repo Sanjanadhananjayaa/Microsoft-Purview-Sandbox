@@ -7,7 +7,21 @@
 In this lab, you will complete the following tasks:
 
 
-### Task 1 – 
+### Task 1 – Prerequisties
+
+### Configure the proxy server manually using "netsh" command
+
+>**Note**: If you're onboarding Windows 10 or Windows 11 devices, to make sure that the device can communicate with the cloud DLP service.
+
+1. From start menu Start and type cmd right-click **Command prompt** and select **Run as administrator**.
+
+1. Enter the following command and press Enter:
+    ```
+    netsh winhttp set proxy 10.0.0.6:8080
+    ```
+
+   >**Note**: This will affect all applications including Windows services which use WinHTTP with default proxy.
+
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
