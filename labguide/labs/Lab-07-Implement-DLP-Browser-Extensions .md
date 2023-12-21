@@ -2,6 +2,9 @@
 
 ## Lab scenario
 
+In this lab you'll be implementing the the Microsoft Purview extension for Google Chrome in a controlled lab environment.
+To enhance data discovery and classification capabilities.
+
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
@@ -179,3 +182,4 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
    ![](lab7-image12.png)
 
+By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
