@@ -184,6 +184,6 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the document that containing sensitive information notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress
 
-   ![](lab7-image12.png)
+   ![](../media/lab7-image12.png)
 
 By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
