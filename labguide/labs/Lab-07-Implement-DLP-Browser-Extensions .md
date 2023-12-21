@@ -88,30 +88,7 @@ In this lab, you will complete the following tasks:
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Task 2 : Create policy
 
 1. Open Microsoft Edge and go to  **https://compliance.microsoft.com** 
 
@@ -181,5 +158,20 @@ In this lab, you will complete the following tasks:
 1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
   
 
-1. On the Review and finish review the information and click **submit**. 
-    
+1. On the Review and finish review the information and click **submit**.
+
+
+### Task 3 : Updating Endpoint settings
+
+In this task you'll configure Browser and domain restrictions to sensitive data
+
+1. Navigate to the Policies page and choose the Settings icon located in the top-right corner of the page.
+1. From the left menu select **Endpoint settings** and expand **browser and domain restriction to sensitive data**, under Unallowed browsers click on **+ Add or Edit Unallowed browser**, and **Google Chrome** then click on Save.
+
+   >**Note**  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
+
+
+
+
+
+
