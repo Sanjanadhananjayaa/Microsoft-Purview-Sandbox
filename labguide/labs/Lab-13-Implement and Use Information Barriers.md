@@ -207,3 +207,6 @@ In this lab, you have completed:
 + Create Information barrier policies
 + Apply Information barrier policies
 + Assess Information Barriers functionality within Microsoft Teams.
+
+## You have successfully completed the lab
+
