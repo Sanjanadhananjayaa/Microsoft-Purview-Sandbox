@@ -163,8 +163,7 @@ In this task you can viewing shared invitations in any Microsoft Purview account
 
 Select name of the share to view or configure.
 
-### Task 4: 
-
+### Task 4: ### Task 4 : Update received share 
 
 In this task you'll update Received share
 
@@ -178,20 +177,5 @@ In this task you'll update Received share
 
 1. On the Manage data shares page, you'll see the new share with the status of Attaching until it has completed and is attached.
 
-
-
   >**Note**You can access shared data from the target storage account through Azure portal, Azure Storage Explorer, Azure Storage SDK, PowerShell or CLI. You can also analyze the shared data by connecting your storage account to Azure Synapse Analytics Spark or Databricks.
  
-### Task 4 : Update received share 
-
->**Note** : If you have personal purview account you can perform the task.
-
-1. In purview portal, select the Data Map icon from the left navigation. In the new portal, navigate to the Data Catalog application.
-
-1. Select Share invites. If you received an email invitation, you can also select the View share invite link in the email to select a Microsoft Purview account.
-
-1. If you're a guest user of a tenant, you'll be asked to verify your email address for the tenant before viewing share invitation for the first time.
-
-1. After you've selected your data share to edit, you can reattach the share to a new storage account or path in your current storage account by selecting a storage account, providing a path, and providing the folder.
-
-1. If you're updating the target, select Attach to target to save your changes. Attaching can take a couple minutes to complete after the process has been started.
