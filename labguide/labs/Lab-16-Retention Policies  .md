@@ -12,6 +12,9 @@ In order to adhere to this law your organization has created a retention plan to
 
 In this lab, you will complete the following tasks:
 
++ Task 1 – Create Retention Policy with Static mode
++ Task 2 - Create Retention Policy with Adaptive scope
+
 ## Architecture diagram
 ![](../media/lab10.png)
 
@@ -179,3 +182,12 @@ In this exercise you will create a retention policy for the finance and legal de
 1. On the **You successfully created a retention policy** page select **Done**.
 
 You have successfully applied an adaptive scope to a retention policy.
+
+## Review
+In this lab, you have completed:
+
++ Create Retention Policy with Static mode
++ Create Retention Policy with Adaptive scope
+
+  
+## You have successfully completed the lab
