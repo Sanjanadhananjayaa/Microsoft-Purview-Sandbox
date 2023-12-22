@@ -14,7 +14,8 @@ In this lab, you will complete the following tasks:
 + Task 4 : Test the Extension
 
 ## Architecture diagram
-![](../media/lab4.png)
+![](../media/archi-4.png)
+
 
 ### Task 1 – Prerequisties
 
