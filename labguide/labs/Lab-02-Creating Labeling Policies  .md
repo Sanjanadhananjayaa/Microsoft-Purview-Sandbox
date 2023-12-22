@@ -77,4 +77,7 @@ In this lab, you will publish existing sensitive label.
 
 
 ## Review
+In this lab, you have completed:
 + Explore on how to Publish sensitivity labels
+
+## You have successfully completed the lab
