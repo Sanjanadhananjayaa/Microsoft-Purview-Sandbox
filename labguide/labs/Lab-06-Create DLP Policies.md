@@ -9,6 +9,9 @@ In this lab, you will create a Data Loss Prevention policy in the Microsoft Purv
 In this lab, you will complete the following tasks:
 + Task 1 – Create a DLP policy
 
+## Architecture diagram
+![](../media/lab3.png)
+
 ### Task 1 – Create a DLP policy
 
 In this task, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users.
