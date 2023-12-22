@@ -10,6 +10,9 @@ A data provider creates a share by selecting a data source that is registered in
 
 In this lab, you will complete the following tasks:
 
+## Architecture diagram
+![](../media/lab9.png)
+
 ### Task 1 : Create Purview account in Azure Portal 
 
 1. Sign in to **Azure Portal**.
