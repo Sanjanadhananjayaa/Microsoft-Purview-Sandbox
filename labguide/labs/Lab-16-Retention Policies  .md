@@ -111,7 +111,6 @@ In this exercise you will create a retention policy for the finance and legal de
     - Attribute field select **is equal to** as the operator.
     - Enter **Legal** in the **Value** field.
 
-
 1. To add a second attribute, select **+ Add attribute** on the **Create the query to define users** page.
 
     ![](../media/lab16-image16.png)
@@ -126,7 +125,8 @@ In this exercise you will create a retention policy for the finance and legal de
    ![](../media/lab16-image17.png)
 
 1. Ensure the checkboxes are selected next to each attribute then select **Next**.
-    ![](../media/lab16-image29.png)
+
+   ![](../media/lab16-image29.png)
 
 1. On the **Review and finish** page select **Submit**.
 
