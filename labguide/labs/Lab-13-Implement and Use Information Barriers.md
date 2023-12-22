@@ -16,7 +16,7 @@ In this task, you'll set the department attribute and assign a license to the us
 1. Back on user blade, Choose the **john doe** user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter Finance, then click Save.
 1. assigning licensse
 
-## Task 1: Creating segments for Information Barriers
+## Task 2: Creating segments for Information Barriers
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
@@ -109,6 +109,25 @@ In this task, you will apply the active Information barrier policies and check t
 1. Once the policy is applied, the **Status** will update from **NotStarted** to **Completed**.
 
     ![](../media/lab13-image29.png)
+
+### Task 4:  Assess Information Barriers functionality within Microsoft Teams.
+
+In this task you'll 
+
+1. From the start menu type and select **Teams** and login with following credential
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
+1. After Login to Microsoft teams search and try send some message to **John doe**.
+1. Note that the message is failing; this is due to the Information Barrier policy we implemented, which restricts users from sending messages or documents from the HR department to the finance department.
+
+1. Sign out as odl user and  Login as **John doe** to Microsoft teams
+
+1. Search and attempt send a message to **ODL user** and observe that the Information Barrier policy is preventing users from sending messages from the Finance department to the HR department.
+
+
 
 
 Microsoft Purview Information Barriers enable you to create policies to keep people or groups from communicating with one another (when there's no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below).
