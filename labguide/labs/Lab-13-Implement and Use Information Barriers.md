@@ -17,8 +17,21 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
 
-1. Choose the ODL user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon
-2. Under **job information** tab for  Department field, enter HR, then click Save.
+
+1. Sign in to **Azure portal** with following credentail:
+   
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+    * Password: <inject key="AzureAdUserPassword"></inject>
+  
+
+1. 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra ID** under services.
+
+1. On **Overview** page, Under **Manage** section select **User**.
+   
+1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon
+
+1. Under **job information** tab for  Department field, enter HR, then click Save.
     ![](../media/b-image10.png)
    
 1. Back on user blade, Choose the **john doe** user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon.
