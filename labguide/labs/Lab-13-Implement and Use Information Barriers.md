@@ -7,9 +7,20 @@ As Joni, the Compliance Administrator for Contoso Ltd., your responsibility is t
 
 In this lab, you will complete the following tasks:
 
+
+### Task 1 : Modifying the attribute and assigning a license for the user named *Johndoe*.
+
+In this task, you'll set the department attribute and assign a license to the user Johndoe.
+
+1. Choose the ODL user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter HR, then click Save.
+1. Back on user blade, Choose the **john doe** user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter Finance, then click Save.
+1. assigning licensse
+
 ## Task 1: Creating segments for Information Barriers
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
+
+>**Note** Segmets is nothing but grouping of users
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
