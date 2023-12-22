@@ -56,12 +56,16 @@
         "Order": 13
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-15-ediscovery.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-14-Data-Governance-Sharing%20related%20scenarios.md",
         "Order": 14
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-16-Retention%20Policies%E2%80%AF%E2%80%AF.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-15-ediscovery.md",
         "Order": 15
+       },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-16-Retention%20Policies%E2%80%AF%E2%80%AF.md",
+        "Order": 16
        }
      ]  
    }
