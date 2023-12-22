@@ -19,7 +19,18 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. Choose the ODL user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter HR, then click Save.
 1. Back on user blade, Choose the **john doe** user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter Finance, then click Save.
-1. assigning licensse
+
+1. Select **john doe** user, from the left navigation, under **Manage**, select **Licenses**
+
+1. On **john doe | Licenses** page, select the **+ Assignments** button.
+
+1. On the Update license assignments page, select the check box for  **Office 365 E5** license.
+
+1. When complete, select **Save**.
+
+1. Now navigate to the user profile of **john doe**  from the left navigation pane select **Licenses**.
+
+1. Notice that the license has been assigned.
 
 ## Task 2: Creating segments for Information Barriers
 
