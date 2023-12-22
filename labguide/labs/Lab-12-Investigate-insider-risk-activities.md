@@ -6,6 +6,9 @@
 
 In this lab, you will complete the following tasks:
 
+## Architecture diagram
+![](../media/lab7.png)
+
 ### Task 1 : Create Insider Risk Management Investigators
 
 1. If you not already login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
