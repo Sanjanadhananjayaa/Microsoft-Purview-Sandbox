@@ -133,7 +133,22 @@ In this task, you'll create Information barrier policies to block communication 
 
    ![](../media/lab13-image26.png)
 
-1. On Summary page click on **Submit** and **Done**
+1. On Summary page click on **Submit** and **Done**.
+
+### Task 4 : Enable Scoped Directory Search on Microsoft Teams
+
+In this task you'll learn how to Enable Scoped Directory Search on Microsoft Teams
+
+1. Sign in to Office 365(https://www.office.com/) portal
+
+1. Select **Admin** from left pane.
+
+1. On **Microsoft 365 admin center** portal, select **Show all**.
+1. Under **Admin center** section, select **Teams**.
+1. On **Microsoft Teams admin center**, from left navigation pane select **Teams Settings** and scroll down under search by name  then turn on the toggle for **Scope 
+   directory search using an Exchange address book policy**.
+
+    ![](../media/b-image13.png)
 
 ## Task 4: Apply Information barrier policies
 
