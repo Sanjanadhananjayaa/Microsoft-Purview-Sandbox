@@ -5,9 +5,13 @@
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
++ Task 1 : Create Insider Risk Management Investigators
++ Task 2 : Investigate insider risk activities
+
 
 ## Architecture diagram
-![](../media/lab12.png)
+![](../media/archi-7.png)
+
 
 ### Task 1 : Create Insider Risk Management Investigators
 
@@ -66,7 +70,13 @@ In this lab, you will complete the following tasks:
    >**Note**: Review the settings for your insider risk policy. The policy will take effect immediately after you create it, but may take up to 24 hours to start generating alerts. User productivity won't be impacted in any way. 
 
 
+## Review
+In this lab, you have completed:
 
++ Create Insider Risk Management Investigators
++ Investigate insider risk activities
+
+## You have successfully completed the lab
 
 
 
