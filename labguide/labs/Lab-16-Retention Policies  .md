@@ -29,7 +29,8 @@ In this exercise you will create a company-wide retention policy, apply a retent
     ![](../media/lab16-image1.png)
 
 1. On the **Data lifecycle management** page, in the **Retention policies** tab select **+ New retention policy**.
-    ![](../media/lab16-image2.png)
+
+   ![](../media/lab16-image2.png)
 
 1. On the **Name your retention policy** page, for the **Name** enter **Retention policies** and  click **Next**.
 
@@ -62,6 +63,7 @@ In this exercise you will create a company-wide retention policy, apply a retent
    - **At the end of the retention period**: Delete items automatically.
 
       ![](../media/lab16-image7.png)
+
       ![](../media/lab16-image8.png)
 
 1. On the **Review and finish** page select **Submit**.
@@ -145,14 +147,13 @@ In this exercise you will create a retention policy for the finance and legal de
 
 1. On the **Policy Scope** page select **Next**.
 
-   ![](../media/lab16-image22.png)
+    ![](../media/lab16-image22.png)
 
 1. On the **Choose the type of retention policy to create** page select **Adaptive** then select **Next**.
 
-   ![](../media/lab16-image23.png)
+    ![](../media/lab16-image23.png)
 
 1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes** and in the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention** then select the **Add** button.
-
 
      ![](../media/lab16-image24.png)
 
