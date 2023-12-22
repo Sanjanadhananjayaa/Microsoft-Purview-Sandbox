@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 + Task 2 - Create Retention Policy with Adaptive scope
 
 ## Architecture diagram
-![](../media/lab10.png)
+![](../media/archi-10.png)
 
 ## Task 1 – Create Retention Policy with Static mode
 
