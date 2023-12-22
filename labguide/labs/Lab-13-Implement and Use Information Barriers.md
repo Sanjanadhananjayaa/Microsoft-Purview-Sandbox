@@ -181,12 +181,14 @@ In this task you'll
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. After Login to Microsoft teams search and try send some message to **John doe**.
-1. Note that the message is failing; this is due to the Information Barrier policy we implemented, which restricts users from sending messages or documents from the HR department to the finance department.
 
-1. Sign out as odl user and  Login as **John doe** to Microsoft teams
+1. Observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **John doe** as he is from **Finance** department.
 
-1. Search and attempt send a message to **ODL user** and observe that the Information Barrier policy is preventing users from sending messages from the Finance department to the HR department.
+1. Sign out as odl user and  login as **John doe** to Microsoft teams
 
+1. Search and attempt send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **JODL user** as he is from **HR** department.
+
+    >**Note**: This is happening because information protection policy is been applied.
 
    >**Note**: Microsoft Purview Information Barriers enable you to create policies to keep people or groups from communicating with one another (when there's no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below).
 
