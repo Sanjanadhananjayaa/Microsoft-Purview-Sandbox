@@ -26,6 +26,8 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. On the Update license assignments page, select the check box for  **Office 365 E5** license.
 
+    ![](../media/b-image9.png)
+
 1. When complete, select **Save**.
 
 1. Now navigate to the user profile of **john doe**  from the left navigation pane select **Licenses**.
