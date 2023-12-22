@@ -17,8 +17,15 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
 
-1. Choose the ODL user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter HR, then click Save.
-1. Back on user blade, Choose the **john doe** user, then click on the property tab. Navigate to Job Information, click on Edit, and in the Department field, enter Finance, then click Save.
+1. Choose the ODL user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon
+2. Under **job information** tab for  Department field, enter HR, then click Save.
+    ![](../media/b-image10.png)
+   
+1. Back on user blade, Choose the **john doe** user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon.
+
+1. Under **job information** tab for  Department field,  enter Finance, then click Save.
+
+    ![](../media/b-image11.png)
 
 1. Select **john doe** user, from the left navigation, under **Manage**, select **Licenses**
 
@@ -34,7 +41,9 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. Notice that the license has been assigned.
 
-## Task 2: Creating segments for Information Barriers
+   >**Note** If you're not able view assigned license kindly refresh the page.
+
+### Task 2: Creating segments for Information Barriers
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
