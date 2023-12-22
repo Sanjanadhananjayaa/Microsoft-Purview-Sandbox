@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../Images/sc900lab15.png)
+![](../media/lab11.png)
 
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
