@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 1. On the Basics tab specify the following details and click **Review + Create**.
 
     
-     |   **Option**                           | **Value** *                    |
+     |   **Option**                           | **Value**                      |
      | ---------------------------------------| ------------------------------ | 
      | Subscription                           | Accept the default             |
      | Resource Group                         | Purview-rg                     | 
@@ -66,7 +66,6 @@ In this task, you'll create storage account and container
 1. Under Data Storage section, select Containers option and click on **+ container**. Provide some name and click on create.
 1. Open the File Explorer and create some text file.
 1. Back on **Storage account** window, select the container which you created and click on the upload, select browse for the files and select the text file which you created and click on upload.
-
 
 ### Task 3 : Azure Storage in-place data sharing with Microsoft Purview
 
@@ -126,7 +125,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
     ![](../media/lab14-image12.png)
 
-### Task 3 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
+### Task 4 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 
 In this task you can viewing shared invitations in any Microsoft Purview account
 
@@ -142,7 +141,7 @@ In this task you can viewing shared invitations in any Microsoft Purview account
 
 Select name of the share to view or configure.
 
-### Task 4: ### Task 4 : Update received share (Read Only)
+### Task 5 : Update received share (Read Only)
 
 In this task you'll update Received share
 
