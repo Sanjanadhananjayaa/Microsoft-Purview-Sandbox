@@ -15,25 +15,46 @@ In this lab, you will complete the following tasks:
 1. Sign in to **Azure Portal**.
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Purview**, and then select **Microsoft Purview accounts** under services.
-  ![](../media/lab14-image1.png)
+    ![](../media/lab14-image1.png)
 
 1. Select **+ Create** on **Microsoft Purview accounts** page.
 
 1. On the Basics tab specify the following details and click **Review + Create**.
 
     
-     |   **Option** | **Value** *        |
-     | ------------ | ------------------ | 
-     | Subscription | Accept the default     |
-     | Resource Group  | Purview-rg     | 
-     | Microsoft cover your account name           | purview               | 
-     |    location          | West US             |
+     |   **Option**                           | **Value** *                    |
+     | ---------------------------------------| ------------------------------ | 
+     | Subscription                           | Accept the default             |
+     | Resource Group                         | Purview-rg                     | 
+     | Microsoft cover your account name      | purview-account1               | 
+     |    location                            | West US                        |
      |||
 
     ![](../media/lab14-image2.png)
 
 1.  Validation is passed. Click on Create.
 
+1. Log out as odl user and log in as **John doe**
+
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Purview**, and then select **Microsoft Purview 
+   accounts** under services.
+    ![](../media/lab14-image1.png)
+
+1. Select **+ Create** on **Microsoft Purview accounts** page.
+
+1. On the Basics tab specify the following details and click **Review + Create**.
+
+    
+     |   **Option**                           | **Value** *                    |
+     | ---------------------------------------| ------------------------------ | 
+     | Subscription                           | Accept the default             |
+     | Resource Group                         | Purview-rg                     | 
+     | Microsoft cover your account name      | purview-account2               | 
+     |    location                            | West US                        |
+     |||
+
+1.  Validation is passed. Click on Create.
+   
 ### Task 2 : Create Storage account in Azure Portal
 
 In this task, you'll create storage account and container 
@@ -132,7 +153,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
    >**Note**: When a share is attached, a new asset of type received share is ingested into the Microsoft Purview catalog, in the same collection as the storage account to which you attached the share is registered. You can search or browse for it like any other asset.
 
-# Task 4 : Update received share (Read only)
+# Task 4 : Update received share 
 
 >**Note** : If you have personal purview account you can perform the task.
 
