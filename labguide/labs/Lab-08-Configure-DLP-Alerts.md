@@ -39,22 +39,24 @@ In this task you'll create dlp policy in Microsoft purview
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts**.
 
-   ![](../media/cc22.png)
+     ![](../media/cc22.png)
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
-   ![](../media/lab5-image5.png) 
+     ![](../media/lab5-image5.png) 
 
 1. Select **New Email** from the top left corner of the screen.
 
-1. Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and provide subject, enter some demo credit card number and try to send this mail.
-   ![](../media/cc17.png)
+1. Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and provide subject, enter some demo credit card number and try to send this 
+   mail.
 
-   >**Note**: Notice policy tip.
+     ![](../media/cc17.png)
+
+     >**Note**: Notice policy tip.
 
 1. Observe that email is restricted by the policy, and you'll receive a message as demonstrated below.
     
-    ![](../media/cc18.png)  
+     ![](../media/cc18.png)  
 
 Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time. There are two types of alerts that can be configured in DLP policies.
 
