@@ -169,7 +169,7 @@ In this task you'll update Received share
 
 1. You can edit the Received share name, select a Storage account name for a target storage account in the same region as the source. You can choose to Register a new storage account to attach the share in the drop-down as well.
 
-  >**note**: The target storage account needs to be in the same Azure region as the source storage account.
+   >**note**: The target storage account needs to be in the same Azure region as the source storage account.
 
 1. Configure the Path (either a new container name, or the name of an existing share container) and, New folder (a new folder name for the share within in your container).
 
