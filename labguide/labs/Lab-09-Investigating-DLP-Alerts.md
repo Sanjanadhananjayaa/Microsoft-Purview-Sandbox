@@ -10,6 +10,9 @@ In this lab, you will complete the following tasks:
 
 + Task 1 : Investigation of  Data Loss Prevention Alerts
 
+## Architecture diagram
+![](../media/lab6.png)
+
 ### Task 1 : Investigation of  Data Loss Prevention Alerts
 
 In this task you'll explore on investigating dlp alerts in Microsoft Purview.
