@@ -67,7 +67,7 @@ In this exercise you will create a company-wide retention policy, apply a retent
 You have successfully created a retention policy for the Exchange email, Microsoft 365 groups, OneDrive, and SharePoint sites locations. This retention policy will retain items in these locations for three years from when the item was last modified date. This policy can take up to 24 hours to be apply in your tenant, but you can proceed to the next step.
 
 
-## Task 2 – Create Retention Policy with adaptive scope
+## Task 2 – Create Retention Policy with Adaptive scope
 
 In this exercise you will create a retention policy for the finance and legal department. The purpose of the policy is to comply with the law, retaining all legal related documents for 5 years. First you will create an adaptive scope including the legal and the retail department, then you will create a retention policy using this scope.
 
