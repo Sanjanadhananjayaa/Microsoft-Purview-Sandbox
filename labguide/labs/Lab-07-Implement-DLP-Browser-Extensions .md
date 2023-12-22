@@ -9,6 +9,8 @@ To enhance data discovery and classification capabilities.
 
 In this lab, you will complete the following tasks:
 
+## Architecture diagram
+![](../media/lab4.png)
 
 ### Task 1 – Prerequisties
 
