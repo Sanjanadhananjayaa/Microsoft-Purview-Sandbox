@@ -103,7 +103,7 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. On **Configure communication and collaboration details** page
    - **Communication and collaboration** : Blocked
-   - **+ Choose segment**: select Finance
+   - **+ Choose segment**: select Finance and click **Add**
    - Click **Next**
 
 1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
@@ -126,7 +126,7 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. On **Configure communication and collaboration details** page
    - **Communication and collaboration** : Blocked
-   - **+ Choose segment**: select HR
+   - **+ Choose segment**: select HR and click **Add**
    - Click **Next**
 
 1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
