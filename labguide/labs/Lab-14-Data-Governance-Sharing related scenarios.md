@@ -26,32 +26,11 @@ In this lab, you will complete the following tasks:
      | ---------------------------------------| ------------------------------ | 
      | Subscription                           | Accept the default             |
      | Resource Group                         | Purview-rg                     | 
-     | Microsoft cover your account name      | purview-account1               | 
-     |    location                            | West US                        |
+     | Microsoft cover your account name      | purview-account1-<inject key="DeploymentID" enableCopy="false"/>               | 
+     |    location                            | **<inject key="Region" enableCopy="false"/>**                       |
      |||
 
     ![](../media/lab14-image2.png)
-
-1.  Validation is passed. Click on Create.
-
-1. Log out as odl user and log in as **John doe**
-
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Purview**, and then select **Microsoft Purview 
-   accounts** under services.
-    ![](../media/lab14-image1.png)
-
-1. Select **+ Create** on **Microsoft Purview accounts** page.
-
-1. On the Basics tab specify the following details and click **Review + Create**.
-
-    
-     |   **Option**                           | **Value** *                    |
-     | ---------------------------------------| ------------------------------ | 
-     | Subscription                           | Accept the default             |
-     | Resource Group                         | Purview-rg                     | 
-     | Microsoft cover your account name      | purview-account2               | 
-     |    location                            | West US                        |
-     |||
 
 1.  Validation is passed. Click on Create.
    
@@ -71,7 +50,7 @@ In this task, you'll create storage account and container
      | Subscription | Accept the default     |
      | Resource Group  | Purview-rg     | 
      | Storage account name | storage            | 
-     | Region         | West US             |
+     | Region         | **<inject key="Region" enableCopy="false"/>**   |
      | Redundancy    |     Local Redundant Storage LRS|
      |||
 
@@ -147,7 +126,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
     ![](../media/lab14-image12.png)
 
-### Task 3 : Azure Storage in-place data Receive share with Microsoft Purview
+### Task 3 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 
 In this task you can viewing shared invitations in any Microsoft Purview account
 
@@ -163,7 +142,7 @@ In this task you can viewing shared invitations in any Microsoft Purview account
 
 Select name of the share to view or configure.
 
-### Task 4: ### Task 4 : Update received share 
+### Task 4: ### Task 4 : Update received share (Read Only)
 
 In this task you'll update Received share
 
