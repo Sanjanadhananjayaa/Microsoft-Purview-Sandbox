@@ -7,11 +7,12 @@ DLP triggers an alert if a user takes an action that aligns with a DLP policy, a
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
++ Task 1 : Create a dlp policies 
 
 ## Architecture diagram
 ![](../media/lab5.png)
 
-### Task 1 : create a dlp policies 
+### Task 1 : Create a dlp policies 
 
 In this task you'll create dlp policy in Microsoft purview
 
@@ -55,3 +56,10 @@ In this task you'll create dlp policy in Microsoft purview
     ![](../media/cc18.png)  
 
 Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time. There are two types of alerts that can be configured in DLP policies.
+
+## Review
+In this lab, you have completed:
++ Create a dlp policies
+
+## You have successfully completed the lab
+  
