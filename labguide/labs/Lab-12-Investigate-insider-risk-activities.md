@@ -7,7 +7,7 @@
 In this lab, you will complete the following tasks:
 
 ## Architecture diagram
-![](../media/lab7.png)
+![](../media/lab12.png)
 
 ### Task 1 : Create Insider Risk Management Investigators
 
