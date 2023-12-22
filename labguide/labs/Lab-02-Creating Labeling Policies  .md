@@ -1,4 +1,4 @@
-# Lab 02 - Creating Labeling Policies  
+# Lab 02 - Publish sensitivity labels 
 
 ## Lab scenario
 
