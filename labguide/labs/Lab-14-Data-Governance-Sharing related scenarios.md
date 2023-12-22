@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 + Task 5 : Update received share (Read Only)
 
 ## Architecture diagram
-![](../media/lab9.png)
+![](../media/archi-9.png)
 
 ### Task 1 : Create Purview account in Azure Portal 
 
