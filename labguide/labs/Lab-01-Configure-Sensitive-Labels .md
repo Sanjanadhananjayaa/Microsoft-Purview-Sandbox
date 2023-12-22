@@ -124,5 +124,7 @@ In this task you will understand what sensitivity labels by the creating sensiti
    ![](../media/lab1-image17.png)
       
 ## Review
-In this lab, you will complete the following task:
-+ Explored and configure Sensitive Labels 
+In this lab, you have completed:
++ Explored and configure Sensitive Labels
+
+## You have successfully completed the lab
