@@ -16,3 +16,4 @@
  
    ![Start Your Azure Journey](../media/intropur(4).png)
 
+1. Log in to Admin portal() 
