@@ -152,7 +152,7 @@ In this task you'll learn how to Enable Scoped Directory Search on Microsoft Tea
 
 1. Click on **Save**.
 
-## Task 4: Apply Information barrier policies
+## Task 5: Apply Information barrier policies
 
 In this task, you will apply the active Information barrier policies and check their application status.
 
