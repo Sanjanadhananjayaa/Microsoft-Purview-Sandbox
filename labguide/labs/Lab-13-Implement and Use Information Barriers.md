@@ -13,6 +13,9 @@ In this lab, you will complete the following tasks:
 + Task 4: Apply Information barrier policies
 + Task 5: Assess Information Barriers functionality within Microsoft Teams.
 
+## Architecture diagram
+![](../media/lab8.png)
+
 ### Task 1 : Modifying the attribute and assigning a license for the user named *Johndoe*.
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
