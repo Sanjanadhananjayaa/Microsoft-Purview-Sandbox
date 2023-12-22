@@ -8,6 +8,10 @@ To enhance data discovery and classification capabilities.
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
++ Task 1 – Prerequisties
++ Task 2 : Create a policy
++ Task 3 : Updating Endpoint settings
++ Task 4 : Test the Extension
 
 ## Architecture diagram
 ![](../media/lab4.png)
@@ -194,3 +198,13 @@ In this task you'll configure Browser and domain restrictions to sensitive data
    ![](../media/lab7-image12.png)
 
 By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
+
+## Review
+In this lab, you have completed:
+
++ Prerequisties
++ Create a policy
++ Updating Endpoint settings
++ Test the Extension
+
+## You have successfully completed the lab
