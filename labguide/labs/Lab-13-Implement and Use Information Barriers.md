@@ -151,7 +151,7 @@ In this task, you will apply the active Information barrier policies and check t
 
     ![](../media/lab13-image29.png)
 
-   >**Note**: Wait for the status to transition from NotStarted to Completed; this process may take 5 to 10 minutes.
+   >**Note**: Kindly **Refresh** page and Wait for the status to transition from NotStarted to Completed; this process may take 5 to 10 minutes.
 
 ### Task 5:  Assess Information Barriers functionality within Microsoft Teams.
 
