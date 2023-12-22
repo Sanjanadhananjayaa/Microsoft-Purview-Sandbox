@@ -181,32 +181,8 @@ In this task you'll update Received share
 
 
   >**Note**You can access shared data from the target storage account through Azure portal, Azure Storage Explorer, Azure Storage SDK, PowerShell or CLI. You can also analyze the shared data by connecting your storage account to Azure Synapse Analytics Spark or Databricks.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Task 4 : Update received share 
+ 
+### Task 4 : Update received share 
 
 >**Note** : If you have personal purview account you can perform the task.
 
