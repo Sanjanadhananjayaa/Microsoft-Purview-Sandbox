@@ -25,7 +25,8 @@ In this task, you'll set the department attribute and assign a license to the us
     * Password: <inject key="AzureAdUserPassword"></inject>
   
 
-1. 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra ID** under services.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra 
+   ID** under services.
 
 1. On **Overview** page, Under **Manage** section select **User**.
    
