@@ -11,7 +11,8 @@ In this lab, you will complete the following tasks:
 + Task 1: Publish sensitivity labels
   
 ## Architecture diagram
-![](../media/lab2.png)
+![](../media/archi-2.png)
+
 
 ### Task 1 : Publish sensitivity labels
 
