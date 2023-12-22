@@ -181,8 +181,9 @@ In this task, you will walk through the creation of a policy.
     ![](../media/lab11-image(22).png)
 
 ## Review
-In this lab, you will complete the following tasks:
+In this lab, you have completed:
 + Process of setting up an insider risk policy.
 + Apply to all insider risk management policies.
 + Create policy.
 
+## You have successfully completed the lab
