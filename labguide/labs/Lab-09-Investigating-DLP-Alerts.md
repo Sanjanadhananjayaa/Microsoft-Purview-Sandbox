@@ -1,4 +1,4 @@
-# Lab 09 - Explore investigation of DLP Alerts
+# Lab 09 - Investigation of  Data Loss Prevention Alerts 
 
 ## Lab scenario
 
@@ -8,6 +8,11 @@ The main goal of the investigation stage is for the assigned owner to correlate 
 
 In this lab, you will complete the following tasks:
 
++ Task 1 : Investigation of  Data Loss Prevention Alerts
+
+### Task 1 : Investigation of  Data Loss Prevention Alerts
+
+In this task you'll explore on investigating dlp alerts in Microsoft Purview.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
