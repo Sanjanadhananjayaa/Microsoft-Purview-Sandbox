@@ -59,7 +59,7 @@ To launch a simulated phishing attack, do the following steps:
 
 1. Don't change anything select **Next** on **Exclude user** page.
 
-   ![](../media/lab10-image-8.png)
+    ![](../media/lab10-image-8.png)
    
 1. On the **Assign training** page, make sure **Microsoft training experience (Recommended)** is selected in dropdown and select Select **assign training for me (Recommended)**.
 
