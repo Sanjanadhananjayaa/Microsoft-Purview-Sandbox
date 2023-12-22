@@ -184,9 +184,13 @@ In this task you'll
 
 1. Observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **John doe** as he is from **Finance** department.
 
+   ![](../media/b-image14.png)
+
 1. Sign out as odl user and  login as **John doe** to Microsoft teams
 
 1. Search and attempt send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **JODL user** as he is from **HR** department.
+
+     ![](../media/b-image15.png)
 
     >**Note**: This is happening because information protection policy is been applied.
 
