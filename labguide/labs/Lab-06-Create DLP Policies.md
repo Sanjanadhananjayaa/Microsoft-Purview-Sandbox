@@ -83,3 +83,9 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
      ![](../media/cc15.png)
 
 You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.
+
+## Review
+In this lab, you have completed:
++ Create a DLP policy
+
+## You have successfully completed the lab
