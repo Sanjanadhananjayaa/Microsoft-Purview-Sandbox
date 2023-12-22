@@ -9,6 +9,11 @@ A data provider creates a share by selecting a data source that is registered in
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
++ Task 1 : Create Purview account in Azure Portal
++ Task 2 : Create Storage account in Azure Portal
++ Task 3 : Azure Storage in-place data sharing with Microsoft Purview
++ Task 4 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
++ Task 5 : Update received share (Read Only)
 
 ## Architecture diagram
 ![](../media/lab9.png)
@@ -159,4 +164,15 @@ In this task you'll update Received share
 1. On the Manage data shares page, you'll see the new share with the status of Attaching until it has completed and is attached.
 
   >**Note**You can access shared data from the target storage account through Azure portal, Azure Storage Explorer, Azure Storage SDK, PowerShell or CLI. You can also analyze the shared data by connecting your storage account to Azure Synapse Analytics Spark or Databricks.
- 
+
+
+## Review
+In this lab, you have completed:
+
++ Task 1 : Create Purview account in Azure Portal
++ Task 2 : Create Storage account in Azure Portal
++ Task 3 : Azure Storage in-place data sharing with Microsoft Purview
++ Task 4 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
++ Task 5 : Update received share (Read Only)
+
+## You have successfully completed the lab
