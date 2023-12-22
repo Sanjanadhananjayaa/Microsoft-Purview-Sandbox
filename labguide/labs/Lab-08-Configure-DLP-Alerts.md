@@ -1,4 +1,4 @@
-# Lab 08 - Configure DLP Alerts
+# Lab 08 - Configure Data Loss Prevention Alerts
 
 ## Lab scenario
 
