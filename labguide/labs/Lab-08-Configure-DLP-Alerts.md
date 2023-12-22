@@ -10,7 +10,8 @@ In this lab, you will complete the following tasks:
 + Task 1 : Create a dlp policies 
 
 ## Architecture diagram
-![](../media/lab5.png)
+![](../media/archi-5.png)
+
 
 ### Task 1 : Create a dlp policies 
 
