@@ -76,8 +76,6 @@ In this lab, you will complete the following tasks:
 
 1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
 
-    ![Picture 1](../media/sc200-mod2-unblock.png)
-
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
 
 1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says **Successfully onboarded machine to Microsoft Defender for Endpoint**.
@@ -86,7 +84,6 @@ In this lab, you will complete the following tasks:
 
 1. Back in the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
-    ![Picture 1](../media/image_55.png)
 
 1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
