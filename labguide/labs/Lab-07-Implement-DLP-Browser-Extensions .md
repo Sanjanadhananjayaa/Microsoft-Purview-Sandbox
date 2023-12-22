@@ -92,6 +92,12 @@ In this lab, you will complete the following tasks:
 1. In the purview portal, in the left-hand menu, select **Devices** and if the device isn't displayed, please wait for a while.
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+
+### Install the extension for Chrome on your Windows devices
+
+1. Open Microsoft Edge and go to  Microsoft Purview Extension(https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)
+
+1. On **Switch to Chrome?** click on **Yes**, then download and install.
     
 ### Task 2 : Create a policy
 
