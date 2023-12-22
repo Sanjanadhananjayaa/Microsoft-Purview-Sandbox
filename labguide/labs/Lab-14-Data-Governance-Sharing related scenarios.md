@@ -137,7 +137,6 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 In this task you can viewing shared invitations in any Microsoft Purview account
 
-1. Sign in with **john doe** to the Microsoft Purview portal and select **purviewaccount1** Microsoft Purview account.
 
 1. In the Microsoft Purview portal, select the Data Map icon from the left navigation. In the new portal, navigate to the Data Catalog application.
 
