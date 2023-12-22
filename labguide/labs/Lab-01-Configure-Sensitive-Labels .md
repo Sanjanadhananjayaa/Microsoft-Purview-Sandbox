@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Explore the capabilities of sensitivity labels
   
 ## Architecture diagram
-![](../media/part1lab1.png)
+![](../media/lab1.png)
 
 ### Task 1: Explore the capabilities of sensitivity labels
 In this task you will understand what sensitivity labels by the creating sensitivity label.
