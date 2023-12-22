@@ -183,6 +183,8 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 ### Task 4 : Test the Extension
 
+1. Create one word document with mutliple demo credit numbers and name the file as protected and save it one drive.
+ 
 1. Search and select google chrome from start menu  and copy the link of a word document containing sensitive information, and then try to paste it in Google Chrome. Observe the notification indicating a lack of permission to access the file.
 
 1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the document that containing sensitive information notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress
