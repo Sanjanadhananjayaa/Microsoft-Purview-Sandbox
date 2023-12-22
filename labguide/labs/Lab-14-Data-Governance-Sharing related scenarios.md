@@ -147,11 +147,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
     ![](../media/lab14-image12.png)
 
-1. Check your email id  you have received the Invite link.
-
-   >**Note**: If you have your personal purview account you can select Share invites. If you received an email invitation, you can also select the View share invite link in the email to select a Microsoft Purview account.
-
-   >**Note**: When a share is attached, a new asset of type received share is ingested into the Microsoft Purview catalog, in the same collection as the storage account to which you attached the share is registered. You can search or browse for it like any other asset.
+### Task 3 : Azure Storage in-place data sharing with Microsoft Purview
 
 # Task 4 : Update received share 
 
