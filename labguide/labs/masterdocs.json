@@ -8,64 +8,68 @@
         "Order": 1
         }, 
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-01-Configure-Sensitive-Labels%E2%80%AF.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-01-Configure-Sensitive-Labels%E2%80%AF.md",
         "Order": 2
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-02-Creating%20Labeling%20Policies%E2%80%AF%20.md",
         "Order": 3
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-03-Configure-Message-Encryption.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-03-Configure-Message-Encryption.md",
         "Order": 4
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-04-Deploy-AIP-Unified-Labeling-Client.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-04-Deploy-AIP-Unified-Labeling-Client.md",
         "Order": 5
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-05-Use-M365-Apps-to-Label-data.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-05-Use-M365-Apps-to-Label-data.md",
         "Order": 6
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-06-Create%20DLP%20Policies.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-06-Create%20DLP%20Policies.md",
         "Order": 7
        },
-       {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-08-Configure-DLP-Alerts.md",
+        {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-07-Implement-DLP-Browser-Extensions%E2%80%AF.md",
         "Order": 8
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-09-Investigating-DLP-Alerts.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-08-Configure-DLP-Alerts.md",
         "Order": 9
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-10-Conduct-Configure-Safe-breach-simulation.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-09-Investigating-DLP-Alerts.md",
         "Order": 10
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-11-Create-insider-risk-policies.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-10-Conduct-Configure-Safe-breach-simulation.md",
         "Order": 11
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-12-Investigate-insider-risk-activities.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-11-Create-insider-risk-policies.md",
         "Order": 12
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-13-Implement%20and%20Use%20Information%20Barriers.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-12-Investigate-insider-risk-activities.md",
         "Order": 13
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-14-Data-Governance-Sharing%20related%20scenarios.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-13-Implement%20and%20Use%20Information%20Barriers.md",
         "Order": 14
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-15-ediscovery.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-14-Data-Governance-Sharing%20related%20scenarios.md",
         "Order": 15
        },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/Sanjanadhananjayaa/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-16-Retention%20Policies%E2%80%AF%E2%80%AF.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-15-ediscovery.md",
         "Order": 16
+       },
+       {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Microsoft-Purview-Sandbox/prod/labguide/labs/Lab-16-Retention%20Policies%E2%80%AF%E2%80%AF.md",
+        "Order": 17
        }
      ]  
    }
