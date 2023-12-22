@@ -8,6 +8,9 @@ DLP triggers an alert if a user takes an action that aligns with a DLP policy, a
 
 In this lab, you will complete the following tasks:
 
+## Architecture diagram
+![](../media/lab5.png)
+
 ### Task 1 : create a dlp policies 
 
 In this task you'll create dlp policy in Microsoft purview
