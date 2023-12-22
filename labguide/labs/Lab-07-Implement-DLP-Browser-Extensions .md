@@ -84,7 +84,6 @@ In this lab, you will complete the following tasks:
 
 1. Back in the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
-
 1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
 1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it.
@@ -136,16 +135,18 @@ In this lab, you will complete the following tasks:
    ![](../media/cc4.png)
 
 1. On the **Customize advanced DLP rules** page, select **+ Create rule**.
-   ![](../media/cc5.png)
+
+    ![](../media/cc5.png)
 
 1. On the **Create rule** page, type **Endpoint-rule** in the **Name** field.
 
 1. Under **Conditions**, select **+ Add Condition** and then select **Content contains** from the dropdown menu.
-   ![](../media/cc6.png)
+
+     ![](../media/cc6.png)
 
 1. In the new **Content contains** area, select **+ Add** and select **Sensitive info types** from the dropdown menu. On the **Sensitive info types** page, select **Credit Card Number** and select **Add**.
 
-   ![](../media/cc7.png)
+     ![](../media/cc7.png)
 
 1. In the new **Content contains** area, select **+ Add** and select **Sensitive labels** from the dropdown menu. On the **Sensitive label** page, select **Confidential_Finance** and select **Add**.
 
@@ -153,15 +154,15 @@ In this lab, you will complete the following tasks:
 
 1. Under **Service Domain and Browser Activities**, select checkbox for **upload to a restricted Cloud Service domain or access from an unallowed browser** and from the dropdown select **Block**.
 
-   ![](../media/lab7-image3.png)
+    ![](../media/lab7-image3.png)
 
 1. For **Files activities for all apps**, select **Apply restriction to specific activities**  and choose all the activities and from the drop down select **Block** for all. 
 
-   ![](../media/lab7-image4.png)
+    ![](../media/lab7-image4.png)
 
 1.  under Incident report, select the severity to medium and turn on the toggle for **Send an alert to admin when rule matches occur** and select **Send alert every time an alert on an activity matches the rule** and click on save.
 
-   ![](../media/lab7-image5.png)
+      ![](../media/lab7-image5.png)
 
 1. Back on **Customize advanced DLP rules** page, and click on **Next**.
 
@@ -180,7 +181,7 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 1. From the left menu select **Endpoint settings** and expand **browser and domain restriction to sensitive data**, under Unallowed browsers click on **+ Add or Edit Unallowed browser**, and **Google Chrome** then click on Save.
 
-   ![](../media/lab7-image11.png)
+     ![](../media/lab7-image11.png)
 
    >**Note**  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
 
