@@ -141,6 +141,8 @@ To launch a simulated phishing attack, do the following steps:
    ![](../media/lab10-image-18.png)
 
 ## Review
-In this lab, you will complete the following task:
+In this lab, you have completed:
 + Create Attack Simulation
+
+## You have successfully completed the lab
 
