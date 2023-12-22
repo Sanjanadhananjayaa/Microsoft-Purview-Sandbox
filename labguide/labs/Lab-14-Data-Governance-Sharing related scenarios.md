@@ -57,7 +57,7 @@ In this task, you'll create storage account and container
      | ------------ | ------------------ | 
      | Subscription | Accept the default     |
      | Resource Group  | Purview-rg     | 
-     | Storage account name | storage            | 
+     | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/>            | 
      | Region         | **<inject key="Region" enableCopy="false"/>**   |
      | Redundancy    |     Local Redundant Storage LRS|
      |||
