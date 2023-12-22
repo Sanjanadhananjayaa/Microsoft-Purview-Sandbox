@@ -38,18 +38,16 @@ To launch a simulated phishing attack, do the following steps:
    
 1. On the **Name simulation** page, configure the following settings and click on **Next**.
 
-   **Name**: Enter a unique, descriptive name for the simulation.
-   **Description**: Enter an optional detailed description for the simulation.
+      **Name**: Enter a unique, descriptive name for the simulation.
+      **Description**: Enter an optional detailed description for the simulation.
 
     ![](../media/lab10-image-5.png)
    
-
 1. On **Select payload and login page** blade select **Renew Office 365 subscription** and click on **Next**.
 
-   >**Note**: For built-in payloads, the value is **Global**. For custom payloads, the value is **Tenant**.
+    >**Note**: For built-in payloads, the value is **Global**. For custom payloads, the value is **Tenant**.
    
-   ![](../media/lab10-image-6.png)
-
+    ![](../media/lab10-image-6.png)
 
 1. On the **Target users** page, select who receives the simulation. Use the following options to select users
    
@@ -57,7 +55,7 @@ To launch a simulated phishing attack, do the following steps:
      - **Include only specific users and groups**: At first, no users or groups are shown on the Targeted users page.
      - To add users or groups to the simulation, choose one of the following options, now select **Include all users in your organization** and click on **Next**.
 
-    ![](../media/lab10-image-7.png)
+        ![](../media/lab10-image-7.png)
 
 1. Don't change anything select **Next** on **Exclude user** page.
 
@@ -122,23 +120,27 @@ To launch a simulated phishing attack, do the following steps:
 
 1. On Send Test Email pop up click in **Confirm**.
 
-   ![](../media/lab10-image-14.png)
+    ![](../media/lab10-image-14.png)
 
-   ![](../media/lab10-image-15.png)
+    ![](../media/lab10-image-15.png)
 
 1. In another tab browser for (https://security.microsoft.com) select app launcher and select outlook.
-   ![](../media/lab5-image5.png)
+
+    ![](../media/lab5-image5.png)
 
 1. Check the Email you received
+
     ![](../media/lab10-image-16.png)
 
 1. When you're finished on the Review simulation page, select **Submit**.
+
     ![](../media/lab10-image-17.png)
 
 1. Click on **Done**.
 
 1. Back on **Attack simulation training** page notice newly created Simulation.
-   ![](../media/lab10-image-18.png)
+
+     ![](../media/lab10-image-18.png)
 
 ## Review
 In this lab, you have completed:
