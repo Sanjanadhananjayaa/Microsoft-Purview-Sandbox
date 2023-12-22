@@ -57,7 +57,7 @@ In this task, you'll set the department attribute and assign a license to the us
 
    >**Note** If you're not able view assigned license kindly refresh the page.
 
-### Task 2: Creating segments for Information Barriers
+### Task 2: Create segments for Information Barriers
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
