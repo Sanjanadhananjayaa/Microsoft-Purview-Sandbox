@@ -53,6 +53,8 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
 
 ## Review
-In this lab, you will complete the following task:
+In this lab, you have completed:
+
 + Create a Mail Flow Encryption Rule using the Exchange admin center
 
+## You have successfully completed the lab
