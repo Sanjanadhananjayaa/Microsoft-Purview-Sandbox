@@ -48,11 +48,13 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
    ![](../media/cc4.png)
 
 1. On the **Customize advanced DLP rules** page, select **+ Create rule**.
-   ![](../media/cc5.png)
+
+    ![](../media/cc5.png)
 
 1. On the **Create rule** page, type **Credit card information** in the **Name** field.
 
 1. Under **Conditions**, select **+ Add Condition** and then select **Content contains** from the dropdown menu.
+
    ![](../media/cc6.png)
 
 1. In the new **Content contains** area, select **Add** and select **Sensitive info types** from the dropdown menu. On the **Sensitive info types** page, select **Credit Card Number** and select **Add**.
@@ -61,10 +63,11 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
 1. Under **Action** click **Add an actions** and select **Restrict access or encrypt the content in Microsoft 365 locations** fron the dropdowm menu.
 
-   ![](../media/cc8.png)
+    ![](../media/cc8.png)
 
 1. Under **Restrict access or encrypt the content in Microsoft 365 locations** select **Block everyone**.
-   ![](../media/cc9.png)
+
+    ![](../media/cc9.png)
 
 1. Unser **User notifications** select toggle for **Use notifications to inform your user and help educate them on the proper use of sensitive info** and enable check box for **Show the policy tip as a dialog for the end user before send**.
 
@@ -72,7 +75,7 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
 1. Under **Incident reports** select **severity level** as **Medium** click on  the toggle for **Under send an alert to admins when a rule match occurs** and click on **Save**.
 
-   ![](../media/cc12.png)
+    ![](../media/cc12.png)
 
 1. Back on **Customize advanced DLP rules** page, and click on **Next**.
 
@@ -81,6 +84,7 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
   
 1. On the Review and finish review the information and click **submit**. 
+
      ![](../media/cc15.png)
 
 You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.

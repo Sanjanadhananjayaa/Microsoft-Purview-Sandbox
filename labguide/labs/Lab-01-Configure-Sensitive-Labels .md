@@ -84,19 +84,21 @@ In this task you will understand what sensitivity labels by the creating sensiti
    view content that has this label.
 
 1. Click  **Next** on **Encryption** window.
+
    ![](../media/lab1-image9.png)
    
-
 1. On the content markings page, take note of the information box on the top of the page. Turn on the **Content Making** and select check box for **Add a watermark**, **Add a header** and **Add a footer**.
 
     ![](../media/lab1-image10.png)
    
 1. Select **Add a watermark**, click on **Customize text** on each and provide the text to it and click on **Save**.
+
     ![](../media/lab1-image11.png)
   
 1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the text to it and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
 
 1. The content marking associated with this label is a watermark. Select **Next** on the bottom of the page.
+
     ![](../media/lab1-image12.png)
       
 1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it. Select **Next** on the bottom of the page.
@@ -111,13 +113,13 @@ In this task you will understand what sensitivity labels by the creating sensiti
 
      ![](../media/lab1-image15.png)
           
-1.  Review the settings and click on **Create label**.
+1. Review the settings and click on **Create label**.
 
-       ![](../media/lab1-image16.png)
+   ![](../media/lab1-image16.png)
       
 1. On Your sensitivity label was created blade, select **Don't create a policy yet** and click on **Done**.
 
-      ![](../media/lab1-image18.png)
+   ![](../media/lab1-image18.png)
 
 1. Back on **labels** blade notice newly created sensitivity labels.
 

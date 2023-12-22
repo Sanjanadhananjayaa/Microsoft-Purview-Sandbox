@@ -36,7 +36,8 @@ In this task, you'll set the department attribute and assign a license to the us
 1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon
 
 1. Under **job information** tab for  Department field, enter HR, then click Save.
-    ![](../media/b-image10.png)
+
+   ![](../media/b-image10.png)
    
 1. Back on user blade, Choose the **john doe** user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon.
 
@@ -69,6 +70,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
 1. Under Information Barrier, select Segment and  and click on **+ New segment**.
+
    ![](../media/lab13-image4.png)
 
 1. On **Provide a segment name** page enter **HR** in name field and click **Next**.
@@ -78,6 +80,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 1. On **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter HR and click on **Next**.
 
     ![](../media/lab13-image22.png)
+
     ![](../media/lab13-image(23).png)
    
 1. On Summary page, click on **Submit**.
@@ -134,7 +137,7 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
 
-   ![](../media/lab13-image26.png)
+    ![](../media/lab13-image26.png)
 
 1. On Summary page click on **Submit** and **Done**.
 
@@ -151,7 +154,7 @@ In this task you'll learn how to Enable Scoped Directory Search on Microsoft Tea
 1. On **Microsoft Teams admin center**, from left navigation pane select **Teams Settings** and scroll down under search by name  then turn on the toggle for **Scope 
    directory search using an Exchange address book policy**.
 
-    ![](../media/b-image13.png)
+     ![](../media/b-image13.png)
 
 1. Click on **Save**.
 
@@ -161,15 +164,15 @@ In this task, you will apply the active Information barrier policies and check t
 
 1. From the left Navigation Pane, expand Information Barrier and select Policy Application.
 
-   ![](../media/lab13-image27.png)
+    ![](../media/lab13-image27.png)
 
 1. On Policy Application page, click on Apply All Policies.
 
-    ![](../media/lab13-image28.png)
+     ![](../media/lab13-image28.png)
    
 1. Once the policy is applied, the **Status** will update from **NotStarted** to **Completed**.
 
-    ![](../media/lab13-image29.png)
+     ![](../media/lab13-image29.png)
 
    >**Note**: Kindly **Refresh** page and Wait for the status to transition from NotStarted to Completed; this process may take 5 to 10 minutes.
 
@@ -187,7 +190,7 @@ In this task you'll
 
 1. Observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **John doe** as he is from **Finance** department.
 
-   ![](../media/b-image14.png)
+     ![](../media/b-image14.png)
 
 1. Sign out as odl user and  login as **John doe** to Microsoft teams
 
