@@ -12,7 +12,7 @@ In order to adhere to this law your organization has created a retention plan to
 
 In this lab, you will complete the following tasks:
 
-## Task 1 – Create company-wide Retention Policy
+## Task 1 – Create Retention Policy with Static mode
 
 In this exercise you will create a company-wide retention policy, apply a retention period, and set the locations that the policy will be applied to.
 
