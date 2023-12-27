@@ -16,7 +16,8 @@ In this lab, you will complete the following tasks:
 ![](../media/archi-1.png)
 
 ### Task 1: Explore the capabilities of sensitivity labels
-In this task you will understand what sensitivity labels by the creating sensitivity label.
+
+In this task you will understand how to create Sensitivity labels and how it lets you to classify and protect your organization's data.
 
 1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**(https://admin.microsoft.com/).
 
