@@ -57,6 +57,8 @@ In this task, you'll use a Word document to go through the process of applying a
 
 In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
+>**Note**: These steps demonstrate the practical impact of the sensitivity label, showcasing how protection settings and permissions affect the opening of the document in a real-world scenario.
+
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
       ![](../media/lab5-image5.png) 
