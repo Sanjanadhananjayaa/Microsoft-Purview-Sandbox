@@ -53,7 +53,8 @@ In this task, you'll use a Word document to go through the process of applying a
 
    >**Note**: In summary, this task guides the user can actively test and see the Sensitivity label in action, gaining a practical understanding of how the label affects document content and visibility.
 
-### Task 2 : Impact of that label
+### Task 2 : Testing Sensitivity Label Impact by Sending and Opening an Encrypted Document
+
 In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
