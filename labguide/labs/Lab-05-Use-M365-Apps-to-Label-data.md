@@ -29,7 +29,9 @@ In this task, you will go through the process of applying a label from the persp
 
 1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
 
-    ![](../media/lab5-image3.png) 
+    ![](../media/lab5-image3.png)
+
+   >**Note**: The sensitivity bar makes easy for you to see what label is applied to your file, and to apply or change a label whenever you need to, including when saving the file. Just select the sensitivity bar in the save dialog to see the labeling options for this file.
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
