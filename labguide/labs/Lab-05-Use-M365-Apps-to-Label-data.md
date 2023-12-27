@@ -2,6 +2,8 @@
 
 ## Lab Overview
 
+In this lab, you learn to apply sensitivity labels to Word documents, witnessing their impact on content markings like watermarks. This practical guide involves creating a new document, selecting a label (e.g., Confidential-Finance), and observing the persistence of label information. And testing label impact by sending an encrypted document via email. It demonstrates protection settings and permissions, where only specific groups can co-author or view the document. Together, these tasks offer hands-on insights into the application and real-world implications of sensitivity labels in Microsoft 365, ensuring secure data handling and classification.
+
 ## Lab scenario
 In this lab, you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created. Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
