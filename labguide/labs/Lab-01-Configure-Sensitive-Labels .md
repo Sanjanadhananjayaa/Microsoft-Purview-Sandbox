@@ -125,6 +125,9 @@ In this task you will understand how to create Sensitivity labels and how it let
 1. Back on **labels** blade notice newly created sensitivity labels.
 
    ![](../media/lab1-image17.png)
+
+Once you have created sensitivity labels and in next lab you'll configured label policies and then you can start using them and learn how to manage sensitivity labels. You'll also learn to apply sensitivity labels to emails and files in up coming labs.
+
       
 ## Review
 In this lab, you have completed:
