@@ -1,5 +1,7 @@
 # Lab 05 - Use M365 Apps to Label data
 
+## Lab Overview
+
 ## Lab scenario
 In this lab, you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created. Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
@@ -8,7 +10,7 @@ In this lab, you will explore the capabilities of sensitivity labels.  You will 
 In this lab, you will complete the following tasks:
 
 + Task 1: How to apply a Sensitivity label to word document 
-+ Task 2: Impact of that label
++ Task 2: Testing Sensitivity Label Impact by Sending and Opening an Encrypted Document
 
 ## Architecture diagram
 ![](../media/part2lab2.png)
@@ -82,7 +84,7 @@ In addition to content marking, the label protection setting was set for encrypt
 ## Review
 In this lab, you have completed:
 
-+ How to apply a label
-+ Impact of that label
++ How to apply a Sensitivity label to word document 
++ Testing Sensitivity Label Impact by Sending and Opening an Encrypted Document
 
 ## You have successfully completed the lab
