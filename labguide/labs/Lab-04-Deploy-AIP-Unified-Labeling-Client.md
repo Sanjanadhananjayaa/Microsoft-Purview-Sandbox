@@ -33,9 +33,6 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab4-image4.png)
 
-### Implementation of AIP Unified Labeling Client (In Progress)
-
-
 ### Task 2 : Using File Explorer to classify files 
 
 To classify a file by using File Explorer
