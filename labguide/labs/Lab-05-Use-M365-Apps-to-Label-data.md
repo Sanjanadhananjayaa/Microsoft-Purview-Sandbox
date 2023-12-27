@@ -43,6 +43,10 @@ In this task, you will go through the process of applying a label from the persp
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
+   >**Note**: When you apply Sensitivity label, the label information will persist with your file or email, even as it is shared between devices, applications, and cloud services. 
+     Applying a sensitivity label may also result in changes to your file or email according to your organization's configuration, such as A header or footer may appear in your file or 
+     email and  watermark may appear in your file
+
 ### Task 2 : Impact of that label
 In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
