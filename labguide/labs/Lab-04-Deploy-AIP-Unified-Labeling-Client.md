@@ -11,7 +11,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Deploy AIP Unified Labeling Client 
 
-1. Download AzInfoProtection_UL.exe from the Microsoft Download Center(https://www.microsoft.com/en-us/download/details.aspx?id=53018).
+1. Within LabVm open **Microsoft edge**.
+
+1. Browse for Microsoft Download Center(https://www.microsoft.com/en-us/download/details.aspx?id=53018) to Download AzInfoProtection_UL.exe.
 
 1. On Azure Information Protection page click on **Download**.
 
@@ -34,6 +36,8 @@ In this lab, you will complete the following tasks:
    ![](../media/lab4-image4.png)
 
 ### Task 2 : Using File Explorer to classify files 
+
+In this task, you'll classify file 
 
 To classify a file by using File Explorer
 In File Explorer, select your file, multiple files, or a folder. Right-click, and select Classify and protect. For example:
