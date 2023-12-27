@@ -101,6 +101,7 @@ In this lab, you will complete the following tasks:
 1. Open Microsoft Edge and go to  Microsoft Purview Extension(https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)
 
 1. On **Switch to Chrome?** click on **Yes**, then download and install.
+1. Under **The browser built to be yours** click on **Download Chrome**.
     
 ### Task 2 : Create a policy
 
