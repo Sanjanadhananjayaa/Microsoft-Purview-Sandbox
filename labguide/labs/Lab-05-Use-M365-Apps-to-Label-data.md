@@ -60,6 +60,8 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Close the open browser tabs.
 
+>**Note**: For example, applying a sensitivity label ‘confidential finance’ to a document that contains credit card numbers helps you identify the sensitivity of the document without knowing the actual data in the document.
+
 ## Review
 In this lab, you have completed:
 
