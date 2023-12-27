@@ -7,7 +7,7 @@ In this lab, you will explore the capabilities of sensitivity labels.  You will 
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: How to apply a label
++ Task 1: How to apply a Sensitivity label to word document 
 + Task 2: Impact of that label
 
 ## Architecture diagram
