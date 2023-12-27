@@ -34,3 +34,25 @@ In this lab, you will complete the following tasks:
    ![](../media/lab4-image4.png)
 
 ### Implementation of AIP Unified Labeling Client (In Progress)
+
+
+### Task 2 : Using File Explorer to classify files 
+
+To classify a file by using File Explorer
+In File Explorer, select your file, multiple files, or a folder. Right-click, and select Classify and protect. For example:
+
+File Explorer right-click Classify and protect using Azure Information Protection
+
+In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
+
+If none of the labels can be selected (they appear dimmed): The selected file does not support classification. For example:
+
+No labels available in the Classify and protect - Azure Information Protection** dialog box
+
+If you selected a file that does not support classification, click Close. You cannot classify this file without also protecting it.
+
+If you selected a label, click Apply and wait for the Work finished message to see the results. Then click Close.
+
+If you change your mind about the label you chose, simply repeat this process and choose a different label.
+
+The classification that you specified stays with the file, even if you email the file or save it to another location.
