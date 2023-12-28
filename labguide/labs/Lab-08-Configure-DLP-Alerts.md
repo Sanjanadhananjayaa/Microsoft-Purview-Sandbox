@@ -60,6 +60,10 @@ In this task you'll create dlp policy in Microsoft purview
 
 Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time. There are two types of alerts that can be configured in DLP policies.
 
+### Conclusion
+In this lab you configured DLP policies and exploring alert settings in the Microsoft Purview portal. Users learn to customize the severity of alerts based on different scenarios, allowing for effective monitoring of potential data loss incidents. The practical demonstration reinforces the importance of DLP policies in preventing unauthorized sharing of sensitive information and highlights the role of alerts in incident response.
+
+
 ## Review
 In this lab, you have completed:
 + Create a dlp policies
