@@ -58,6 +58,10 @@ In this task you'll explore on investigating dlp alerts in Microsoft Purview.
 
 You Investigated the alert in the DLP alert management dashboard and also explored on  Activity explorer to investigate alerts. You can also share alerts with other users in your organization.
 
+### Conclusion:
+The investigation of DLP alerts is a critical step in the data security lifecycle. It empowers organizations to respond effectively to potential threats, enhance data protection policies, and educate users on proper data handling practices. The ability to mark alerts as resolved signifies that appropriate actions have been taken to address the identified issues.
+
+
 ## Review
 In this lab, you have completed:
 + Investigation of  Data Loss Prevention Alerts
