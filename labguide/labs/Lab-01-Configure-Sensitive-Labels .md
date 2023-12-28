@@ -130,7 +130,7 @@ In this task you will understand how to create Sensitivity labels and how it let
     | -- | -- |
     | **Name** text box | Enter **Highly-Confidential** |
     | **Display name** text box | Enter **Highly-Confidential** |
-    | **Description for users** text box | Enter **Highly-Confidential** Demo** | 
+    | **Description for users** text box | Enter **Highly-Confidential** Demo | 
 
 Once you have created sensitivity labels and in next lab you'll configured label policies and then you can start using them and learn how to manage sensitivity labels. You'll also learn to apply sensitivity labels to emails and files in up coming labs.
 
