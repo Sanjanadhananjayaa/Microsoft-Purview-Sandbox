@@ -188,7 +188,12 @@ In this exercise you will create a retention policy for the finance and legal de
 
 You have successfully applied an adaptive scope to a retention policy.
 
-## Review
+### Conclusion
+
+By completing the tasks outlined in this lab, users gain practical skills in creating retention policies with both static and adaptive scopes. This knowledge is essential for organizations to implement effective information governance, ensuring compliance with legal regulations. The lab emphasizes the importance of configuring retention policies to meet specific organizational and regulatory needs.
+
+
+### Review
 In this lab, you have completed:
 
 + Create Retention Policy with Static mode
