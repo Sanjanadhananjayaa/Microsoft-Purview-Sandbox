@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Create a sensitivity labels in Microsoft Purview
 
-In this task you will understand how to create Sensitivity labels and how it lets you to classify and protect your organization's data.
+In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
 
 1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**(https://admin.microsoft.com/).
 
