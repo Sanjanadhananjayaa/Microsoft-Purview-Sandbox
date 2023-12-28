@@ -1,5 +1,10 @@
 # Lab 13 - Implement and Use Information Barriers
 
+## Lab Overview
+
+Information Barriers in Microsoft 365 serve as a critical tool for controlling communication and collaboration between different segments or groups within an organization. The configured Information Barriers establish a virtual barrier to prevent specific users or groups from interacting, thereby ensuring compliance, preventing conflicts of interest, and protecting sensitive information.
+
+
 ## Lab scenario
 As Joni, the Compliance Administrator for Contoso Ltd., your responsibility is to configure and manage Information Barriers in Microsoft 365. Information Barriers play a critical role in maintaining clear boundaries and preventing unauthorized communication between specific groups or individuals within your organization. By implementing Information Barriers, you ensure compliance with regulations, protect sensitive information, and minimize conflicts of interest. This setup will create a secure work environment, safeguarding data confidentiality and supporting Contoso Ltd.'s commitment to compliance.
 
@@ -194,16 +199,17 @@ In this task you'll
 
 1. Sign out as odl user and  login as **John doe** to Microsoft teams
 
-1. Search and attempt send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **JODL user** as he is from **HR** department.
+1. Search and attempt send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **ODL user** as he is from **HR** department.
 
      ![](../media/b-image15.png)
 
-    >**Note**: This is happening because information protection policy is been applied.
-
-   >**Note**: Microsoft Purview Information Barriers enable you to create policies to keep people or groups from communicating with one another (when there's no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below).
+    >**Note**: If the users conducting these activities in Microsoft Teams are included in an IB policy to prevent the activity, they won't be able to proceed. In addition, everyone included in an IB policy can be potentially blocked from communicating with other users in Microsoft Teams. When users affected by IB policies are part of the same team or group chat, they may be removed from those chat sessions and further communication with the group may not be allowed.
 
 
-## Review 
+### Conclusion:
+By completing these tasks, you successfully configured Information Barriers, assigned attributes and licenses, created segments and policies, and tested their functionality in Microsoft Teams. This ensures data security, compliance, and controlled communication within organisation.
+
+### Review 
 In this lab, you have completed:
 + Modifying the attribute and assigning a license for the user named *Johndoe*.
 + Creating segments for Information Barriers
