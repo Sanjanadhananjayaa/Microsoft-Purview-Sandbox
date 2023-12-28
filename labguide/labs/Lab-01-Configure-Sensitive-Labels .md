@@ -102,9 +102,7 @@ In this task you will understand how to create Sensitivity labels and how it let
 
     ![](../media/lab1-image12.png)
       
-1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it. Select **Next** on the bottom of the page.
-
-      ![](../media/lab1-image13.png)
+1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it and under **Detect content that matches these conditions** click on **+ Add condition** from the drop down select **Content contains then under **Group name** select **Add** drop down select **Sensitive info type** and in  **Sensitive info type** window search for credit and select the Credit card number, select **Add** from buttom, select **Next** on the bottom of the page.
 
 1. This next window defines protection settings for groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
 
