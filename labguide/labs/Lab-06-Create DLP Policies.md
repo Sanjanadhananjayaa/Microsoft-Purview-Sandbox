@@ -1,5 +1,9 @@
 # Lab 06 - Create a DLP policy
 
+## Lab Overview
+
+This lab is designed to guide users through the process of creating a Data Loss Prevention (DLP) policy in the Microsoft Purview portal. The DLP policy aims to protect sensitive data, specifically Credit Card information, from being shared by users. The policy is configured to notify users when attempting to share such information, allowing them to provide a justification for sending it. This lab provides hands-on experience in setting up a customized DLP policy tailored to the organization's data protection needs.
+
 ## Lab scenario
 
 In this lab, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information.
@@ -87,7 +91,13 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
      ![](../media/cc15.png)
 
-You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.
+   >**Note**: You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.
+
+   >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted to provide justifications before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
+
+### Conclusion
+
+By completing this lab, users acquire practical knowledge of configuring DLP policies in the Microsoft Purview portal. The created DLP policy, specifically targeting Credit Card information, demonstrates how organizations can customize policies to align with their data protection and compliance requirements. The lab underscores the importance of user awareness and engagement in maintaining data security.
 
 ## Review
 In this lab, you have completed:
