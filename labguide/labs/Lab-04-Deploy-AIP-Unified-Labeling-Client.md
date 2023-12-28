@@ -39,21 +39,21 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll classify file 
 
-To classify a file by using File Explorer
-In File Explorer, select your file, multiple files, or a folder. Right-click, and select Classify and protect. For example:
+1. To classify a file by using File Explorer
+1. In File Explorer, select your file, multiple files, or a folder. Right-click, and select Classify and protect. For example:
 
-File Explorer right-click Classify and protect using Azure Information Protection
+1. File Explorer right-click Classify and protect using Azure Information Protection
 
-In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
+1. In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
 
-If none of the labels can be selected (they appear dimmed): The selected file does not support classification. For example:
+1. If none of the labels can be selected (they appear dimmed): The selected file does not support classification. For example:
 
-No labels available in the Classify and protect - Azure Information Protection** dialog box
+1. No labels available in the Classify and protect - Azure Information Protection** dialog box
 
-If you selected a file that does not support classification, click Close. You cannot classify this file without also protecting it.
+1. If you selected a file that does not support classification, click Close. You cannot classify this file without also protecting it.
 
-If you selected a label, click Apply and wait for the Work finished message to see the results. Then click Close.
+1. If you selected a label, click Apply and wait for the Work finished message to see the results. Then click Close.
 
-If you change your mind about the label you chose, simply repeat this process and choose a different label.
+1. If you change your mind about the label you chose, simply repeat this process and choose a different label.
 
-The classification that you specified stays with the file, even if you email the file or save it to another location.
+1. The classification that you specified stays with the file, even if you email the file or save it to another location.
