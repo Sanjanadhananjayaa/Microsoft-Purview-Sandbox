@@ -10,12 +10,13 @@ In a Contoso company, john uses Microsoft Purview's Sensitivity labels to safegu
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Explore the capabilities of sensitivity labels
++ Task 1: Create a sensitivity labels in Microsoft Purview
   
 ## Architecture diagram
+
 ![](../media/archi-1.png)
 
-### Task 1: Explore the capabilities of sensitivity labels
+### Task 1: Create a sensitivity labels in Microsoft Purview
 
 In this task you will understand how to create Sensitivity labels and how it lets you to classify and protect your organization's data.
 
@@ -137,6 +138,6 @@ Once you have created sensitivity labels and in next lab you'll configured label
       
 ## Review
 In this lab, you have completed:
-+ Explored and configure Sensitive Labels
++ Create a sensitivity labels in Microsoft Purview
 
 ## You have successfully completed the lab
