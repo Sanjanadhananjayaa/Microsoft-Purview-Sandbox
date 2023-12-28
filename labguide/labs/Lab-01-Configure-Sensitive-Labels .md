@@ -92,11 +92,11 @@ In this task you will understand how to create Sensitivity labels and how it let
 
     ![](../media/lab1-image10.png)
    
-1. Select **Add a watermark**, click on **Customize text** on each and provide the text to it and click on **Save**.
+1. Select **Add a watermark**, click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**.
 
     ![](../media/lab1-image11.png)
   
-1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the text to it and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
+1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
 
 1. The content marking associated with this label is a watermark. Select **Next** on the bottom of the page.
 
