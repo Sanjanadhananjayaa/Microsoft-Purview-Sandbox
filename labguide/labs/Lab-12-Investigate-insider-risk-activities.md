@@ -1,6 +1,12 @@
 # Lab 12 - Investigate insider risk activities
 
+## Lab Overview
+
+Organizations employ insider risk investigation to proactively identify and respond to potential threats arising from within. Leveraging specialized tools, such as Microsoft Insider Risk Management, this process involves scrutinizing user activities, behaviors, and data access patterns. Security administrators and teams conduct detailed analyses to detect signs of IP theft, data leakage, or security violations.
+
 ## Lab scenario
+
+You are the security administrator for a multinational corporation that handles sensitive financial and customer data. Recently, there have been concerns about potential insider risks, including data leakage and unauthorized access. Your organization has implemented Microsoft Insider Risk Management to proactively identify and mitigate such threats.
 
 ## Lab objectives
 
