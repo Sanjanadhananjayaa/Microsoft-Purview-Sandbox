@@ -1,4 +1,4 @@
-# Lab 06 - Create a DLP policy
+# Lab 06 - Create a Data Loss Prevention (DLP) policy
 
 ## Lab Overview
 
