@@ -1,5 +1,9 @@
 # Lab  14 - Azure Storage in-place data share with Microsoft Purview Data Sharing 
 
+## Lab Overview
+
+Microsoft Purview Data Sharing introduces a powerful capability to seamlessly share Azure Storage data in-place within the Purview environment. This feature transforms data collaboration, allowing organizations to unlock the value of their Azure Storage data while maintaining control, security, and governance.
+
 ## Lab scenario
 
 With Microsoft Purview Data Sharing, data providers can now share data in-place from Azure Data Lake Storage Gen2 and Azure Storage accounts, both within and across organizations. Share data directly with users and partners without data duplication and centrally manage your sharing activities from within Microsoft Purview.
