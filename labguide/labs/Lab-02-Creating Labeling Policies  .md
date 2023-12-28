@@ -23,9 +23,9 @@ In this lab, you will publish existing sensitive label.
    ![](../media/lab2-image1.png)    
 
     
-1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add**
+1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. Select **Confidential-Finance**  and **Highly-Confidential** from label and select **Add**
 
-    ![](../media/lab2-image2.png)    
+    ![](../media/lab1-image19.png)    
 
 1. Back on **Choose sensitivity labels** blade, click on **Next**.
 
@@ -62,9 +62,9 @@ In this lab, you will publish existing sensitive label.
 
      ![](../media/lab2-image10.png)   
     
-1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Finance Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
+1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
-   ![](../media/lab2-image11.png)   
+   ![](../media/lab1-image20.png)   
     
 1. Review the settings and click on **Submit** and then select **Done**.
 
