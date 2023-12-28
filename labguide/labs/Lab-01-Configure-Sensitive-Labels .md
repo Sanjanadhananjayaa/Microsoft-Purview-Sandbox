@@ -8,7 +8,7 @@ Sensitivity labels are implemented to classify your organization’s data in a w
 
 Microsoft Purview Information Protection's Sensitivity labels empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
 
-In a Contoso company, ODL User uses Microsoft Purview's Sensitivity labels to safeguard "Project Quantum Leap" data. With labels like "Confidential-Finance" and "Highly-Confidential"  employees effortlessly classify and share information securely. When Alex mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
+In a Contoso company, ODL User uses Microsoft Purview's Sensitivity labels to safeguard "Project Quantum Leap" data. With labels like "Confidential-Finance" and "Highly-Confidential"  employees effortlessly classify and share information securely. When ODL user mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
 
 ## Lab objectives
 
