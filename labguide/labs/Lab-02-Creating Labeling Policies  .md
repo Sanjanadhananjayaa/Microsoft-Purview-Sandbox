@@ -8,13 +8,13 @@ After you create your sensitivity labels, you need to publish them to make them 
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Publish sensitivity labels
++ Task 1: Publish the sensitivity label to user
   
 ## Architecture diagram
 ![](../media/archi-2.png)
 
 
-### Task 1 : Publish sensitivity labels
+### Task 1 : Publish the sensitivity label to user
 
 In this lab, you will publish existing sensitive label.
 
