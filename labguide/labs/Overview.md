@@ -1,6 +1,6 @@
 # Overview of Purview
 
-## Data discovery, classification, and governance with Microsoft Purview
+## Overview
 
 Azure Purview is a data governance service by Microsoft that enables organizations to discover, understand, and manage their data across on-premises, multi-cloud, and SaaS environments. It provides a unified view of data assets, helps maintain data compliance, and facilitates collaboration among teams for effective data management and utilization. With automated discovery and classification, Purview enhances data visibility and empowers organizations to make informed decisions based on trusted and well-governed data.
 
