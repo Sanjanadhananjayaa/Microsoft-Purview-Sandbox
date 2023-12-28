@@ -1,5 +1,8 @@
 # Lab 10 - Configure Safe breach simulation
 
+## Lab Overview
+The task outlines the steps to launch a simulated phishing attack through the Microsoft Defender portal. Users are instructed to navigate to the Attack simulation training section, access the Simulations tab, and initiate the new simulation wizard. The process involves configuring various settings such as simulation name, payload selection, target users, training assignments, and launch details.
+
 ## Lab scenario
 In this lab, you will explore how the simulations are benign cyberattacks that you run in your organization. These simulations test your security policies and practices, as well as train your employees to increase their awareness and decrease their susceptibility to attacks.
 
@@ -142,7 +145,13 @@ To launch a simulated phishing attack, do the following steps:
 
      ![](../media/lab10-image-18.png)
 
-## Review
+
+>**Note**: Launching a simulated phishing attack is a proactive measure to enhance cybersecurity awareness and readiness within an organization. By simulating real-world phishing scenarios, users can be trained to recognize and respond appropriately to potential threats. This contributes to the overall security posture of the organization by empowering users with the knowledge and skills needed to identify and avoid phishing attacks.
+
+### Conclusion:
+The conclusion emphasizes the completion of the attack simulation creation process. Users are directed to review the simulation details, send a test email for inspection, and submit the simulation for execution. The acknowledgment of the newly created simulation signifies readiness for training and testing against simulated phishing attacks.
+
+### Review
 In this lab, you have completed:
 + Create Attack Simulation
 
