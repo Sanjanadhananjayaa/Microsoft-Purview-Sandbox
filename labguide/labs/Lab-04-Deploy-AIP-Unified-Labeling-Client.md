@@ -11,7 +11,8 @@ The Azure Information Protection unified labeling client for Windows helps you k
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Deploy AIP Unified Labeling Client
++ Task 1: Install Azure Information Protection Unified Labeling Client
++ Task 2: Using File Explorer to classify files 
 
 ### Task 1: Install Azure Information Protection Unified Labeling Client 
 
@@ -39,7 +40,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab4-image4.png)
 
-### Task 2 : Using File Explorer to classify files 
+### Task 2: Using File Explorer to classify files 
 
 In this task, you'll classify file 
 
@@ -67,3 +68,10 @@ In this task, you'll classify file
 ### Conclusion
 
 By completing the tasks outlined in this lab, users gain practical knowledge of deploying the Azure Information Protection Unified Labeling Client and utilizing it to classify files. This knowledge is essential for organizations seeking to enhance their data protection strategies and ensure compliance with security and privacy requirements. The lab emphasizes the importance of incorporating AIP tools into the data management workflow.
+
+### Review
+In this lab, you have completed:
++ Install Azure Information Protection Unified Labeling Client
++ Using File Explorer to classify files 
+
+## You have successfully completed the lab
