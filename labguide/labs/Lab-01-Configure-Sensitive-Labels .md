@@ -1,5 +1,9 @@
 # Lab 01 - Configure Sensitive Labels 
 
+## Lab Overview 
+
+Sensitivity labels are implemented to classify your organization’s data in a way that shows how sensitive the data is. This helps you reduce risks in sharing information that shouldn’t be accessible to anyone outside your organization or department. Applying sensitivity labels allows you to protect all your data easily.
+
 ## Lab scenario
 
 Microsoft Purview Information Protection's Sensitivity labels empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
