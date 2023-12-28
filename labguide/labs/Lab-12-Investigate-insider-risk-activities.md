@@ -73,8 +73,7 @@ In this task, you'll Investigate insider risk activities
    
    >**Note**: Review the settings for your insider risk policy. The policy will take effect immediately after you create it, but may take up to 24 hours to start generating alerts. User productivity won't be impacted in any way. 
 
-   >**Note**: Investigating insider risk activities allows organizations to monitor user behavior, detect potential risks, and take timely actions to mitigate any threats. Understanding the policy settings ensures a comprehensive review of user activities.
-
+   >**Note**: Establishing Insider Risk Management Investigators ensures that designated individuals have the necessary access levels to investigate and respond to insider risk activities effectively. Investigating insider risk activities allows organizations to actively monitor user behavior, detect potential risks, and take timely actions to mitigate any threats.
 
 ### Conclusion:
 By completing these tasks, the organization sets up a team of investigators with the appropriate roles, empowering them to handle insider risk incidents efficiently. Simultaneously, users can actively monitor and investigate insider risk activities, aligning with a proactive security strategy.
