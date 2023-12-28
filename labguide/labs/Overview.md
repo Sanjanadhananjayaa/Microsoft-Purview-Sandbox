@@ -25,22 +25,25 @@ The lab scenarios are given as reference material to assist you in getting start
 
 ## Content:
 
-### Part - 01:
-+ Part:1 Lab 01 - Protect Sensitive Data
-+ Part:1 Lab 02 - Configure sensitivity labels and policies in Microsoft Purview
-+ Part:1 Lab 03 - Configure EAC rule to enable encryption
-+ Part-1 Lab 04 - Configure DLP Policies
-+ Part:1 Lab 05 - Configure Safe breach simulation
-+ Part:1 Lab 06 - Configure Insider Risk Management Policies in Microsoft Purview
+## Contents:
 
-> In Part 1, you will set up and configure Microsoft Purview features.
+Microsoft Sentinel
 
-### Part - 02:
-+ Part:2 Lab 01 - Explore Monitoring on Protected Sensitive Data
-+ Part:2 Lab 02 - Explore sensitivity labels and policies in Microsoft Purview
-+ Part:2 Lab 03 - Explore on updating Enable Encryption
-+ Part:2 Lab 04 - Explore options on DLP Alerts remediations
-+ Part:2 Lab 05 - Explore Insights & Reports on safe breach simulation
-+ Part:2 Lab 06 - Explore Insider Risk Management in Microsoft Purview
+- Lab 01 - Configure Sensitive Labels 
+- Lab 02 - Publish sensitivity labels
+- Lab 03 - Configure Message Encryption
+- Lab 04 - Install and Use Azure Information Protection Unified Labeling Client To Classify Files
+- Lab 05 - Use M365 Apps to Label data
+- Lab 06 - Create a Data Loss Prevention (DLP) policy
+- Lab 07 - Implementing Microsoft Purview extension for Chrome
+- Lab 08 - Configure Data Loss Prevention Alerts
+- Lab 09 - Investigation of Data Loss Prevention Alerts
+- Lab 10 - Configure Safe breach simulation
+- Lab 11 - Configure Insider Risk Management Policies in Microsoft Purview
+- Lab 12 - Investigate insider risk activities
+- Lab 13 - Implement and Use Information Barriers
+- Lab 14 - Azure Storage in-place data share with Microsoft Purview Data Sharing
+- Lab 15 - Explore the Core eDiscovery workflow
+- Lab 16 - Configure Retention Policies
 
-> In Part 2, you will look at the implementation and functionality of Microsoft Purview features.
+### Azure services and related products
