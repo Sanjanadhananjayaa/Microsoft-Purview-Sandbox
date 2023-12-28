@@ -18,7 +18,7 @@ In this lab, you will complete the following task:
 
 ### Task 1: Create Attack Simulation
 
-To launch a simulated phishing attack, do the following steps:
+In this task you'll create an attack simulation, specifically a simulated phishing attack, using the Microsoft Defender portal. The objective is to guide users through the process of launching a simulated phishing attack for training and awareness purposes within the organization.
 
 1. In the Microsoft Defender portal at **https://security.microsoft.com**, Expand **Email & collaboration** and select **Attack simulation 
    training**  **Simulations tab**. 
