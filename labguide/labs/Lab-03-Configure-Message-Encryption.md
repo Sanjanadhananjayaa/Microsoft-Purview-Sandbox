@@ -1,6 +1,9 @@
 # Lab 03 - Configure Message Encryption  
 
-# Lab scenario
+## Lab Overview
+The task guides users through the steps of creating an encryption rule using the Exchange admin center. Users are instructed to navigate to the Mail flow section, add a new rule, set rule conditions, and define actions for message security, including the application of Microsoft 365 Message Encryption and rights protection.
+
+## Lab scenario
 
 Microsoft Purview Message Encryption enables organizations to securely share protected emails across any device. Users can send encrypted messages not only within Microsoft 365 organizations but also with external parties using services like Outlook.com, Gmail, and other email platforms.
 
