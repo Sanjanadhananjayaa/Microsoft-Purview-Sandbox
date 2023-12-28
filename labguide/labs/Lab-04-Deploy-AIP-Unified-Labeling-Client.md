@@ -1,4 +1,4 @@
-# Lab 04 - Deploy AIP Unified Labeling Client 
+# Lab 04 - Install and Use Azure Information Protection Unified Labeling Client To Classify Files
 
 ## Lab scenario
 The Azure Information Protection unified labeling client for Windows helps you keep important documents and emails safe from people who shouldn't see them, even if your email is forwarded or your document is saved to another location. You can also use this client to open documents that other people have protected by using the Rights Management protection technology from Azure Information Protection.
@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Deploy AIP Unified Labeling Client
 
-### Task 1: Deploy AIP Unified Labeling Client 
+### Task 1: Install Azure Information Protection Unified Labeling Client 
 
 1. Within LabVm open **Microsoft edge**.
 
