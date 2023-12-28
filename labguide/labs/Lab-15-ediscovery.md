@@ -222,7 +222,10 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Check the location of your download to verify the download was successfully completed. 
 
-## Review
+### Conclusion
+By completing the tasks outlined in this lab, users gain practical insights into the Core eDiscovery workflow. The ability to add users, create cases, implement holds, and execute search queries demonstrates proficiency in leveraging Microsoft 365 tools for eDiscovery purposes. This knowledge is essential for organizations aiming to streamline their eDiscovery processes and maintain compliance with legal requirements.
+
+### Review
 In this lab, you have completed:
 - Add specific users as members of the eDiscovery Manager role group
 - Create a case to start using Core eDiscovery
