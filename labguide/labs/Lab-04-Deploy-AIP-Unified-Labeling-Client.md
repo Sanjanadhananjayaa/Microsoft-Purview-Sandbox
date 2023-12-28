@@ -63,7 +63,9 @@ In this task, you'll classify file
 
 1. The classification that you specified stays with the file, even if you email the file or save it to another location.
 
->**Note**: Implementing Azure Information Protection is crucial for organizations to enhance data security and control access to sensitive information. The Unified Labeling Client enables users to classify and protect files, ensuring that confidential data remains secure, even if documents are forwarded or saved in different locations. This lab equips users with the skills to deploy the AIP client and apply classification labels to files.
+   >**Note**: Implementing Azure Information Protection is crucial for organizations to enhance data security and control access to sensitive information. The Unified 
+    Labeling Client enables users to classify and protect files, ensuring that confidential data remains secure, even if documents are forwarded or saved in different 
+    locations. This lab equips users with the skills to deploy the AIP client and apply classification labels to files.
 
 ### Conclusion
 
