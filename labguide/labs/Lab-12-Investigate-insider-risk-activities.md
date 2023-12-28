@@ -15,9 +15,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1 : Create Insider Risk Management Investigators
 
-In this task you'll 
-
-This task guides the user in investigating insider risk activities. It involves navigating to the Insider Risk Management page and reviewing user activities based on the configured policies.
+In this task you, as the global administrator, will enable permissions for Insider Risk Management Investigators.  Specifically, you will add users to the Insider Risk Management Investigators role group to ensure that designated users can access and manage insider risk management Investigators features.
 
 1. If you not already login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
 
@@ -66,6 +64,8 @@ This task guides the user in investigating insider risk activities. It involves 
 1. On **You successfully updated the role group** page, click on **Done**.
   
 ### Task 2 : Investigate insider risk activities
+
+In this task, you'll Investigate insider risk activities
 
 1. Navigate to **Insider risk management** page, and select to user tab where you can view user activity
 
