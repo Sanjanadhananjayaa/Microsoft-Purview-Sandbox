@@ -188,6 +188,8 @@ In this exercise you will create a retention policy for the finance and legal de
 
 You have successfully applied an adaptive scope to a retention policy.
 
+>**Note**: Retention policies are crucial for organizations to systematically manage data, comply with legal requirements, and enforce consistent information governance. By creating retention policies, Contoso Ltd. aims to adhere to state laws that specify the deletion of records after one day. 
+
 ### Conclusion
 
 By completing the tasks outlined in this lab, users gain practical skills in creating retention policies with both static and adaptive scopes. This knowledge is essential for organizations to implement effective information governance, ensuring compliance with legal regulations. The lab emphasizes the importance of configuring retention policies to meet specific organizational and regulatory needs.
