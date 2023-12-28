@@ -1,5 +1,9 @@
 # Lab 16 - Configure Retention Policies
 
+## Lab Overview
+
+Retention policies are crucial components of information governance, allowing organizations to manage the lifecycle of their data, ensure compliance, and meet regulatory requirements. Here's an overview of the process to create and configure retention policies
+
 ## Lab scenario
 
 In this exercise, you will assume the role of Joni Sherman, a System Administrator for Contoso Ltd. Your organization is based in Texas and wants to implement retention policies to adhere to state laws, which stipulates that records may be deleted after 1 day without constituting an offense.
