@@ -74,9 +74,6 @@ In this lab, you will publish existing sensitive label.
 
 1. Back to **Label policies** blade and notice newly publish label.
 
-   ![](../media/lab2-image14.png)   
-
-
 ## Review
 In this lab, you have completed:
 + Explore on how to Publish sensitivity labels
