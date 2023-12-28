@@ -1,5 +1,9 @@
 # Lab 11 - Configure Insider Risk Management Policies in Microsoft Purview
 
+## Lab Overview
+
+As a global administrator, your task involves enabling permissions for Insider Risk Management by adding users to the Insider Risk Management role group. This step ensures that designated users have access to and can effectively manage insider risk management features. It's important to note that the application of role group permissions may take up to 30 minutes to propagate across the organization. This process grants the necessary authority to oversee and respond to potential insider risks, such as IP theft and data leakage, enhancing the organization's security posture.
+
 ## Lab scenario
 In this lab, you will explore the capabilities of Insider Risk Management to identify, mitigate, and respond to potential risks posed by individuals within the organization
 
