@@ -68,7 +68,6 @@ In this task, you'll classify file
     locations. This lab equips users with the skills to deploy the AIP client and apply classification labels to files.
 
 ### Conclusion
-
 By completing the tasks outlined in this lab, users gain practical knowledge of deploying the Azure Information Protection Unified Labeling Client and utilizing it to classify files. This knowledge is essential for organizations seeking to enhance their data protection strategies and ensure compliance with security and privacy requirements. The lab emphasizes the importance of incorporating AIP tools into the data management workflow.
 
 ### Review
