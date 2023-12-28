@@ -1,5 +1,8 @@
 # Lab 08 - Configure Data Loss Prevention Alerts
 
+## Lab Overview
+Data Loss Prevention (DLP) policies in Microsoft Purview and explore the settings related to DLP alerts. By creating DLP policies and adjusting alert configurations, users will gain practical experience in securing sensitive information and responding to potential policy violations.
+
 ## Lab scenario
 
 DLP triggers an alert if a user takes an action that aligns with a DLP policy, and you have configured Incident reports to generate alerts. The alert is then posted in the DLP Alerts dashboard for further investigation.
