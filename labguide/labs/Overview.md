@@ -81,5 +81,5 @@ You will have access to a lab guide which is a reference material to assist you 
 ### Azure services and related products
 
 - Microsoft Entra ID
-- Storage Account
+- Azure Storage Account
 - Azure Purview
