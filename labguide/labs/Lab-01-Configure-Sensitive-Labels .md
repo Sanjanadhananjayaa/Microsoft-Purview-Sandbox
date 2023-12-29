@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
   
 ## Architecture diagram
 
-![](../media/archi-1.png)
+![](../media/purview-lab1.png)
 
 ### Task 1: Create a sensitivity labels in Microsoft Purview
 
