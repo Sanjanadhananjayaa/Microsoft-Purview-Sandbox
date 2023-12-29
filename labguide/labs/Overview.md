@@ -11,9 +11,9 @@ Azure Purview is a data governance service by Microsoft that enables organizatio
 - Risk and compliance: Microsoft Purview includes risk and compliance solutions to help your organization minimize compliance risks and meet regulatory requirements. 
 
 ## Sandbox Scenario
-Contoso, a multinational corporation, operates a complex IT infrastructure with a mix of on-premises data centers and cloud-based resources. Facing challenges in managing and governing their expanding data landscape, Contoso decides to implement Azure Purview to streamline data discovery, classification, and management across their entire IT environment.
+Contoso, a multinational corporation, operates a complex IT infrastructure with a mix of on-premises data centers and cloud-based resources. Facing challenges in managing and governing their expanding data landscape, Contoso decides to implement Microsoft Purview to streamline data discovery, classification, and management across their entire IT environment.
 
-By implementing Azure Purview, Contoso achieves a unified and streamlined approach to data governance, allowing them to effectively manage, classify, and collaborate on their diverse data assets. This enhances their ability to meet compliance requirements and ensures a proactive stance in addressing data-related challenges across their complex IT infrastructure.
+By implementing Microsoft Purview, Contoso achieves a unified and streamlined approach to data governance, allowing them to effectively manage, classify, and collaborate on their diverse data assets. This enhances their ability to meet compliance requirements and ensures a proactive stance in addressing data-related challenges across their complex IT infrastructure.
 
 ## Using the sandbox
 
