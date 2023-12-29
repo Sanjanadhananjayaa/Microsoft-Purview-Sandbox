@@ -15,8 +15,8 @@ In this lab, you will complete the following tasks:
 + Task 1: Publish the sensitivity label to user
   
 ## Architecture diagram
-![](../media/archi-2.png)
 
+![](../media/purview-lab2.png)
 
 ### Task 1 : Publish the sensitivity label to user
 
