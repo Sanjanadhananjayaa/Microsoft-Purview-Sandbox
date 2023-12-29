@@ -1,22 +1,28 @@
 # Lab 01 - Configure Sensitive Labels 
 
+## Lab Overview 
+
+Sensitivity labels are implemented to classify your organization’s data in a way that shows how sensitive the data is. This helps you reduce risks in sharing information that shouldn’t be accessible to anyone outside your organization or department. Applying sensitivity labels allows you to protect all your data easily.
+
 ## Lab scenario
 
 Microsoft Purview Information Protection's Sensitivity labels empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
 
-In a Contoso company, john uses Microsoft Purview's Sensitivity labels to safeguard "Project Quantum Leap" data. With labels like "Confidential-Finance" and "Highly Confidential," employees effortlessly classify and share information securely. When Alex mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
+Microsoft Purview's Sensitivity labels is implemented to safeguard Project data. With labels like "Confidential-Finance" and "Highly-Confidential"  employees effortlessly classify and share information securely. When user mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Explore the capabilities of sensitivity labels
++ Task 1: Create a sensitivity labels in Microsoft Purview
   
 ## Architecture diagram
-![](../media/archi-1.png)
 
-### Task 1: Explore the capabilities of sensitivity labels
-In this task you will understand what sensitivity labels by the creating sensitivity label.
+![](../media/purview-lab1.png)
+
+### Task 1: Create a sensitivity labels in Microsoft Purview
+
+In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
 
 1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**(https://admin.microsoft.com/).
 
@@ -91,19 +97,17 @@ In this task you will understand what sensitivity labels by the creating sensiti
 
     ![](../media/lab1-image10.png)
    
-1. Select **Add a watermark**, click on **Customize text** on each and provide the text to it and click on **Save**.
+1. Select **Add a watermark**, click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**.
 
     ![](../media/lab1-image11.png)
   
-1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the text to it and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
+1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
 
 1. The content marking associated with this label is a watermark. Select **Next** on the bottom of the page.
 
     ![](../media/lab1-image12.png)
       
-1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it. Select **Next** on the bottom of the page.
-
-      ![](../media/lab1-image13.png)
+1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it and under **Detect content that matches these conditions** click on **+ Add condition** from the drop down select **Content contains then under **Group name** select **Add** drop down select **Sensitive info type** and in  **Sensitive info type** window search for credit and select the Credit card number, select **Add** from buttom, select **Next** on the bottom of the page.
 
 1. This next window defines protection settings for groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
 
@@ -124,9 +128,25 @@ In this task you will understand what sensitivity labels by the creating sensiti
 1. Back on **labels** blade notice newly created sensitivity labels.
 
    ![](../media/lab1-image17.png)
+
+1. Repeat same steps to create another sensitivity label with name as given below:
+
+    | Setting | Action |
+    | -- | -- |
+    | **Name** text box | Enter **Highly-Confidential** |
+    | **Display name** text box | Enter **Highly-Confidential** |
+    | **Description for users** text box | Enter **Highly-Confidential Demo** | 
+
+
+    >**Note**: Creating Sensitivity labels is essential for maintaining a structured approach to data protection. It allows organizations to clearly define the sensitivity level of their data, enabling the implementation of tailored security measures. This proactive approach helps prevent unauthorized access and ensures compliance with data protection policies.
+
+    >**Note**: Once you have created sensitivity labels and in next lab you'll configured label policies and then you can start using them and learn how to manage sensitivity labels. You'll also learn to apply sensitivity labels to emails and files in up coming labs.
+
+### Conclusion
+Creating sensitivity labels is that it empowers users and organizations to proactively manage and secure their data. By applying sensitivity labels, users can clearly classify information based on its level of sensitivity, enabling streamlined protection measures. This not only reduces the risk of unauthorized access but also fosters a culture of responsible data handling. Creation and implementation of sensitivity labels contribute significantly to enhancing data security, ensuring compliance, and promoting a structured approach to managing sensitive information within an organization.
       
-## Review
+### Review
 In this lab, you have completed:
-+ Explored and configure Sensitive Labels
++ Create a sensitivity labels in Microsoft Purview
 
 ## You have successfully completed the lab

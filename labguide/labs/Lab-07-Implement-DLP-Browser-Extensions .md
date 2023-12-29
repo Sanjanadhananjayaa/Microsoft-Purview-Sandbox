@@ -1,5 +1,9 @@
 # Lab  07 - Implementing Microsoft Purview extension for Chrome
 
+## Lab Overview
+
+Microsoft Endpoint DLP allows you to monitor onboarded Windows 10, and Windows 11 and onboarded macOS devices running any of the three latest released versions. Once a device is onboarded, DLP detects when sensitive items are used and shared. This gives you the visibility and control you need to ensure that they're used and protected properly, and to help prevent risky behavior that might compromise them.
+
 ## Lab scenario
 
 In this lab you'll be implementing the the Microsoft Purview extension for Google Chrome in a controlled lab environment.
@@ -9,17 +13,17 @@ To enhance data discovery and classification capabilities.
 
 In this lab, you will complete the following tasks:
 + Task 1 – Prerequisties
-+ Task 2 : Create a policy
++ Task 2 : Create a Data Loss Prevention policy
 + Task 3 : Updating Endpoint settings
 + Task 4 : Test the Extension
 
 ## Architecture diagram
-![](../media/archi-4.png)
 
+![](../media/purview-lab7.png)
 
-### Task 1 – Prerequisties
+### Task 1: Prerequisites
 
-### Configure the proxy server manually using "netsh" command
+### Task 1.1: Configure the proxy server manually using "netsh" command
 
 >**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
@@ -32,7 +36,7 @@ In this lab, you will complete the following tasks:
 
    >**Note**: This will affect all applications including Windows services which use WinHTTP with default proxy.
 
-### Join device to Microsoft Entra
+### Task 1.2: Join device to Microsoft Entra
 
 1. Select the Start menu and type, then choose **Settings** from the search results.
    
@@ -44,7 +48,7 @@ In this lab, you will complete the following tasks:
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
-### Onboard Windows 11 devices into Microsoft 365
+### Task 1.3: Onboard Windows 11 devices into Microsoft 365
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
 
@@ -82,7 +86,11 @@ In this lab, you will complete the following tasks:
    
 1. Press any key to continue. This will close the Command Prompt window.
 
-1. Back in the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+1. In Microsoft Defender portal in your browser.
+
+1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
+
+1. On Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
 1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
@@ -96,13 +104,17 @@ In this lab, you will complete the following tasks:
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
-### Install the extension for Chrome on your Windows devices
+### Task 1.4: Install the extension for Chrome on your Windows devices
 
 1. Open Microsoft Edge and go to  Microsoft Purview Extension(https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)
 
 1. On **Switch to Chrome?** click on **Yes**, then download and install.
-    
-### Task 2 : Create a policy
+
+1. Under **The browser built to be yours** click on **Download Chrome**.
+
+1. Open downloded Chrome.setup.exe file and Install it.     
+
+### Task 2 : Create a Data Loss Prevention policy
 
 1. Open Microsoft Edge and go to  **https://compliance.microsoft.com** 
 
@@ -183,10 +195,13 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
      ![](../media/lab7-image11.png)
 
-   >**Note**  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
-
+   >**Note**:  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
 
 ### Task 4 : Test the Extension
+
+In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
+
+>**Note**: The policy will take one hour to take effect. Please proceed with the next exercise and return to complete this task afterward.
 
 1. Create one word document with mutliple demo credit numbers and name the file as protected and save it one drive.
  
@@ -196,7 +211,10 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
    ![](../media/lab7-image12.png)
 
-By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
+   >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
+
+### Conclusion
+By completing this lab, users gain practical experience in implementing the Microsoft Purview extension for Chrome. The extension enhances data discovery, classification, and protection capabilities, contributing to a comprehensive data governance strategy. The lab emphasizes the importance of configuring policies and endpoint settings to enforce security measures effectively.
 
 ## Review
 In this lab, you have completed:

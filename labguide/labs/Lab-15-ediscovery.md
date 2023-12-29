@@ -1,5 +1,9 @@
 # Lab 15 - Explore the Core eDiscovery workflow
 
+## Lab Overview
+
+Microsoft Purview eDiscovery (Standard) in Microsoft Purview provides a basic eDiscovery tool that organizations can use to search and export content in Microsoft 365 and Office 365. You can also use eDiscovery (Standard) to place an eDiscovery hold on content locations, such as Exchange mailboxes, SharePoint sites, OneDrive accounts, and Microsoft Teams. Nothing is needed to deploy eDiscovery (Standard), but there are some prerequisite tasks that an IT admin and eDiscovery manager have to complete before your organization can start using eDiscovery (Standard) to search, export, and preserve content.
+
 ## Lab scenario
 In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
 
@@ -222,7 +226,10 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Check the location of your download to verify the download was successfully completed. 
 
-## Review
+### Conclusion
+By completing the tasks outlined in this lab, users gain practical insights into the Core eDiscovery workflow. The ability to add users, create cases, implement holds, and execute search queries demonstrates proficiency in leveraging Microsoft 365 tools for eDiscovery purposes. This knowledge is essential for organizations aiming to streamline their eDiscovery processes and maintain compliance with legal requirements.
+
+### Review
 In this lab, you have completed:
 - Add specific users as members of the eDiscovery Manager role group
 - Create a case to start using Core eDiscovery

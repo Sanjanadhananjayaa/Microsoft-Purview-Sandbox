@@ -1,6 +1,9 @@
 # Lab 03 - Configure Message Encryption  
 
-# Lab scenario
+## Lab Overview
+The task guides users through the steps of creating an encryption rule using the Exchange admin center. Users are instructed to navigate to the Mail flow section, add a new rule, set rule conditions, and define actions for message security, including the application of Microsoft 365 Message Encryption and rights protection.
+
+## Lab scenario
 
 Microsoft Purview Message Encryption enables organizations to securely share protected emails across any device. Users can send encrypted messages not only within Microsoft 365 organizations but also with external parties using services like Outlook.com, Gmail, and other email platforms.
 
@@ -15,7 +18,8 @@ In this lab, you will complete the following task:
 
 ### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
 
-In this task, you will create an encryption rule for messages inside your Exchange Online environment by using the Exchange admin center. 
+In this task, you will create  Mail Flow Encryption Rule within the Exchange admin center to secure messages within the Exchange Online environment. The objective is to establish a rule that encrypts emails under specific conditions, contributing to enhanced data security.
+
 
 1. In the **Edge** browse 
 
@@ -61,7 +65,14 @@ In this task, you will create an encryption rule for messages inside your Exchan
 
    ![Picture 1](../media/image8-lab3.png)
 
-## Review
+
+   >**Note**: Creating a Mail Flow Encryption Rule is essential for organizations seeking to enhance the security of their email communication. By defining conditions and actions, such as encrypting messages for external recipients, organizations can safeguard sensitive information and ensure that communication remains confidential, especially when shared outside the organizational boundaries.
+
+### Conclusion:
+The conclusion emphasizes the completion of the Mail Flow Encryption Rule creation process. By activating the rule, organizations can immediately apply encryption to relevant messages, reinforcing their commitment to data protection. The conclusion also highlights the user's ability to enable or disable the rule as needed, providing flexibility in managing encryption policies.
+
+
+### Review
 In this lab, you have completed:
 
 + Create a Mail Flow Encryption Rule using the Exchange admin center
