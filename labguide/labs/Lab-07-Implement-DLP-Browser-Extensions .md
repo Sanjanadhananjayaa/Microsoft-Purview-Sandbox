@@ -52,6 +52,7 @@ In this lab, you will complete the following tasks:
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
 
+
 1. Choose Settings > Device onboarding. 
 
     ![](../media/lab7-image7.png)
@@ -86,7 +87,11 @@ In this lab, you will complete the following tasks:
    
 1. Press any key to continue. This will close the Command Prompt window.
 
-1. Back in the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+1. In Microsoft Defender portal in your browser.
+
+1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
+
+1. On Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
 1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
