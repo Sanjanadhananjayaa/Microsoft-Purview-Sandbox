@@ -25,8 +25,6 @@ The lab scenarios are given as reference material to assist you in getting start
 
 ## Content:
 
-## Contents:
-
 Microsoft Sentinel
 
 - Lab 01 - Configure Sensitive Labels 
@@ -47,3 +45,5 @@ Microsoft Sentinel
 - Lab 16 - Configure Retention Policies
 
 ### Azure services and related products
+
+- Microsoft Entra ID
