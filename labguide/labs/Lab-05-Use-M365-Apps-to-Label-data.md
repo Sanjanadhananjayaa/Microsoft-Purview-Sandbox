@@ -15,7 +15,8 @@ In this lab, you will complete the following tasks:
 + Task 2: Testing Sensitivity Label Impact by Sending and Checking an Encrypted Document
 
 ## Architecture diagram
-![](../media/part2lab2.png)
+
+![](../media/purview-lab5.png)
 
 ### Task 1: How to apply a Sensitivity label to word document 
 
