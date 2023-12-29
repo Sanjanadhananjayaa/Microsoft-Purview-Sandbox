@@ -6,7 +6,7 @@ Retention policies are crucial components of information governance, allowing or
 
 ## Lab scenario
 
-In this exercise, you will assume the role of Joni Sherman, a System Administrator for Contoso Ltd. Your organization is based in Texas and wants to implement retention policies to adhere to state laws, which stipulates that records may be deleted after 1 day without constituting an offense.
+Use a retention policy to manage the data for your organization by deciding proactively whether to retain content, delete content, or retain and then delete the content. A retention policy lets you do this very efficiently by assigning the same retention settings at the container level to be automatically inherited by content in that container. 
 
 In order to adhere to this law your organization has created a retention plan to retain all items in the organization for 1 day.
 
