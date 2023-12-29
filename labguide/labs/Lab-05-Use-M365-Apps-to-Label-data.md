@@ -88,6 +88,6 @@ In addition to content marking, the label protection setting was set for encrypt
 In this lab, you have completed:
 
 + How to apply a Sensitivity label to word document 
-+ Testing Sensitivity Label Impact by Sending and Opening an Encrypted Document
++ Testing Sensitivity Label Impact by Sending and Checking an Encrypted Document
 
 ## You have successfully completed the lab
