@@ -52,9 +52,9 @@ In this task, you'll set the department attribute and assign a license to the us
     | --- | --- |
     | User principal name | **Johndoe**  |
     | Display Name | **Johndoe** |
-    | Auto-generate password | unchecked **(4)** |
-    | Password | **Provide a secure password (5)** |
-    | Account enabled | **Checked (7)** |
+    | Auto-generate password | **unchecked**  |
+    | Password | **Provide a secure password** |
+    | Account enabled | **Checked** |
         
 1. On  the **Properties** tab specify the following settings (leave others with their defaults):  
 
