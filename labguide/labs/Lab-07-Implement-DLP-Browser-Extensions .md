@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 ![](../media/archi-4.png)
 
 
-### Task 1 – Prerequisties
+### Task 1: Prerequisites
 
 ### Task 1.1: Configure the proxy server manually using "netsh" command
 
