@@ -18,8 +18,8 @@ In this lab, you will complete the following tasks:
 + Task 4 : Test the Extension
 
 ## Architecture diagram
-![](../media/archi-4.png)
 
+![](../media/purview-lab7.png)
 
 ### Task 1: Prerequisites
 
