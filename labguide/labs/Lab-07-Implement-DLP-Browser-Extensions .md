@@ -115,7 +115,7 @@ In this lab, you will complete the following tasks:
 
 1. Open downloded Chrome.setup.exe file and Install it.     
 
-### Task 2 : Create a policy
+### Task 2 : Create a Data Loss Prevention policy
 
 1. Open Microsoft Edge and go to  **https://compliance.microsoft.com** 
 
