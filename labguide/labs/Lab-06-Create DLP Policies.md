@@ -14,8 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a Data Loss Prevention (DLP) policy
 
 ## Architecture diagram
-![](../media/archi-3.png)
-
+![](../media/purview-lab6.png)
 
 ### Task 1: Create a Data Loss Prevention (DLP) policy
 
