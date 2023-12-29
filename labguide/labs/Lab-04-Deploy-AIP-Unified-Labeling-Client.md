@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Install Azure Information Protection Unified Labeling Client 
 
-1. Within LabVm open **Microsoft edge**.
+1. Within Labvm open **Microsoft edge**.
 
 1. Browse for Microsoft Download Center(https://www.microsoft.com/en-us/download/details.aspx?id=53018) to Download AzInfoProtection_UL.exe.
 
