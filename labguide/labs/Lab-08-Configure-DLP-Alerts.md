@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 ![](../media/archi-5.png)
 
 
-### Task 1 : Create a dlp policies 
+### Task 1 : Create a Data Loss Prevention policies 
 
 In this task you'll create dlp policy in Microsoft purview
 
