@@ -13,7 +13,7 @@ To enhance data discovery and classification capabilities.
 
 In this lab, you will complete the following tasks:
 + Task 1 – Prerequisties
-+ Task 2 : Create a policy
++ Task 2 : Create a Data Loss Prevention policy
 + Task 3 : Updating Endpoint settings
 + Task 4 : Test the Extension
 
@@ -51,7 +51,6 @@ In this lab, you will complete the following tasks:
 ### Task 1.3: Onboard Windows 11 devices into Microsoft 365
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
-
 
 1. Choose Settings > Device onboarding. 
 
