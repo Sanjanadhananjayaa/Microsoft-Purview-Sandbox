@@ -47,3 +47,5 @@ Microsoft Sentinel
 ### Azure services and related products
 
 - Microsoft Entra ID
+- Storage Account
+- Azure Purview
