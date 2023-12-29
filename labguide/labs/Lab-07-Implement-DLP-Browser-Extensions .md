@@ -191,10 +191,13 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
      ![](../media/lab7-image11.png)
 
-   >**Note**  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
-
+   >**Note**:  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
 
 ### Task 4 : Test the Extension
+
+In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
+
+>**Note**: The policy will take one hour to take effect. Please proceed with the next exercise and return to complete this task afterward.
 
 1. Create one word document with mutliple demo credit numbers and name the file as protected and save it one drive.
  
