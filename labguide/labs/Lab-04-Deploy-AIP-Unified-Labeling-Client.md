@@ -7,15 +7,15 @@ This lab focuses on installing and utilizing the Azure Information Protection (A
 ## Lab scenario
 The Azure Information Protection unified labeling client for Windows helps you keep important documents and emails safe from people who shouldn't see them, even if your email is forwarded or your document is saved to another location. You can also use this client to open documents that other people have protected by using the Rights Management protection technology from Azure Information Protection.
 
-## Architecture diagram
-![](../media/purview-lab4.png)
-
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
 + Task 1: Install Azure Information Protection Unified Labeling Client
 + Task 2: Using File Explorer to classify files 
+
+## Architecture diagram
+![](../media/purview-lab4.png)
 
 >**Note**: Edge is not needed for Endpoint DLP to apply to Edge. "The Microsoft Purview Extension is able to provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
 
