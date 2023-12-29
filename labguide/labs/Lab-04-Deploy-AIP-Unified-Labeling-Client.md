@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Install Azure Information Protection Unified Labeling Client 
 
-1. Within Labvm open **Microsoft edge**.
+1. Open **Microsoft edge** from the Lab VM desktop by double-clicking on it. 
 
 1. Browse for Microsoft Download Center(https://www.microsoft.com/en-us/download/details.aspx?id=53018) to Download AzInfoProtection_UL.exe.
 
@@ -44,20 +44,13 @@ In this lab, you will complete the following tasks:
 
 ### Task 2: Using File Explorer to classify files 
 
-In this task, you'll classify file 
+In this task, you'll classify file by using File Explorer
 
-1. To classify a file by using File Explorer
-1. In File Explorer, select your file, multiple files, or a folder. Right-click, and select Classify and protect. For example:
+1. In File Explorer, create one folder and right-click, and select Classify and protect.
 
-1. File Explorer right-click Classify and protect using Azure Information Protection
+1. File Explorer right-click select Classify and protect using Azure Information Protection.
 
 1. In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
-
-1. If none of the labels can be selected (they appear dimmed): The selected file does not support classification. For example:
-
-1. No labels available in the Classify and protect - Azure Information Protection** dialog box
-
-1. If you selected a file that does not support classification, click Close. You cannot classify this file without also protecting it.
 
 1. If you selected a label, click Apply and wait for the Work finished message to see the results. Then click Close.
 
