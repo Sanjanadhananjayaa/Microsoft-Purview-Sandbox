@@ -10,7 +10,7 @@ DLP triggers an alert if a user takes an action that aligns with a DLP policy, a
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
-+ Task 1 : Create a dlp policies 
++ Task 1 : Create a Data Loss Prevention policies 
 
 ## Architecture diagram
 ![](../media/archi-5.png)
@@ -67,9 +67,9 @@ In this task you'll create dlp policy in Microsoft purview
 In this lab you configured DLP policies and exploring alert settings in the Microsoft Purview portal. Users learn to customize the severity of alerts based on different scenarios, allowing for effective monitoring of potential data loss incidents. The practical demonstration reinforces the importance of DLP policies in preventing unauthorized sharing of sensitive information and highlights the role of alerts in incident response.
 
 
-## Review
+### Review
 In this lab, you have completed:
-+ Create a dlp policies
++ Create a Data Loss Prevention policies 
 
 ## You have successfully completed the lab
   
