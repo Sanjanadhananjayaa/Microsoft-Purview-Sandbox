@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1 – Prerequisties
 
-### Configure the proxy server manually using "netsh" command
+### Task 1.1: Configure the proxy server manually using "netsh" command
 
 >**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
@@ -36,7 +36,7 @@ In this lab, you will complete the following tasks:
 
    >**Note**: This will affect all applications including Windows services which use WinHTTP with default proxy.
 
-### Join device to Microsoft Entra
+### Task 1.2: Join device to Microsoft Entra
 
 1. Select the Start menu and type, then choose **Settings** from the search results.
    
@@ -48,7 +48,7 @@ In this lab, you will complete the following tasks:
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
-### Onboard Windows 11 devices into Microsoft 365
+### Task 1.3: Onboard Windows 11 devices into Microsoft 365
 
 1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
 
@@ -100,7 +100,7 @@ In this lab, you will complete the following tasks:
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
-### Install the extension for Chrome on your Windows devices
+### Task 1.4: Install the extension for Chrome on your Windows devices
 
 1. Open Microsoft Edge and go to  Microsoft Purview Extension(https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)
 
