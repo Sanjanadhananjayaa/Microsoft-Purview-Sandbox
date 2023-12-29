@@ -14,6 +14,8 @@ In this lab, you will complete the following tasks:
 + Task 1: Install Azure Information Protection Unified Labeling Client
 + Task 2: Using File Explorer to classify files 
 
+>**Note**: Edge is not needed for Endpoint DLP to apply to Edge. "The Microsoft Purview Extension is able to provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
+
 ### Task 1: Install Azure Information Protection Unified Labeling Client 
 
 1. Within LabVm open **Microsoft edge**.
