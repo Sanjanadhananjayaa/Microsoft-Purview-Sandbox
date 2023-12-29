@@ -49,7 +49,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll classify file by using File Explorer
 
-1. In File Explorer, create one folder and right-click, and select Classify and protect.
+1. In File Explorer, create one folder  and right-click, and select Classify and protect.
 
 1. File Explorer right-click select Classify and protect using Azure Information Protection.
 
