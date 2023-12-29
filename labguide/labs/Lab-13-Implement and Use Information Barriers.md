@@ -44,13 +44,30 @@ In this task, you'll set the department attribute and assign a license to the us
 
    ![](../media/b-image10.png)
    
-1. Back on user blade, Choose the **john doe** user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon.
+1. Back on user blade, select **+ New user** from drop down choose **Create new user**.
 
-1. Under **job information** tab for  Department field,  enter Finance, then click Save.
+1. Create a new user on the **Basics (1)** tab with the following settings (leave others with their defaults) and select **Next: properties (6) >**.
 
-    ![](../media/b-image11.png)
+    | Setting | Value |
+    | --- | --- |
+    | User principal name | **Johndoe**  |
+    | Display Name | **Johndoe** |
+    | Auto-generate password | unchecked **(4)** |
+    | Password | **Provide a secure password (5)** |
+    | Account enabled | **Checked (7)** |
+        
+1. On  the **Properties** tab specify the following settings (leave others with their defaults):  
 
-1. Select **john doe** user, from the left navigation, under **Manage**, select **Licenses**
+    | Setting | Value |
+    | --- | --- |
+    | Department | **Finance** |
+    | Usage location | **United States** |
+       
+1. Click on **Review + create** and then **Create**.
+
+1. In the list of users, click the newly created user account to display its blade.
+
+1. Select **john doe** user, from the left navigation, under **Manage**, select **Licenses**.
 
 1. On **john doe | Licenses** page, select the **+ Assignments** button.
 
