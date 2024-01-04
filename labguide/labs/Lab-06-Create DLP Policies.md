@@ -6,7 +6,15 @@ This lab is designed to guide users through the process of creating a Data Loss 
 
 ## Lab scenario
 
-In this lab, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information.
+In this lab, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users.
+
+In Microsoft Purview, you implement data loss prevention by defining and applying DLP policies. With a DLP policy, you can identify, monitor, and automatically protect sensitive items across:
+
+- Microsoft 365 services such as Teams, Exchange, SharePoint, and OneDrive
+- Office applications such as Word, Excel, and PowerPoint
+- Windows 10, Windows 11, and macOS (Catalina 10.15 and higher) endpoints
+- Non-Microsoft cloud apps
+- On-premises file shares and on-premises SharePoint
 
 ## Lab objectives
 
