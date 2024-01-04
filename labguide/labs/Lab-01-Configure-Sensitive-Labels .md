@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
 
-1. If you not already login to admin center, in the address bar of Microsoft edge enter [admin.microsoft.com](https://admin.microsoft.com/).
+1. If you not already login to admin center, in the address bar of Microsoft edge enter [admin microsoft com](https://admin.microsoft.com/).
 
 1. Sign in with your admin credentials.
    
