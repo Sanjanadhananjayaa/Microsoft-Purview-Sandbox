@@ -20,7 +20,7 @@ In Microsoft Purview, you implement data loss prevention by defining and applyin
 
 In this lab, you will complete the following tasks:
 + Task 1: Create a Data Loss Prevention (DLP) policy
-+ Task 2 : Demonstrating Data Loss Prevention DLP Policy
++ Task 2: Demonstrating Data Loss Prevention DLP Policy
 
 ## Architecture diagram
 ![](../media/purview-lab6.png)
