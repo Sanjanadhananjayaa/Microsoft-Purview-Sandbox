@@ -45,9 +45,11 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Duration and Deletion of sandbox**:  
 
+#### **Duration and Deletion of sandbox**:  
+
 - The sandbox environment will be active for **30 days/730** hours from the time of registration. 
-- The allowed uptime of the virtual machine is **40 hours**.
-- The virtual machines will automatically **shut down** if not in use or if virtual machines are left idle. This feature is enabled in virtual machines to minimize the Azure spend.
+- The maximum allowed virtual machine uptime is only **40 hours**. It is recommended to deallocate the virtual machine when not in use.
+- The virtual machine is set up with a custom feature called Idle start/stop. This custom package will check the virtual machine's idleness every **2 hours/120 minutes**. If the virtual machine is left idle for over 2 hours, a pop-up window will appear, prompting you to respond. If you do take action within 10 minutes, the virtual machine will shut down automatically.  This feature is enabled in virtual machines to optimize Azure costs.
 - when 100% of Azure credits are spent, the sandbox environment will get automatically deleted without any prior notification. To retain the environment for a longer period and to get the most out of the environment, please follow the best practices mentioned below.
 
 #### **Best practices**: 
@@ -57,9 +59,13 @@ Using this environment, You'll be able to explore complete features and offering
 - **Azure Cost Analysis**: Maintain a practice of checking the Cost Analysis report of the assigned Azure subscription oftenly in check the Azure spend so that enviornment for a longer duration of time.
 
 - **Alert notifications**: Make sure to check your registered email's inbox for any alert-related mails. Alerts give you can head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible.
+
+
 ## Lab guide Content:
 
-You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
+You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. 
+
+Based on your interests, you can use this lab guide as a reference to learn and test any Microsoft Purview feature.  You are also encouraged to explore additional Microsoft Purview features based on your interests and preferences.
 
 - Lab 01 - Configure Sensitive Labels 
 - Lab 02 - Publish sensitivity labels
