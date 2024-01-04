@@ -114,20 +114,15 @@ In this task you'll Compose an email containing sensitive information that match
 
 1. Select **New Email** from the top left corner of the screen.
 
-1. Enter an email address to which you have access and is not part of the this domain and provide subject, enter some demo credit card number and try to send this 
-   mail.
+1. Enter an email address to which you have access and is not part of the this domain and provide subject as **Sending credit card number** , enter multiple demo credit card numbers and click on **Send**. 
 
-1. Enter Subject as **Sending credit card number**.
-   
-   >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
-
-     ![](../media/cc17.png) 
+    >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
 
 1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
-    
-     ![](../media/cc18.png)  
 
-   >**Note**: To get more Alerts try to send more email with credit card numbers and ensure you added subject in email before sending.
+1. Repeat the above step for at least 4 to 5 times to in order to trigger the alerts, until you receive the **Severity alert** mail from office 365.     
+
+1. Navigate back to Alert page to view the Alerts.
    
    >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time
    
