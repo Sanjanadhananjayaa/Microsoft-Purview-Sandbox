@@ -12,6 +12,10 @@
 
    ![](../media/intropur3.png)
 
+1. Ensure the timely deallocation of virtual machines from the Resources tab. When they are not actively in use, aiming to minimize costs.
+
+   ![](../media/demo7.png)
+
 ## Let's Get Started with Admin Portal 
 
 1.On your virtual machine, click on the Microsoft Edge icon
