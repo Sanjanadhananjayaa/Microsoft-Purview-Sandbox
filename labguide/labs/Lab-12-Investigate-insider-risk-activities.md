@@ -6,7 +6,7 @@ Organizations employ insider risk investigation to proactively identify and resp
 
 ## Lab scenario
 
-You are the security administrator for a multinational corporation that handles sensitive financial and customer data. Recently, there have been concerns about potential insider risks, including data leakage and unauthorized access. Your organization has implemented Microsoft Insider Risk Management to proactively identify and mitigate such threats.
+In this lab, you'll setting up individuals or roles within your organization to act as investigators for insider risk incidents. Investigators play a crucial role in analyzing and responding to potential insider threats and This Investigate insider risk activities focuses on actively exploring and analyzing potential insider risk activities within the organization. 
 
 ## Lab objectives
 
