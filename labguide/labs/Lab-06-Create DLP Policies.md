@@ -98,9 +98,9 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
      ![](../media/cc15.png)
 
-   >**Note**: You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.
+   >**Note**: You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook.
 
-   >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted to provide justifications before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
+   >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted to before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
 
 ### Conclusion
 
