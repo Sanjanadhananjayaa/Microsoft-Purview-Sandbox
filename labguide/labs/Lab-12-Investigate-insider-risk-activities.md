@@ -83,18 +83,20 @@ In this task, you'll Investigate insider risk activities
 
 1. Navigate to **Insider risk management** page, and select Overview tab the scroll down and select **Investigate user activity**, where you can view user activity.
 
-1. From  **Insider risk management** page select **User** tab and select user to view the policy details.
+1. From  **Insider risk management** page select **Users** tab and select user <inject key="AzureAdUserEmail"></inject> to view the User profile details.
 
       ![](../media/demo4.png)
 
-1. Select **User Activity** tab and review the details and notice **Exfiltration** click on 1 Email link.
+1. Select **User activity** tab and review the details and notice **Exfiltration** then click on 1 Email link.
 
      ![](../media/demo5.png)
 
 1. Review the user activity which includes Activity details, Location details and About this item.
 
       ![](../media/demo6.png) 
-    
+
+    >**Note**: To changr **Date** settings, kindly click on **Data(UTC)** then select **Start date** and **End data** to see latest user activity.
+
 1. From  **Insider risk management** page select **Alert** tab to Investigate user activity.
    
    >**Note**: Review the settings for your insider risk policy. The policy will take effect immediately after you create it, but may take up to 24 hours to start generating alerts. User productivity won't be impacted in any way. 
