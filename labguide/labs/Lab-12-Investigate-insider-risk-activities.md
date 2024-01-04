@@ -77,7 +77,7 @@ In this task, you'll Investigate insider risk activities
 
      ![](../media/lab5-image5.png) 
 
-1. Select **New Email** from the top left corner of the screen and send email to outside organisation person with document or any text.
+1. Select **New Email** from the top left corner of the screen and send email to outside organisation person with document or any text with the subject.
 
 1. Repeat the above step for at least 4 to 5 times in order to view more activities.   
 
