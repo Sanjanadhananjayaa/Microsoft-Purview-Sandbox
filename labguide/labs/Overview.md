@@ -35,7 +35,7 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Azure Credits**: 
 
-- You have been given a quota of **$83 USD** which includes the running cost of Pre-deployed resources, license cost, and other resources deployed while running through the lab.
+- You have been given a quota of **$83** which includes the running cost of Pre-deployed resources, license cost, and other resources deployed while running through the lab.
 
   You will receive **cost alerts** to your registered email address at **50%/75%/90%/95%/100%** of the allotted Azure Credit is spent.
 
