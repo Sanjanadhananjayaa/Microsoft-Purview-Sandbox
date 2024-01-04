@@ -117,9 +117,9 @@ In this task you'll Compose an email containing sensitive information that match
 1. Enter an email address to which you have access and is not part of the this domain and provide subject, enter some demo credit card number and try to send this 
    mail.
 
-     ![](../media/cc17.png)
+   >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
 
-     >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
+     ![](../media/cc17.png) 
 
 1. Observe that email is restricted by the policy, and you'll receive a message as demonstrated below.
     
