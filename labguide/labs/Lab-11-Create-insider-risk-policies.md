@@ -131,7 +131,7 @@ In this task, you will walk through the creation of a policy.
 
    ![](../media/lab11-image13.png)
                
-1. On **Choose triggering event for this policy** page, select **User performs an exfiltration activity** and under Under **Select which activities will trigger this policy** ensure that **Sending email with attachments to recipients outside the organization** and click **Next**.
+1. On **Choose triggering event for this policy** page, select **User performs an exfiltration activity** and under **Select which activities will trigger this policy** ensure that **Sending email with attachments to recipients outside the organization** is selected and click **Next**.
 
    ![](../media/demo8.png)
    
@@ -140,7 +140,8 @@ In this task, you will walk through the creation of a policy.
 1. On **Choose thresholds for triggering events**  page, select **choose your own thresholds** then for each field modify the **Total number of activities** as **1** in each section and click **Next**.
 
    ![](../media/demo9.png)
-   
+
+   >**Note**: Make sure that you modified each field value as 1 for all the section.
    >**Note**: Triggering Thresholds: here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **choose your own thresholds**, By selecting this option, you can see the current default values. Leave the defaults.
 
     
