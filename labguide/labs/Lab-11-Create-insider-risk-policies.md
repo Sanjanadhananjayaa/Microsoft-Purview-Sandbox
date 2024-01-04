@@ -131,15 +131,15 @@ In this task, you will walk through the creation of a policy.
 
    ![](../media/lab11-image13.png)
                
-1. On **Choose triggering event for this policy** page, select **User performs an exfiltration activity** and click **Next**.
+1. On **Choose triggering event for this policy** page, select **User performs an exfiltration activity** and under Under **Select which activities will trigger this policy** ensure that **Sending email with attachments to recipients outside the organization** and click **Next**.
 
-   ![](../media/lab11-image14.png)
+   ![](../media/demo8.png)
    
-   >**Note** Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and Leave the defaults
+   >**Note** Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy. Select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and Leave the defaults
 
-1. On **Choose thresholds for triggering events**  page, select **choose your own thresholds**  and click **Next**.
+1. On **Choose thresholds for triggering events**  page, select **choose your own thresholds** then for each field modify the **Total number of activities** as **1** in each section and click **Next**.
 
-   ![](../media/lab11-image15.png)
+   ![](../media/demo9.png)
    
    >**Note**: Triggering Thresholds: here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **choose your own thresholds**, By selecting this option, you can see the current default values. Leave the defaults.
 
@@ -152,10 +152,8 @@ In this task, you will walk through the creation of a policy.
    
     ![](../media/lab11-image17.png)
     
-1. On **Choose threshold type for indicators** page, review the information. Select **Choose your own thresholds** then Select **Next**.  
-
-   ![](../media/lab11-image18.png)
-    
+1. On **Choose threshold type for indicators** page, review the information. Select **Apply thresholds provided by Microsoft** then Select **Next**.  
+   
 1. On **Review settings and finish** page, review the settings and select **Submit**.
 
    ![](../media/lab11-image19.png)
