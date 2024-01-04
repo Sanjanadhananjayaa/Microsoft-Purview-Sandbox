@@ -20,6 +20,7 @@ In Microsoft Purview, you implement data loss prevention by defining and applyin
 
 In this lab, you will complete the following tasks:
 + Task 1: Create a Data Loss Prevention (DLP) policy
++ Task 2 : Demonstrating Data Loss Prevention DLP Policy
 
 ## Architecture diagram
 ![](../media/purview-lab6.png)
@@ -103,7 +104,7 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
    >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted to before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
 
 
-### Task 2 : Demonstrating DLP Policy
+### Task 2 : Demonstrating Data Loss Prevention DLP Policy
 
 In this task you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
 
@@ -136,5 +137,6 @@ In this task you'll Compose an email containing sensitive information that match
 ## Review
 In this lab, you have completed:
 + Create a Data Loss Prevention (DLP) policy
++ Demonstrating Data Loss Prevention DLP Policy
 
 ## You have successfully completed the lab
