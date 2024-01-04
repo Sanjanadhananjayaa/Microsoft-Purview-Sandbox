@@ -73,9 +73,13 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 In this task, you'll Investigate insider risk activities
 
-1. Navigate to **Insider risk management** page, and select to user tab where you can view user activity
+1. Navigate to **Insider risk management** page, and select Overview tab the scroll down and select **Investigate user activity**, where you can view user activity.
 
-    ![](../media/lab12-image7.png)
+1. From  **Insider risk management** page select **User** tab and select user to view the policy details.
+
+      ![](../media/lab12-image7.png)
+    
+1. From  **Insider risk management** page select **Alert** tab to Investigate user activity.
    
    >**Note**: Review the settings for your insider risk policy. The policy will take effect immediately after you create it, but may take up to 24 hours to start generating alerts. User productivity won't be impacted in any way. 
 
