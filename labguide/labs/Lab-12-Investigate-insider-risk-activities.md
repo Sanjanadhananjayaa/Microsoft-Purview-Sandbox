@@ -73,11 +73,27 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 In this task, you'll Investigate insider risk activities
 
+1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
+
+     ![](../media/lab5-image5.png) 
+
+1. Select **New Email** from the top left corner of the screen and send email to outside organisation person with document or any text.
+
+1. Repeat previous step in order to view more activities.   
+
 1. Navigate to **Insider risk management** page, and select Overview tab the scroll down and select **Investigate user activity**, where you can view user activity.
 
 1. From  **Insider risk management** page select **User** tab and select user to view the policy details.
 
-      ![](../media/lab12-image7.png)
+      ![](../media/demo4.png)
+
+1. Select **User Activity** tab and review the details and notice **Exfiltration** click on 1 Email link.
+
+     ![](../media/demo5.png)
+
+1. Review the user activity which includes Activity details, Location details and About this item.
+
+      ![](../media/demo6.png) 
     
 1. From  **Insider risk management** page select **Alert** tab to Investigate user activity.
    
