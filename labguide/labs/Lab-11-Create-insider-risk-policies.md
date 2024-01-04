@@ -78,8 +78,6 @@ In this task you will walk through the settings associated with the Insider Risk
 
 1. From the left navigation panel under Solutions, select **Insider risk management**.
 
-    ![](../media/sc-900-lab14-T3-1.png)
-
 1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
 
      ![](../media/sc-900-lab14-T3-1.png)
