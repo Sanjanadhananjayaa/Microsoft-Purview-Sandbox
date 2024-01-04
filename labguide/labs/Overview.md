@@ -25,7 +25,7 @@ Using this environment, You'll be able to explore complete features and offering
 
 - 1 *Windows 11* Virtual machines, virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
 
-  You are recommended to use the same virtual machine throughout the lab for the best experience through out the lab.
+   These virtual machines are tailored and configured to the sandbox's specifications. Files, applications, packages, and OS configurations are all pre-configured. It is recommended that you use the same virtual machine throughout the lab for the best experience.
 
 #### **License and subscription**: 
 
@@ -42,8 +42,6 @@ Using this environment, You'll be able to explore complete features and offering
   You can visit the Azure Subscription page to check the current Azure credit spend and Analysis on **Cost analysis** tab under the Cost Management option.
 
   ![Picture 1](../media/o1.jpg)
-
-#### **Duration and Deletion of sandbox**:  
 
 #### **Duration and Deletion of sandbox**:  
 
