@@ -117,14 +117,18 @@ In this task you'll Compose an email containing sensitive information that match
 1. Enter an email address to which you have access and is not part of the this domain and provide subject, enter some demo credit card number and try to send this 
    mail.
 
+1. Enter Subject as **Sending credit card number**.
+   
    >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
 
      ![](../media/cc17.png) 
 
-1. Observe that email is restricted by the policy, and you'll receive a message as demonstrated below.
+1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
     
      ![](../media/cc18.png)  
 
+   >**Note**: To get more Alerts try to send more email with credit card numbers and ensure you added subject in email before sending.
+   
    >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time
    
    >**Note**: Ensure that the DLP policy is configured to block everyone for the specified actions. When the sensitive content triggers the DLP rule, the email should be blocked from being sent.
