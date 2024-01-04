@@ -40,10 +40,6 @@ In this task you'll create dlp policy in Microsoft purview
    
     >**Note**: This configuration allows you to see these options when you create or edit a DLP policy. Use this option to create an alert that's raised every time a DLP rule match happens.
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts**.
-
-     ![](../media/cc22.png)
-
 
 ### Conclusion
 In this lab you configured DLP policies and exploring alert settings in the Microsoft Purview portal. Users learn to customize the severity of alerts based on different scenarios, allowing for effective monitoring of potential data loss incidents. The practical demonstration reinforces the importance of DLP policies in preventing unauthorized sharing of sensitive information and highlights the role of alerts in incident response.
