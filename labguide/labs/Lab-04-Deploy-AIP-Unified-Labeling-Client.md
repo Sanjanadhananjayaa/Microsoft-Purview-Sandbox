@@ -49,13 +49,17 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll classify file by using File Explorer
 
-1. In File Explorer, create one folder  and right-click, and select Classify and protect.
+1. In File Explorer, create one folder  and right-click, and select show more option.
 
-1. File Explorer right-click select Classify and protect using Azure Information Protection.
+1. Select Classify and protect.
 
 1. In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
+  
+   
 
-1. If you selected a label, click Apply and wait for the Work finished message to see the results. Then click Close.
+1. You can select any label, in which file is label and click Apply and wait for the Work finished message to see the results. Then click Close.
+
+   ![](../media/lab4image1.png)
 
 1. If you change your mind about the label you chose, simply repeat this process and choose a different label.
 
