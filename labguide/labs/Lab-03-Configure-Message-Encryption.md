@@ -5,7 +5,7 @@ The task guides users through the steps of creating an encryption rule using the
 
 ## Lab scenario
 
-Microsoft Purview Message Encryption enables organizations to securely share protected emails across any device. Users can send encrypted messages not only within Microsoft 365 organizations but also with external parties using services like Outlook.com, Gmail, and other email platforms.
+In this lab, you'll configure Microsoft Purview Message Encryption which enables organizations to securely share protected emails across any device. Users can send encrypted messages not only within Microsoft 365 organizations but also with external parties using services like Outlook.com, Gmail, and other email platforms.
 
 ## Lab objectives
 

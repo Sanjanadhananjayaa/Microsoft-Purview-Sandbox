@@ -2,7 +2,7 @@
 
 ## Lab Overview
 
-As a global administrator, your task involves enabling permissions for Insider Risk Management by adding users to the Insider Risk Management role group. This step ensures that designated users have access to and can effectively manage insider risk management features. It's important to note that the application of role group permissions may take up to 30 minutes to propagate across the organization. This process grants the necessary authority to oversee and respond to potential insider risks, such as IP theft and data leakage, enhancing the organization's security posture.
+Enabling permissions for Insider Risk Management by adding users to the Insider Risk Management role group. This step ensures that designated users have access to and can effectively manage insider risk management features. It's important to note that the application of role group permissions may take up to 30 minutes to propagate across the organization. This process grants the necessary authority to oversee and respond to potential insider risks, such as IP theft and data leakage, enhancing the organization's security posture.
 
 ## Lab scenario
 In this lab, you will explore the capabilities of Insider Risk Management to identify, mitigate, and respond to potential risks posed by individuals within the organization
@@ -77,8 +77,6 @@ In this task you will walk through the settings associated with the Insider Risk
     https://compliance.microsoft.com/insiderriskmgmt
 
 1. From the left navigation panel under Solutions, select **Insider risk management**.
-
-    ![](../media/sc-900-lab14-T3-1.png)
 
 1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
 

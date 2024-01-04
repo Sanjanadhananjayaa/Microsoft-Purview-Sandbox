@@ -5,7 +5,7 @@
 This lab focuses on installing and utilizing the Azure Information Protection (AIP) Unified Labeling Client for Windows. The AIP client helps safeguard sensitive documents and emails by applying classification labels and Rights Management protection technology. The lab aims to provide hands-on experience in deploying the AIP Unified Labeling Client and classifying files using File Explorer.
 
 ## Lab scenario
-The Azure Information Protection unified labeling client for Windows helps you keep important documents and emails safe from people who shouldn't see them, even if your email is forwarded or your document is saved to another location. You can also use this client to open documents that other people have protected by using the Rights Management protection technology from Azure Information Protection.
+In this lab, you'll install and use the Azure Information Protection unified labeling client for Windows helps you keep important documents and emails safe from people who shouldn't see them, even if your email is forwarded or your document is saved to another location. You can also use this client to open documents that other people have protected by using the Rights Management protection technology from Azure Information Protection.
 
 ## Lab objectives
 
@@ -49,13 +49,15 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll classify file by using File Explorer
 
-1. In File Explorer, create one folder  and right-click, and select Classify and protect.
+1. In File Explorer, create one folder  and right-click, and select show more option.
 
-1. File Explorer right-click select Classify and protect using Azure Information Protection.
+1. Select Classify and protect.
 
 1. In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
+  
+1. You can select any label, in which file is label and click Apply and wait for the Work finished message to see the results. Then click Close.
 
-1. If you selected a label, click Apply and wait for the Work finished message to see the results. Then click Close.
+   ![](../media/lab4image1.png)
 
 1. If you change your mind about the label you chose, simply repeat this process and choose a different label.
 

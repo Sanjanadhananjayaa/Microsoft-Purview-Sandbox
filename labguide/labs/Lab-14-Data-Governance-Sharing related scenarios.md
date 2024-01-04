@@ -7,7 +7,7 @@ Implementing data sharing with Microsoft Purview is crucial for organizations to
 
 ## Lab scenario
 
-With Microsoft Purview Data Sharing, data providers can now share data in-place from Azure Data Lake Storage Gen2 and Azure Storage accounts, both within and across organizations. Share data directly with users and partners without data duplication and centrally manage your sharing activities from within Microsoft Purview.
+In this lab, you'll configure Microsoft Purview Data Sharing, data providers can now share data in-place from Azure Data Lake Storage Gen2 and Azure Storage accounts, both within and across organizations. Share data directly with users and partners without data duplication and centrally manage your sharing activities from within Microsoft Purview.
 
 A data provider creates a share by selecting a data source that is registered in Microsoft Purview, choosing which files and folders to share, and who to share them with. Microsoft Purview then sends an invitation to each data consumer.
 
@@ -62,7 +62,7 @@ In this task, you'll create storage account and container
      | ------------ | ------------------ | 
      | Subscription | Accept the default     |
      | Resource Group  | Purview-rg     | 
-     | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/>            | 
+     | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/> |  
      | Region         | **<inject key="Region" enableCopy="false"/>**   |
      | Redundancy    |     Local Redundant Storage LRS|
      |||
@@ -103,7 +103,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
      | ------------ | ------------------ | 
      | Data source name | leave default     |
      |  Azure subscription  | OTU subscription    | 
-     | Storage account name | storage            | 
+     | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/>             | 
      |||
 
     ![](../media/lab14-image8.png)
@@ -141,7 +141,6 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 ### Task 4 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 
 In this task you can viewing shared invitations in any Microsoft Purview account
-
 
 1. In the Microsoft Purview portal, select the Data Map icon from the left navigation. In the new portal, navigate to the Data Catalog application.
 

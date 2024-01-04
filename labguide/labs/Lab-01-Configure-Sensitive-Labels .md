@@ -6,7 +6,7 @@ Sensitivity labels are implemented to classify your organization’s data in a w
 
 ## Lab scenario
 
-Microsoft Purview Information Protection's Sensitivity labels empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
+In this lab, you'll configure Microsoft Purview Information Protection's Sensitivity labels which empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
 
 Microsoft Purview's Sensitivity labels is implemented to safeguard Project data. With labels like "Confidential-Finance" and "Highly-Confidential"  employees effortlessly classify and share information securely. When user mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
 
@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
 
-1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**(https://admin.microsoft.com/).
+1. If you not already login to admin center, in the address bar of Microsoft edge enter [admin microsoft com](https://admin.microsoft.com/).
 
 1. Sign in with your admin credentials.
    

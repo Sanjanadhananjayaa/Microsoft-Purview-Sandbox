@@ -2,19 +2,28 @@
 
 ## Lab Overview
 
-This lab is designed to guide users through the process of creating a Data Loss Prevention (DLP) policy in the Microsoft Purview portal. The DLP policy aims to protect sensitive data, specifically Credit Card information, from being shared by users. The policy is configured to notify users when attempting to share such information, allowing them to provide a justification for sending it. This lab provides hands-on experience in setting up a customized DLP policy tailored to the organization's data protection needs.
+This lab is designed to guide users through the process of creating a Data Loss Prevention (DLP) policy in the Microsoft Purview portal. The DLP policy aims to protect sensitive data, specifically Credit Card information, from being shared by users. The policy is configured to notify users when attempting to share such information, This lab provides hands-on experience in setting up a customized DLP policy tailored to the organization's data protection needs.
 
 ## Lab scenario
 
-In this lab, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users. The DLP Policy that you create will inform your users if they want to share content that contains Credit Card information and allow them to provide a justification for sending this information.
+In this lab, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users.
+
+In Microsoft Purview, you implement data loss prevention by defining and applying DLP policies. With a DLP policy, you can identify, monitor, and automatically protect sensitive items across:
+
+- Microsoft 365 services such as Teams, Exchange, SharePoint, and OneDrive
+- Office applications such as Word, Excel, and PowerPoint
+- Windows 10, Windows 11, and macOS (Catalina 10.15 and higher) endpoints
+- Non-Microsoft cloud apps
+- On-premises file shares and on-premises SharePoint
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 + Task 1: Create a Data Loss Prevention (DLP) policy
++ Task 2: Demonstrating Data Loss Prevention DLP Policy
 
 ## Architecture diagram
-![](../media/purview-lab6.png)
+![](../media/newlab6.png)
 
 ### Task 1: Create a Data Loss Prevention (DLP) policy
 
@@ -90,16 +99,49 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
      ![](../media/cc15.png)
 
-   >**Note**: You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook and allows users to provide a business justification to override the policy.
+   >**Note**: You have now created a DLP policy that scans for Credit Card numbers in Microsoft outlook.
 
-   >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted to provide justifications before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
+   >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted to before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
+
+
+### Task 2 : Demonstrating Data Loss Prevention DLP Policy
+
+In this task you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
+
+1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
+
+     ![](../media/lab5-image5.png) 
+
+1. Select **New Email** from the top left corner of the screen.
+
+1. Enter an email address to which you have access and is not part of the this domain and provide subject as **Sending credit card number** , enter multiple demo credit card numbers and click on **Send**. 
+
+    >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
+
+     ![](../media/demo1.png)
+
+1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
+
+     ![](../media/demo3.png)
+
+1. Repeat the above step for at least 4 to 5 times to in order to trigger the alerts, until you receive the **Severity alert** mail from office 365.
+
+    ![](../media/demo2.png)
+
+1. Navigate back to Alert page to view the Alerts.
+   
+   >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on number of matches or volume of items over a set period of time
+   
+   >**Note**: Ensure that the DLP policy is configured to block everyone for the specified actions. When the sensitive content triggers the DLP rule, the email should be blocked from being sent.
+
 
 ### Conclusion
 
-By completing this lab, users acquire practical knowledge of configuring DLP policies in the Microsoft Purview portal. The created DLP policy, specifically targeting Credit Card information, demonstrates how organizations can customize policies to align with their data protection and compliance requirements. The lab underscores the importance of user awareness and engagement in maintaining data security.
+Creating a Data Loss Prevention (DLP) policy is a fundamental step in safeguarding sensitive data from unintentional sharing within an organization. In this task, a DLP policy named "Credit Card Policy" was established using the Microsoft Purview portal to specifically protect credit card numbers from being shared via Microsoft Outlook.
 
 ## Review
 In this lab, you have completed:
 + Create a Data Loss Prevention (DLP) policy
++ Demonstrating Data Loss Prevention DLP Policy
 
 ## You have successfully completed the lab
