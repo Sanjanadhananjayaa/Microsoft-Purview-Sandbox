@@ -1,11 +1,11 @@
 # Lab 09 - Investigation of  Data Loss Prevention Alerts 
 
 ## Lab Overview
-In this lab the task involves navigating to the Microsoft Purview portal, specifically the DLP section, and exploring the generated alerts. The goal is to provide insights into investigating DLP alerts, understanding the available information, and utilizing tools like the DLP alert management dashboard and Activity Explorer for a comprehensive analysis.
+The main goal of the investigation stage is for the assigned owner to correlate evidence, determine the cause and full impact of the alert and decide on a remediation plan. The assigned owner is responsible for deeper investigation and remediation of the alert. The primary alert investigation tools are the Microsoft 365 Defender portal and the DLP alert management dashboard. You might also use Activity explorer to investigate alerts. You can also share alerts with other users in your organization.
 
 ## Lab scenario
 
-The main goal of the investigation stage is for the assigned owner to correlate evidence, determine the cause and full impact of the alert and decide on a remediation plan. The assigned owner is responsible for deeper investigation and remediation of the alert. The primary alert investigation tools are the Microsoft 365 Defender portal and the DLP alert management dashboard. You might also use Activity explorer to investigate alerts. You can also share alerts with other users in your organization.
+In this lab the task involves navigating to the Microsoft Purview portal, specifically the DLP section, and exploring the generated alerts. The goal is to provide insights into investigating DLP alerts, understanding the available information, and utilizing tools like the DLP alert management dashboard and Activity Explorer for a comprehensive analysis.
 
 ## Lab objectives
 
