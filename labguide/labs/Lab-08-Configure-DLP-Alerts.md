@@ -5,7 +5,7 @@ Data Loss Prevention (DLP) policies in Microsoft Purview and explore the setting
 
 ## Lab scenario
 
-In this lab, you'll explore DLP policy which triggers an alert if a user takes an action that aligns with a DLP policy, and you have configured Incident reports to generate alerts. The alert is then posted in the DLP Alerts dashboard for further investigation.
+In this lab, you'll explore DLP policy which triggers an alert if a user takes an action that aligns with a DLP policy, and explore on which you have configured Incident reports to generate alerts. The alert is then posted in the DLP Alerts dashboard for further investigation.
 
 ## Lab objectives
 
