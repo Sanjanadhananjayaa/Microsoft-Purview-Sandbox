@@ -40,10 +40,10 @@ In this task you'll create dlp policy in Microsoft purview
 
      This configuration allows you to set up a policy to generate an alert:
 
-         - every time an activity matches the policy conditions
-         - when the defined threshold is met or exceeded
-         - based on the number of activities
-         - based on the volume of exfiltrated data
+     - every time an activity matches the policy conditions
+     - when the defined threshold is met or exceeded
+     - based on the number of activities
+     - based on the volume of exfiltrated data
      
 1. For now keep as it is and select cancel.
    
