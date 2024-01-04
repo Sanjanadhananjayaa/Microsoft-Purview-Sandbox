@@ -55,8 +55,6 @@ In this task, you'll classify file by using File Explorer
 
 1. In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
   
-   
-
 1. You can select any label, in which file is label and click Apply and wait for the Work finished message to see the results. Then click Close.
 
    ![](../media/lab4image1.png)
