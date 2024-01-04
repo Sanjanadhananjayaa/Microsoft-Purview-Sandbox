@@ -118,9 +118,15 @@ In this task you'll Compose an email containing sensitive information that match
 
     >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
 
+     ![](../media/demo1.png)
+
 1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
 
-1. Repeat the above step for at least 4 to 5 times to in order to trigger the alerts, until you receive the **Severity alert** mail from office 365.     
+     ![](../media/demo3.png)
+
+1. Repeat the above step for at least 4 to 5 times to in order to trigger the alerts, until you receive the **Severity alert** mail from office 365.
+
+    ![](../media/demo2.png)
 
 1. Navigate back to Alert page to view the Alerts.
    
