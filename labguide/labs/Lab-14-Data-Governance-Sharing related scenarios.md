@@ -20,6 +20,8 @@ In this lab, you will complete the following tasks:
 + Task 4 : Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 + Task 5 : Update received share (Read Only)
 
+## Estimated timing: 60 minutes
+
 ## Architecture diagram
 ![](../media/archi-9.png)
 
