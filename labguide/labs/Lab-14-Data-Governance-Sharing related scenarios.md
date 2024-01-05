@@ -26,6 +26,7 @@ In this lab, you will complete the following tasks:
 ![](../media/archi-9.png)
 
 ### Task 1 : Create Purview account in Azure Portal 
+In this lab, you'll create purview account on Azure Portal
 
 1. Sign in to **Azure Portal**.
 
@@ -51,7 +52,7 @@ In this lab, you will complete the following tasks:
    
 ### Task 2 : Create Storage account in Azure Portal
 
-In this task, you'll create storage account and container 
+In this task, you'll create storage account and container
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Storage accounts**, and then select  **Storage accounts** under services.
 
