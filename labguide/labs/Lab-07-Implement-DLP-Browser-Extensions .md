@@ -12,7 +12,7 @@ To enhance data discovery and classification capabilities.
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
-+ Task 1 – Prerequisties
++ Task 1 – Prerequisites
 + Task 2 : Create a Data Loss Prevention policy
 + Task 3 : Updating Endpoint settings
 + Task 4 : Test the Extension
@@ -224,7 +224,7 @@ By completing this lab, users gain practical experience in implementing the Micr
 ## Review
 In this lab, you have completed:
 
-+ Prerequisties
++ Prerequisites
 + Create a policy
 + Updating Endpoint settings
 + Test the Extension
