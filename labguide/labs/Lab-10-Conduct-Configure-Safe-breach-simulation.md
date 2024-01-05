@@ -13,6 +13,8 @@ In this lab, you will complete the following task:
 
 + Task 1: Create Attack Simulation
 
+## Estimated timing: 60 minutes
+
 ## Architecture diagram
 ![](../media/part1lab5.png)
 
