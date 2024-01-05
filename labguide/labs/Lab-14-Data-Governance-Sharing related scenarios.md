@@ -55,7 +55,7 @@ In this task, you'll create storage account and container
 
 1. On the **Storage accounts** page, click on **+ Create**.
 
-1. On the Basics tab specify the following details and click **Adavance**.
+1. On the Basics tab specify the following details and click **Advance**.
 
     
      |   **Option** | **Value** *        |
