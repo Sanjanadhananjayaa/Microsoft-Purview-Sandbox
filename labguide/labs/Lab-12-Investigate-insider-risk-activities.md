@@ -14,6 +14,7 @@ In this lab, you will complete the following tasks:
 + Task 1 : Create Insider Risk Management Investigators
 + Task 2 : Investigate insider risk activities
 
+## Estimated timing: 60 minutes
 
 ## Architecture diagram
 ![](../media/archi-7.png)
