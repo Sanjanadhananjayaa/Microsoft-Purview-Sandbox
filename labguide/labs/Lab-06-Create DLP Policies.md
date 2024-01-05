@@ -65,7 +65,7 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
 1. On the **Create rule** page, type **Credit card information** in the **Name** field.
 
-1. Under **Conditions**, select **+ Add Condition** and then select **Content contains** from the dropdown menu.
+1. Under **Conditions**, select **+ Add Condition** and then select **Content contains** from the drop down menu.
 
    ![](../media/cc6.png)
 
@@ -73,7 +73,7 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    ![](../media/cc7.png)
 
-1. Under **Action** click **Add an actions** and select **Restrict access or encrypt the content in Microsoft 365 locations** fron the dropdowm menu.
+1. Under **Action** click **Add an actions** and select **Restrict access or encrypt the content in Microsoft 365 locations** from the drop dowm menu.
 
     ![](../media/cc8.png)
 
