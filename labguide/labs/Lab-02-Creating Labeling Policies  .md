@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll focus on publishing existing sensitivity labels in Microsoft Purview. The process involves navigating through the Information Protection section and selecting specific labels to be published. This step is crucial for making the defined sensitivity labels accessible and applicable to all users within the organization.
 
-1. On the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Label policies** and click on **Publish label**.
+1. On the [Microsoft Purview](https://compliance.microsoft.com/). portal, under Solutions, Expand **Information protection** and in the dropdown select **Label policies** and click on **Publish label**.
 
    ![](../media/lab2-image1.png)    
 
