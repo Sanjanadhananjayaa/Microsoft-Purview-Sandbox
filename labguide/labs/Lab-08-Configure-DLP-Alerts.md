@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 In this task you'll create dlp policy in Microsoft purview
 
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
+1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
 
