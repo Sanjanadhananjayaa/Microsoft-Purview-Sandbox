@@ -12,9 +12,10 @@ In this lab, you'll explore DLP policy which triggers an alert if a user takes a
 In this lab, you will complete the following tasks:
 + Task 1 : Configure Data Loss Prevention Alerts
 
+## Estimated timing: 60 minutes
+
 ## Architecture diagram
 ![](../media/archi-5.png)
-
 
 ### Task 1 : Configure Data Loss Prevention Alerts
 
