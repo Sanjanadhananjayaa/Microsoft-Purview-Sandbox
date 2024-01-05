@@ -39,6 +39,8 @@ In this task, you'll use a Word document to go through the process of applying a
     ![](../media/lab5-image3.png)
 
    >**Note**: The sensitivity bar makes easy for you to see what label is applied to your file, and to apply or change a label whenever you need to, including when saving the file. Just select the sensitivity bar in the save dialog to see the labeling options for this file.
+   
+   >**Note**: Applying a sensitivity label helps secure data by abstracting sensitive content.
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
