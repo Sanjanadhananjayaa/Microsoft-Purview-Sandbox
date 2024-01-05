@@ -160,7 +160,7 @@ In this lab, you will complete the following tasks:
 
      ![](../media/cc7.png)
 
-1. Back on **Edit Rule** page, select **Add** from drop down choose **Sensitivity label** then on **Sensitivity labels** window select **Confidential-Finance** and 
+1. Back on **Edit Rule** page, select **Add** from drop down choose **Sensitivity labels** then on **Sensitivity labels** window select **Confidential-Finance** and 
    **Highly-Confidential** labels, click on **Add**
 
     ![](../media/demo10.png)
