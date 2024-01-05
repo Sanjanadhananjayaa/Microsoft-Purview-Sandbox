@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task you'll explore on investigating dlp alerts in Microsoft Purview.
 
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
+1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)**.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts** and notice alerts have been generated you can view details for each alerts
 
