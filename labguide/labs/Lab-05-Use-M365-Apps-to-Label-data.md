@@ -24,7 +24,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
 >**Note**: Applying sensitivity labels to your content enables you to keep your data secure by stating how sensitive certain data is in your organization. It also abstracts the data itself, so you use labels to track the type of data, without exposing sensitive data on another platform.
 
-1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
+1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
    ![](../media/lab5-image1.png) 
 
@@ -66,7 +66,7 @@ In addition to content marking, the label protection setting was set for encrypt
 
 >**Note**: These steps demonstrate the practical impact of the sensitivity label, showcasing how protection settings and permissions affect the opening of the document in a real-world scenario.
 
-1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
+1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
       ![](../media/lab5-image5.png) 
 
