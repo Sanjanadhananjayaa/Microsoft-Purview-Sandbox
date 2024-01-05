@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Create a sensitivity labels in Microsoft Purview
 
-### Estimated timing: 40 minutes
+## Estimated timing: 40 minutes
   
 ## Architecture diagram
 
