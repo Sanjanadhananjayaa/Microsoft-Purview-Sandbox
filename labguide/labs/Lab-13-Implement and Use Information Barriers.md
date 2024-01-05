@@ -203,7 +203,7 @@ In this task, you will apply the active Information barrier policies and check t
 
 ### Task 5:  Assess Information Barriers functionality within Microsoft Teams.
 
-In this task you'll test the informatiom user barrier policy which blocks user from sending message in teams.
+In this task you'll test the Use Information Barriers policy which blocks user from sending message in teams.
 
 1. From the start menu type and select **Teams** and login with following credential
 
