@@ -15,6 +15,8 @@ In this lab, you will complete the following tasks:
 + Task 2: Apply to all insider risk management policies.
 + Task 3: Create policy.
 
+## Estimated timing: 60 minutes
+
 ## Architecture diagram
 ![](../media/risk.png)
 
