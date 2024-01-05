@@ -78,9 +78,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
     
     ![](../media/lab1-image6.png)
 
-1. Select your **user name**  and click on **Add**.
-
-   ![](../media/lab1-image7.png)
+1. Select your user name **<inject key="AzureAdUserEmail"></inject>**  and click on **Add**.
 
 1. Then back to Assign permission page, Click on **Save**.
 
