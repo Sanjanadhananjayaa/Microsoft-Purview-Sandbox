@@ -49,7 +49,7 @@ In this lab, you will complete the following tasks:
   
 ### Task 1.3: Onboard Windows 11 devices into Microsoft 365
 
-1. Open Microsoft Edge and go to  **Microsoft Purview compliance**(https://compliance.microsoft.com/) portal.
+1. Open Microsoft Edge and go to  **[compliance mirosoft com](https://compliance.microsoft.com/)** portal.
 
 1. Choose Settings > Device onboarding. 
 
@@ -105,7 +105,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1.4: Install the extension for Chrome on your Windows devices
 
-1. Open Microsoft Edge and go to  Microsoft Purview Extension(https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)
+1. Open Microsoft Edge and go to **[Microsoft Purview Extension](https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)**
 
 1. On **Switch to Chrome?** click on **Yes**, then download and install.
 
@@ -115,7 +115,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 2 : Create a Data Loss Prevention policy
 
-1. Open Microsoft Edge and go to  **https://compliance.microsoft.com** 
+1. Open Microsoft Edge and go to  **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
 
