@@ -126,7 +126,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
    ![](../media/lab14-image10.png)
 
-1. On **New share** wndow provide some text to **Share name** and click on **Continue**.
+1. On **New share** window provide some text to **Share name** and click on **Continue**.
 
 1. On Add assets window expand container and select text file and click on **continue**.
 
