@@ -6,7 +6,7 @@ This implementation involves creating a Chrome extension that enhances the funct
 
 ## Lab scenario
 
-In this lab you'll be implementing the Microsoft Purview extension for Google Chrome in a controlled lab environment to secure the data from uploading in chrome browser. The primary objective is to fortify the data security measures, particularly by safeguarding against the uploading of data from unauthorized or unapproved browsers.
+In this lab you'll be implementing the Microsoft Purview extension for Google Chrome in a controlled lab environment to secure the data. The primary objective is to fortify the data security measures, particularly by safeguarding against the uploading of data from unauthorized or unapproved browsers.
 
 ## Lab objectives
 
