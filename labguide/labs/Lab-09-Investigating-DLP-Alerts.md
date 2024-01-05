@@ -23,7 +23,7 @@ In this task you'll explore on investigating dlp alerts in Microsoft Purview.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts** and notice alerts have been genarated you can view details for each alerts
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts** and notice alerts have been generated you can view details for each alerts
 
    ![](../media/cc19.png)
 
@@ -51,7 +51,7 @@ In this task you'll explore on investigating dlp alerts in Microsoft Purview.
 
 1. Back on **Alerts** page and click on one of the alerts and select the User activity summary tab to see all of the exfiltration activities the user has engaged in up to the past 120 days.
 
-   >**Note**: Users must be in scope of an insider risk management policy policy to see the User activity summary tab.
+   >**Note**: Users must be in scope of an insider risk management policy to see the User activity summary tab.
 
 1. After you investigate the alert, After you take the required action for the alert, set the status of the alert to Resolved.
 
