@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a Data Loss Prevention (DLP) policy
 + Task 2: Demonstrating Data Loss Prevention (DLP) Policy
 
-## Estimated timing: 60 minutes
+## Estimated timing: 90 minutes
 
 ## Architecture diagram
 ![](../media/newlab6.png)
