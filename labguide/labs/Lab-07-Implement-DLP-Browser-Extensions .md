@@ -202,8 +202,8 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
-1. From start menu search and select **Word** and select Blank document apply from menu bar select **Sensitivity** icon then select  **Confidential-Finance** and 
-   labels and add some text into a Word document and save the file as **Confidential-document**.
+1. From start menu search and select **Word** and select Blank document then select **Sensitivity** icon fron menu bar then select **Confidential-Finance** label  and 
+   add some text into a Word document and save the file as **Confidential-document**.
 
     ![](../media/demo11.png)
 
