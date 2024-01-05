@@ -23,7 +23,8 @@ In this lab, you will complete the following tasks:
 ![](../media/lab11.png)
 
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
-To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. 
+In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
 1. If you not already login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
 
@@ -111,7 +112,8 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 ## Task 3: Create an eDiscovery hold
 
-Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the exchange mailbox belonging to ODL-User.
+Now that you have created a Core eDiscovery case, you can begin to work with the case. 
+In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the exchange mailbox belonging to ODL-User.
 
 1. Open the Core eDiscovery tab on your browser.
 
@@ -152,7 +154,9 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
 ## Task 4: Create a search query
-With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
+In this task, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   
+
+>**Note**:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
 1. Open the Test case tab on your browser.
 
@@ -185,7 +189,6 @@ With a hold in place, you will create a search query.  Once your search is compl
 1. The search should appear on the list.  If you don't immediately see it, select **Refresh**
 
     ![](../media/lab15-image39.png)
-
  
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
