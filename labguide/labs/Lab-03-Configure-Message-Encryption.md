@@ -32,7 +32,7 @@ In this task, you will create  Mail Flow Encryption Rule within the Exchange adm
 1. In the **Set rule conditions** window, in the **Name** box, enter **Encrypt mail** as the name of this rule.
 
 1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **the recipient** and **is this 
-    person** and on **Select members** blabe select <inject key="AzureAdUserEmail"></inject> click on **Save**.
+    person** and on **Select members** blade select <inject key="AzureAdUserEmail"></inject> click on **Save**.
 
    ![Picture 1](../media/image2-lab3.png)
 
