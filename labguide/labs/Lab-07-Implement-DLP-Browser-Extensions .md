@@ -214,7 +214,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload **Confidential-document** document where sensitivity
    label is applied and  notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress.
 
-   ![](../media/demo12.png)
+    ![](../media/demo12.png)
 
    >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
 
