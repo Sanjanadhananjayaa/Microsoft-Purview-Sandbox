@@ -109,7 +109,7 @@ In this exercise you will create a retention policy for the finance and legal de
 
     ![](../media/lab16-image15.png)
 
-1. On the **Create the query to define users** page, under **User attributes** sepcify the following:
+1. On the **Create the query to define users** page, under **User attributes** specify the following:
     
     - Select the drop-down menu for **Attribute** then select **Department**.
     - Attribute field select **is equal to** as the operator.
