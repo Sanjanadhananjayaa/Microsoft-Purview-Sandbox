@@ -42,7 +42,7 @@ In this lab, you will complete the following tasks:
    
 1. From the left menu select **Account** > **Access work or school** and click on **Connect** button.
    
-1. On Sign in page select join to **Microsoft Entra ID** and sign in with following crendential
+1. On Sign in page select join to **Microsoft Entra ID** and sign in with following credential
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
