@@ -58,7 +58,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
    >**Note**: When you apply Sensitivity label, the label information will persist with your file or email, even as it is shared between devices, applications, and cloud services. 
    
-   >**Note**: Applying a sensitivity label may also result in changes to your file or email according to your organization's configuration, such as A header or footer may appear in your file or email and  watermark may appear in your file
+   >**Note**: Applying a sensitivity label may also result in changes to your file or email according to your organization's configuration, such as A header or footer may appear in your file or email and  watermark may appear in your file.
 
    >**Note**: In summary, this task guides the user can actively test and see the Sensitivity label in action, gaining a practical understanding of how the label affects document content and visibility.
 
