@@ -16,8 +16,6 @@ In this lab, you will complete the following tasks:
 + Task 3: Create an eDiscovery hold
 + Task 4: Create a search query
 
-## Estimated timing: 60 minutes
-
 ## Architecture diagram
 
 ![](../media/lab11.png)
