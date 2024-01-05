@@ -74,7 +74,7 @@ In this lab, you will complete the following tasks:
 
 1. On File Explorer, right click on the **DeviceComplianceOnboardingPackage** file and select extract all.
 
-1. On Extract Compressed zip folder, window with default loaction click on Extract.   
+1. On Extract Compressed zip folder, window with default location click on Extract.   
 
    >**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
 
@@ -112,7 +112,7 @@ In this lab, you will complete the following tasks:
 
 1. Under **The browser built to be yours** click on **Download Chrome**.
 
-1. Open downloded Chrome.setup.exe file and Install it.     
+1. Open downloaded Chrome.setup.exe file and Install it.     
 
 ### Task 2 : Create a Data Loss Prevention policy
 
@@ -165,7 +165,7 @@ In this lab, you will complete the following tasks:
 
     ![](../media/demo10.png)
 
-1. Under **Action** click **Add an actions** and select **Audit or restrict activities on devices** fron the dropdowm menu.
+1. Under **Action** click **Add an actions** and select **Audit or restrict activities on devices** from the drop dowm menu.
 
 1. Under **Service Domain and Browser Activities**, select checkbox for **upload to a restricted Cloud Service domain or access from an unallowed browser** and from the dropdown select **Block**.
 
@@ -202,7 +202,7 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
-1. From start menu search and select **Word** and select Blank document then select **Sensitivity** icon fron menu bar then select **Confidential-Finance** label  and 
+1. From start menu search and select **Word** and select Blank document then select **Sensitivity** icon from menu bar then select **Confidential-Finance** label  and 
    add some text into a Word document and save the file as **Confidential-document**.
 
     ![](../media/demo11.png)
