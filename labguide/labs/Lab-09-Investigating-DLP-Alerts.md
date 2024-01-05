@@ -13,6 +13,8 @@ In this lab, you will complete the following tasks:
 
 + Task 1 : Investigation of  Data Loss Prevention Alerts
 
+## Estimated timing: 60 minutes
+
 ## Architecture diagram
 ![](../media/archi-6.png)
 
