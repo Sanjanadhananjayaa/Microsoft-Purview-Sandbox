@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 1. Open **Microsoft edge** from the Lab VM desktop by double-clicking on it. 
 
-1. Browse for Microsoft Download Center(https://www.microsoft.com/en-us/download/details.aspx?id=53018) to Download AzInfoProtection_UL.exe.
+1. Browse for [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53018) to Download AzInfoProtection_UL.exe.
 
 1. On Azure Information Protection page click on **Download**.
 
