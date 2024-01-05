@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users.
 
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com** 
+1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
 
@@ -123,10 +123,6 @@ In this task you'll Compose an email containing sensitive information that match
 1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
 
      ![](../media/demo3.png)
-
-1. Repeat the above step for at least 4 to 5 times to in order to trigger the alerts, until you receive the **Severity alert** mail from office 365.
-
-    ![](../media/demo2.png)
 
 1. Navigate back to Alert page to view the Alerts.
    
