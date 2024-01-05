@@ -88,7 +88,7 @@ In this task, you'll set the department attribute and assign a license to the us
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
->**Note** Segmets is nothing but grouping of users
+>**Note** Segments is nothing but grouping of users
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
@@ -135,7 +135,7 @@ In this task, you'll create Information barrier policies to block communication 
    - **+ Choose segment**: select Finance and click **Add**
    - Click **Next**
 
-1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
+1. On **Configure policy status** page turn on the toggle for Set your policy to active state.
 
    ![](../media/lab13-image26.png)
 
@@ -158,7 +158,7 @@ In this task, you'll create Information barrier policies to block communication 
    - **+ Choose segment**: select HR and click **Add**
    - Click **Next**
 
-1. On **Configure policy status** page ture on the toggle for Set your policy to active state.
+1. On **Configure policy status** page turn on the toggle for Set your policy to active state.
 
     ![](../media/lab13-image26.png)
 
