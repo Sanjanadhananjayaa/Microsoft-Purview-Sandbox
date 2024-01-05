@@ -136,7 +136,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
     | **Name** text box | Enter **Highly-Confidential** |
     | **Display name** text box | Enter **Highly-Confidential** |
     | **Description for users** text box | Enter **Highly-Confidential Demo** | 
-
+    |||
 
     >**Note**: Creating Sensitivity labels is essential for maintaining a structured approach to data protection. It allows organizations to clearly define the sensitivity level of their data, enabling the implementation of tailored security measures. This proactive approach helps prevent unauthorized access and ensures compliance with data protection policies.
 
