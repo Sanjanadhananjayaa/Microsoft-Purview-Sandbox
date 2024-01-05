@@ -90,7 +90,6 @@ The conclusion emphasizes the importance of publishing sensitivity labels as a c
 
 
 ## Review
-In this lab, you have completed:
-+ Publish the sensitivity label to user
+During this lab, you've gained knowledge on the process of publishing sensitivity labels to users
 
 ## You have successfully completed the lab
