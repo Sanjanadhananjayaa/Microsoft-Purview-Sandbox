@@ -36,7 +36,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
    >**Note**: In this step, we are creating a new Word document that will be utilized for applying a sensitivity label.
 
-1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
+1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**.
 
     ![](../media/lab5-image3.png)
 
@@ -57,8 +57,8 @@ In this task, you'll use a Word document to go through the process of applying a
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
    >**Note**: When you apply Sensitivity label, the label information will persist with your file or email, even as it is shared between devices, applications, and cloud services. 
-     Applying a sensitivity label may also result in changes to your file or email according to your organization's configuration, such as A header or footer may appear in your file or 
-     email and  watermark may appear in your file
+   
+   >**Note**: Applying a sensitivity label may also result in changes to your file or email according to your organization's configuration, such as A header or footer may appear in your file or email and  watermark may appear in your file
 
    >**Note**: In summary, this task guides the user can actively test and see the Sensitivity label in action, gaining a practical understanding of how the label affects document content and visibility.
 
