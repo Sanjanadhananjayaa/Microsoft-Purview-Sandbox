@@ -16,6 +16,8 @@ In this lab, you will complete the following tasks:
 + Task 3 : Updating Endpoint settings
 + Task 4 : Test the Extension
 
+## Estimated timing: 120 minutes
+
 ## Architecture diagram
 
 ![](../media/purview-lab7.png)
