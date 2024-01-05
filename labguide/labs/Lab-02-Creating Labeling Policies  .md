@@ -13,7 +13,9 @@ In this lab, you need to publish label to make them available to people and serv
 In this lab, you will complete the following tasks:
 
 + Task 1: Publish the sensitivity label to user
-  
+
+### Estimated timing: 30 minutes  
+
 ## Architecture diagram
 
 ![](../media/purview-lab2.png)
