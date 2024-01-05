@@ -64,7 +64,7 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
     ![](../media/lab10-image-8.png)
    
-1. On the **Assign training** page, make sure **Microsoft training experience (Recommended)** is selected in dropdown and select Select **assign training for me (Recommended)**.
+1. On the **Assign training** page, make sure **Microsoft training experience (Recommended)** is selected in dropdown and select **assign training for me (Recommended)**.
 
     ![](../media/lab10-image-9.png)
 
