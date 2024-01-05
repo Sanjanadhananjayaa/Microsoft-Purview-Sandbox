@@ -14,7 +14,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Publish the sensitivity label to user
 
-### Estimated timing: 30 minutes  
+## Estimated timing: 30 minutes  
 
 ## Architecture diagram
 
