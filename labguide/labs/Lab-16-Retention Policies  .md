@@ -19,6 +19,8 @@ In this lab, you will complete the following tasks:
 + Task 1 – Create Retention Policy with Static mode
 + Task 2 - Create Retention Policy with Adaptive scope
 
+## Estimated timing: 60 minutes
+
 ## Architecture diagram
 ![](../media/archi-10.png)
 
