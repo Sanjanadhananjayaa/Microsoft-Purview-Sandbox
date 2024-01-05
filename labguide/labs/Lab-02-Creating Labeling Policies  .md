@@ -83,8 +83,7 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 
 >**Note**: Publishing sensitivity labels is essential for ensuring uniform data protection across the organization. By making these labels available to all users, organizations can enforce consistent policies for handling sensitive information. This step contributes to a cohesive approach to data security and compliance, as it ensures that established sensitivity labels are effectively communicated and applied throughout the user base.
 
-
-### conclusion
+### Conclusion
 
 The conclusion emphasizes the importance of publishing sensitivity labels as a critical step in the overall data protection strategy. By making labels available to all users, organizations can enforce standardized security measures, fostering a culture of responsible data handling. The conclusion also highlights the user's ability to review and confirm the published labels, ensuring the successful implementation of the publishing process.
 
