@@ -160,7 +160,10 @@ In this lab, you will complete the following tasks:
 
      ![](../media/cc7.png)
 
-1. In the new **Content contains** area, select **+ Add** and select **Sensitive labels** from the dropdown menu. On the **Sensitive label** page, select **Confidential_Finance** and select **Add**.
+1. Back on **Edit Rule** page, select **Add** from drop down choose **Sensitivity label** then on **Sensitivity labels** window select **Confidential-Finance** and 
+   **Highly-Confidential** labels, click on **Add**
+
+    ![](../media/demo10.png)
 
 1. Under **Action** click **Add an actions** and select **Audit or restrict activities on devices** fron the dropdowm menu.
 
@@ -172,16 +175,14 @@ In this lab, you will complete the following tasks:
 
     ![](../media/lab7-image4.png)
 
-1.  under Incident report, select the severity to medium and turn on the toggle for **Send an alert to admin when rule matches occur** and select **Send alert every time an alert on an activity matches the rule** and click on save.
+1.  Under Incident report, select the severity to medium and turn on the toggle for **Send an alert to admin when rule matches occur** and select **Send alert every time an alert on an activity matches the rule** and click on save.
 
       ![](../media/lab7-image5.png)
 
 1. Back on **Customize advanced DLP rules** page, and click on **Next**.
 
-
 1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
   
-
 1. On the Review and finish review the information and click **submit**.
 
 
@@ -201,11 +202,14 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
->**Note**: The policy will take one hour to take effect. Please proceed with the next exercise and return to complete this task afterward.
+1. From start menu search and select **Word** and select Blank document apply from menu bar select **Sensitivity** icon then select  **Confidential-Finance** and 
+   labels and add some text into a Word document and save the file as  **Confidential-document**.
 
-1. Create one word document with mutliple demo credit numbers and name the file as protected and save it one drive.
- 
+    ![](../media/demo11.png)
+
 1. Search and select google chrome from start menu  and copy the link of a word document containing sensitive information, and then try to paste it in Google Chrome. Observe the notification indicating a lack of permission to access the file.
+
+    >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterward.
 
 1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the document that containing sensitive information notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress
 
