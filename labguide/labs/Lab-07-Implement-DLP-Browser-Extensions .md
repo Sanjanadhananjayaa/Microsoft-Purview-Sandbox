@@ -203,7 +203,7 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
 1. From start menu search and select **Word** and select Blank document apply from menu bar select **Sensitivity** icon then select  **Confidential-Finance** and 
-   labels and add some text into a Word document and save the file as  **Confidential-document**.
+   labels and add some text into a Word document and save the file as **Confidential-document**.
 
     ![](../media/demo11.png)
 
@@ -211,9 +211,10 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 
     >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterward.
 
-1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the document that containing sensitive information notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress
+1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload **Confidential-document** document where sensitivity
+   label is applied and  notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress.
 
-   ![](../media/lab7-image12.png)
+   ![](../media/demo12.png)
 
    >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
 
