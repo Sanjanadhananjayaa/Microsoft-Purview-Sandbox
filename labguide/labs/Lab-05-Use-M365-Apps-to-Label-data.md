@@ -89,7 +89,7 @@ In addition to content marking, the label protection setting was set for encrypt
 >**Note**: In summary, applying a sensitivity label to a Word document and outlook it triggers a series of security and access controls, ensuring that the document is treated and protected according to its sensitivity level. This is part of a broader strategy for data classification and protection within the Microsoft 365 ecosystem.
 
 ### Conclusion
-
+This lab provided a hands-on experience for understanding and applying sensitivity labels in Microsoft 365. By going through the tasks, participants gained practical insights into the application and real-world implications of sensitivity labels in data handling and classification.
 
 ## Review
 In this lab, you have completed:
