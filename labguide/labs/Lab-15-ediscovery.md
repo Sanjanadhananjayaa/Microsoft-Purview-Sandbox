@@ -239,5 +239,6 @@ During this lab, you've gained knowledge on the following:
 - Create an eDiscovery hold
 - Create a search query
   
-## You have successfully completed the lab
+### You have successfully completed the lab
 
+### Click on next to continue with the next lab
