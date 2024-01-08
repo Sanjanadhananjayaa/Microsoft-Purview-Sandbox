@@ -37,15 +37,15 @@ In this lab, you'll install Azure Information Protection Unified Labeling Client
 
    ![](../media/lab4-image2.png)
 
-3. Run the executable file that was downloaded, and if you are prompted to continue, click Yes.
+3. Run the executable file that was downloaded, and if you are prompted to continue, click **Yes**.
 
-4. On the Install the Azure Information Protection client page, click I agree when you have read the license terms and conditions.
+4. On the Install the Azure Information Protection client page, click **I agree** when you have read the license terms and conditions.
 
    ![](../media/lab4-image3.png)
 
 6. If you are prompted to continue, click Yes, and wait for the installation to finish.
 
-7. Click Close.
+7. Click **Close**.
 
    ![](../media/lab4-image4.png)
 
@@ -55,11 +55,11 @@ In this task, you'll classify file by using File Explorer
 
 1. In File Explorer, create one folder  and right-click, and select show more option.
 
-1. Select Classify and protect.
+1. Select **Classify and protect**.
 
-1. In the Classify and protect - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
+1. In the **Classify and protect** - Azure Information Protection dialog box, use the labels as you would do in an Office application, which sets the classification as defined by your administrator.
   
-1. You can select any label, in which file is label and click Apply and wait for the Work finished message to see the results. Then click Close.
+1. You can select any label, in which file is label and click Apply and wait for the Work finished message to see the results. Then click **Close**.
 
    ![](../media/lab4image1.png)
 
@@ -75,8 +75,5 @@ In this task, you'll classify file by using File Explorer
 By completing the tasks outlined in this lab, users gain practical knowledge of deploying the Azure Information Protection Unified Labeling Client and utilizing it to classify files. This knowledge is essential for organizations seeking to enhance their data protection strategies and ensure compliance with security and privacy requirements. The lab emphasizes the importance of incorporating AIP tools into the data management workflow.
 
 ### Review
-In this lab, you have completed:
-+ Install Azure Information Protection Unified Labeling Client
-+ Using File Explorer to classify files 
 
 ## You have successfully completed the lab
