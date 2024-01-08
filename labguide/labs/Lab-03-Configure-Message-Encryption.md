@@ -76,4 +76,6 @@ The conclusion emphasizes the completion of the Mail Flow Encryption Rule creati
 
 During this lab, you've gained knowledge on the process of create a Mail Flow Encryption Rule using the Exchange admin center
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
