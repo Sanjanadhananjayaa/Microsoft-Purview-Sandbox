@@ -137,7 +137,9 @@ In this task you'll Compose an email containing sensitive information that match
 
 Creating a Data Loss Prevention (DLP) policy is a fundamental step in safeguarding sensitive data from unintentional sharing within an organization. In this task, a DLP policy named "Credit Card Policy" was established using the Microsoft Purview portal to specifically protect credit card numbers from being shared via Microsoft Outlook.
 
-## Review
+### Review
 During this lab, you've gained knowledge on the process creating and Demonstration of Data Loss Prevention
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
