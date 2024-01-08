@@ -56,8 +56,7 @@ In this lab you configured DLP policies and exploring alert settings in the Micr
 
 
 ### Review
-In this lab, you have completed:
-+ Create a Data Loss Prevention policies 
+During this lab, you've gained knowledge on the process of Configuring Data Loss Prevention Alerts
 
 ## You have successfully completed the lab
   
