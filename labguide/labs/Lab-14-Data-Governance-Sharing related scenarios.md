@@ -175,7 +175,7 @@ In this task you'll update Received share
 Through these tasks, Joni demonstrates the practical implementation of Azure services, showcasing how organizations can efficiently manage data sharing and access control. The lab ensures that data is shared securely and adheres to compliance standards, providing a foundation for secure collaboration within the organization.
 
 ## Review
-During this lab, you've gained knowledge on following: 
+During this lab, you've gained knowledge on the following: 
 
 + Task 1 : Create Purview account in Azure Portal
 + Task 2 : Create Storage account in Azure Portal
