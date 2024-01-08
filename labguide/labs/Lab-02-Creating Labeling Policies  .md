@@ -89,7 +89,9 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 The conclusion emphasizes the importance of publishing sensitivity labels as a critical step in the overall data protection strategy. By making labels available to all users, organizations can enforce standardized security measures, fostering a culture of responsible data handling. The conclusion also highlights the user's ability to review and confirm the published labels, ensuring the successful implementation of the publishing process.
 
 
-## Review
+### Review
 During this lab, you've gained knowledge on the process of publishing sensitivity labels to users
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
