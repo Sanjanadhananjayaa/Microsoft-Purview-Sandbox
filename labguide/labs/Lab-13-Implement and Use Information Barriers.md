@@ -237,5 +237,6 @@ During this lab, you've gained knowledge on the following:
 + Apply Information barrier policies
 + Assess Information Barriers functionality within Microsoft Teams.
 
-## You have successfully completed the lab
+### You have successfully completed the lab
 
+### Click on next to continue with the next lab
