@@ -154,8 +154,7 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 The conclusion emphasizes the completion of the attack simulation creation process. Users are directed to review the simulation details, send a test email for inspection, and submit the simulation for execution. The acknowledgment of the newly created simulation signifies readiness for training and testing against simulated phishing attacks.
 
 ### Review
-In this lab, you have completed:
-+ Create Attack Simulation
+During this lab, you've gained knowledge on the process of Creating Attack Simulation
 
 ## You have successfully completed the lab
 
