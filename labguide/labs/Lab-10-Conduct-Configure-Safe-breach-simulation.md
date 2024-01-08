@@ -156,5 +156,6 @@ The conclusion emphasizes the completion of the attack simulation creation proce
 ### Review
 During this lab, you've gained knowledge on the process of Creating Attack Simulation
 
-## You have successfully completed the lab
+### You have successfully completed the lab
 
+### Click on next to continue with the next lab
