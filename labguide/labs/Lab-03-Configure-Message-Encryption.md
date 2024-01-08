@@ -73,8 +73,7 @@ In this task, you will create  Mail Flow Encryption Rule within the Exchange adm
 The conclusion emphasizes the completion of the Mail Flow Encryption Rule creation process. By activating the rule, organizations can immediately apply encryption to relevant messages, reinforcing their commitment to data protection. The conclusion also highlights the user's ability to enable or disable the rule as needed, providing flexibility in managing encryption policies.
 
 ### Review
-In this lab, you have completed:
 
-+ Create a Mail Flow Encryption Rule using the Exchange admin center
+During this lab, you've gained knowledge on the process of create a Mail Flow Encryption Rule using the Exchange admin center
 
 ## You have successfully completed the lab
