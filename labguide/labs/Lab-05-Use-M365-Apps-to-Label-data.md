@@ -92,7 +92,7 @@ In addition to content marking, the label protection setting was set for encrypt
 This lab provided a hands-on experience for understanding and applying sensitivity labels in Microsoft 365. By going through the tasks, participants gained practical insights into the application and real-world implications of sensitivity labels in data handling and classification.
 
 ## Review
-In this lab, you have completed:
+During this lab, you've gained knowledge on the process: 
 
 + How to apply a Sensitivity label to word document 
 + Testing Sensitivity Label Impact by Sending and Checking an Encrypted Document
