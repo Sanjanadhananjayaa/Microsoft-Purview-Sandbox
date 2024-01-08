@@ -78,4 +78,6 @@ By completing the tasks outlined in this lab, users gain practical knowledge of 
 
 During this lab, you've gained knowledge on the process of installing and Use Azure Information Protection Unified Labeling Client To Classify Files
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
