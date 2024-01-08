@@ -106,9 +106,9 @@ By completing these tasks, the organization sets up a team of investigators with
 ### Review
 During this lab, you've gained knowledge on the process of Create Insider Risk Management Investigators and Investigate insider risk activities
 
-## You have successfully completed the lab
+### You have successfully completed the lab
 
-
+### Click on next to continue with the next lab
 
 
 
