@@ -190,9 +190,6 @@ In this task, you will walk through the creation of a policy.
 The completion of this task ensures that the necessary permissions are granted for Insider Risk Management. By adding users to the Insider Risk Management role group, the organization establishes a foundation for managing insider risk effectively.
 
 ### Review
-In this lab, you have completed:
-+ Process of setting up an insider risk policy.
-+ Apply to all insider risk management policies.
-+ Create policy.
+During this lab, you've gained knowledge on the process of setting up an insider risk policy and apply to all insider risk management policies, Create policy.
 
 ## You have successfully completed the lab
