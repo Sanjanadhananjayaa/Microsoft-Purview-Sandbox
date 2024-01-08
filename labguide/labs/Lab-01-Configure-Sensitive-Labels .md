@@ -152,4 +152,6 @@ Creating sensitivity labels is that it empowers users and organizations to proac
 ### Review
 During this lab, you've gained knowledge on creating and configuring sensitivity labels in Microsoft Purview.
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
