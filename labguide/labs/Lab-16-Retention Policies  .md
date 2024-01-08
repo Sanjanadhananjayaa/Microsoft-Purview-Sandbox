@@ -64,7 +64,7 @@ In this exercise you will create a company-wide retention policy, apply a retent
 1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section, enter the following information and select **Next**.
 
    - **Retain items for a specific period**: Choose **Custom** from the dropdown list.
-   - Change the years field to **0**, month field to **0** and days to **1**.
+   - Change the years field to **0**, month field to **3** and days to **0**.
    - **Start the retention period based on**: When items were last modified.
    - **At the end of the retention period**: Delete items automatically.
 
@@ -174,7 +174,7 @@ In this exercise you will create a retention policy for the finance and legal de
 1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section input and select **Next**.
 
     - **Retain items for a specific period**: Choose **Custom** from the dropdown list.
-    -  Change the **years** field to **0**, **month** field to **0** and **days** to **1**.
+    -  Change the **years** field to **0**, **month** field to **3** and **days** to **0**.
     - **Start the retention period based on**: When items were created
     - **At the end of the retention period**: Do nothing
 
