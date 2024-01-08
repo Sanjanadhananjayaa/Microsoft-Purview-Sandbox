@@ -69,7 +69,6 @@ The investigation of DLP alerts is a critical step in the data security lifecycl
 
 
 ## Review
-In this lab, you have completed:
-+ Investigation of  Data Loss Prevention Alerts
+During this lab, you've gained knowledge on the process of Investigating the Data Loss Prevention Alerts
 
 ## You have successfully completed the lab
