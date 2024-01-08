@@ -97,4 +97,6 @@ During this lab, you've gained knowledge on the process:
 + How to apply a Sensitivity label to word document 
 + Testing Sensitivity Label Impact by Sending and Checking an Encrypted Document
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
