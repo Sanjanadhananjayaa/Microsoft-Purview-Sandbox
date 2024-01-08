@@ -192,4 +192,6 @@ The completion of this task ensures that the necessary permissions are granted f
 ### Review
 During this lab, you've gained knowledge on the process of setting up an insider risk policy and apply to all insider risk management policies, Create policy.
 
-## You have successfully completed the lab
+### You have successfully completed the lab
+
+### Click on next to continue with the next lab
