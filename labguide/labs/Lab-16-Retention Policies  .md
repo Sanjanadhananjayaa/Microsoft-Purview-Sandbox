@@ -200,4 +200,4 @@ By completing the tasks outlined in this lab, users gain practical skills in cre
 ### Review
 During this lab, you've gained knowledge on the process of Create Retention Policy with Static mode and Adaptive scope
   
-## You have successfully completed the lab
+### You have successfully completed the lab
