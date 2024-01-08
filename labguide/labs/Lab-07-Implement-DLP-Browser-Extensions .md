@@ -223,7 +223,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 By completing this lab, users gain practical experience in implementing the Microsoft Purview extension for Chrome. The extension enhances data discovery, classification, and protection capabilities, contributing to a comprehensive data governance strategy. The lab emphasizes the importance of configuring policies and endpoint settings to enforce security measures effectively.
 
 ## Review
-In this lab, you have completed:
+During this lab, you've gained knowledge on the process: 
 
 + Prerequisites
 + Create a policy
