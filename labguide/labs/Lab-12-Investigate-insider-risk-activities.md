@@ -104,10 +104,7 @@ In this task, you'll Investigate insider risk activities
 By completing these tasks, the organization sets up a team of investigators with the appropriate roles, empowering them to handle insider risk incidents efficiently. Simultaneously, users can actively monitor and investigate insider risk activities, aligning with a proactive security strategy.
 
 ### Review
-In this lab, you have completed:
-
-+ Create Insider Risk Management Investigators
-+ Investigate insider risk activities
+During this lab, you've gained knowledge on the process of Create Insider Risk Management Investigators and Investigate insider risk activities
 
 ## You have successfully completed the lab
 
