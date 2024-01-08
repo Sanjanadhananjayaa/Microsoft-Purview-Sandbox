@@ -230,7 +230,7 @@ In this task you'll test the Use Information Barriers policy which blocks user f
 By completing these tasks, you successfully configured Information Barriers, assigned attributes and licenses, created segments and policies, and tested their functionality in Microsoft Teams. This ensures data security, compliance, and controlled communication within organisation.
 
 ### Review 
-During this lab, you've gained knowledge on following:
+During this lab, you've gained knowledge on the following:
 + Modifying the attribute and assigning a license for the user named *Johndoe*.
 + Creating segments for Information Barriers
 + Create Information barrier policies
