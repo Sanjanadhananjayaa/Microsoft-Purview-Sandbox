@@ -52,7 +52,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. From the left navigation panel of the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Overview** and review the information.
 
-1. From left menu select **labels** and in the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. From left menu select **labels** and in the **yellow** information box, indicates that **Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint**.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
 
 1. On **Labels** tab from the dropdown and then select **+ Create a label**
 
