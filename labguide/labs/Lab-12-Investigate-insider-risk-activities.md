@@ -96,7 +96,7 @@ In this task, you'll Investigate insider risk activities
 
       ![](../media/demo6.png) 
 
-    >**Note**: To changr **Date** settings, kindly click on **Data(UTC)** then select **Start date** and **End data** to see latest user activity.
+    >**Note**: To change **Date** settings, kindly click on **Data(UTC)** then select **Start date** and **End data** to see latest user activity.
    
     >**Note**: Establishing Insider Risk Management Investigators ensures that designated individuals have the necessary access levels to investigate and respond to insider risk activities effectively. Investigating insider risk activities allows organizations to actively monitor user behavior, detect potential risks, and take timely actions to mitigate any threats.
 
