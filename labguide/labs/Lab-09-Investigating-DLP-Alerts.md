@@ -61,7 +61,6 @@ In this task you'll explore on investigating dlp alerts in Microsoft Purview.
 
     ![](../media/lab12-image(9).png)
 
-
     >**Note**: You Investigated the alert in the DLP alert management dashboard and also explored on  Activity explorer to investigate alerts. You can also share alerts with other users in your organization.
 
 ### Conclusion:
