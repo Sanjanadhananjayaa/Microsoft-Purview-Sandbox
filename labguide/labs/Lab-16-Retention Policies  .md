@@ -188,9 +188,9 @@ In this exercise you will create a retention policy for the finance and legal de
 
 1. On the **You successfully created a retention policy** page select **Done**.
 
-You have successfully applied an adaptive scope to a retention policy.
+   You have successfully applied an adaptive scope to a retention policy.
 
->**Note**: Retention policies are crucial for organizations to systematically manage data, comply with legal requirements, and enforce consistent information governance. By creating retention policies, Contoso Ltd. aims to adhere to state laws that specify the deletion of records after one day. 
+   >**Note**: Retention policies are crucial for organizations to systematically manage data, comply with legal requirements, and enforce consistent information governance. By creating retention policies, Contoso Ltd. aims to adhere to state laws that specify the deletion of records after one day. 
 
 ### Conclusion
 
