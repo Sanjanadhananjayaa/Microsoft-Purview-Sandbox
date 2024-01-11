@@ -21,7 +21,8 @@ In this lab, you will complete the following tasks:
 ![](../media/risk.png)
 
 ### Task 1: Process of setting up an insider risk policy
-In this task, you as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
+
+In this task, you as the global administrator, will enable permissions for Insider Risk Management. Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features. It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
 1. If you have not already logged in to the admin center, the address bar of Microsoft Edge enter **admin.microsoft.com**.
 
@@ -37,26 +38,26 @@ In this task, you as the global administrator, will enable permissions for Insid
 
     ![](../media/sc-900-lab15-1-01.png)
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.
+1. Under Admin centers, select **Security**. A new browser page opens to the welcome page of the Microsoft 365 Defender portal.
 
     ![](../media/sc-900-lab15-1-02.png)
 
-1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**.  You may need to scroll down to see this option.
+1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**. You may need to scroll down to see this option.
 
 1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
 
     ![](../media/lab11-image1.png)
 
-1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass).  Notice the five roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
+1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass). Notice the five roles that show up. Each of these has different access levels. Select **Insider Risk Management**.
 
     ![](../media/lab11-image2.png)
 
-1. In the window that opens, next to where it says Members, select **Edit**. you may need to scroll to find it.
+1. In the window that opens, next to where it says Members, select **Edit**. You may need to scroll to find it.
 
      ![](../media/lab11-image3.png)
 
 1. On **Edit members of the role group** page To add members to this role group, click on **Choose users**, select **<inject key="AzureAdUserEmail"></inject>** and then 
-   click on **select**.
+   click on **Select**.
 
      ![](../media/lab11-image4.png)
 
@@ -74,34 +75,34 @@ In this task, you as the global administrator, will enable permissions for Insid
 
 ### Task 2: Apply to all insider risk management policies
 
-In this task, you will walk through the settings associated with the Insider Risk Management solution.  Insider risk management settings apply to all insider risk management policies, regardless of the template you choose when creating a policy. 
+In this task, you will walk through the settings associated with the Insider Risk Management solution. Insider risk management settings apply to all insider risk management policies, regardless of the template you choose when creating a policy. 
 
 1. You should be on the Microsoft 365 compliance center home page. If not, Open the browser tab **Home - Microsoft 365 compliance**. 
     https://compliance.microsoft.com/insiderriskmgmt
 
 1. From the left navigation panel under Solutions, select **Insider risk management**.
 
-1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
+1. Before getting started with setting up a policy, there are some settings that need to be configured. From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
 
      ![](../media/sc-900-lab14-T3-1.png)
    
-    i. Privacy tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities. Select **Do not show anonymized versions of usernames** then select **Save**. Select the  **Policy indicators** tab.
+    i. Privacy tab: For users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities. Select **Do not show anonymized versions of usernames** then select **Save**. Select the **Policy indicators** tab.
 
       ![](../media/sc-900-lab14-T3-2.png)
     
-    ii. Policy indicators tab: Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. Policy indicators selected here are included in the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Under **Office indicators**, select **Select all**, scroll down and then select **Save**.  Select the **Policy timeframes** tab.
+    ii. Policy indicators tab: Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. Policy indicators selected here are included in the Insider risk policy templates. Scroll to view all the indicators available and any associated information. Under **Office indicators**, select **Select all**, scroll down and then select **Save**.  Select the **Policy timeframes** tab.
 
       ![](../media/sc-900-lab14-T3-3.png)
    
-   iii. Policy timeframes tab:  The timeframes you choose here go into effect for a user when they trigger a match for an insider risk policy.   The Activation window determines how long policies will actively detect activity for users and is triggered when a user performs the first activity matching a policy. Past activity detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy.  Leave the default values.  Select the **Intelligent detections** tab.
+   iii. Policy timeframes tab:  The timeframes you choose here go into effect for a user when they trigger a match for an insider risk policy. The Activation window determines how long policies will actively detect activity for users and is triggered when a user performs the first activity matching a policy. Past activity detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy. Leave the default values. Select the **Intelligent detections** tab.
 
       ![](../media/sc-900-lab14-T3-4.png)
    
-    iv. Intelligent detections tab:  Review the options here. Note the domains settings and how they relate to the indicators.
+    iv. Intelligent detections tab:  Review the options here. Note the domain settings and how they relate to the indicators.
 
       ![](../media/sc-900-lab14-T3-5.png)
    
-    v. Other items listed in the settings are in preview.  Explore these at will and note that as a preview, they are subject to change.
+    v. Other items listed in the settings are in preview. Explore these at will and note that as a preview, they are subject to change.
 
 1. To return to the Insider risk management overview, select **Insider risk management** from the top-left corner of the page, above where it says Settings.
 
@@ -109,13 +110,13 @@ In this task, you will walk through the settings associated with the Insider Ris
 
 1. Keep this browser tab open, as you will use it in the next task.
 
-### Task 3: Create policy
+### Task 3: Create a policy
 
 In this task, you will walk through the creation of a policy.
 
-1. You should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
+1. You should be on the Insider risk management page. If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
 
-1. From the Insider risk management overview page, select the **Policies** tab then select **+ Create**.  Configure each of the following policy tabs.
+1. From the Insider risk management overview page, select the **Policies** tab then select **+ Create**. Configure each of the following policy tabs.
 
     ![](../media/lab11-image9.png)
 
@@ -180,7 +181,7 @@ In this task, you will walk through the creation of a policy.
 
    - Score activity for these users: **<inject key="AzureAdUserEmail"></inject>** 
 
-   - select **Start scoring activity**. It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
+   - Select **Start scoring activity**. It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
 
     ![](../media/lab11-image(22).png)
 
