@@ -2,7 +2,7 @@
 
 ## Lab Overview
 
-This lab is designed to guide users through the process of creating a Data Loss Prevention (DLP) policy in the Microsoft Purview portal. The DLP policy aims to protect sensitive data, specifically Credit Card information, from being shared by users. The policy is configured to notify users when attempting to share such information, This lab provides hands-on experience in setting up a customized DLP policy tailored to the organization's data protection needs.
+This lab is designed to guide users through the process of creating a Data Loss Prevention (DLP) policy in the Microsoft Purview portal. The DLP policy aims to protect sensitive data, specifically Credit Card information, from being shared by users. The policy is configured to notify users when attempting to share such information. This lab provides hands-on experience in setting up a customized DLP policy tailored to the organization's data protection needs.
 
 ## Lab scenario
 
