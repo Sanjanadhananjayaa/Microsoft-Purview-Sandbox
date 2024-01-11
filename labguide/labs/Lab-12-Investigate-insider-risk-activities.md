@@ -80,7 +80,7 @@ In this task, you'll Investigate insider risk activities.
 
 1. Select **New Email** from the top left corner of the screen and send an email to an outside organisation person with a document or any text with the subject.
 
-1. Repeat the above step at least 4 to 5 times in order to view more activities.   
+1. Repeat the above step at least 4 to 5 times to view more activities.   
 
 1. Navigate to the **Insider risk management** page, select the Overview tab scroll down and select **Investigate user activity**, where you can view user activity.
 
