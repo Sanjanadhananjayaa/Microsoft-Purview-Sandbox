@@ -23,6 +23,7 @@ In this lab, you will complete the following tasks:
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/archi-9.png)
 
 ### Task 1: Create a Purview account in the Azure Portal
@@ -31,8 +32,9 @@ In this lab, you'll create a purview account on the Azure Portal
 
 1. Sign in to **Azure Portal**.
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Purview**, and then select **Microsoft Purview accounts** under services.
-    ![](../media/lab14-image1.png)
+1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Purview**, and then select **Microsoft Purview accounts** under services.
+   
+   ![](../media/lab14-image1.png)
 
 1. Select **+ Create** on **Microsoft Purview accounts** page.
 
@@ -51,7 +53,7 @@ In this lab, you'll create a purview account on the Azure Portal
 
 1.  Validation is passed. Click on **Create**.
    
-### Task 2 : Create a Storage account in the Azure Portal
+### Task 2: Create a Storage account in the Azure Portal
 
 In this task, you'll create a storage account and container
 
@@ -158,7 +160,7 @@ In this task, you can view shared invitations in any Microsoft Purview account
 
    >**Note**: Alternately, within the Microsoft Purview portal, find the Azure Storage or Azure Data Lake Storage (ADLS) Gen 2 data asset you would like to receive the share into using either the data catalog search or browse. Select the Data Share button. You can see all the invitations in the Share Invites tab.
 
-Select the name of the share to view or configure.
+1. Select the name of the share to view or configure.
 
 ### Task 5: Update received share (Read Only)
 
