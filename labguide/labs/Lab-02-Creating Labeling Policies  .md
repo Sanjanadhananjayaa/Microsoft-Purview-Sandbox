@@ -6,13 +6,13 @@ The task aims to provide a streamlined method for publishing sensitivity labels 
 
 ## Lab scenario
 
-In this lab, you need to publish label to make them available to people and services in your organization.  After you create your sensitivity labels, The sensitivity labels can then be applied to Office documents and emails, and other items that support sensitivity labels.
+In this lab, you need to publish labels to make them available to people and services in your organization.  After you create your sensitivity labels, The sensitivity labels can then be applied to Office documents emails, and other items that support sensitivity labels.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Publish the sensitivity label to user
++ Task 1: Publish the sensitivity label to the user
 
 ## Estimated timing: 30 minutes  
 
@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ![](../media/purview-lab2.png)
 
-### Task 1 : Publish the sensitivity label to user
+### Task 1: Publish the sensitivity label to the user
 
 In this task, you'll focus on publishing existing sensitivity labels in Microsoft Purview. The process involves navigating through the Information Protection section and selecting specific labels to be published. This step is crucial for making the defined sensitivity labels accessible and applicable to all users within the organization.
 
@@ -37,38 +37,38 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 
      ![](../media/lab2-image3.png)    
      
-1. Under the Sensitivity labels to publish.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the Sensitivity labels to publish.  Don’t change any settings.  Select **Next** at the bottom of the page.
 
      
 1. Click on **Next** on Assign Admin Units(Preview) page.
 
      ![](../media/lab2-image4.png)    
 
-1. Read the description under “Publish to users and groups”.  Notice the this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Read the description under “Publish to users and groups”.  Notice that this label is available to all users.  Don’t change any settings.  Select **Next** at the bottom of the page.
 
     ![](../media/lab2-image5.png)   
 
-1. Under the policy settings.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the policy settings.  Don’t change any settings.  Select **Next** at the bottom of the page.
 
     ![](../media/lab2-image6.png)   
 
-1. Under the **Apply a Default label to documents**.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the **Apply a Default label to documents**.  Don’t change any settings.  Select **Next** at the bottom of the page.
 
     ![](../media/lab2-image7.png)   
 
-1. Under the **Apply a Default label to emails**.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the **Apply a Default label to emails**.  Don’t change any settings.  Select **Next** at the bottom of the page.
 
      ![](../media/lab2-image8.png)   
     
-1. Under the **Apply a default label to meetings and calendar events**.  Don’t change any settings.  Select **Next** on the bottom of the page.    
+1. Under the **Apply a default label to meetings and calendar events**.  Don’t change any settings.  Select **Next** at the bottom of the page.    
 
    ![](../media/lab2-image9.png)   
     
-1. Under the **Apply a default label to Power BI content**.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the **Apply a default label to Power BI content**.  Don’t change any settings.  Select **Next** at the bottom of the page.
 
      ![](../media/lab2-image10.png)   
     
-1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
+1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information Protection page.
 
    ![](../media/lab1-image20.png)   
     
@@ -78,11 +78,11 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
     
    ![](../media/lab2-image13.png)   
 
-1. Back to **Label policies** blade and notice newly publish label.
+1. Back to **Label policies** blade and notice the newly published label.
 
    ![](../media/demo14.png)   
 
->**Note**: Publishing sensitivity labels is essential for ensuring uniform data protection across the organization. Finally we could have published sensitivity label and making these labels available to all users, organizations can enforce consistent policies for handling sensitive information. This step contributes to a cohesive approach to data security and compliance, as it ensures that established sensitivity labels are effectively communicated and applied throughout the user base.
+>**Note**: Publishing sensitivity labels is essential for ensuring uniform data protection across the organization. Finally, we could have published sensitivity labels and make these labels available to all users, so organizations can enforce consistent policies for handling sensitive information. This step contributes to a cohesive approach to data security and compliance, as it ensures that established sensitivity labels are effectively communicated and applied throughout the user base.
 
 ### Conclusion
 
