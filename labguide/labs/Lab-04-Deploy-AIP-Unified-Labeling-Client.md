@@ -33,7 +33,7 @@ In this lab, you'll install Azure Information Protection Unified Labeling Client
 
    ![](../media/lab4-image1.png)
 
-1. On Choose the download you want page, select **AZInfoProtection_UL.exe** and click on **Download**.
+1. On **Choose the download you want page**, select **AZInfoProtection_UL.exe** and click on **Download**.
 
    ![](../media/lab4-image2.png)
 
