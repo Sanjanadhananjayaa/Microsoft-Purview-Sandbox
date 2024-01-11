@@ -18,7 +18,7 @@ In this lab, you will complete the following task:
 ## Architecture diagram
 ![](../media/part1lab3.png)
 
-### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
+### Task 1: Create a Mail Flow Encryption Rule using the Exchange admin center
 
 In this task, you will create a Mail Flow Encryption Rule within the Exchange admin center to secure messages within the Exchange Online environment. The objective is to establish a rule that encrypts emails under specific conditions, contributing to enhanced data security.
 
@@ -26,14 +26,14 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 1. From the left navigation pane select **Show all** > **Exchange**. This will open the Exchange admin center.
 
-1. In the **[Exchange admin center](https://admin.exchange.microsoft.com/)**, select **Mail flow** > **Rules** > **+ Add a rule** > **Create a new rule**.
+1. In the **[Exchange admin center](https://admin.exchange.microsoft.com/)**, select **Mail flow (1)** > **Rules (2)** > **+ Add a rule (3)** > **Create a new rule (4)**.
 
     ![Picture 1](../media/image1-lab3.png)
 
 1. In the **Set rule conditions** window, in the **Name** box, enter **Encrypt mail** as the name of this rule.
 
-1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **the recipient** and **is this 
-    person** and on **Select members** blade select <inject key="AzureAdUserEmail"></inject> click on **Save**.
+1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **The recipient (1)** and **is this 
+    person (2)** and on **Select members (3)** blade select <inject key="AzureAdUserEmail"></inject> click on **Save (4)**.
 
    ![Picture 1](../media/image2-lab3.png)
 
@@ -43,27 +43,27 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
    ![Picture 1](../media/image4-lab3-4-(2).png)
 
-1. Under **And** select **The recipient** and **is external/internal**. In the blade that opens to the right, select **Outside the organization** > **Save**.
+1. Under **And** select **The recipient (1)** and **is external/internal (2)**. In the blade that opens to the right, select **Outside the organization (3)** > **Save (4)**.
 
    ![Picture 1](../media/image4-lab3-4.png)
 
    ![Picture 1](../media/image4-lab3-4-(1).png)
 
-1. You now need to define an action to perform when this rule is applied. Under **Do the following…**, select **Modify the message security….** and **Apply Microsoft 365 Message Encryption and rights protection.**
+1. You now need to define an action to perform when this rule is applied. Under **Do the following**, select **Modify the message security (1)** and **Apply Microsoft 365 Message Encryption and rights protection (2)**
 
    ![Picture 1](../media/image4-lab3.png)
 
-1. In the **select RMS template** dialog box, select **Encrypt** > **Save**. Click **Next**.
+1. In the **select RMS template** dialog box, select **Encrypt (1)** > **Save (2)**. Click **Next**.
 
    ![Picture 1](../media/image5-lab3.png)
 
-1. On the **Set rule settings** window, click the checkbox next to **Activate this rule on**. That should automatically populate a date and time that will make the rule take effect immediately upon completion.
+1. On the **Set rule settings** window, click the checkbox next to **Activate this rule on (1)**. That should automatically populate a date and time that will make the rule take effect immediately upon completion.
 
    ![Picture 1](../media/image6-lab3.png)
 
 1. Click **Next** > **Finish** > **Done**.
 
-1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule. Close the window.
+1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under Enable or disable rule to **Enabled** the rule. Close the window.
 
    ![Picture 1](../media/image8-lab3.png)
 
@@ -78,4 +78,4 @@ During this lab, you've gained knowledge on the process of creating a Mail Flow 
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

@@ -5,7 +5,7 @@
 In this lab, you learn to apply sensitivity labels to Word documents, witnessing their impact on content markings like watermarks. This practical guide involves creating a new document, selecting a label (e.g., Confidential-Finance), and observing the persistence of label information. And testing label impact by sending an encrypted document via email. It demonstrates protection settings and permissions, where only specific groups can co-author or view the document. Together, these tasks offer hands-on insights into the application and real-world implications of sensitivity labels in Microsoft 365, ensuring secure data handling and classification.
 
 ## Lab scenario
-In this lab, you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created. Then you will see how to apply a label and the impact of that label, from the perspective of a user.
+In this lab, you will explore the capabilities of sensitivity labels. You will go through the settings for existing sensitivity labels that have been created. Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
 ## Lab objectives
 
@@ -26,17 +26,17 @@ In this task, you'll use a Word document to go through the process of applying a
 
 >**Note**: Applying sensitivity labels to your content enables you to keep your data secure by stating how sensitive certain data is in your organization. It also abstracts the data itself, so you use labels to track the type of data, without exposing sensitive data on another platform.
 
-1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
+1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon**, and **right click on the Word icon (1)** and select **Open in new tab (2)**. 
 
    ![](../media/lab5-image1.png) 
 
-1. Select **blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
+1. Select **blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down arrow, next to where it says **Document - Saved (1)**, and in the File Name box enter, **Test-label (2)**.
 
    ![](../media/lab5-image2.png)
 
    >**Note**: In this step, we are creating a new Word document that will be utilized for applying a sensitivity label.
 
-1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take some time to reflect Alternatively try refreshing the page or sign out and sign in again) From the drop-down select **Confidential-Finance**.
+1. From the top menu bar, select **Sensitivity (1)** (**Note**: If the option is not available, it will take some time to reflect Alternatively try refreshing the page or sign out and sign in again) From the drop-down select **Confidential-Finance (2)**.
 
     ![](../media/lab5-image3.png)
 
@@ -48,7 +48,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
      ![](../media/lab5-image4.png)       
 
-   >**Note**:  Reading view allows you to observe how the document includes a watermark, a visual indication of the document's sensitivity level.
+   >**Note**: Reading view allows you to observe how the document includes a watermark, a visual indication of the document's sensitivity level.
 
 1. Notice how the document includes the watermark.
 
@@ -64,29 +64,29 @@ In this task, you'll use a Word document to go through the process of applying a
 
 ### Task 2: Testing Sensitivity Label Impact by Sending and Checking an Encrypted Document
 
-In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task, you will send this document to an email address to which you have access (ie., a personal email address) that is NOT part of this domain and see what happens when you try to open the attachment.  
+In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied). In this task, you will send this document to an email address to which you have access (ie., a personal email address) that is NOT part of this domain and see what happens when you try to open the attachment.  
 
 >**Note**: These steps demonstrate the practical impact of the sensitivity label, showcasing how protection settings and permissions affect the opening of the document in a real-world scenario.
 
-1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
+1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon**, and **right click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
       ![](../media/lab5-image5.png) 
 
-1. Select **New Email** from the top left corner of the screen.  Enter an email address to which you have access and is not part of this domain and enter **Test** in the subject line.
+1. Select **New Email** from the top left corner of the screen. Enter an email address to which you have access and is not part of this domain and enter **Test** in the subject line.
 
 1. Select **Attach**.
 
 1. Select **One drive**.
 
-1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**.  Press **Send**.
+1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**. Press **Send**.
 
-1. Check the email to which you sent the document. Note, that the email may be directed to your junk folder.  When you attempt to open the attached Word file you will see a notification that you do not have permission to open the document.
+1. Check the email to which you sent the document. Note, that the email may be directed to your junk folder. When you attempt to open the attached Word file you will see a notification that you do not have permission to open the document.
 
 1. Close the open browser tabs.
 
->**Note**: For example, applying the sensitivity label ‘confidential finance’ to a document that contains credit card numbers helps you identify the sensitivity of the document without knowing the actual data in the document.
+   >**Note**: For example, applying the sensitivity label ‘confidential finance’ to a document that contains credit card numbers helps you identify the sensitivity of the document without knowing the actual data in the document.
 
->**Note**: In summary, applying a sensitivity label to a Word document and Outlook it triggers a series of security and access controls, ensuring that the document is treated and protected according to its sensitivity level. This is part of a broader strategy for data classification and protection within the Microsoft 365 ecosystem.
+   >**Note**: In summary, applying a sensitivity label to a Word document and Outlook it triggers a series of security and access controls, ensuring that the document is treated and protected according to its sensitivity level. This is part of a broader strategy for data classification and protection within the Microsoft 365 ecosystem.
 
 ### Conclusion
 This lab provided hands-on experience in understanding and applying sensitivity labels in Microsoft 365. By going through the tasks, participants gained practical insights into the application and real-world implications of sensitivity labels in data handling and classification.
@@ -99,4 +99,4 @@ During this lab, you've gained knowledge on the process:
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

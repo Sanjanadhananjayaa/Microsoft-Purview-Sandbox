@@ -24,25 +24,25 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll focus on publishing existing sensitivity labels in Microsoft Purview. The process involves navigating through the Information Protection section and selecting specific labels to be published. This step is crucial for making the defined sensitivity labels accessible and applicable to all users within the organization.
 
-1. On the [Microsoft Purview](https://compliance.microsoft.com/). portal, under Solutions, Expand **Information protection** and in the dropdown select **Label policies** and click on **Publish label**.
+1. On the [Microsoft Purview](https://compliance.microsoft.com/). portal, under Solutions, Expand **Information protection** and in the dropdown select **Label policies (1)** and click on **Publish label (2)**.
 
    ![](../media/lab2-image1.png)
     
-1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. Select **Confidential-Finance** and **Highly-Confidential** from the label and select **Add**.
+1. Select **Choose sensitivity labels to publish (1)**. A window opens that provides information about the policy. Select **Confidential-Finance (2)** and **Highly-Confidential (2)** from the label and select **Add (3)**.
 
     ![](../media/lab1-image19.png)    
 
-1. Back on **Choose sensitivity labels** blade, click on **Next**.
+1. Back on **Choose sensitivity labels to publish** blade, click on **Next**.
 
      ![](../media/lab2-image3.png)    
      
 1. Under the Sensitivity labels to publish. Don’t change any settings. Select **Next** at the bottom of the page.
      
-1. Click on **Next** on the Assign Admin Units (Preview) page.
+1. Click on **Next** on the Assign Admin Units page.
 
      ![](../media/lab2-image4.png)    
 
-1. Read the description under “Publish to users and groups”. Notice that this label is available to all users. Don’t change any settings. Select **Next** at the bottom of the page.
+1. Read the description under **Publish to users and groups**. Notice that this label is available to all users. Don’t change any settings. Select **Next** at the bottom of the page.
 
     ![](../media/lab2-image5.png)   
 
@@ -62,11 +62,11 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 
    ![](../media/lab2-image9.png)   
     
-1. Under the **Apply a default label to Power BI content**. Don’t change any settings. Select **Next** at the bottom of the page.
+1. Under the **Apply a default label to Fabric and Power BI content**. Don’t change any settings. Select **Next** at the bottom of the page.
 
      ![](../media/lab2-image10.png)   
     
-1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Policy**. Select **Next** on the bottom of the page to exit the policy configuration and return to the Information Protection page.
+1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Policy (1)**. Select **Next (2)** on the bottom of the page to exit the policy configuration and return to the Information Protection page.
 
    ![](../media/lab1-image20.png)   
     
@@ -80,7 +80,7 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 
    ![](../media/demo14.png)   
 
->**Note**: Publishing sensitivity labels is essential for ensuring uniform data protection across the organization. Finally, we could have published sensitivity labels and make these labels available to all users, so organizations can enforce consistent policies for handling sensitive information. This step contributes to a cohesive approach to data security and compliance, as it ensures that established sensitivity labels are effectively communicated and applied throughout the user base.
+   >**Note**: Publishing sensitivity labels is essential for ensuring uniform data protection across the organization. Finally, we could have published sensitivity labels and make these labels available to all users, so organizations can enforce consistent policies for handling sensitive information. This step contributes to a cohesive approach to data security and compliance, as it ensures that established sensitivity labels are effectively communicated and applied throughout the user base.
 
 ### Conclusion
 
@@ -92,4 +92,4 @@ During this lab, you've gained knowledge on the process of publishing sensitivit
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

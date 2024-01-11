@@ -58,13 +58,13 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/lab1-image(2).png)
 
-1. Provide a name and description for your label. Select **Next** at the bottom of the page.
+1. Provide a name and description for your label. Select **Next (4)** at the bottom of the page.
 
     | Setting | Action |
     | -- | -- |
-    | **Name** text box | Enter **Confidential-Finance** |
-    | **Display name** text box | Enter **Confidential-Finance** |
-    | **Description for users** text box | Enter **Confidential-Finance Demo** | 
+    | **Name** | Enter **Confidential-Finance (1)** |
+    | **Display name** | Enter **Confidential-Finance (2)** |
+    | **Description for users** | Enter **Confidential-Finance Demo (3)** | 
 
     !![](../media/lab1-image3.png)
 
@@ -72,11 +72,11 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
       ![](../media/lab1-image4.png)
 
-1. On the Choose protection settings for labeled items select the **Apply or remove encryption** and **Apply content marking**, then select **Next**.
+1. On the Choose protection settings for labeled items select the **Apply or remove encryption (1)** and **Apply content marking (1)**, then select **Next (2)**.
 
     ![](../media/lab1-image5.png)
     
-1. The Encryption window shows the configuration for the encryption settings. Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire. You can also assign permissions to specific users and groups By clicking on the **Assign permission**. On the **Assign permission** click on **+ Add Users or Groups**.
+1. The Encryption window shows the configuration for the encryption settings. Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire. You can also assign permissions to specific users and groups By clicking on the **Assign permissions (1)**. On the **Assign permissions** blade, click on **+ Add users or groups (2)**.
     
     ![](../media/lab1-image6.png)
 
@@ -89,7 +89,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
    >**Note**: Only selected users can interact with content that has this label applied. Under users and groups, the tenant is defined so all users in your tenant can 
    view content that has this label.
 
-1. Click **Next** on **Encryption** window.
+1. Click **Next** on Encryption window.
 
    ![](../media/lab1-image9.png)
    
@@ -97,7 +97,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/lab1-image10.png)
    
-1. Select **Add a watermark**, click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**.
+1. Select **Add a watermark**, click on **Customize text (1)** on each and provide the **Confidential watermark text (2)** text to it and click on **Save (3)**.
 
     ![](../media/lab1-image11.png)
   
@@ -121,7 +121,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
    ![](../media/lab1-image16.png)
       
-1. On Your sensitivity label that was created blade, select **Don't create a policy yet** and click on **Done**.
+1. On Your sensitivity label that was created blade, select **Don't create a policy yet (1)** and click on **Done (2)**.
 
    ![](../media/lab1-image18.png)
 
@@ -154,4 +154,4 @@ During this lab, you've gained knowledge on creating and configuring sensitivity
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

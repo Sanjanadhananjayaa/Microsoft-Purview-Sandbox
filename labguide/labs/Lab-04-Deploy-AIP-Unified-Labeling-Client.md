@@ -17,6 +17,7 @@ In this lab, you will complete the following tasks:
 ## Estimated timing: 30 minutes
 
 ## Architecture diagram
+
 ![](../media/purview-lab4.png)
 
 >**Note**: Edge is not needed for the DLP policy to apply to Edge. "The Microsoft Purview Extension is able to provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
@@ -33,7 +34,7 @@ In this lab, you'll install Azure Information Protection Unified Labeling Client
 
    ![](../media/lab4-image1.png)
 
-1. On the Choose the download you want page, select **AZInfoProtection_UL.exe** and click on **Download**.
+1. On the Choose the download you want page, select **AZInfoProtection_UL.exe (1)** and click on **Download (2)**.
 
    ![](../media/lab4-image2.png)
 
@@ -43,7 +44,7 @@ In this lab, you'll install Azure Information Protection Unified Labeling Client
 
    ![](../media/lab4-image3.png)
 
-6. If you are prompted to continue, click Yes, and wait for the installation to finish.
+6. If you are prompted to continue, click **Yes**, and wait for the installation to finish.
 
 7. Click **Close**.
 
@@ -80,4 +81,4 @@ During this lab, you've gained knowledge on the process of installing and Using 
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

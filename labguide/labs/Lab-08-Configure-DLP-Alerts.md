@@ -23,7 +23,7 @@ In this task, you'll create a dlp policy in Microsoft purview
 
 1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Policies (2)**.
 
    ![](../media/lab6-image1.png)
 
@@ -46,7 +46,7 @@ In this task, you'll create a dlp policy in Microsoft purview
      - based on the number of activities
      - based on the volume of exfiltrated data
      
-1. For now keep it as it is and select cancel.
+1. For now keep it as it is and select **Cancel**.
    
     >**Note**: This configuration allows you to see these options when you create or edit a DLP policy. Use this option to create an alert that's raised every time a DLP rule match happens.
 
@@ -59,4 +59,4 @@ During this lab, you've gained knowledge on the process of Configuring Data Loss
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab
