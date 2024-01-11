@@ -133,7 +133,7 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
     ![](../media/lab5-image5.png)
 
-1. Check the Email you received
+1. Check the Email you received.
 
     ![](../media/lab10-image-16.png)
 
