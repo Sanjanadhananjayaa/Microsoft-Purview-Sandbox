@@ -2,19 +2,19 @@
 
 ## Lab Overview
 
-This implementation involves creating a Chrome extension that enhances the functionality of Microsoft Purview within the Chrome browser. DLP allows you to monitor onboarded Windows 10, and Windows 11 and onboarded macOS devices running any of the three latest released versions. Once a device is onboarded, DLP detects when sensitive items are used and shared. This gives you the visibility and control you need to ensure that they're used and protected properly, and to help prevent risky behaviour that might compromise them.
+This implementation involves creating a Chrome extension that enhances the functionality of Microsoft Purview within the Chrome browser. DLP allows you to monitor onboarded Windows 10, and Windows 11 and onboarded macOS devices running any of the three latest released versions. Once a device is onboarded, DLP detects when sensitive items are used and shared. This gives you the visibility and control you need to ensure that they're used and protected properly and to help prevent risky behaviour that might compromise them.
 
 ## Lab scenario
 
-In this lab you'll be implementing the Microsoft Purview extension for Google Chrome in a controlled lab environment to secure the data. The primary objective is to fortify the data security measures, particularly by safeguarding against the uploading of data from unauthorized or unapproved browsers.
+In this lab, you'll be implementing the Microsoft Purview extension for Google Chrome in a controlled lab environment to secure the data. The primary objective is to fortify the data security measures, particularly by safeguarding against the uploading of data from unauthorized or unapproved browsers.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 + Task 1 – Prerequisites
-+ Task 2 : Create a Data Loss Prevention policy
-+ Task 3 : Updating Endpoint settings
-+ Task 4 : Test the Extension
++ Task 2: Create a Data Loss Prevention policy
++ Task 3: Updating Endpoint settings
++ Task 4: Test the Extension
 
 ## Estimated timing: 120 minutes
 
@@ -43,7 +43,7 @@ In this lab, you will complete the following tasks:
    
 1. From the left menu select **Account** > **Access work or school** and click on **Connect** button.
    
-1. On Sign in page select join to **Microsoft Entra ID** and sign in with following credential
+1. On Sign in page select Join to **Microsoft Entra ID** and sign in with the following credential
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
@@ -63,19 +63,19 @@ In this lab, you will complete the following tasks:
 
 1. Select "Onboarding" to start the onboarding process and follow the steps below:
 
-   - Select operating system to start onboarding process: **Window 10**
+   - Select the operating system to start the onboarding process: **Windows 10**
    - Deployment method: **Local script (for up to 10 machines)**
    - Click **Download package**
 
     ![](../media/lab7-image8.png)
 
-1. Once downloading is completed click on **show on folder** icon.
+1. Once downloading is completed click on the **show on folder** icon.
 
    ![](../media/lab7-image9.png)
 
-1. On File Explorer, right click on the **DeviceComplianceOnboardingPackage** file and select extract all.
+1. On File Explorer, right-click on the **DeviceComplianceOnboardingPackage** file and select Extract All.
 
-1. On Extract Compressed zip folder, window with default location click on Extract.   
+1. On the Extract Compressed zip folder, window with the default location click on Extract.   
 
    >**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
 
@@ -87,13 +87,13 @@ In this lab, you will complete the following tasks:
    
 1. Press any key to continue. This will close the Command Prompt window.
 
-1. In Microsoft Defender portal in your browser.
+1. In the Microsoft Defender portal in your browser.
 
 1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
 
-1. On Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+1. On the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
-1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
+1. In the Windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
 1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it.
 
@@ -113,9 +113,9 @@ In this lab, you will complete the following tasks:
 
 1. Under **The browser built to be yours** click on **Download Chrome**.
 
-1. Open downloaded Chrome.setup.exe file and Install it.     
+1. Open the downloaded Chrome.setup.exe file and Install it.     
 
-### Task 2 : Create a Data Loss Prevention policy
+### Task 2: Create a Data Loss Prevention policy
 
 1. Open Microsoft Edge and go to  **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
@@ -123,11 +123,11 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab6-image1.png)
 
-1.  On **Policies** page, select **+ Create policy** to start the wizard for creating a new data loss prevention policy.
+1.  On the **Policies** page, select **+ Create policy** to start the wizard for creating a new data loss prevention policy.
 
     ![](../media/lab6-image2.png)
 
-1. On the **Start with a template or create a custom policy** page, scroll down and select **Custom** under **Categories** and **Custom policy** under **Regulations**. By default, both  options should already be selected , select **Next**.
+1. On the **Start with a template or create a custom policy** page, scroll down and select **Custom** under **Categories** and **Custom policy** under **Regulations**. By default, both  options should already be selected, select **Next**.
 
    ![](../media/lab6-image3.png)
    
@@ -135,7 +135,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab7-image1.png)
 
-1. On Assign admin units page, click **Next**.
+1. On the Assign admin units page, click **Next**.
 
    ![](../media/cc2.png)
 
@@ -161,22 +161,22 @@ In this lab, you will complete the following tasks:
 
      ![](../media/cc7.png)
 
-1. Back on **Edit Rule** page, select **Add** from drop down choose **Sensitivity labels** then on **Sensitivity labels** window select **Confidential-Finance** and 
-   **Highly-Confidential** labels, click on **Add**
+1. Back on **Edit Rule** page, select **Add** from drop-down choose **Sensitivity labels** then on **Sensitivity labels** window select **Confidential-Finance** and 
+   **Highly-Confidential** labels, click on **Add**.
 
     ![](../media/demo10.png)
 
 1. Under **Action** click **Add an actions** and select **Audit or restrict activities on devices** from the drop dowm menu.
 
-1. Under **Service Domain and Browser Activities**, select checkbox for **upload to a restricted Cloud Service domain or access from an unallowed browser** and from the dropdown select **Block**.
+1. Under **Service Domain and Browser Activities**, select the checkbox for **upload to a restricted Cloud Service domain or access from an unallowed browser** and from the dropdown select **Block**.
 
     ![](../media/lab7-image3.png)
 
-1. For **Files activities for all apps**, select **Apply restriction to specific activities**  and choose all the activities and from the drop down select **Block** for all. 
+1. For **Files activities for all apps**, select **Apply restriction to specific activities**  and choose all the activities and from the drop-down select **Block** for all. 
 
     ![](../media/lab7-image4.png)
 
-1.  Under Incident report, select the severity to medium and turn on the toggle for **Send an alert to admin when rule matches occur** and select **Send alert every time an alert on an activity matches the rule** and click on save.
+1.  Under the Incident report, select the severity to medium and turn on the toggle for **Send an alert to admin when rule matches occur** and select **Send alert every time an alert on an activity matches the rule** and click on save.
 
       ![](../media/lab7-image5.png)
 
@@ -187,9 +187,9 @@ In this lab, you will complete the following tasks:
 1. On the Review and finish review the information and click **submit**.
 
 
-### Task 3 : Updating Endpoint settings
+### Task 3: Updating Endpoint settings
 
-In this task you'll configure Browser and domain restrictions to sensitive data
+In this task, you'll configure Browser and domain restrictions to sensitive data
 
 1. Navigate to the Policies page and choose the Settings icon located in the top-right corner of the page.
 
@@ -199,7 +199,7 @@ In this task you'll configure Browser and domain restrictions to sensitive data
 
    >**Note**:  Unallowed browsers will be restricted from reaching files protected by your policies. When access is denied, users will receive a prompt to use Microsoft Edge, allowing interaction with the content but preventing uploads to unauthorized service domains.
 
-### Task 4 : Test the Extension
+### Task 4: Test the Extension
 
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
@@ -208,12 +208,12 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 
     ![](../media/demo11.png)
 
-1. Search and select google chrome from start menu  and copy the link of a word document containing sensitive information, and then try to paste it in Google Chrome. Observe the notification indicating a lack of permission to access the file.
+1. Search and select Google Chrome from the start menu  copy the link of a Word document containing sensitive information, and then try to paste it into Google Chrome. Observe the notification indicating a lack of permission to access the file.
 
-    >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterward.
+    >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
 
-1. open another tab in google chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload **Confidential-document** document where sensitivity
-   label is applied and  notice how policy is blocked from upload protected file from unallowed browsers Cloud Egress.
+1. Open another tab in Google Chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the **Confidential-document** document where sensitivity
+   label is applied and notices how policy is blocked from uploading protected files from unallowed browsers Cloud Egress.
 
     ![](../media/demo12.png)
 
