@@ -8,7 +8,7 @@ Sensitivity labels are implemented to classify your organization’s data in a w
 
 In this lab, you'll configure Microsoft Purview Information Protection's Sensitivity labels which empower you to classify and secure your organization's data, ensuring that user productivity and collaboration remain unimpeded.
 
-Microsoft Purview's Sensitivity labels are implemented to safeguard Project data. With labels like "Confidential-Finance" and "Highly-Confidential"  employees effortlessly classify and share information securely. When a user mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
+Microsoft Purview's Sensitivity labels are implemented to safeguard Project data. With labels like "Confidential-Finance" and "Highly-Confidential" employees effortlessly classify and share information securely. When a user mistakenly attempts to share a sensitive document, Purview intervenes, preventing potential data exposure. The organization thrives as Sensitivity labels balance robust data protection with seamless collaboration.
 
 ## Lab objectives
 
@@ -34,7 +34,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-1. Now enter the password and click on Sign in.
+1. Now enter the password and click on **Sign in**.
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
@@ -52,7 +52,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. From the left navigation panel of the Microsoft Purview, under Solutions, Expand **Information protection** and in the dropdown select **Overview** and review the information.
 
-1. From the left menu select **labels** and in the **yellow** information box, indicate that **Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint**.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. From the left menu select **labels** and in the **yellow** information box, indicate that **Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint**. Select **Turn on now**. Once you do this, there can be a delay for the setting to propagate through the system.
 
 1. On **Labels** tab from the dropdown and then select **+ Create a label**.
 
@@ -68,7 +68,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     !![](../media/lab1-image3.png)
 
-1. Note the scope for this label.  The scope is set to **Items**. Read the description but don’t change anything.  Select **Next** at the bottom of the page.
+1. Note the scope for this label. The scope is set to **Items**. Read the description but don’t change anything. Select **Next** at the bottom of the page.
 
       ![](../media/lab1-image4.png)
 
@@ -76,20 +76,20 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/lab1-image5.png)
     
-1. The Encryption window shows the configuration for the encryption settings. Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire.  You can also assign permissions to specific users and groups By clicking on the **Assign permission**. On the **Assign permission** click on **+ Add Users or Groups**.
+1. The Encryption window shows the configuration for the encryption settings. Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire. You can also assign permissions to specific users and groups By clicking on the **Assign permission**. On the **Assign permission** click on **+ Add Users or Groups**.
     
     ![](../media/lab1-image6.png)
 
-1. Select your user name **<inject key="AzureAdUserEmail"></inject>**  and click on **Add**.
+1. Select your user name **<inject key="AzureAdUserEmail"></inject>** and click on **Add**.
 
 1. Then back to the Assign permission page and click on **Save**.
 
     ![](../media/lab1-image8.png)
 
-   >**Note**: only selected users can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can 
+   >**Note**: Only selected users can interact with content that has this label applied. Under users and groups, the tenant is defined so all users in your tenant can 
    view content that has this label.
 
-1. Click  **Next** on **Encryption** window.
+1. Click **Next** on **Encryption** window.
 
    ![](../media/lab1-image9.png)
    
@@ -101,13 +101,13 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/lab1-image11.png)
   
-1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
+1. Repeat last step for **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the **Confidential Document** text to it and click on **Save**. Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.
 
 1. The content marking associated with this label is a watermark. Select **Next** at the bottom of the page.
 
     ![](../media/lab1-image12.png)
       
-1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labelling on the top of the page and the information box below it and under **Detect content that matches these conditions** click on **+ Add condition** from the drop-down select **Content contains** then under **Group name** select **Add** drop-down select **Sensitive info type** and in  **Sensitive info type** window search for credit and select the Credit card number, select **Add** from the button, select **Next** on the bottom of the page.
+1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labelling on the top of the page and the information box below it and under **Detect content that matches these conditions** click on **+ Add condition** from the drop-down select **Content contains** then under **Group name** select **Add** drop-down select **Sensitive info type** and in **Sensitive info type** window search for credit and select the Credit card number, select **Add** from the button, select **Next** on the bottom of the page.
 
 1. This next window defines protection settings for groups and sites that have this label applied. If this is not enabled, select **Next** at the bottom of the page.
 
