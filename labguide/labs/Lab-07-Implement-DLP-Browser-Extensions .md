@@ -11,7 +11,7 @@ In this lab you'll be implementing the Microsoft Purview extension for Google Ch
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
-+ Task 1 – Prerequisites
++ Task 1 : Prerequisites
 + Task 2 : Create a Data Loss Prevention policy
 + Task 3 : Updating Endpoint settings
 + Task 4 : Test the Extension
