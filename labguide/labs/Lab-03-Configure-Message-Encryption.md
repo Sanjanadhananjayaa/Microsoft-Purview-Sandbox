@@ -20,7 +20,7 @@ In this lab, you will complete the following task:
 
 ### Task 1 – Create a Mail Flow Encryption Rule using the Exchange admin center
 
-In this task, you will create  Mail Flow Encryption Rule within the Exchange admin center to secure messages within the Exchange Online environment. The objective is to establish a rule that encrypts emails under specific conditions, contributing to enhanced data security.
+In this task, you will create a Mail Flow Encryption Rule within the Exchange admin center to secure messages within the Exchange Online environment. The objective is to establish a rule that encrypts emails under specific conditions, contributing to enhanced data security.
 
 1. In the [admin microsoft com](https://admin.microsoft.com/) portal 
 
@@ -74,7 +74,7 @@ The conclusion emphasizes the completion of the Mail Flow Encryption Rule creati
 
 ### Review
 
-During this lab, you've gained knowledge on the process of create a Mail Flow Encryption Rule using the Exchange admin center
+During this lab, you've gained knowledge on the process of creating a Mail Flow Encryption Rule using the Exchange admin center
 
 ### You have successfully completed the lab
 
