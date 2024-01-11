@@ -38,9 +38,9 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. On **Overview** page, Under **Manage** section select **User**.
    
-1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the property tab. Scroll down and navigate to Job Information, click on the **Edit icon**.
+1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the **Properties** tab. Scroll down and navigate to Job Information, click on the **Edit** icon.
 
-1. Under the **job information** tab for the Department field, enter HR, then click Save.
+1. Under the **Job information** tab for the Department field, enter **HR**, then click **Save**.
 
    ![](../media/b-image10.png)
    
@@ -91,7 +91,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
-1. Under Information Barrier, select Segment and  click on **+ New segment**.
+1. Under Information barrier, select Segment and  click on **+ New segment**.
 
    ![](../media/lab13-image4.png)
 
@@ -99,7 +99,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 
     ![](../media/lab13-image21.png)
 
-1. On the **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter HR and click on **Next**.
+1. On the **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter **HR** and click on **Next**.
 
     ![](../media/lab13-image22.png)
 
@@ -113,7 +113,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 
 In this task, you'll create Information barrier policies to block communication between the  **HR** and **Finance** departments.
 
-1. From the left navigation page of Microsoft Purview, expand the Information Barrier and select Policies.
+1. From the left navigation page of Microsoft Purview, expand the Information Barrier and select **Policies**.
 
 1. Click on + **Create policy**.
 
@@ -130,8 +130,8 @@ In this task, you'll create Information barrier policies to block communication 
 1. Back on **Add assigned segment details** page and click **Next**.
 
 1. On **Configure communication and collaboration details** page
-   - **Communication and collaboration** : Blocked
-   - **+ Choose segment**: select Finance and click **Add**
+   - **Communication and collaboration**: Blocked
+   - **+ Choose segment**: Select **Finance** and click **Add**
    - Click **Next**
 
 1. On the **Configure policy status** page turn on the toggle for Set your policy to active state.
@@ -154,7 +154,7 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. On **Configure communication and collaboration details** page
    - **Communication and collaboration** : Blocked
-   - **+ Choose segment**: select HR and click **Add**
+   - **+ Choose segment**: select **HR** and click **Add**
    - Click **Next**
 
 1. On the **Configure policy status** page turn on the toggle for Set your policy to active state.
@@ -167,7 +167,7 @@ In this task, you'll create Information barrier policies to block communication 
 
 In this task, you'll learn how to Enable Scoped Directory Search on Microsoft Teams
 
-1. Sign in to Office 365(https://www.office.com/) portal.
+1. Sign in to Office 365 (https://www.office.com/) portal.
 
 1. Select **Admin** from left pane.
 
@@ -198,7 +198,7 @@ In this task, you will apply the active Information barrier policies and check t
 
      ![](../media/lab13-image29.png)
 
-   >**Note**: Kindly **Refresh** page and Wait for the status to transition from NotStarted to Completed; this process may take 5 to 10 minutes.
+   >**Note**: Kindly **Refresh** page and Wait for the status to transition from **NotStarted** to **Completed**; this process may take 5 to 10 minutes.
 
 ### Task 5: Assess Information Barriers functionality within Microsoft Teams.
 
