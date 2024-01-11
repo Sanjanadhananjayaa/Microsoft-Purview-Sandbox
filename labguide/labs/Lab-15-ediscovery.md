@@ -154,7 +154,7 @@ In this task, you will create an eDiscovery hold for the case you just created. 
 
 ## Task 4: Create a search query
 
-In this task, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   
+In this task, you will create a search query. Once your search is complete you will go export and download the results for future investigation.   
 
 >**Note**: Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
@@ -182,7 +182,7 @@ In this task, you will create a search query.  Once your search is complete you 
 
     ![](../media/lab15-image27.png)
 
-1. On **Review your search and create it** page, select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list. If you don't immediately see it, select **Refresh**.
+1. On **Review your search and create it** page, select **Submit**, it may take a minute, then select **Done**. The search should appear on the list. If you don't immediately see it, select **Refresh**.
 
     ![](../media/lab15-image28.png)
 
@@ -236,9 +236,9 @@ By completing the tasks outlined in this lab, users gain practical insights into
 ### Review
 During this lab, you've gained knowledge on the following:
 - Add specific users as members of the eDiscovery Manager role group
-- Create a case to start using Core eDiscovery
-- Create an eDiscovery hold
-- Create a search query
+- Created a case to start using Core eDiscovery
+- Created an eDiscovery hold
+- Created a search query
   
 ### You have successfully completed the lab
 
