@@ -4,9 +4,8 @@
 
 Information Barriers in Microsoft 365 serve as a critical tool for controlling communication and collaboration between different segments or groups within an organization. The configured Information Barriers establish a virtual barrier to prevent specific users or groups from interacting, thereby ensuring compliance, preventing conflicts of interest, and protecting sensitive information.
 
-
 ## Lab scenario
-In this lab you'll configure and manage Information Barriers in Microsoft 365. Information Barriers play a critical role in maintaining clear boundaries and preventing unauthorized communication between specific groups or individuals within your organization. By implementing Information Barriers, you ensure compliance with regulations, protect sensitive information, and minimize conflicts of interest. This setup will create a secure work environment, safeguarding data confidentiality and supporting 
+In this lab, you'll configure and manage Information Barriers in Microsoft 365. Information Barriers play a critical role in maintaining clear boundaries and preventing unauthorized communication between specific groups or individuals within your organization. By implementing Information Barriers, you ensure compliance with regulations, protect sensitive information, and minimize conflicts of interest. This setup will create a secure work environment, safeguarding data confidentiality and supporting 
 organization commitment to compliance.
 
 ## Lab objectives
@@ -24,26 +23,24 @@ In this lab, you will complete the following tasks:
 ## Architecture diagram
 ![](../media/archi-8.png)
 
-### Task 1 : Modifying the attribute and assigning a license for the user named *Johndoe*.
+### Task 1: Modifying the attribute and assigning a license for the user named *Johndoe*.
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
 
-
-1. Sign in to **Azure portal** with following credentail:
+1. Sign in to **Azure portal** with following credentials:
    
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
     * Password: <inject key="AzureAdUserPassword"></inject>
   
-
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra 
    ID** under services.
 
 1. On **Overview** page, Under **Manage** section select **User**.
    
-1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the property tab. Scroll down and navigate to Job Information, click on Edit icon
+1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the **Properties** tab. Scroll down and navigate to Job Information, click on the **Edit** icon.
 
-1. Under **job information** tab for  Department field, enter HR, then click Save.
+1. Under the **Job information** tab for the Department field, enter **HR**, then click **Save**.
 
    ![](../media/b-image10.png)
    
@@ -74,7 +71,7 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. On **john doe | Licenses** page, select the **+ Assignments** button.
 
-1. On the Update license assignments page, select the check box for  **Office 365 E5** license.
+1. On the Update license assignments page, select the check box for the **Office 365 E5** license.
 
     ![](../media/b-image9.png)
 
@@ -84,39 +81,39 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. Notice that the license has been assigned.
 
-   >**Note** If you're not able view assigned license kindly refresh the page.
+   >**Note** If you're not able to view the assigned license kindly refresh the page.
 
 ### Task 2: Create segments for Information Barriers
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
->**Note** Segments is nothing but grouping of users
+>**Note** Segments are nothing but a grouping of users
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
-1. Under Information Barrier, select Segment and  and click on **+ New segment**.
+1. Under Information barrier, select Segment and  click on **+ New segment**.
 
    ![](../media/lab13-image4.png)
 
-1. On **Provide a segment name** page enter **HR** in name field and click **Next**.
+1. On the **Provide a segment name** page enter **HR** in name field and click **Next**.
 
     ![](../media/lab13-image21.png)
 
-1. On **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter HR and click on **Next**.
+1. On the **Add user group filter** page click **+ Add** from the dropdown select **Department** and under **Department** for **group operation** make sure equal selected and in Group name enter **HR** and click on **Next**.
 
     ![](../media/lab13-image22.png)
 
     ![](../media/lab13-image(23).png)
    
-1. On Summary page, click on **Submit**.
+1. On the Summary page, click on **Submit**.
 
-1. Repeat last 4 step to create another segment with name **Finance**. 
+1. Repeat the last 4 steps to create another segment with the name **Finance**. 
 
 ## Task 3: Create Information barrier policies
 
 In this task, you'll create Information barrier policies to block communication between the  **HR** and **Finance** departments.
 
-1. From left navigation page of Microsoft Purview, expand Information Barrier and select Policies.
+1. From the left navigation page of Microsoft Purview, expand the Information Barrier and select **Policies**.
 
 1. Click on + **Create policy**.
 
@@ -124,7 +121,7 @@ In this task, you'll create Information barrier policies to block communication 
 
      ![](../media/lab13-image24.png)
 
-1. On Add assigned segment details page, select **+ Choose segment**.
+1. On the Add assigned segment details page, select **+ Choose segment**.
 
 1. On Select assigned segment for this policy window select **HR** and click on **Add**.
 
@@ -133,23 +130,23 @@ In this task, you'll create Information barrier policies to block communication 
 1. Back on **Add assigned segment details** page and click **Next**.
 
 1. On **Configure communication and collaboration details** page
-   - **Communication and collaboration** : Blocked
-   - **+ Choose segment**: select Finance and click **Add**
+   - **Communication and collaboration**: Blocked
+   - **+ Choose segment**: Select **Finance** and click **Add**
    - Click **Next**
 
-1. On **Configure policy status** page turn on the toggle for Set your policy to active state.
+1. On the **Configure policy status** page turn on the toggle for Set your policy to active state.
 
    ![](../media/lab13-image26.png)
 
-1. On Summary page click on **Submit** and **Done**
+1. On the Summary page click on **Submit** and **Done**.
 
 1. Back on **Policies** page.
 
 1. Click on + **Create policy**.
 
-1. On **Provide a policy name** page, enter **Block communication from Finance to HR** and click on **Next**.
+1. On the **Provide a policy name** page, enter **Block communication from Finance to HR** and click on **Next**.
    
-1. On Add assigned segment details page, select **+ Choose segment**.
+1. On the Add assigned segment details page, select **+ Choose segment**.
 
 1. On Select assigned segment for this policy window select **Finance** and click on **Add**.
     
@@ -157,26 +154,28 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. On **Configure communication and collaboration details** page
    - **Communication and collaboration** : Blocked
-   - **+ Choose segment**: select HR and click **Add**
+   - **+ Choose segment**: select **HR** and click **Add**
    - Click **Next**
 
-1. On **Configure policy status** page turn on the toggle for Set your policy to active state.
+1. On the **Configure policy status** page turn on the toggle for Set your policy to active state.
 
     ![](../media/lab13-image26.png)
 
 1. On Summary page click on **Submit** and **Done**.
 
-### Task 4 : Enable Scoped Directory Search on Microsoft Teams
+### Task 4: Enable Scoped Directory Search on Microsoft Teams
 
-In this task you'll learn how to Enable Scoped Directory Search on Microsoft Teams
+In this task, you'll learn how to Enable Scoped Directory Search on Microsoft Teams
 
-1. Sign in to Office 365(https://www.office.com/) portal
+1. Sign in to Office 365 (https://www.office.com/) portal.
 
 1. Select **Admin** from left pane.
 
 1. On **Microsoft 365 admin center** portal, select **Show all**.
+   
 1. Under **Admin center** section, select **Teams**.
-1. On **Microsoft Teams admin center**, from left navigation pane select **Teams Settings** and scroll down under search by name  then turn on the toggle for **Scope 
+
+1. On **Microsoft Teams admin center**, from the left navigation pane select **Teams Settings** and scroll down under search by name  then turn on the toggle for **Scope 
    directory search using an Exchange address book policy**.
 
      ![](../media/b-image13.png)
@@ -187,11 +186,11 @@ In this task you'll learn how to Enable Scoped Directory Search on Microsoft Tea
 
 In this task, you will apply the active Information barrier policies and check their application status.
 
-1. From the left Navigation Pane, expand Information Barrier and select Policy Application.
+1. From the left Navigation Pane, expand the Information Barrier and select Policy Application.
 
     ![](../media/lab13-image27.png)
 
-1. On Policy Application page, click on Apply All Policies.
+1. On the Policy Application page, click on Apply All Policies.
 
      ![](../media/lab13-image28.png)
    
@@ -199,35 +198,34 @@ In this task, you will apply the active Information barrier policies and check t
 
      ![](../media/lab13-image29.png)
 
-   >**Note**: Kindly **Refresh** page and Wait for the status to transition from NotStarted to Completed; this process may take 5 to 10 minutes.
+   >**Note**: Kindly **Refresh** page and Wait for the status to transition from **NotStarted** to **Completed**; this process may take 5 to 10 minutes.
 
-### Task 5:  Assess Information Barriers functionality within Microsoft Teams.
+### Task 5: Assess Information Barriers functionality within Microsoft Teams.
 
-In this task you'll test the Use Information Barriers policy which blocks user from sending message in teams.
+In this task, you'll test the Use Information Barriers policy which blocks users from sending messages in teams.
 
-1. From the start menu type and select **Teams** and login with following credential
+1. From the start menu type and select **Teams** and log in with the following credentials:
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-1. After Login to Microsoft teams search and try send some message to **John doe**.
+1. After logging in to Microsoft Teams search and try to send some message to **John doe**.
 
-1. Observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **John doe** as he is from **Finance** department.
+1. Observe that **Administrator has disabled chat for this user**, you are not allowed to send messages to **John doe** as he is from **Finance** department.
 
      ![](../media/b-image14.png)
 
-1. Sign out as odl user and  login as **John doe** to Microsoft teams
+1. Sign out as odl user and log in as **John doe** to Microsoft Teams.
 
-1. Search and attempt send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send message to **ODL user** as he is from **HR** department.
+1. Search and attempt to send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send a message to **ODL user** as he is from **HR** department.
 
      ![](../media/b-image15.png)
 
     >**Note**: If the users conducting these activities in Microsoft Teams are included in an IB policy to prevent the activity, they won't be able to proceed. In addition, everyone included in an IB policy can be potentially blocked from communicating with other users in Microsoft Teams. When users affected by IB policies are part of the same team or group chat, they may be removed from those chat sessions and further communication with the group may not be allowed.
 
-
 ### Conclusion:
-By completing these tasks, you successfully configured Information Barriers, assigned attributes and licenses, created segments and policies, and tested their functionality in Microsoft Teams. This ensures data security, compliance, and controlled communication within organisation.
+By completing these tasks, you successfully configured Information Barriers, assigned attributes and licenses, created segments and policies, and tested their functionality in Microsoft Teams. This ensures data security, compliance, and controlled communication within the organisation.
 
 ### Review 
 During this lab, you've gained knowledge on the following:

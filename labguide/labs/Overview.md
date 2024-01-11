@@ -7,7 +7,7 @@ Microsoft Purview is a data governance service by Microsoft that enables organiz
 ## Key features of Microsoft Purview
 
 - Data security: Microsoft Purview provides a robust and coordinated set of risk and compliance solutions to help you discover and protect sensitive information.
-- Threat Detection: Microsoft Purview includes unified data governance solutions that help you manage data services across your on-premises, multicloud, and software-as-a-service (SaaS) estate. That includes Azure storage services, Power BI, databases like SQL or Hive, file services like Amazon S3, and many more.
+- Threat Detection: Microsoft Purview includes unified data governance solutions that help you manage data services across your on-premises, multi-cloud, and software-as-a-service (SaaS) estate. That includes Azure storage services, Power BI, databases like SQL or Hive, file services like Amazon S3, and many more.
 - Risk and compliance: Microsoft Purview includes risk and compliance solutions to help your organization minimize compliance risks and meet regulatory requirements. 
 
 ## Sandbox Scenario
@@ -21,9 +21,9 @@ Using this environment, You'll be able to explore complete features and offering
 
 ### Pre-provisioned resources
 
-#### **Virtual Machines**: 
+#### **Virtual Machine**: 
 
-- 1 *Windows 11* Virtual machines, virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
+- 1 *Windows 11* Virtual machine, virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
 
    These virtual machines are tailored and configured to the sandbox's specifications. Files, applications, packages, and OS configurations are all pre-configured. It is recommended that you use the same virtual machine throughout the lab for the best experience.
 
@@ -39,7 +39,7 @@ Using this environment, You'll be able to explore complete features and offering
 
   You will receive **cost alerts** to your registered email address at **50%/75%/90%/95%/100%** of the allotted Azure Credit is spent.
 
-  You can visit the Azure Subscription page to check the current Azure credit spend and Analysis on **Cost analysis** tab under the Cost Management option.
+  You can visit the Azure Subscription page to check the current Azure credit spend and Analysis on the **Cost analysis** tab under the Cost Management option.
 
   ![Picture 1](../media/o1.jpg)
 

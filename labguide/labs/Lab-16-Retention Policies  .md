@@ -17,7 +17,7 @@ In order to adhere to this law your organization has created a retention plan to
 In this lab, you will complete the following tasks:
 
 + Task 1 – Create Retention Policy with Static mode
-+ Task 2 - Create Retention Policy with Adaptive scope
++ Task 2 - Create Retention Policy with an Adaptive scope
 
 ## Estimated timing: 60 minutes
 
@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 ## Task 1 – Create Retention Policy with Static mode
 
-In this exercise you will create a company-wide retention policy, apply a retention period, and set the locations that the policy will be applied to.
+In this task, you will create a company-wide retention policy, apply a retention period, and set the locations in which the policy will be applied.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**.
 
@@ -42,11 +42,9 @@ In this exercise you will create a company-wide retention policy, apply a retent
 
       ![](../media/lab16-image3.png)
 
-
 1. On the **Policy Scope** page select **Next**.
 
    ![](../media/lab16-image4.png)
-
 
 1. In the **Choose the type of retention policy to create** area, select **Static** then select **Next**.
 
@@ -78,13 +76,11 @@ In this exercise you will create a company-wide retention policy, apply a retent
 
 1. Once your policy is created select **Done**.
 
-You have successfully created a retention policy for the Exchange email, Microsoft 365 groups, OneDrive, and SharePoint sites locations. This retention policy will retain items in these locations for three years from when the item was last modified date. This policy can take up to 24 hours to be apply in your tenant, but you can proceed to the next step.
-
+You have successfully created a retention policy for the Exchange email, Microsoft 365 groups, OneDrive, and SharePoint site locations. This retention policy will retain items in these locations for three years from when the item was last modified date. This policy can take up to 24 hours to be applied to your tenant, but you can proceed to the next step.
 
 ## Task 2 – Create Retention Policy with Adaptive scope
 
-In this exercise you will create a retention policy for the finance and legal department. The purpose of the policy is to comply with the law, retaining all legal related documents for 5 years. First you will create an adaptive scope including the legal and the retail department, then you will create a retention policy using this scope.
-
+In this task, you will create a retention policy for the finance and legal department. The purpose of the policy is to comply with the law, retaining all legal-related documents for 5 years. First, you will create an adaptive scope including the legal and the retail department, then you will create a retention policy using this scope.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**.
 
@@ -99,7 +95,7 @@ In this exercise you will create a retention policy for the finance and legal de
 1. On the **Name your adaptive policy scope** page input and select **Next**.
 
     - **Name**: Legal Documents Retention
-    - **Description**: Retention for legal related documents
+    - **Description**: Retention for legal-related documents
 
        ![](../media/lab16-image13.png)
 
@@ -159,7 +155,7 @@ In this exercise you will create a retention policy for the finance and legal de
 
     ![](../media/lab16-image23.png)
 
-1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes** and in the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention** then select the **Add** button.
+1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes** and on the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention** then select the **Add** button.
 
      ![](../media/lab16-image24.png)
 
@@ -198,6 +194,6 @@ By completing the tasks outlined in this lab, users gain practical skills in cre
 
 
 ### Review
-During this lab, you've gained knowledge on the process of Create Retention Policy with Static mode and Adaptive scope
+During this lab, you've gained knowledge on the process of Creating a Retention Policy with Static mode and Adaptive scope
   
 ### You have successfully completed the lab

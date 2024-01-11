@@ -5,25 +5,25 @@ Data Loss Prevention (DLP) policies in Microsoft Purview and explore the setting
 
 ## Lab scenario
 
-In this lab, you'll explore DLP policy which triggers an alert if a user takes an action that aligns with a DLP policy, and explore on which you have configured Incident reports to generate alerts. The alert is then posted in the DLP Alerts dashboard for further investigation.
+In this lab, you'll explore the DLP policy which triggers an alert if a user takes an action that aligns with a DLP policy, and explore on which you have configured Incident reports to generate alerts. The alert is then posted in the DLP Alerts dashboard for further investigation.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
-+ Task 1 : Configure Data Loss Prevention Alerts
++ Task 1: Configure Data Loss Prevention Alerts
 
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
 ![](../media/archi-5.png)
 
-### Task 1 : Configure Data Loss Prevention Alerts
+### Task 1: Configure Data Loss Prevention Alerts
 
-In this task you'll create dlp policy in Microsoft purview
+In this task, you'll create a dlp policy in Microsoft purview
 
 1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Policies**.
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Policies (2)**.
 
    ![](../media/lab6-image1.png)
 
@@ -35,9 +35,9 @@ In this task you'll create dlp policy in Microsoft purview
 
    There are two types of alerts that can be configured in DLP policies.
 
-   - Single-event alerts are typically used in policies that monitor for highly sensitive events that occur in a low volume, like a single email with 10 or more customer credit card numbers being sent outside your organization. you'll see these options when you create or edit a DLP policy. Use this option **Send alert when the volume of matches the rule** to create an alert that's raised every time a DLP rule match happens.
+   - Single-event alerts are typically used in policies that monitor for highly sensitive events that occur in a low volume, like a single email with 10 or more customer credit card numbers being sent outside your organization. you'll see these options when you create or edit a DLP policy. Use this option **Send alert when the volume matches the rule** to create an alert that's raised every time a DLP rule match happens.
 
-   - Aggregate-event alerts are typically used in policies that monitor for events that occur in a higher volume over a period of time.  Use this option **Send alert when the volume of matched activities reaches a threshold** For example, an aggregate alert can be triggered when 10 individual emails each with one customer credit card number is sent outside your org over 48 hours.
+   - Aggregate-event alerts are typically used in policies that monitor for events that occur in a higher volume over a period of time.  Use this option **Send alert when the volume of matched activities reaches a threshold** For example, an aggregate alert can be triggered when 10 individual emails each with one customer credit card number are sent outside your org over 48 hours.
 
      This configuration allows you to set up a policy to generate an alert:
 
@@ -46,18 +46,17 @@ In this task you'll create dlp policy in Microsoft purview
      - based on the number of activities
      - based on the volume of exfiltrated data
      
-1. For now keep as it is and select cancel.
+1. For now keep it as it is and select **Cancel**.
    
     >**Note**: This configuration allows you to see these options when you create or edit a DLP policy. Use this option to create an alert that's raised every time a DLP rule match happens.
 
 
 ### Conclusion
-In this lab you configured DLP policies and exploring alert settings in the Microsoft Purview portal. Users learn to customize the severity of alerts based on different scenarios, allowing for effective monitoring of potential data loss incidents. The practical demonstration reinforces the importance of DLP policies in preventing unauthorized sharing of sensitive information and highlights the role of alerts in incident response.
-
+In this lab, you configured DLP policies and explored alert settings in the Microsoft Purview portal. Users learn to customize the severity of alerts based on different scenarios, allowing for effective monitoring of potential data loss incidents. The practical demonstration reinforces the importance of DLP policies in preventing unauthorized sharing of sensitive information and highlights the role of alerts in incident response.
 
 ### Review
 During this lab, you've gained knowledge on the process of Configuring Data Loss Prevention Alerts
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab
