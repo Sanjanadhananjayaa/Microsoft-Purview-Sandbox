@@ -46,7 +46,7 @@ In this lab, you'll create a purview account on the Azure Portal
      | Subscription                           | Accept the default             |
      | Resource Group                         | Purview-rg                     | 
      | Microsoft cover your account name      | purview-account1-<inject key="DeploymentID" enableCopy="false"/>               | 
-     |    location                            | **<inject key="Region" enableCopy="false"/>**                       |
+     |    location                            | **West US**                       |
      |||
 
     ![](../media/lab14-image2.png)
@@ -69,13 +69,13 @@ In this task, you'll create a storage account and container
      | Subscription | Accept the default     |
      | Resource Group  | Purview-rg     | 
      | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/> |  
-     | Region         | **<inject key="Region" enableCopy="false"/>**   |
+     | Region         | **West US**   |
      | Redundancy    |     Local Redundant Storage LRS|
      |||
 
     ![](../media/lab14-image3.png)
 
-1. On the Advanced tab, select **enable hierarchical namespace** and click on **Review**.
+1. On the Advanced tab, select **Enable hierarchical namespace** and click on **Review**.
 
    ![](../media/lab14-image4.png)
 
@@ -83,23 +83,23 @@ In this task, you'll create a storage account and container
 
 1. Once the storage account is created, click on the storage account which you created.
    
-1. Under the Data Storage section, select the Containers option and click on **+ container**. Provide some name and click on create.
+1. Under the Data Storage section, select the **Containers** option and click on **+ Container**. Provide some name and click on **Create**.
 
 1. Open the File Explorer and create some text files.
 
-1. Back on the **Storage account** window, select the container which you created and click on the upload, select browse for the files select the text file which you created and click on upload.
+1. Back on the **Storage account** window, select the container which you created and click on the **Upload**, select browse for the files select the text file which you created and click on **Upload**.
 
 ### Task 3: Azure Storage in-place data sharing with Microsoft Purview
 
 In this task, you'll work on Azure Storage in-place data sharing with Microsoft Purview
 
-1. Sign in to Purview(https://purview.microsoft.com/)
+1. Sign in to Purview (https://purview.microsoft.com/)
 
 1. On **Select a Microsoft Purview account** page, leave default for Microsoft Entra ID and for **Account name** select purview and click on **Continue**.
    
     ![](../media/lab14-image5.png)
 
-1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map** and in the Data source click on the **Register icon**.
+1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map (1)** and in the Data sources click on the **Register icon (2)**.
 
    ![](../media/lab14-image6.png)
 
@@ -107,7 +107,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
      ![](../media/lab14-image7.png)
 
-1. On the Registered data source (Azure Data Lake storage Gen2), specify the following  and click on Register.   
+1. On the **Registered data source (Azure Data Lake storage Gen2)**, specify the following and click on **Register**.   
 
      |   **Option** | **Value** *        |
      | ------------ | ------------------ | 
@@ -126,13 +126,13 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 1. Under the Setting section, select **Resource providers** and in the search bar search for storage and select **Microsoft.StorageActions**,  **Microsoft.StorageTasks** and click on **Register**.
 
-1. Return back to **Purview(https://purview.microsoft.com/)** and 
+1. Return back to **Purview (https://purview.microsoft.com/)**.
 
 1. Select **Data Map**, Under Data Sharing section, select **Shares** and click on **+ New share**.
 
      ![](../media/lab14-image9.png)
 
-1. On the **New share** window, for type select **Azure Data Lake Storage Gen2** from the drop down and to select a source choose the storage account **storage** and click on Continue.
+1. On the **New share** window, for type select **Azure Data Lake Storage Gen2** from the drop down and to select a source choose the storage account **storage<inject key="DeploymentID" enableCopy="false"/>** and click on **Continue**.
 
    ![](../media/lab14-image10.png)
 
@@ -140,7 +140,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 1. On the Add Assets window expand the container select the text file and click on **Continue**.
 
-1. Again click on **Continue** on **Add assets** window
+1. Again click on **Continue** on Add assets window.
 
 1. On **Add recipients** enter your personal email and click on **Create and share**
 
