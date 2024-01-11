@@ -8,13 +8,16 @@ This implementation involves creating a Chrome extension that enhances the funct
 
 In this lab, you'll be implementing the Microsoft Purview extension for Google Chrome in a controlled lab environment to secure the data. The primary objective is to fortify the data security measures, particularly by safeguarding against the uploading of data from unauthorized or unapproved browsers.
 
+**Note**: Edge is not needed for DLP policy to apply to Edge. "The Microsoft Purview Extension is able to provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
+
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
-+ Task 1: Prerequisites
-+ Task 2: Create a Data Loss Prevention policy
-+ Task 3: Updating Endpoint settings
-+ Task 4: Test the Extension
+
++ Task 1 : Prerequisites
++ Task 2 : Create a Data Loss Prevention policy
++ Task 3 : Updating Endpoint settings
++ Task 4 : Test the Extension
 
 ## Estimated timing: 120 minutes
 

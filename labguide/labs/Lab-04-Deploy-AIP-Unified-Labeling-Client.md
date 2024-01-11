@@ -28,7 +28,7 @@ In this lab, you'll install Azure Information Protection Unified Labeling Client
 
 1. Open **Microsoft Edge** from the Lab VM desktop by double-clicking on it. 
 
-1. Browse for [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53018) to Download AzInfoProtection_UL.exe.
+1. Browse for [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53018) to download AzInfoProtection_UL.exe.
 
 1. On the Azure Information Protection page click on **Download**.
 
