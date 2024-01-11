@@ -18,9 +18,9 @@
 
 ## Let's Get Started with Admin Portal 
 
-1.On your virtual machine, click on the Microsoft Edge icon
+1. On your virtual machine, click on the Microsoft Edge icon
 
-1.Log in to Admin portal **admin.microsoft.com**(https://admin.microsoft.com/).
+1. Log in to Admin portal **admin.microsoft.com**(https://admin.microsoft.com/).
 
 1. You'll see the **Microsoft** window, enter your credentials:
  
