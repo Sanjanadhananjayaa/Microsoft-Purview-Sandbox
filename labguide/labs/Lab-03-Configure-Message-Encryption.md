@@ -16,6 +16,7 @@ In this lab, you will complete the following task:
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/part1lab3.png)
 
 ### Task 1: Create a Mail Flow Encryption Rule using the Exchange admin center
@@ -74,7 +75,7 @@ The conclusion emphasizes the completion of the Mail Flow Encryption Rule creati
 
 ### Review
 
-During this lab, you've gained knowledge on the process of creating a Mail Flow Encryption Rule using the Exchange admin center
+During this lab, you've gained knowledge on the process of creating a Mail Flow Encryption Rule using the Exchange admin center.
 
 ### You have successfully completed the lab
 
