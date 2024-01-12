@@ -8,16 +8,16 @@ This implementation involves creating a Chrome extension that enhances the funct
 
 In this lab, you'll be implementing the Microsoft Purview extension for Google Chrome in a controlled lab environment to secure the data. The primary objective is to fortify the data security measures, particularly by safeguarding against the uploading of data from unauthorized or unapproved browsers.
 
-**Note**: Edge is not needed for DLP policy to apply to Edge. "The Microsoft Purview Extension is able to provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
+>**Note**: Edge is not needed for the DLP policy to apply to Edge. "The Microsoft Purview Extension can provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1 : Prerequisites
-+ Task 2 : Create a Data Loss Prevention policy
-+ Task 3 : Updating Endpoint settings
-+ Task 4 : Test the Extension
++ Task 1: Prerequisites
++ Task 2: Create a Data Loss Prevention policy
++ Task 3: Updating Endpoint settings
++ Task 4: Test the Extension
 
 ## Estimated timing: 120 minutes
 
@@ -62,12 +62,14 @@ In this lab, you will complete the following tasks:
 
 1. Select **Device** on **Device Onboarding**, window and choose **Turn on device onboarding**.
 
-   >**Note**: Wait for a few minutes for the device to turn on, and refresh the page every now and then.
+   >**Note**: Wait for a few minutes for the device to turn on, and refresh the page.
 
 1. Select **Onboarding (1)** to start the onboarding process and follow the steps below:
 
    - Select operating system to start onboarding process: **Windows 10 (2)**
+
    - Deployment method: **Local script (for up to 10 machines) (3)**
+
    - Click **Download package (4)**
 
     ![](../media/lab7-image8.png)
@@ -100,13 +102,13 @@ In this lab, you will complete the following tasks:
 
 1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it.
 
-   >**Note:** The window closes automatically after running the script.
+   >**Note**: The window closes automatically after running the script.
 
-   >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+   >**Note**: If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
 1. In the purview portal, in the left-hand menu, select **Devices** and if the device isn't displayed, please wait for a while.
 
-    >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+    >**Note**: If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
 ### Task 1.4: Install the extension for Chrome on your Windows devices
 
@@ -188,7 +190,6 @@ In this lab, you will complete the following tasks:
 1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
   
 1. On the Review and finish review the information and click **Submit**.
-
 
 ### Task 3: Updating Endpoint settings
 
