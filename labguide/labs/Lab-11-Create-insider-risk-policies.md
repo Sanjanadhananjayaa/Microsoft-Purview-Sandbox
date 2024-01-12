@@ -82,7 +82,7 @@ In this task, you will walk through the settings associated with the Insider Ris
 
 1. From the left navigation panel under Solutions, select **Insider risk management (1)**.
 
-1. Before getting started with setting up a policy, there are some settings that need to be configured. From the Insider Risk Management page, select the **setting cog icon (2)** on the top-right corner of the page to access Insider Risk settings.
+1. Before getting started with setting up a policy, some settings need to be configured. From the Insider Risk Management page, select the **setting cog icon (2)** on the top-right corner of the page to access Insider Risk settings.
 
      ![](../media/sc-900-lab14-T3-1.png)
    
@@ -132,7 +132,7 @@ In this task, you will walk through the creation of a policy.
 
    ![](../media/lab11-image12.png)
          
-1. On the **Decide whether to prioritize content** page, read the description and select **I dont't want to prioritize content right now (1)**, then select **Next (2)**.
+1. On the **Decide whether to prioritize content** page, read the description and select **I don't want to prioritize content right now (1)**, then select **Next (2)**.
 
    ![](../media/lab11-image13.png)
                
@@ -142,7 +142,7 @@ In this task, you will walk through the creation of a policy.
    
    >**Note**: Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy. Select **User performs an exfiltration activity**. Scroll down to see what is automatically selected. Note that the policy indicators you enabled in the previous task are checked. Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user. In addition, Sequence detection is enabled. If a sequence of activities, as defined, is detected then it suggests greater risk. Select the information icon for detailed information on which indicators are required. This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and leave the defaults.
 
-1. On **Choose thresholds for triggering events**  page, select **choose your own thresholds** then for each field modify the **Total number of activities** as **1** in each section and click **Next**.
+1. On **Choose thresholds for triggering events** page, select **choose your own thresholds** then for each field modify the **Total number of activities** as **1** in each section and click **Next**.
 
    ![](../media/demo9.png)
 
