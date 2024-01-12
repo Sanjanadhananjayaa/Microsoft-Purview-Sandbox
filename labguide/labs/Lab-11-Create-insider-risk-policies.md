@@ -32,7 +32,7 @@ In this task, you as the global administrator, will enable permissions for Insid
         
 1. On **Enter Password** blade, enter the following password
 
-    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **sign in**
+    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **Sign in**
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -46,9 +46,9 @@ In this task, you as the global administrator, will enable permissions for Insid
 
 1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
 
-    ![](../media/lab11-image1.png)
+    ![](../media/newone5.png)
 
-1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass). Notice the five roles that show up. Each of these has different access levels. Select **Insider Risk Management**.
+1. In the search bar, enter **Insider risk (1)** then select the search icon (magnifying glass). Notice the five roles that show up. Each of these has different access levels. Select **Insider Risk Management (2)**.
 
     ![](../media/lab11-image2.png)
 
@@ -56,8 +56,8 @@ In this task, you as the global administrator, will enable permissions for Insid
 
      ![](../media/lab11-image3.png)
 
-1. On **Edit members of the role group** page To add members to this role group, click on **Choose users**, select **<inject key="AzureAdUserEmail"></inject>** and then 
-   click on **Select**.
+1. On **Edit members of the role group** page To add members to this role group, click on **Choose users (1)**, select **<inject key="AzureAdUserEmail"></inject> (2)** and then 
+   click on **Select (3)**.
 
      ![](../media/lab11-image4.png)
 
@@ -80,9 +80,9 @@ In this task, you will walk through the settings associated with the Insider Ris
 1. You should be on the Microsoft 365 compliance center home page. If not, open the browser tab **Home - Microsoft 365 compliance**. 
     https://compliance.microsoft.com/insiderriskmgmt
 
-1. From the left navigation panel under Solutions, select **Insider risk management**.
+1. From the left navigation panel under Solutions, select **Insider risk management (1)**.
 
-1. Before getting started with setting up a policy, there are some settings that need to be configured. From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
+1. Before getting started with setting up a policy, some settings need to be configured. From the Insider Risk Management page, select the **setting cog icon (2)** on the top-right corner of the page to access Insider Risk settings.
 
      ![](../media/sc-900-lab14-T3-1.png)
    
@@ -114,35 +114,35 @@ In this task, you will walk through the settings associated with the Insider Ris
 
 In this task, you will walk through the creation of a policy.
 
-1. You should be on the Insider risk management page. If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
+1. You should be on the Insider risk management page. If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance (1)**.
 
-1. From the Insider risk management overview page, select the **Policies** tab then select **+ Create policy**. Configure each of the following policy tabs.
+1. From the Insider risk management overview page, select the **Policies (2)** tab then select **+ Create policy (3)**. Configure each of the following policy tabs.
 
     ![](../media/lab11-image9.png)
 
-1. Policy template:  From the list of categories, select **Data leaks**. Read the details associated with this template, then select **Next**.
+1. Policy template:  From the list of categories, select **Data leaks (1)**. Read the details associated with this template, then select **Next (2)**.
 
     ![](../media/lab11-image10.png)
     
-1. On the **Name your policy** page, enter **InsiderRiskPolicy**, then select **Next**.
+1. On the **Name your policy** page, enter **InsiderRiskPolicy (1)**, then select **Next (2)**.
 
     ![](../media/lab11-image11.png)
     
-1. On the **Choose users and groups** page, select **Include all users and groups** and click on **Next**.
+1. On the **Choose users and groups** page, select **Include all users and groups (1)** and click on **Next (2)**.
 
    ![](../media/lab11-image12.png)
          
-1. On the **Decide whether to prioritize content** page, read the description and select **I dont't want to prioritize content right now**, then select **Next**.
+1. On the **Decide whether to prioritize content** page, read the description and select **I don't want to prioritize content right now (1)**, then select **Next (2)**.
 
    ![](../media/lab11-image13.png)
                
-1. On the **Choose triggering event for this policy** page, select **User performs an exfiltration activity** and under **Select which activities will trigger this policy** ensure that **Sending email with attachments to recipients outside the organization** is selected and click **Next**.
+1. On the **Choose triggering event for this policy** page, select **User performs an exfiltration activity (1)** and under **Select which activities will trigger this policy** ensure that **Sending email with attachments to recipients outside the organization (2)** is selected, and click **Next (3)**.
 
    ![](../media/demo8.png)
    
-   >**Note** Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy. Select **User performs an exfiltration activity**. Scroll down to see what is automatically selected. Note that the policy indicators you enabled in the previous task are checked. Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user. In addition, Sequence detection is enabled. If a sequence of activities, as defined, is detected then it suggests greater risk. Select the information icon for detailed information on which indicators are required. This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and leave the defaults.
+   >**Note**: Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy. Select **User performs an exfiltration activity**. Scroll down to see what is automatically selected. Note that the policy indicators you enabled in the previous task are checked. Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user. In addition, Sequence detection is enabled. If a sequence of activities, as defined, is detected then it suggests greater risk. Select the information icon for detailed information on which indicators are required. This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and leave the defaults.
 
-1. On **Choose thresholds for triggering events**  page, select **choose your own thresholds** then for each field modify the **Total number of activities** as **1** in each section and click **Next**.
+1. On **Choose thresholds for triggering events** page, select **choose your own thresholds** then for each field modify the **Total number of activities** as **1** in each section and click **Next**.
 
    ![](../media/demo9.png)
 
@@ -158,7 +158,7 @@ In this task, you will walk through the creation of a policy.
    
     ![](../media/lab11-image17.png)
     
-1. On the **Choose threshold type for indicators** page, review the information. Select **Apply thresholds provided by Microsoft** then Select **Next**.  
+1. On the **Choose threshold type for indicators** page, review the information. Select **Apply thresholds provided by Microsoft** and then Select **Next**.  
    
 1. On the **Review settings and finish** page, review the settings and select **Submit**.
 
@@ -170,21 +170,21 @@ In this task, you will walk through the creation of a policy.
 
     ![](../media/lab11-image20.png)
 
-1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy. Assigning users a risk score occurs when the policy is triggered which is why the value shows 0. An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first. To do this, select the policy next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.
+1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy. Assigning users a risk score occurs when the policy is triggered which is why the value shows 0. An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first. To do this, **select the policy (1)** next to the policy name to select the policy, then select **Start scoring activity for users (2)**, which is shown above the policy table.
 
     ![](../media/lab11-image21.png)  
   
 1. On the **Start score activity for users** window, provide the following information:
 
-   - Reason for scoring activity: Provide any reason
+   - Reason for scoring activity: **Provide any reason (1)**
 
-   - Score activity for this many days: 5
+   - Score activity for this many days: **5 (2)**
 
-   - Score activity for these users: **<inject key="AzureAdUserEmail"></inject>** 
+   - Score activity for these users: **<inject key="AzureAdUserEmail"></inject> (3)** 
 
-   - Select **Start scoring activity**. It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
+   - Select **Start scoring activity (4)**. It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
 
-    ![](../media/lab11-image(22).png)
+        ![](../media/lab11-image(22).png)
 
      >**Note**: Enabling permissions for Insider Risk Management is crucial to ensure that authorized users can effectively manage and respond to insider risk incidents. By assigning specific roles, the organization can control access and empower designated individuals to handle insider risk-related tasks.
 
@@ -196,4 +196,4 @@ During this lab, you've gained knowledge on the process of setting up an insider
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

@@ -4,7 +4,6 @@
 
 Implementing data sharing with Microsoft Purview is crucial for organizations to maintain data confidentiality, comply with regulations, and enable secure collaboration. The lab focuses on creating a Purview account, setting up a storage account, and initiating data-sharing processes. Such practices are essential for organizations dealing with sensitive information, ensuring secure collaboration and adherence to compliance standards.
 
-
 ## Lab scenario
 
 In this lab, you'll configure Microsoft Purview Data Sharing, data providers can now share data in place from Azure Data Lake Storage Gen2 and Azure Storage accounts, both within and across organizations. Share data directly with users and partners without data duplication and centrally manage your sharing activities from within Microsoft Purview.
@@ -32,21 +31,21 @@ In this lab, you'll create a purview account on the Azure Portal
 
 1. Sign in to **Azure Portal**.
 
-1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Purview**, and then select **Microsoft Purview accounts** under services.
+1. On the Azure Portal page, in the **Search resources, services and docs** box at the top of the portal, enter **Microsoft Purview (1)**, and then select **Microsoft Purview accounts (2)** under services.
    
    ![](../media/lab14-image1.png)
 
-1. Select **+ Create** on **Microsoft Purview accounts** page.
+1. Select **+ Create** on Microsoft Purview accounts page.
 
-1. On the Basics tab specify the following details and click **Review + Create**.
+1. On the Basics tab specify the following details and click **Review + Create (5)**.
 
     
      |   **Option**                           | **Value**                      |
      | ---------------------------------------| ------------------------------ | 
      | Subscription                           | Accept the default             |
-     | Resource Group                         | Purview-rg                     | 
-     | Microsoft cover your account name      | purview-account1-<inject key="DeploymentID" enableCopy="false"/>               | 
-     |    location                            | **West US**                       |
+     | Resource Group                         | **Purview-rg (2)**                     | 
+     | Microsoft cover your account name      | **purview-account1-<inject key="DeploymentID" enableCopy="false"/>** **(3)**              | 
+     |    location                            | **West US (4)**                       |
      |||
 
     ![](../media/lab14-image2.png)
@@ -57,25 +56,25 @@ In this lab, you'll create a purview account on the Azure Portal
 
 In this task, you'll create a storage account and container
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Storage accounts**, and then select  **Storage accounts** under services.
+1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Storage accounts**, and then select  **Storage accounts** under services.
 
 1. On the **Storage accounts** page, click on **+ Create**.
 
-1. On the Basics tab specify the following details and click **Advance**.
+1. On the Basics tab specify the following details and click **Next : Advance > (6)**.
 
     
      |   **Option** | **Value** *        |
      | ------------ | ------------------ | 
      | Subscription | Accept the default     |
-     | Resource Group  | Purview-rg     | 
-     | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/> |  
-     | Region         | **West US**   |
-     | Redundancy    |     Local Redundant Storage LRS|
+     | Resource Group  | **Purview-rg (2)**     | 
+     | Storage account name | **storage<inject key="DeploymentID" enableCopy="false"/> (3)** |  
+     | Region         | **West US (4)**   |
+     | Redundancy    |     **Locally-redundant storage (LRS) (5)**|
      |||
 
     ![](../media/lab14-image3.png)
 
-1. On the Advanced tab, select **Enable hierarchical namespace** and click on **Review**.
+1. On the Advanced tab, select **Enable hierarchical namespace (1)** and click on **Review (2)**.
 
    ![](../media/lab14-image4.png)
 
@@ -95,25 +94,29 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 1. Sign in to Purview (https://purview.microsoft.com/)
 
-1. On **Select a Microsoft Purview account** page, leave default for Microsoft Entra ID and for **Account name** select purview and click on **Continue**.
+1. On the **Select a Microsoft Purview account** page, leave default for **Microsoft Entra ID (1)** and for **Account name (2)** select purview and click on **Continue (3)**.
    
     ![](../media/lab14-image5.png)
 
-1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map (1)** and in the Data sources click on the **Register icon (2)**.
+1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map**. in the Data sources click on the **Register icon (2)**.
 
-   ![](../media/lab14-image6.png)
+   ![](../media/newone.png)
 
-1. On **Register Data Source** window, in the search bar, search and select **Azure Data Lake Storage Gen2** and click on **Continue**.
+1. In the **Data sources (1)** tab, click on the **Register icon (2)**.
+
+   ![](../media/newone1.png)
+
+1. On **Register Data Source** window, in the search bar, search and select **Azure Data Lake Storage Gen2 (1)** and click on **Continue (2)**.
 
      ![](../media/lab14-image7.png)
 
-1. On the **Registered data source (Azure Data Lake storage Gen2)**, specify the following and click on **Register**.   
+1. On the **Registered data source (Azure Data Lake storage Gen2)**, specify the following and click on **Register (4)**.   
 
      |   **Option** | **Value** *        |
      | ------------ | ------------------ | 
-     | Data source name | leave default     |
-     |  Azure subscription  | OTU subscription    | 
-     | Storage account name | storage<inject key="DeploymentID" enableCopy="false"/>             | 
+     | Data source name | leave default **(1)**     |
+     |  Azure subscription  | **OTU subscription (2)**   | 
+     | Storage account name | **storage<inject key="DeploymentID" enableCopy="false"/> (3)**            | 
      |||
 
     ![](../media/lab14-image8.png)
@@ -128,11 +131,13 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 1. Return back to **Purview (https://purview.microsoft.com/)**.
 
-1. Select **Data Map**, Under Data Sharing section, select **Shares** and click on **+ New share**.
+1. Select **Data Catalog**, Under Data Sharing section, select **Shares** and click on **+ New share**.
 
-     ![](../media/lab14-image9.png)
+     ![](../media/newone2.png)
 
-1. On the **New share** window, for type select **Azure Data Lake Storage Gen2** from the drop down and to select a source choose the storage account **storage<inject key="DeploymentID" enableCopy="false"/>** and click on **Continue**.
+     ![](../media/newone3.png)
+
+1. On the **New share** window, for type select **Azure Data Lake Storage Gen2 (1)** from the drop-down and select a source to choose the storage account **storage<inject key="DeploymentID" enableCopy="false"/> (2)** and click on **Continue (3)**.
 
    ![](../media/lab14-image10.png)
 
@@ -192,4 +197,4 @@ During this lab, you've gained knowledge on the following:
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

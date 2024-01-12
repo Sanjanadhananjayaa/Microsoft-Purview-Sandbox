@@ -16,6 +16,7 @@ In this lab, you will complete the following tasks:
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/archi-6.png)
 
 

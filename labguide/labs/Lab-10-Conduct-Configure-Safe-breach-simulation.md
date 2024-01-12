@@ -16,14 +16,14 @@ In this lab, you will complete the following task:
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/part1lab5.png)
 
 ### Task 1: Create an Attack Simulation
 
-In this task you'll create an attack simulation, specifically a simulated phishing attack, using the Microsoft Defender portal. The objective is to guide users through the process of launching a simulated phishing attack for training and awareness purposes within the organization.
+In this task, you'll create an attack simulation, specifically a simulated phishing attack, using the Microsoft Defender portal. The objective is to guide users through the process of launching a simulated phishing attack for training and awareness purposes within the organization.
 
-1. In the Microsoft Defender portal at **https://security.microsoft.com**, Expand **Email & collaboration** and select **Attack simulation 
-   training**. 
+1. In the Microsoft Defender portal at **https://security.microsoft.com**, Expand **Email & collaboration (1)** and select **Attack simulation training (2)**. 
 
    ![](../media/lab10-image-1.png)
 
@@ -41,14 +41,15 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
     ![](../media/lab10-image-4.png)
    
-1. On the **Name simulation** page, configure the following settings and click on **Next**.
+1. On the **Name simulation** page, configure the following settings and click on **Next (3)**.
 
-      **Name**: Enter a unique, descriptive name for the simulation.
-      **Description**: Enter an optional detailed description for the simulation.
+      **Name (1)**: Enter a unique, descriptive name for the simulation.
+
+      **Description (2)**: Enter an optional detailed description for the simulation.
 
     ![](../media/lab10-image-5.png)
    
-1. On **Select payload and login page** blade select **Renew Office 365 subscription** and click on **Next**.
+1. On **Select payload and login page** blade select **Renew Office 365 subscription (1)** and click on **Next (2)**.
 
     >**Note**: For built-in payloads, the value is **Global**. For custom payloads, the value is **Tenant**.
    
@@ -56,55 +57,60 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
 1. On the **Target users** page, select who receives the simulation. Use the following options to select users
    
-     - **Include all users in your organization**: The unmodifiable list of users is shown in groups of 10.
+     - **Include all users in your organization (1)**: The unmodifiable list of users is shown in groups of 10.
      - **Include only specific users and groups**: At first, no users or groups are shown on the Targeted users page.
-     - To add users or groups to the simulation, choose one of the following options, now select **Include all users in your organization** and click on **Next**.
+     - To add users or groups to the simulation, choose one of the following options, now select **Include all users in your organization** and click on **Next (2)**.
 
         ![](../media/lab10-image-7.png)
 
-1. Don't change anything, select **Next** on **Exclude user** page.
+1. Don't change anything, select **Next** on **Exclude users** page.
 
     ![](../media/lab10-image-8.png)
    
-1. On the **Assign training** page, make sure **Microsoft training experience (Recommended)** is selected in dropdown and select **Assign training for me (Recommended)**.
+1. On the **Assign training** page, make sure **Microsoft training experience (Recommended) (1)** is selected in dropdown and select **Assign training for me (Recommended) (2)**.
 
     ![](../media/lab10-image-9.png)
 
-1. Select the Training Due Date for the Simulation and click on **Next**
+1. Select the Training Due Date for the Simulation and click on **Next (3)**
 
 1. On the **Selecting phish landing** page, you configure the web page that users are taken to if they open the payload in the simulation.
 
-   - Select **Use landing pages from library**
+   - Select **Use landing pages from library (1)**
      
-   - **Payload indicators**: Select Add payload indicators to email to help users learn how to identify phishing email.
+   - **Payload indicators (2)**: Select Add payload indicators to email to help users learn how to identify phishing email.
 
-   - Select **Microsoft Landing page Template 1** and click on **Next**.
+   - Select **Microsoft Landing page Template 1 (3)** and click on **Next (4)**.
 
       ![](../media/lab10-image-10.png)
    
-    **Note**: This setting is not available if you selected Malware Attachment or Link to Malware on the Select a social engineering technique 
+        >**Note**: This setting is not available if you selected Malware Attachment or Link to Malware on the Select a social engineering technique 
       page.
 
-1. On the **Select end user notification** page, select **Microsoft default notification (recommended)**: The notifications that users will receive are shown on the page select the following option.
+1. On the **Select end user notification** page, select **Microsoft default notification (recommended) (1)**: The notifications that users will receive are shown on the page select the following option.
 
-   - **Microsoft default positive reinforcement notification** - **Deliver during Simulation**
+   - Microsoft default positive reinforcement notification: **Deliver during Simulation (2)**
    
-   - **Microsoft default training assignment notification** - **Not Applicable**
+   - Microsoft default training assignment notification: **Not Applicable (3)**
    
-   - **Microsoft default training reminder notification** - **Twice A Week**
+   - Microsoft default training reminder notification: **Twice A Week (4)**
 
-   - Click on **Next**
+   - Click on **Next (5)**
 
-    ![](../media/lab10-image-11.png)
+        ![](../media/lab10-image-11.png)
 
 1. On the **Launch details page**, you choose when to start and end the simulation. We'll stop capturing interaction with this 
    simulation after the end date you specify.
    - Choose one of the following values:
        - **Launch this simulation as soon as I'm done**
+
        - **Schedule this simulation to be launched later**: This value has the following associated options to configure:
+       
        - **Select launch date**
+       
        - **Select launch time hour**
+       
        - **Select launch time minute**
+       
        - **Select time format: Select AM or PM**
    
    - The default value for Configure number of days to end simulation after is 2 days, which is also the minimum value. The maximum value is 30 days.
@@ -120,7 +126,7 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
     ![](../media/lab10-image-13.png)
 
-    **Note**: You can select Edit in each section to modify the settings within the section. Or you can select Back or the specific page in the 
+    >**Note**: You can select Edit in each section to modify the settings within the section. Or you can select Back or the specific page in the 
    wizard to modify the settings.
 
 1. On the Send Test Email pop-up, click on **Confirm**.
@@ -129,7 +135,7 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
     ![](../media/lab10-image-15.png)
 
-1. In another tab browser for (https://security.microsoft.com) select app launcher and select outlook.
+1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
     ![](../media/lab5-image5.png)
 
@@ -147,8 +153,7 @@ In this task you'll create an attack simulation, specifically a simulated phishi
 
      ![](../media/lab10-image-18.png)
 
-
->**Note**: Launching a simulated phishing attack is a proactive measure to enhance cybersecurity awareness and readiness within an organization. By simulating real-world phishing scenarios, users can be trained to recognize and respond appropriately to potential threats. This contributes to the overall security posture of the organization by empowering users with the knowledge and skills needed to identify and avoid phishing attacks.
+    >**Note**: Launching a simulated phishing attack is a proactive measure to enhance cybersecurity awareness and readiness within an organization. By simulating real-world phishing scenarios, users can be trained to recognize and respond appropriately to potential threats. This contributes to the overall security posture of the organization by empowering users with the knowledge and skills needed to identify and avoid phishing attacks.
 
 ### Conclusion:
 The conclusion emphasizes the completion of the attack simulation creation process. Users are directed to review the simulation details, send a test email for inspection, and submit the simulation for execution. The acknowledgement of the newly created simulation signifies readiness for training and testing against simulated phishing attacks.
@@ -158,4 +163,4 @@ During this lab, you've gained knowledge on the process of Creating an Attack Si
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

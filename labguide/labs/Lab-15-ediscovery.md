@@ -22,6 +22,7 @@ In this lab, you will complete the following tasks:
 ![](../media/lab11.png)
 
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
+
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. 
 In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
@@ -45,15 +46,15 @@ In this task, you as the global admin, will add specific users as members of the
 
 1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**. You may need to scroll down to see this option.
 
-1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
+1. From the Permissions page, under **Email & collaboration roles (1)** select **Roles (2)**.
 
-    ![](../media/lab11-image1.png)
+    ![](../media/newone5.png)
    
-1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass). Select **eDiscovery Manager**.
+1. In the search bar, enter **eDiscovery (1)** then select the search icon (magnifying glass). Select **eDiscovery Manager (2)**.
 
     ![](../media/lab15-image1.png)
      
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each. For this lab, we will add members to the eDiscovery Administrator sub-group.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. Read the description of each. For this lab, we will add members to the eDiscovery Administrator sub-group.
 
 1. Select **Edit**.
 
@@ -63,7 +64,7 @@ In this task, you as the global admin, will add specific users as members of the
 
    ![](../media/lab15-image3.png)
 
-1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User** from the list and click on **select** and **Next**.
+1. On **Manage ediscovery Administrator**, click on **Choose users (1)** and select **ODL_User (2)** from the list and click on **Select (3)** and **Next**.
 
    ![](../media/lab15-image4.png)
 
@@ -77,7 +78,7 @@ In this task, you as the global admin, will add specific users as members of the
 
 1. On **You successfully updated the role group** page, select **Done**.
  
-1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign in** back again to reflect the permissions added for users faster.
+1. Close all the tabs except the **admin.microsoft.com** and then **Sign out** from the admin center page and **Sign in** back again to reflect the permissions added for users faster.
 
 ## Task 2: Create a case to start using Core eDiscovery
 
@@ -87,9 +88,7 @@ In this task, you as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. From the left navigation panel, under Admin Centers, select **Compliance**.
 
-    ![](../Images/sc-900-lab15-1-2.png)
-
-1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery (1)** then select **Standard (2)**.
 
      ![](../media/lab15-image9.png)
    
@@ -97,7 +96,7 @@ In this task, you as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
     ![](../media/lab15-image10.png)
 
-1. In the New case window, enter a Case name, **Test Case** then select the **Save** at the bottom of the page.
+1. In the New case window, enter a Case name, **Test Case (1)** then select the **Save (2)** at the bottom of the page.
 
      ![](../media/lab15-image11.png)
 
@@ -119,15 +118,15 @@ In this task, you will create an eDiscovery hold for the case you just created. 
 
 1. From the Core eDiscovery page, select the case you created in the previous tab, **Test Case**. 
 
-1. From the Home page of the case, select the **Hold** tab then select **+ Create**.
+1. From the Home page of the case, select the **Hold (1)** tab then select **+ Create (2)**.
 
    ![](../media/lab15-image13.png)
 
-1. In the name field, enter **Test hold** then select Next.
+1. In the name field, enter **Test hold (1)** then select **Next (2)**.
 
     ![](../media/lab15-image14.png)
 
-1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
+1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the Status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (3)** user and click on **Done (4)**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
     
     ![](../media/lab15-image15.png)
    
@@ -154,21 +153,21 @@ In this task, you will create an eDiscovery hold for the case you just created. 
 
 ## Task 4: Create a search query
 
-In this task, you will create a search query. Once your search is complete you will go export and download the results for future investigation.   
+In this task, you will create a search query. Once your search is complete you will export and download the results for future investigation.   
 
 >**Note**: Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
 1. Open the Test Case tab on your browser.
 
-1. From the Holds page of the case, select **Searches** and from the Search page, select **+ New Search**.
+1. From the Holds page of the case, select **Searches (1)** and from the Search page, select **+ New Search (2)**.
 
      ![](../media/lab15-image22.png)
 
-1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
+1. In the Name field, enter **Test Hold – Sales Search (1)**, then select **Next (2)** from the bottom of the page.
 
      ![](../media/lab15-image23.png)
 
-1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
+1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**.  
 
     ![](../media/lab15-image24.png)
    
@@ -178,7 +177,7 @@ In this task, you will create a search query. Once your search is complete you w
 
     ![](../media/lab15-image26.png)
 
-1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** and select **Next**.
+1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales (1)** and select **Next (2)**.
 
     ![](../media/lab15-image27.png)
 
@@ -196,21 +195,21 @@ In this task, you will create a search query. Once your search is complete you w
 
     ![](../media/lab15-image31.png)
 
-1. Select the **Summary** tab and from the bottom of the page, select **Actions**. Note the available options. By selecting **Export results**, search results can be downloaded. 
+1. Select the **Summary** tab and from the bottom of the page, select **Actions (1)**. Note the available options. By selecting **Export results (2)**, search results can be downloaded. 
 
       ![](../media/lab15-image32.png)
           
-1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** at the bottom of the page.
+1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **Close** at the bottom of the page.
 
       ![](../media/lab15-image33.png)
     
-1. From the **Test case** page, select **Exports** tab and select **Test Hold - Sales Search_Export**, the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
+1. From the **Test case** page, select **Exports (1)** tab and select **Test Hold - Sales Search_Export (2)**, the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard (3)**.
 
       ![](../media/lab15-image35.png)
 
-1. From the top of the window, select **Download results**
+1. From the top of the window, select **Download results**.
 
-   >**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+   >**Note**: You must use Microsoft Edge or Internet Explorer to download. A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
 
    ![](../media/lab15-image36.png)
 
@@ -220,9 +219,9 @@ In this task, you will create a search query. Once your search is complete you w
 
 1. Once the installation is completed, the eDiscovery export tool window opens.
    
-   - In the first field, paste the export key that you copied to your clipboard, paste it in now 
+   - In the first field, paste the export key that you copied to your clipboard, **paste (1)** it in now 
  
-   - In the second field, Click on **Browse** and set the location to C:\LabFiles to store the downloaded file , then select **Start**. Once the download process is completed, select **Close** and close this browser tab.
+   - In the second field, Click on **Browse (2)** and set the location to C:\LabFiles to store the downloaded file , then select **Start (3)**. Once the download process is completed, select **Close** and close this browser tab.
 
       ![](../media/lab15-image38.png)
       
@@ -242,4 +241,4 @@ During this lab, you've gained knowledge on the following:
   
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

@@ -107,7 +107,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/lab1-image12.png)
       
-1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labelling on the top of the page and the information box below it and under **Detect content that matches these conditions** click on **+ Add condition** from the drop-down select **Content contains** then under **Group name** select **Add** drop-down select **Sensitive info type** and in **Sensitive info type** window search for credit and select the Credit card number, select **Add** from the button, select **Next** on the bottom of the page.
+1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labelling on the top of the page and the information box below it and under **Detect content that matches these conditions** click on **+ Add condition** from the drop-down select **Content contains** then under **Group name** select **Add** drop-down, select **Sensitive info type** and in **Sensitive info type** window search for credit and select the Credit card number, select **Add** from the button, select **Next** on the bottom of the page.
 
 1. This next window defines protection settings for groups and sites that have this label applied. If this is not enabled, select **Next** at the bottom of the page.
 
