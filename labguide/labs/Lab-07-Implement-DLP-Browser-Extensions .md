@@ -104,8 +104,6 @@ In this lab, you will complete the following tasks:
 
    >**Note**: The window closes automatically after running the script.
 
-   >**Note**: If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
-
 1. In the purview portal, in the left-hand menu, select **Devices** and if the device isn't displayed, please wait for a while.
 
     >**Note**: If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
