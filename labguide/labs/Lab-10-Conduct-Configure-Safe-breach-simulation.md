@@ -88,11 +88,11 @@ In this task, you'll create an attack simulation, specifically a simulated phish
 
 1. On the **Select end user notification** page, select **Microsoft default notification (recommended) (1)**: The notifications that users will receive are shown on the page select the following option.
 
-   - Microsoft default positive reinforcement notification - **Deliver during Simulation (2)**
+   - Microsoft default positive reinforcement notification: **Deliver during Simulation (2)**
    
-   - Microsoft default training assignment notification - **Not Applicable (3)**
+   - Microsoft default training assignment notification: **Not Applicable (3)**
    
-   - Microsoft default training reminder notification - **Twice A Week (4)**
+   - Microsoft default training reminder notification: **Twice A Week (4)**
 
    - Click on **Next (5)**
 
@@ -135,7 +135,7 @@ In this task, you'll create an attack simulation, specifically a simulated phish
 
     ![](../media/lab10-image-15.png)
 
-1. From the Microsoft Purview home page, select the **App launcher icon**, and **right click on the Outlook icon (1)** and select **Open in new tab (2)**.
+1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
     ![](../media/lab5-image5.png)
 
@@ -152,7 +152,6 @@ In this task, you'll create an attack simulation, specifically a simulated phish
 1. Back on the **Attack simulation training** page notice the newly created Simulation.
 
      ![](../media/lab10-image-18.png)
-
 
     >**Note**: Launching a simulated phishing attack is a proactive measure to enhance cybersecurity awareness and readiness within an organization. By simulating real-world phishing scenarios, users can be trained to recognize and respond appropriately to potential threats. This contributes to the overall security posture of the organization by empowering users with the knowledge and skills needed to identify and avoid phishing attacks.
 
