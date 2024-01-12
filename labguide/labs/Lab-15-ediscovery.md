@@ -48,7 +48,7 @@ In this task, you as the global admin, will add specific users as members of the
 
 1. From the Permissions page, under **Email & collaboration roles (1)** select **Roles (2)**.
 
-    ![](../media/lab11-image1.png)
+    ![](../media/newone5.png)
    
 1. In the search bar, enter **eDiscovery (1)** then select the search icon (magnifying glass). Select **eDiscovery Manager (2)**.
 

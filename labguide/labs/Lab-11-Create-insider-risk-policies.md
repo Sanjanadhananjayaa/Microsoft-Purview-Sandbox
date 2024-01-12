@@ -46,7 +46,7 @@ In this task, you as the global administrator, will enable permissions for Insid
 
 1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
 
-    ![](../media/lab11-image1.png)
+    ![](../media/newone5.png)
 
 1. In the search bar, enter **Insider risk (1)** then select the search icon (magnifying glass). Notice the five roles that show up. Each of these has different access levels. Select **Insider Risk Management (2)**.
 

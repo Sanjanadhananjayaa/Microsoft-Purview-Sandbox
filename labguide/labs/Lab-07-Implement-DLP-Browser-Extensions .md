@@ -72,7 +72,7 @@ In this lab, you will complete the following tasks:
 
    - Click **Download package (4)**
 
-    ![](../media/lab7-image8.png)
+      ![](../media/lab7-image8.png)
 
 1. Once downloading is completed, click on the **show on folder** icon.
 
