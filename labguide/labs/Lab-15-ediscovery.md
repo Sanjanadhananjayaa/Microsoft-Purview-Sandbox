@@ -22,6 +22,7 @@ In this lab, you will complete the following tasks:
 ![](../media/lab11.png)
 
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
+
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. 
 In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
@@ -152,7 +153,7 @@ In this task, you will create an eDiscovery hold for the case you just created. 
 
 ## Task 4: Create a search query
 
-In this task, you will create a search query. Once your search is complete you will go export and download the results for future investigation.   
+In this task, you will create a search query. Once your search is complete you will export and download the results for future investigation.   
 
 >**Note**: Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
@@ -198,7 +199,7 @@ In this task, you will create a search query. Once your search is complete you w
 
       ![](../media/lab15-image32.png)
           
-1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** at the bottom of the page.
+1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **Close** at the bottom of the page.
 
       ![](../media/lab15-image33.png)
     
