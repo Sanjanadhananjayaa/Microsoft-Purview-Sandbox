@@ -16,37 +16,38 @@ In order to adhere to this law your organization has created a retention plan to
 
 In this lab, you will complete the following tasks:
 
-+ Task 1 – Create Retention Policy with Static mode
-+ Task 2 - Create Retention Policy with an Adaptive scope
++ Task 1: Create Retention Policy with Static mode
++ Task 2: Create Retention Policy with an Adaptive scope
 
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/archi-10.png)
 
-## Task 1 – Create Retention Policy with Static mode
+## Task 1: Create Retention Policy with Static mode
 
 In this task, you will create a company-wide retention policy, apply a retention period, and set the locations in which the policy will be applied.
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**.
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data lifecycle management** then select **Microsoft 365**.
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data lifecycle management (1)** then select **Microsoft 365 (2)**.
 
     ![](../media/lab16-image1.png)
 
-1. On the **Data lifecycle management** page, in the **Retention policies** tab select **+ New retention policy**.
+1. On the **Data lifecycle management** page, in the **Retention policies (1)** tab select **+ New retention policy (2)**.
 
    ![](../media/lab16-image2.png)
 
-1. On the **Name your retention policy** page, for the **Name** enter **Retention policies** and  click **Next**.
+1. On the **Name your retention policy** page, for the **Name** enter **Retention policy (1)** and click **Next (2)**.
 
       ![](../media/lab16-image3.png)
 
-1. On the **Policy Scope** page select **Next**.
+1. On the **Policy Scope** page, select **Next**.
 
    ![](../media/lab16-image4.png)
 
-1. In the **Choose the type of retention policy to create** area, select **Static** then select **Next**.
+1. In the **Choose the type of retention policy to create** area, select **Static (1)** then select **Next (2)**.
 
    ![](../media/lab16-image5.png)
 
@@ -70,11 +71,11 @@ In this task, you will create a company-wide retention policy, apply a retention
 
       ![](../media/lab16-image8.png)
 
-1. On the **Review and finish** page select **Submit**.
+1. On the **Review and finish** page, select **Submit**.
 
     ![](../media/lab16-image9.png)
 
-1. Once your policy is created select **Done**.
+1. Once your policy is created, select **Done**.
 
 You have successfully created a retention policy for the Exchange email, Microsoft 365 groups, OneDrive, and SharePoint site locations. This retention policy will retain items in these locations for three years from when the item was last modified date. This policy can take up to 24 hours to be applied to your tenant, but you can proceed to the next step.
 
@@ -84,33 +85,35 @@ In this task, you will create a retention policy for the finance and legal depar
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**.
 
-1. In the **Microsoft Purview** portal on the left navigation pane expand **Roles & scopes** then select **Adaptive scopes**.
+1. In the **Microsoft Purview** portal on the left navigation pane expand **Roles & scopes (1)** and then select **Adaptive scopes (2)**.
 
    ![](../media/lab16-image11.png)
 
-1. On the **Adaptive scopes** page select **+ Create scope**.
+1. On the **Adaptive scopes** page, select **+ Create scope**.
 
    ![](../media/lab16-image12.png)
 
-1. On the **Name your adaptive policy scope** page input and select **Next**.
+1. On the **Name your adaptive policy scope** page input, and select **Next (3)**.
 
-    - **Name**: Legal Documents Retention
-    - **Description**: Retention for legal-related documents
+    - **Name (1)**: Legal Documents Retention
+    - **Description (2)**: Retention for legal-related documents
 
        ![](../media/lab16-image13.png)
 
-1. On the **Assign admin unit** page select **Next**.
+1. On the **Assign admin unit** page, select **Next**.
 
     ![](../media/lab16-image14.png)
 
-1. On the **What type of scope do you want to create?** page select **Users** then select **Next**.
+1. On the **What type of scope do you want to create?** page select **Users (1)** then select **Next (2)**.
 
     ![](../media/lab16-image15.png)
 
 1. On the **Create the query to define users** page, under **User attributes** specify the following:
     
     - Select the drop-down menu for **Attribute** then select **Department**.
+    
     - Attribute field select **is equal to** as the operator.
+    
     - Enter **Legal** in the **Value** field.
 
 1. To add a second attribute, select **+ Add attribute** on the **Create the query to define users** page.
@@ -120,11 +123,14 @@ In this task, you will create a retention policy for the finance and legal depar
 1. For the **Query operator**, **Attribute**, **Operator**, and **Value** input, ensure the checkboxes are selected next to each attribute then select **Next**.
 
    - **Query operator**: Or
+   
    - **Attribute**: Department
+   
    - **Operator**: is equal to
+   
    - **Value**: Retail
 
-   ![](../media/lab16-image17.png)
+        ![](../media/lab16-image17.png)
 
 1. Ensure the checkboxes are selected next to each attribute then select **Next**.
 
@@ -142,20 +148,21 @@ In this task, you will create a retention policy for the finance and legal depar
 
 1. On the **Name your retention policy** page input and select **Next**.
 
-    - **Name**: Legal Data Retention
-    - **Description**: Retention of all documents within the legal and retail departments.
+    - **Name (1)**: Legal Data Retention
+    
+    - **Description (2)**: Retention of all documents within the legal and retail departments.
 
       ![](../media/lab16-image21.png)
 
-1. On the **Policy Scope** page select **Next**.
+1. On the **Policy Scope** page, select **Next**.
 
     ![](../media/lab16-image22.png)
 
-1. On the **Choose the type of retention policy to create** page select **Adaptive** then select **Next**.
+1. On the **Choose the type of retention policy to create** page, select **Adaptive (1)** then select **Next (2)**.
 
     ![](../media/lab16-image23.png)
 
-1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes** and on the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention** then select the **Add** button.
+1. On the **Choose adaptive policy scopes and locations** page, select **+ Add scopes (1)** and on the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention (2)** then select the **Add (3)** button.
 
      ![](../media/lab16-image24.png)
 
@@ -180,9 +187,9 @@ In this task, you will create a retention policy for the finance and legal depar
 
     ![](../media/lab16-image27.png)
 
-1. Once your policy is created, select the **Done** button.
+1. Once your policy is created, select **Done**.
 
-1. On the **You successfully created a retention policy** page select **Done**.
+1. On the **You successfully created a retention policy** page, select **Done**.
 
    You have successfully applied an adaptive scope to a retention policy.
 

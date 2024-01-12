@@ -158,15 +158,15 @@ In this task, you will create a search query. Once your search is complete you w
 
 1. Open the Test Case tab on your browser.
 
-1. From the Holds page of the case, select **Searches** and from the Search page, select **+ New Search**.
+1. From the Holds page of the case, select **Searches (1)** and from the Search page, select **+ New Search (2)**.
 
      ![](../media/lab15-image22.png)
 
-1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
+1. In the Name field, enter **Test Hold – Sales Search (1)**, then select **Next (2)** from the bottom of the page.
 
      ![](../media/lab15-image23.png)
 
-1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
+1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**.  
 
     ![](../media/lab15-image24.png)
    
@@ -176,7 +176,7 @@ In this task, you will create a search query. Once your search is complete you w
 
     ![](../media/lab15-image26.png)
 
-1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** and select **Next**.
+1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales (1)** and select **Next (2)**.
 
     ![](../media/lab15-image27.png)
 
@@ -194,7 +194,7 @@ In this task, you will create a search query. Once your search is complete you w
 
     ![](../media/lab15-image31.png)
 
-1. Select the **Summary** tab and from the bottom of the page, select **Actions**. Note the available options. By selecting **Export results**, search results can be downloaded. 
+1. Select the **Summary** tab and from the bottom of the page, select **Actions (1)**. Note the available options. By selecting **Export results (2)**, search results can be downloaded. 
 
       ![](../media/lab15-image32.png)
           
@@ -202,13 +202,13 @@ In this task, you will create a search query. Once your search is complete you w
 
       ![](../media/lab15-image33.png)
     
-1. From the **Test case** page, select **Exports** tab and select **Test Hold - Sales Search_Export**, the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
+1. From the **Test case** page, select **Exports (1)** tab and select **Test Hold - Sales Search_Export (2)**, the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard (3)**.
 
       ![](../media/lab15-image35.png)
 
-1. From the top of the window, select **Download results**
+1. From the top of the window, select **Download results**.
 
-   >**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+   >**Note**: You must use Microsoft Edge or Internet Explorer to download. A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
 
    ![](../media/lab15-image36.png)
 
@@ -218,9 +218,9 @@ In this task, you will create a search query. Once your search is complete you w
 
 1. Once the installation is completed, the eDiscovery export tool window opens.
    
-   - In the first field, paste the export key that you copied to your clipboard, paste it in now 
+   - In the first field, paste the export key that you copied to your clipboard, **paste (1)** it in now 
  
-   - In the second field, Click on **Browse** and set the location to C:\LabFiles to store the downloaded file , then select **Start**. Once the download process is completed, select **Close** and close this browser tab.
+   - In the second field, Click on **Browse (2)** and set the location to C:\LabFiles to store the downloaded file , then select **Start (3)**. Once the download process is completed, select **Close** and close this browser tab.
 
       ![](../media/lab15-image38.png)
       
