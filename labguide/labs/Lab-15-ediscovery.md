@@ -45,15 +45,15 @@ In this task, you as the global admin, will add specific users as members of the
 
 1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**. You may need to scroll down to see this option.
 
-1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
+1. From the Permissions page, under **Email & collaboration roles (1)** select **Roles (2)**.
 
     ![](../media/lab11-image1.png)
    
-1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass). Select **eDiscovery Manager**.
+1. In the search bar, enter **eDiscovery (1)** then select the search icon (magnifying glass). Select **eDiscovery Manager (2)**.
 
     ![](../media/lab15-image1.png)
      
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each. For this lab, we will add members to the eDiscovery Administrator sub-group.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. Read the description of each. For this lab, we will add members to the eDiscovery Administrator sub-group.
 
 1. Select **Edit**.
 
@@ -63,7 +63,7 @@ In this task, you as the global admin, will add specific users as members of the
 
    ![](../media/lab15-image3.png)
 
-1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User** from the list and click on **select** and **Next**.
+1. On **Manage ediscovery Administrator**, click on **Choose users (1)** and select **ODL_User (2)** from the list and click on **Select (3)** and **Next**.
 
    ![](../media/lab15-image4.png)
 
@@ -77,7 +77,7 @@ In this task, you as the global admin, will add specific users as members of the
 
 1. On **You successfully updated the role group** page, select **Done**.
  
-1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign in** back again to reflect the permissions added for users faster.
+1. Close all the tabs except the **admin.microsoft.com** and then **Sign out** from the admin center page and **Sign in** back again to reflect the permissions added for users faster.
 
 ## Task 2: Create a case to start using Core eDiscovery
 
@@ -87,9 +87,7 @@ In this task, you as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. From the left navigation panel, under Admin Centers, select **Compliance**.
 
-    ![](../Images/sc-900-lab15-1-2.png)
-
-1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery (1)** then select **Standard (2)**.
 
      ![](../media/lab15-image9.png)
    
@@ -97,7 +95,7 @@ In this task, you as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
     ![](../media/lab15-image10.png)
 
-1. In the New case window, enter a Case name, **Test Case** then select the **Save** at the bottom of the page.
+1. In the New case window, enter a Case name, **Test Case (1)** then select the **Save (2)** at the bottom of the page.
 
      ![](../media/lab15-image11.png)
 
@@ -119,15 +117,15 @@ In this task, you will create an eDiscovery hold for the case you just created. 
 
 1. From the Core eDiscovery page, select the case you created in the previous tab, **Test Case**. 
 
-1. From the Home page of the case, select the **Hold** tab then select **+ Create**.
+1. From the Home page of the case, select the **Hold (1)** tab then select **+ Create (2)**.
 
    ![](../media/lab15-image13.png)
 
-1. In the name field, enter **Test hold** then select Next.
+1. In the name field, enter **Test hold (1)** then select **Next (2)**.
 
     ![](../media/lab15-image14.png)
 
-1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
+1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the Status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (3)** user and click on **Done (4)**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
     
     ![](../media/lab15-image15.png)
    
@@ -242,4 +240,4 @@ During this lab, you've gained knowledge on the following:
   
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab

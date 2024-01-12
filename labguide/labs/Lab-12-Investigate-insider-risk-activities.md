@@ -17,6 +17,7 @@ In this lab, you will complete the following tasks:
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/archi-7.png)
 
 
@@ -32,7 +33,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
         
 1. On the **Enter Password** blade, enter the following password:
 
-    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **sign in**
+    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **Sign in**
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -44,11 +45,11 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**. You may need to scroll down to see this option.
 
-1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
+1. From the Permissions page, under **Email & collaboration roles (1)** select **Roles (2)**.
 
     ![](../media/lab11-image1.png)
 
-1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass). Notice the five roles that show up. Each of these has different access levels. Select **Insider Risk Management Investigators**.
+1. In the search bar, enter **Insider risk (1)** then select the search icon (magnifying glass). Notice the five roles that show up. Each of these has different access levels. Select **Insider Risk Management Investigators (2)**.
 
     ![](../media/lab12-image1.png)
 
@@ -56,7 +57,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
     ![](../media/lab12-image2.png)
 
-1. On **Insider Risk Management Investigators** page, select choose users and select **<inject key="AzureAdUserEmail"></inject>** and then click on **Select**.
+1. On **Insider Risk Management Investigators** page, select **Choose users (1)** and select **<inject key="AzureAdUserEmail"></inject> (2)** and then click on **Select (3)**.
 
     ![](../media/lab12-image3.png)
 
@@ -74,7 +75,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 In this task, you'll Investigate insider risk activities.
 
-1. From the Microsoft Purview home page, select the **app launcher icon**, and **right-click on the Outlook icon** and select **Open in new tab**.
+1. From the Microsoft Purview home page, select the **app launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
      ![](../media/lab5-image5.png) 
 
@@ -84,7 +85,7 @@ In this task, you'll Investigate insider risk activities.
 
 1. Navigate to the **Insider risk management** page, select the Overview tab scroll down and select **Investigate user activity**, where you can view user activity.
 
-1. From  **Insider risk management** page select **Users** tab and select user **<inject key="AzureAdUserEmail"></inject>** to view the User profile details.
+1. From  **Insider risk management** page select **Users (1)** tab and select user **<inject key="AzureAdUserEmail"></inject> (2)** to view the User profile details.
 
       ![](../media/demo4.png)
 
@@ -108,4 +109,4 @@ During this lab, you've gained knowledge on the process of creating insider Risk
 
 ### You have successfully completed the lab
 
-### Click on next to continue with the next lab
+### Click on Next to continue with the next lab
