@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ![](../media/purview-lab4.png)
 
->**Note**: Edge is not needed for the DLP policy to apply to Edge. "The Microsoft Purview Extension is able to provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
+>**Note**: Edge is not needed for the DLP policy to apply to Edge. "The Microsoft Purview Extension can provide existing Endpoint DLP capabilities to non-native applications." Edge is native.
 
 ### Task 1: Install Azure Information Protection Unified Labeling Client 
 
