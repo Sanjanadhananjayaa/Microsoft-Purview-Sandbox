@@ -25,6 +25,7 @@ In this lab, you will complete the following tasks:
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
+
 ![](../media/newlab6.png)
 
 ### Task 1: Create a Data Loss Prevention (DLP) policy
@@ -71,11 +72,11 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    ![](../media/cc6.png)
 
-1. In the new **Content contains** page, select **Add (1)** and select **Sensitive info types (2)** from the drop-down menu. On the Sensitive info types page, search **credit (3)**, select **Credit Card Number (4)** and select **Add (5)**.
+1. In the new **Content contains** page, select **Add (1)** and select **Sensitive info types (2)** from the drop-down menu. On the Sensitive info types page, search **Credit (3)**, select **Credit Card Number (4)** and select **Add (5)**.
 
    ![](../media/cc7.png)
 
-1. Under **Actions**, click **Add an actions (1)** and select **Restrict access or encrypt the content in Microsoft 365 locations (2)** from the drop-dowm menu.
+1. Under **Actions**, click **Add an actions (1)** and select **Restrict access or encrypt the content in Microsoft 365 locations (2)** from the drop-down menu.
 
     ![](../media/cc8.png)
 
@@ -110,7 +111,7 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
 In this task, you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
 
-1. From the Microsoft Purview home page, select the **App launcher icon**, and **right click on the Outlook icon (1)** and select **Open in new tab (2)**.
+1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
      ![](../media/lab5-image5.png) 
 
@@ -128,7 +129,7 @@ In this task, you'll Compose an email containing sensitive information that matc
 
 1. Navigate back to the Alert page to view the Alerts.
    
-   >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on the number of matches or volume of items over a set period of time.
+   >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on the number of matches or volume of items over a set period.
    
    >**Note**: Ensure that the DLP policy is configured to block everyone for the specified actions. When the sensitive content triggers the DLP rule, the email should be blocked from being sent.
 
