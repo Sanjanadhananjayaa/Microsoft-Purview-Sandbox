@@ -75,7 +75,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 In this task, you'll Investigate insider risk activities.
 
-1. From the Microsoft Purview home page, select the **app launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
+1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
      ![](../media/lab5-image5.png) 
 

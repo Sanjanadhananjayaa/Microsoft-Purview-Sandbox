@@ -94,13 +94,17 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 1. Sign in to Purview (https://purview.microsoft.com/)
 
-1. On **Select a Microsoft Purview account** page, leave default for **Microsoft Entra ID (1)** and for **Account name (2)** select purview and click on **Continue (3)**.
+1. On the **Select a Microsoft Purview account** page, leave default for **Microsoft Entra ID (1)** and for **Account name (2)** select purview and click on **Continue (3)**.
    
     ![](../media/lab14-image5.png)
 
-1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map (1)** and in the Data sources click on the **Register icon (2)**.
+1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map**. in the Data sources click on the **Register icon (2)**.
 
-   ![](../media/lab14-image6.png)
+   ![](../media/newone.png)
+
+1. In the **Data sources (1)** tab, click on the **Register icon (2)**.
+
+   ![](../media/newone1.png)
 
 1. On **Register Data Source** window, in the search bar, search and select **Azure Data Lake Storage Gen2 (1)** and click on **Continue (2)**.
 
@@ -127,9 +131,11 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
 1. Return back to **Purview (https://purview.microsoft.com/)**.
 
-1. Select **Data Map**, Under Data Sharing section, select **Shares** and click on **+ New share**.
+1. Select **Data Catalog**, Under Data Sharing section, select **Shares** and click on **+ New share**.
 
-     ![](../media/lab14-image9.png)
+     ![](../media/newone2.png)
+
+     ![](../media/newone3.png)
 
 1. On the **New share** window, for type select **Azure Data Lake Storage Gen2 (1)** from the drop-down and select a source to choose the storage account **storage<inject key="DeploymentID" enableCopy="false"/> (2)** and click on **Continue (3)**.
 
