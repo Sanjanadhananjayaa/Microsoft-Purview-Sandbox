@@ -4,7 +4,6 @@
 
 Implementing data sharing with Microsoft Purview is crucial for organizations to maintain data confidentiality, comply with regulations, and enable secure collaboration. The lab focuses on creating a Purview account, setting up a storage account, and initiating data-sharing processes. Such practices are essential for organizations dealing with sensitive information, ensuring secure collaboration and adherence to compliance standards.
 
-
 ## Lab scenario
 
 In this lab, you'll configure Microsoft Purview Data Sharing, data providers can now share data in place from Azure Data Lake Storage Gen2 and Azure Storage accounts, both within and across organizations. Share data directly with users and partners without data duplication and centrally manage your sharing activities from within Microsoft Purview.
@@ -32,7 +31,7 @@ In this lab, you'll create a purview account on the Azure Portal
 
 1. Sign in to **Azure Portal**.
 
-1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Purview (1)**, and then select **Microsoft Purview accounts (2)** under services.
+1. On the Azure Portal page, in the **Search resources, services and docs** box at the top of the portal, enter **Microsoft Purview (1)**, and then select **Microsoft Purview accounts (2)** under services.
    
    ![](../media/lab14-image1.png)
 
@@ -132,7 +131,7 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
      ![](../media/lab14-image9.png)
 
-1. On the **New share** window, for type select **Azure Data Lake Storage Gen2 (1)** from the drop-down and to select a source choose the storage account **storage<inject key="DeploymentID" enableCopy="false"/> (2)** and click on **Continue (3)**.
+1. On the **New share** window, for type select **Azure Data Lake Storage Gen2 (1)** from the drop-down and select a source to choose the storage account **storage<inject key="DeploymentID" enableCopy="false"/> (2)** and click on **Continue (3)**.
 
    ![](../media/lab14-image10.png)
 
