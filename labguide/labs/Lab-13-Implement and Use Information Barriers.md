@@ -5,6 +5,7 @@
 Information Barriers in Microsoft 365 serve as a critical tool for controlling communication and collaboration between different segments or groups within an organization. The configured Information Barriers establish a virtual barrier to prevent specific users or groups from interacting, thereby ensuring compliance, preventing conflicts of interest, and protecting sensitive information.
 
 ## Lab scenario
+
 In this lab, you'll configure and manage Information Barriers in Microsoft 365. Information Barriers play a critical role in maintaining clear boundaries and preventing unauthorized communication between specific groups or individuals within your organization. By implementing Information Barriers, you ensure compliance with regulations, protect sensitive information, and minimize conflicts of interest. This setup will create a secure work environment, safeguarding data confidentiality and supporting 
 organization commitment to compliance.
 
@@ -88,7 +89,7 @@ In this task, you'll set the department attribute and assign a license to the us
 
 In this task, you'll create organization segments for the **HR** and **Finance** departments.
 
->**Note** Segments are nothing but a grouping of users
+>**Note**: Segments are nothing but a grouping of users
 
 1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
 
@@ -98,7 +99,7 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 
     ![](../media/lab13-image21.png)
 
-1. On the **Add user group filter** page click **+ Add (1)** from the dropdown select **Department (2)** and under **Department**. For **group operation** make sure **Equal (3)** selected and in Group name enter **HR (4)** and click on **Next (5)**.
+1. On the **Add user group filter** page click **+ Add (1)** from the dropdown select **Department (2)** and under **Department**. For **group operation** make sure **Equal (3)** is selected and in the Group name enter **HR (4)** and click on **Next (5)**.
 
     ![](../media/lab13-image22.png)
 
@@ -128,7 +129,7 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. Back on **Add assigned segment details** page and click **Next**.
 
-1. On **Configure communication and collaboration details** page, enter or select the following details:
+1. On the **Configure communication and collaboration details** page, enter or select the following details:
 
    - **Communication and collaboration**: Blocked
    
@@ -154,7 +155,7 @@ In this task, you'll create Information barrier policies to block communication 
     
 1. Back on **Add assigned segment details** page and click **Next**.
 
-1. On **Configure communication and collaboration details** page, enter or select the following information:
+1. On the **Configure communication and collaboration details** page, enter or select the following information:
 
    - **Communication and collaboration**: Blocked
    
