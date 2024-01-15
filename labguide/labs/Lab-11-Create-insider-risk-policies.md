@@ -98,9 +98,9 @@ In this task, you will walk through the settings associated with the Insider Ris
 
       ![](../media/sc-900-lab14-T3-4.png)
    
-    iv. **Intelligent detections tab**:  Review the options here. Note the domain settings and how they relate to the indicators.
+    iv. **Intelligent detections tab**:  Review the options here. scroll down and under **Alert Volume** move slide bar to **More alerts** Note the domain settings and how they relate to the indicators.
 
-      ![](../media/sc-900-lab14-T3-5.png)
+      ![](../media/EM-33.png)
    
     v. Other items listed in the settings are in preview. Explore these at will and note that as a preview, they are subject to change.
 
