@@ -135,7 +135,7 @@ In this task you'll create Alert policy
       | **Settings**                                        | **Values**   | 
       | -------------------                                 | ------------ | 
       | **Activity is**                                     | Select **DLP policy match (1)** | 
-      |  **How do you want the alert to be tiggered**       | Select **Every time an activity matches the rule (3)** |
+      |  **How do you want the alert to be tiggered**       | Select **Every time an activity matches the rule (2)** |
       ||| 
      
       ![](../media/EM-25.png)
