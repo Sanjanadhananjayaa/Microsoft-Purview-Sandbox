@@ -82,7 +82,7 @@ In this task
 
 6. 
 
-    ![Picture 1](../media/EM-14.png)
+     ![Picture 1](../media/EM-14.png)
 
    >**Note**: Creating a Mail Flow Encryption Rule is essential for organizations seeking to enhance the security of their email communication. By defining conditions and actions, such as encrypting messages for external recipients, organizations can safeguard sensitive information and ensure that communication remains confidential, especially when shared outside the organizational boundaries.
 
