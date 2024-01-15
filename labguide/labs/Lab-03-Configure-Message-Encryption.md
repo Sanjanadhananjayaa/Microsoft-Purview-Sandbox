@@ -27,7 +27,7 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 1. From the left navigation pane select **Show all** and under **Admin centers** section select **Exchange**. This will open the Exchange admin center.
 
-1. In the **Exchange admin center**, select **Mail flow** > **Rules** > **+ Add a rule** > **Apply Office 365 Message Encryption and Writes Protection to messages.**.
+1. In the **Exchange admin center**, select **Mail flow (1)** > **Rules (2)** > **+ Add a rule (3)** > **Apply Office 365 Message Encryption and Writes Protection to messages (4)**.
 
      ![Picture 1](../media/EM-(1).png)
 
