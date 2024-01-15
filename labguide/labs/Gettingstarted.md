@@ -3,21 +3,33 @@
 
 Welcome to your Data Security with Microsoft Purview Workshop on Data Governance! We've prepared a seamless environment for you familiarize yourself to explore and understand the capabilities of Microsoft Purview in managing and governing your data across diverse environments. Get ready to make the most of this experience as we delve into the intricacies of data governance with Microsoft Purview. Let's begin by making the most of this experience:
 
-1. After the environment has been set up, your browser will load a virtual machine (JumpVM), use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises in the lab guide.
-
-   ![](../media/intropur1.png)
+## Accessing Your Lab Environment
  
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the lower right corner. 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-    ![](../media/intropur2.png)
+![](../media/intropur1.png)
 
-1. You can start, stop, and restart virtual machines from the **Resources** tab.
+### Virtual Machine & Lab Guide
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
-   ![](../media/intropur3.png)
+## Exploring Your Lab Resources
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
-1. Ensure the timely deallocation of virtual machines from the Resources tab. When they are not actively in use, aiming to minimize costs.
+![](../media/EM-35.png)
 
-   ![](../media/demo7.png)
+## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+
+![](../media/EM-34.png)
+
+## Managing Your Virtual Machine
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+
+![](../media/intropur3.png)
 
 ## Let's Get Started with Admin Portal 
 
