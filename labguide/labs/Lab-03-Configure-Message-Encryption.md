@@ -82,26 +82,40 @@ In this task
 
 1. From the left top concer select **New Email**.    
 
-3. Specify the following details
-4. In **To** enter your personal email address and for
-5. subject provide **Encrypted Document** and enter
-6.  **The team worked diligently to create an encrypted document to safeguard sensitive information** in body.
+1. Specify the following details.
+
+
+     | **Settings**        | **Values**   | 
+     | ------------------- | ------------ |
+     | **To**              | Enter your **personal Email** address     | 
+     | **Subject**         |   **Encrypted Document**           |                                  
+     | **Boby**            |     **This Email contains Encrypted Document to safeguard sensitive information.**  |                                   
+     |||
+                                
    
-    ![Picture 1](../media/EM-10.png)
+    ![Picture 1](../media/EM-20.png)
       
-7. From the menu bar select **Option** then choose Encrypt only from drop-down and send the email.
+1. From the menu bar select **Option (1)** > **Encrypt (2)** then choose **Encrypt only (3)** from drop-down.
 
-   ![Picture 1](../media/EM-11.png)
+   ![Picture 1](../media/EM-21.png)
 
-8. Once after sending a Email kindly check your personal email.
-   
-9. Once you recevie the email notice how the Email encrpted.
+1. Kindly notice **Encrypt message** at the top and click on **Send**.
 
-    ![Picture 1](../media/EM-(13).png)
+    ![Picture 1](../media/EM-22.png)
 
-10. 
+1. After sending the email, kindly open your personal email account.
 
-     ![Picture 1](../media/EM-14.png)
+1. Wait for 2 - 3 mins once you recevie the message notice that the email is recevied is encrypted.
+
+1. In order to access the email you that you have received, follow the following steps:
+
+   -  Click on **Read message**.
+   -  Click on Sign in with a one-time passcode.
+   -  Enter one-time passcode and click on **Continue**.
+   -  
+   -  
+
+    ![Picture 1](../media/EM-23.png)
 
    >**Note**: Creating a Mail Flow Encryption Rule is essential for organizations seeking to enhance the security of their email communication. By defining conditions and actions, such as encrypting messages for external recipients, organizations can safeguard sensitive information and ensure that communication remains confidential, especially when shared outside the organizational boundaries.
 
