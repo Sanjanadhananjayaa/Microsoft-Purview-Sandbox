@@ -12,7 +12,8 @@ In this lab, you'll set up individuals or roles within your organization to act 
 
 In this lab, you will complete the following tasks:
 + Task 1: Create Insider Risk Management Investigators
-+ Task 2: Investigate insider risk activities
++ Task 2: Create a User activity reports
++ Task 3: Investigate insider risk activities
 
 ## Estimated timing: 60 minutes
 
@@ -71,7 +72,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
   
 1. On **You successfully updated the role group** page, click on **Done**.
   
-### Task 2: Creating User activity reports
+### Task 2: Create a User activity reports
 
 In this task, you'll Investigate insider risk activities.
 
