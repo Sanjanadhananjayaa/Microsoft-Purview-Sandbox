@@ -64,13 +64,25 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 In this task 
 
-
 1. From the start menu search and select **Outlook** > **New Email**.
-2. In **To** enter your personal email address and for subject provide **Encrypted Document** and enter **The team worked diligently to create an encrypted document to safeguard sensitive information.** in body.
+
+2. In **To** enter your personal email address and for subject provide **Encrypted Document** and enter **The team worked diligently to create an encrypted document to safeguard sensitive information** in body.
+   
+    ![Picture 1](../media/EM-10.png)
+      
 3. From the menu bar select **Option** then choose Encrypt only from drop-down and send the email.
+
+   ![Picture 1](../media/EM-11.png)
+
 4. Once after sending a Email kindly check your personal email.
+   
 5. Once you recevie the email notice how the Email encrpted.
-6.   
+
+    ![Picture 1](../media/EM-(13).png)
+
+6. 
+
+    ![Picture 1](../media/EM-14.png)
 
    >**Note**: Creating a Mail Flow Encryption Rule is essential for organizations seeking to enhance the security of their email communication. By defining conditions and actions, such as encrypting messages for external recipients, organizations can safeguard sensitive information and ensure that communication remains confidential, especially when shared outside the organizational boundaries.
 
