@@ -43,7 +43,7 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
    ![Picture 1](../media/EM-(5)1.png)
 
-1. You now need to define an action to perform when this rule is applied. Under **Do the following…**, ensure **Modify the message security….** and **Apply Microsoft 365 Message Encryption and rights protection is selected then click on **select one** link and on **select RMS template** dialog box, select **Encrypt** > **Save**. Click **Next**.
+1. You now need to define an action to perform when this rule is applied. Under **Do the following…**, ensure **Modify the message security….** and **Apply Microsoft 365 Message Encryption and rights protection** is selected then click on **select one** link and on **select RMS template** dialog box, select **Encrypt** > **Save**. Click **Next**.
    
      ![Picture 1](../media/EM-6.png)
 
