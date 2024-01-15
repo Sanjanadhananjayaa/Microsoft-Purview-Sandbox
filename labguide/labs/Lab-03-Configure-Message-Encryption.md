@@ -29,26 +29,30 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 1. In the **Exchange admin center**, select **Mail flow** > **Rules** > **+ Add a rule** > **Apply Office 365 Message Encryption and Writes Protection to messages.**.
 
-     ![Picture 1](../media/EM-1png)
+     ![Picture 1](../media/EM-1.png)
 
 1. In the **Set rule conditions** window, in the **Name** box, enter **Encrypt mail** as the name of this rule.
 
-    ![Picture 1](../media/EM-2png)
+    ![Picture 1](../media/EM-2.png)
 
-1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **The subject or body** and **subject or body includes any of these words** from **Select members** drop-down and on specify words or phrases window provide **Encrypted Document** in box and click on **Add** > **save**.
+1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **The subject or body** and **subject or body includes any of these words** from **Select one** drop-down and on specify words or phrases window provide **Encrypted Document** in box and click on **Add** > **save**.
 
-   ![Picture 1](../media/EM-3png)
+   ![Picture 1](../media/EM-3.png)
 
-    ![Picture 1](../media/EM-4png)
+   ![Picture 1](../media/EM-(4).png)
+
+   ![Picture 1](../media/EM-(5).png)
 
 1. You now need to define an action to perform when this rule is applied. Under **Do the following…**, ensure **Modify the message security….** and **Apply Microsoft 365 Message Encryption and rights protection is selected then click on **select one** link and on **select RMS template** dialog box, select **Encrypt** > **Save**. Click **Next**.
    
-    ![Picture 1](../media/EM-5png)
+     ![Picture 1](../media/EM-6.png)
 
+     ![Picture 1](../media/EM-(7).png)
+   
 
-1. On the **Set rule settings** window, ensure Role mode is select as **Enforce** then select Severity as **Medium** and click the checkbox next to **Activate this rule on**. That should automatically populate a date and time that will make the rule take effect immediately upon completion, Click **Next** 
+1. On the **Set rule settings** window, ensure Role mode is select as **Enforce** then select **Severity** as **Medium** and click the checkbox next to **Activate this rule on**. That should automatically populate a date and time that will make the rule take effect immediately upon completion, Click **Next** 
 
-   ![Picture 1](../media/EM-6png)
+    ![Picture 1](../media/EM-8.png)
 
 1. Click  **Finish** > **Done**.
 
@@ -57,7 +61,6 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
    ![Picture 1](../media/image8-lab3.png)
 
 ### Task 2 : Testing
-
 
 In this task 
 
