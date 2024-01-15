@@ -222,11 +222,15 @@ In this task, you'll test the Use Information Barriers policy which blocks users
 
      ![](../media/b-image14.png)
 
+   >**Note** Kindly wait for 2 - 3 hours as the policy needs some time to take effect. Meanwhile, feel free to proceed with the next exercise.
+    
 1. Sign out as odl user and log in as **John doe** to Microsoft Teams.
 
 1. Search and attempt to send a message to **ODL user** and observe that **Administrator has disabled chat for this user**, you are not allowed to send a message to **ODL user** as he is from **HR** department.
 
      ![](../media/b-image15.png)
+
+    >**Note** Kindly wait for 2 - 3 hours as the policy needs some time to take effect. Meanwhile, feel free to proceed with the next exercise.
 
     >**Note**: If the users conducting these activities in Microsoft Teams are included in an IB policy to prevent the activity, they won't be able to proceed. In addition, everyone included in an IB policy can be potentially blocked from communicating with other users in Microsoft Teams. When users affected by IB policies are part of the same team or group chat, they may be removed from those chat sessions and further communication with the group may not be allowed.
 
