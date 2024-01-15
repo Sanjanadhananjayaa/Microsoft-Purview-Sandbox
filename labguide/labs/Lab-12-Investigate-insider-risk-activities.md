@@ -92,11 +92,14 @@ In this task, you'll Investigate insider risk activities.
 
 In this task, you'll Investigate insider risk activities.
 
+1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the word icon (1)** and select **Open in new tab (2)**. select **Black document** and 
+   create  2 - 3 plain word document and save it.
+
 1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
 
      ![](../media/lab5-image5.png) 
 
-1. Select **New Email** from the top left corner of the screen and send an email to an outside organisation person by attraching **Document** with the subject.
+1. Select **New Email** from the top left corner of the screen and send an email to an outside organisation person by attaching two Document's  which you created in first step of this task.
 
 1. Repeat the above step at least 4 to 5 times to view more activities.   
 
