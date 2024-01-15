@@ -67,7 +67,7 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 ### Task 2 : Testing Message Encryption  
 
-In this task you'll test Message Encryption 
+In this task you'll test Message Encryption
 
 1. From the start menu search and select **Outlook**.
 
