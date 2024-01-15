@@ -1,4 +1,7 @@
 # Getting Started with the Lab
+ 
+
+Welcome to your Data Security with Microsoft Purview Workshop on Data Governance! We've prepared a seamless environment for you familiarize yourself to explore and understand the capabilities of Microsoft Purview in managing and governing your data across diverse environments. Get ready to make the most of this experience as we delve into the intricacies of data governance with Microsoft Purview. Let's begin by making the most of this experience:
 
 1. After the environment has been set up, your browser will load a virtual machine (JumpVM), use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the lab guide to switch to different exercises in the lab guide.
 
