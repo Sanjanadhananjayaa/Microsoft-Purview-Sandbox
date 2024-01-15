@@ -75,7 +75,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 In this task, you'll Investigate insider risk activities.
 
-1. 1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
+1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, select **Insider risk management**.
  
@@ -86,7 +86,6 @@ In this task, you'll Investigate insider risk activities.
 1. On the **New user activity report** window, set the **Start and End** date and in **User** field search and select <inject key="AzureAdUserEmail"></inject>  
 
 1. Click on **Create report**.
-
 
 ### Task 3: Investigate insider risk activities
 
