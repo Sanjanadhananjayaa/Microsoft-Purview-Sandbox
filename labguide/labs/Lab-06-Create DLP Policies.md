@@ -106,7 +106,61 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
 
+### Task 3 : Creating Alert Policy 
 
+In this task you'll create Alert policy 
+
+
+1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
+
+1. In the **Microsoft Purview** portal, in the left navigation pane, select **Policies (1)** > **Alert policies (2)**.
+
+      ![](../media/EM-28.png)
+   
+1. On the **Alert Policy** window, select **New Alert Policy**.
+
+1. On **Name your alert**  window, specify the following and click **Next (4)**.
+        
+      | **Settings**        | **Values**   | 
+      | ------------------- | ------------ | 
+      | **Name**            | Enter  **DLP-Alert_Policy (1)** | 
+      |  **Severity**       | Select **Medium (2)**        |
+      |  **Category**       | Select **Information governance (3)**        |  
+      |||
+
+      ![](../media/EM-24.png)
+
+1. On **Create alert settings** window, specify the following and click **Next (4)**.
+        
+      | **Settings**                                        | **Values**   | 
+      | -------------------                                 | ------------ | 
+      | **Activity is**                                     | Select **DLP policy match (1)** | 
+      |  **How do you want the alert to be tiggered**       | Select **Every time an activity matches the rule (3)** |
+      ||| 
+     
+      ![](../media/EM-25.png)
+
+1.  On **Set your recipients** window, specify the following and click **Next (2)**.
+
+      | **Settings**                                        | **Values**   | 
+      | -------------------                                 | ------------ | 
+      | **Email recipients**                                | Select **<inject key="AzureAdUserEmail"></inject> (1)** | 
+      ||| 
+
+      ![](../media/EM-26.png)
+
+1.  On **Review your settings** window, specify the following and click **Submit (2)**.
+
+      | **Settings**                                        | **Values**   | 
+      | -------------------                                 | ------------ | 
+      | **Do you want to turn the policy on right away?**   | Select **Yes, turn on right away (1)** | 
+      ||| 
+
+      ![](../media/EM-27.png)
+
+1. Click on **Done**.
+
+   
 ### Task 2: Demonstrating Data Loss Prevention (DLP) Policy
 
 In this task, you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
