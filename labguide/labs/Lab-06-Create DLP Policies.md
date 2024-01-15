@@ -163,7 +163,7 @@ In this task you'll create Alert policy
 
 In this task you'll assigne permission to user to view dlp alerts in **Alert** dashboard.
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, Expand and select **Roles & scopes (1)** > **Permissions (2)** and under **Microsoft purview solutions** select **Roles (3)**
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand and select **Roles & scopes (1)** > **Permissions (2)** and under **Microsoft purview solutions** select **Roles (3)**
 
      ![](../media/EM-29.png)   
 
@@ -197,7 +197,9 @@ In this task you'll assigne permission to user to view dlp alerts in **Alert** d
 1. On the Audit page, select the blue bar at the top page and  select **start an end** date under **Data and time range (UTC)** and for User provide **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Search**. 
 
 
-### Task 2: Demonstrating Data Loss Prevention (DLP) Policy
+>**Note**: Please wait for *two - three* hours as we allocate the necessary permissions to the user. This process requires time and effort before we proceed with the subsequent task. 
+
+### Task 5: Demonstrating Data Loss Prevention (DLP) Policy
 
 In this task, you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
 
@@ -217,8 +219,13 @@ In this task, you'll Compose an email containing sensitive information that matc
 
      ![](../media/demo3.png)
 
-1. Navigate back to the Alert page to view the Alerts.
-   
+1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Alert (2)**.
+
+   >**Note** wait for 1 - 2 mins and please refresh the page until you see the alerts.
+
+
+     ![](../media/EM-32.png)
+
    >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on the number of matches or volume of items over a set period.
    
    >**Note**: Ensure that the DLP policy is configured to block everyone for the specified actions. When the sensitive content triggers the DLP rule, the email should be blocked from being sent.
