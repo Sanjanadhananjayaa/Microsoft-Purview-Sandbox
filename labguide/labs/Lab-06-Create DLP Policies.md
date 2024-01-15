@@ -191,7 +191,6 @@ In this task you'll assigne permission to user to view dlp alerts in **Alert** d
 
       - Information Protection Admins
 
-
 1. In the **Microsoft Purview** portal, in the left navigation pane, under **Solution** select **Audit**.
   
 1. On the Audit page, select the blue bar at the top page and  select **start an end** date under **Data and time range (UTC)** and for User provide **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Search**. 
