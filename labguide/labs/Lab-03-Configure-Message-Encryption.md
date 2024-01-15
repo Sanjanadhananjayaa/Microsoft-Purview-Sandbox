@@ -12,6 +12,7 @@ In this lab, you'll configure Microsoft Purview Message Encryption which enables
 In this lab, you will complete the following task:
 
 + Task 1: Create a Mail Flow Encryption Rule using the Exchange admin center
++ Task 1: Testing Message Encryption 
 
 ## Estimated timing: 60 minutes
 
