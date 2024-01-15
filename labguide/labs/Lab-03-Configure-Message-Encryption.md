@@ -27,56 +27,57 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 1. From the left navigation pane select **Show all** > **Exchange**. This will open the Exchange admin center.
 
-1. In the **[Exchange admin center](https://admin.exchange.microsoft.com/)**, select **Mail flow (1)** > **Rules (2)** > **+ Add a rule (3)** > **Create a new rule (4)**.
+1. In the **Exchange admin center**, select **Mail flow** > **Rules** > **+ Add a rule** > **Apply Office 365 Message Encryption and Writes Protection to messages.**.
 
-    ![Picture 1](../media/image1-lab3.png)
+     ![Picture 1](../media/EM-1png)
 
 1. In the **Set rule conditions** window, in the **Name** box, enter **Encrypt mail** as the name of this rule.
 
-1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **The recipient (1)** and **is this 
-    person (2)** and on **Select members (3)** blade select <inject key="AzureAdUserEmail"></inject> click on **Save (4)**.
+    ![Picture 1](../media/EM-2png)
 
-   ![Picture 1](../media/image2-lab3.png)
+1. Select the drop-down arrow in the **Apply this rule if** condition box. In the drop-down menu, select **The subject or body** and **subject or body includes any of these words** from **Select members** drop-down and on specify words or phrases window provide **Encrypted Document** in box and click on **Add** > **save**.
 
-   ![Picture 1](../media/image3-lab(3).png)
+   ![Picture 1](../media/EM-3png)
 
-1. You need to add more conditions, so next to **is this person** click the **+** to the right.
+    ![Picture 1](../media/EM-4png)
 
-   ![Picture 1](../media/image4-lab3-4-(2).png)
+1. You now need to define an action to perform when this rule is applied. Under **Do the following…**, ensure **Modify the message security….** and **Apply Microsoft 365 Message Encryption and rights protection is selected then click on **select one** link and on **select RMS template** dialog box, select **Encrypt** > **Save**. Click **Next**.
+   
+    ![Picture 1](../media/EM-5png)
 
-1. Under **And** select **The recipient (1)** and **is external/internal (2)**. In the blade that opens to the right, select **Outside the organization (3)** > **Save (4)**.
 
-   ![Picture 1](../media/image4-lab3-4.png)
+1. On the **Set rule settings** window, ensure Role mode is select as **Enforce** then select Severity as **Medium** and click the checkbox next to **Activate this rule on**. That should automatically populate a date and time that will make the rule take effect immediately upon completion, Click **Next** 
 
-   ![Picture 1](../media/image4-lab3-4-(1).png)
+   ![Picture 1](../media/EM-6png)
 
-1. You now need to define an action to perform when this rule is applied. Under **Do the following**, select **Modify the message security (1)** and **Apply Microsoft 365 Message Encryption and rights protection (2)**
+1. Click  **Finish** > **Done**.
 
-   ![Picture 1](../media/image4-lab3.png)
-
-1. In the **select RMS template** dialog box, select **Encrypt (1)** > **Save (2)**. Click **Next**.
-
-   ![Picture 1](../media/image5-lab3.png)
-
-1. On the **Set rule settings** window, click the checkbox next to **Activate this rule on (1)**. That should automatically populate a date and time that will make the rule take effect immediately upon completion.
-
-   ![Picture 1](../media/image6-lab3.png)
-
-1. Click **Next** > **Finish** > **Done**.
-
-1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under Enable or disable rule to **Enabled** the rule. Close the window.
+1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule. Close the window.
 
    ![Picture 1](../media/image8-lab3.png)
+
+### Task 2 : Testing
+
+
+In this task 
+
+
+1. From the start menu search and select **Outlook** > **New Email**.
+2. In **To** enter your personal email address and for subject provide **Encrypted Document** and enter **The team worked diligently to create an encrypted document to safeguard sensitive information.** in body.
+3. From the menu bar select **Option** then choose Encrypt only from drop-down and send the email.
+4. Once after sending a Email kindly check your personal email.
+5. Once you recevie the email notice how the Email encrpted.
+6.   
 
    >**Note**: Creating a Mail Flow Encryption Rule is essential for organizations seeking to enhance the security of their email communication. By defining conditions and actions, such as encrypting messages for external recipients, organizations can safeguard sensitive information and ensure that communication remains confidential, especially when shared outside the organizational boundaries.
 
 ### Conclusion:
 The conclusion emphasizes the completion of the Mail Flow Encryption Rule creation process. By activating the rule, organizations can immediately apply encryption to relevant messages, reinforcing their commitment to data protection. The conclusion also highlights the user's ability to enable or disable the rule as needed, providing flexibility in managing encryption policies.
 
+
 ### Review
+In this lab, you have completed:
 
-During this lab, you've gained knowledge on the process of creating a Mail Flow Encryption Rule using the Exchange admin center.
++ Create a Mail Flow Encryption Rule using the Exchange admin center
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab
