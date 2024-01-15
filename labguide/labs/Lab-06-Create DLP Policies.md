@@ -177,7 +177,7 @@ In this task you'll assigne permission to user to view dlp alerts in **Alert** d
 
  1. Click on **Next** > **Save** > **Done**.  
 
- 1. Repeat the above step for assign the **Role Group** permission to user:
+ 1. Repeat the above steps for assign the following **Role Group** permission to user:
 
       - Compliance Proctection
 
