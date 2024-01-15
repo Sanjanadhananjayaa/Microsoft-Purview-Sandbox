@@ -57,9 +57,13 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
 1. Click  **Finish** > **Done**.
 
-1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule. Close the window.
+1. In the **Rules** window, click the name of the rule under the **Rules** column. In the window that opens to the right, click the toggle under **Enable or disable rule** to enable the rule.
 
    ![Picture 1](../media/image8-lab3.png)
+
+1. Wait until you see **Rule status updated successfully** then close the window.
+
+    ![Picture 1](../media/EM-19.png)
 
 ### Task 2 : Testing
 
