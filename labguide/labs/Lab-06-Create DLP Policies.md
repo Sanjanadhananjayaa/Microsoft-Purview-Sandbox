@@ -20,7 +20,9 @@ In Microsoft Purview, you implement data loss prevention by defining and applyin
 
 In this lab, you will complete the following tasks:
 + Task 1: Create a Data Loss Prevention (DLP) policy
-+ Task 2: Demonstrating Data Loss Prevention (DLP) Policy
++ Task 2: Create Alert Policy 
++ Task 3: Add user to a Microsoft Purview built-in role group
++ Task 4: Demonstrating Data Loss Prevention (DLP) Policy
 
 ## Estimated timing: 60 minutes
 
@@ -106,11 +108,11 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
 
-### Task 3 : Create Alert Policy  
+### Task 2 : Create Alert Policy  
 
 In this task you'll create Alert policy 
 
-1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
+1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)**.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, select **Policies (1)** > **Alert policies (2)**.
 
@@ -129,7 +131,7 @@ In this task you'll create Alert policy
 
       ![](../media/EM-24.png)
 
-1. On **Create alert settings** window, specify the following and click **Next (4)**.
+1. On **Create alert settings** window, specify the following and click **Next (3)**.
         
       | **Settings**                                        | **Values**   | 
       | -------------------                                 | ------------ | 
@@ -158,10 +160,10 @@ In this task you'll create Alert policy
       ![](../media/EM-27.png)
 
 1. Click on **Done**.
+ 
+### Task 3 : Add user to a Microsoft Purview built-in role group
 
-### Task 4 : Assigning Role Group permission
-
-In this task you'll assigne permission to user to view dlp alerts in **Alert** dashboard.
+In this task you will actively engage in the process of adding user to a predefined role group within Microsoft Purview.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand and select **Roles & scopes (1)** > **Permissions (2)** and under **Microsoft purview solutions** select **Roles (3)**
 
@@ -177,7 +179,7 @@ In this task you'll assigne permission to user to view dlp alerts in **Alert** d
 
  1. Click on **Next** > **Save** > **Done**.  
 
- 1. Repeat the above steps for assign the following **Role Group** permission to user:
+ 1. Repeat the above 1 - 3 steps for assign the following **Role Group** permission to user:
 
       - Compliance Proctection
 
@@ -195,10 +197,9 @@ In this task you'll assigne permission to user to view dlp alerts in **Alert** d
   
 1. On the Audit page, select the blue bar at the top page and  select **start an end** date under **Data and time range (UTC)** and for User provide **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Search**. 
 
-
 >**Note**: Please wait for *two - three* hours as we allocate the necessary permissions to the user. This process requires time and effort before we proceed with the subsequent task. 
 
-### Task 5: Demonstrating Data Loss Prevention (DLP) Policy
+### Task 4 : Demonstrating Data Loss Prevention (DLP) Policy
 
 In this task, you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
 
@@ -221,7 +222,6 @@ In this task, you'll Compose an email containing sensitive information that matc
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Alert (2)**.
 
    >**Note** wait for 1 - 2 mins and please refresh the page until you see the alerts.
-
 
      ![](../media/EM-32.png)
 
