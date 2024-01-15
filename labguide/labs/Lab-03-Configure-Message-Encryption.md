@@ -86,9 +86,9 @@ In this task you'll test Message Encryption 
 
      | **Settings**        | **Values**   | 
      | ------------------- | ------------ |
-     | **To**              | Enter your **personal Email** address     | 
-     | **Subject**         |   **Encrypted Document**           |                                  
-     | **Boby**            |     **This Email contains Encrypted Document to safeguard sensitive information.**  |                                   
+     | **To**              | Enter your **personal Email (1)** address     | 
+     | **Subject**         |   **Encrypted Document (2)**           |                                  
+     | **Boby**            |     **This Email contains Encrypted Document to safeguard sensitive information. (3)**  |                                   
      |||
                                 
    
@@ -98,7 +98,7 @@ In this task you'll test Message Encryption 
 
    ![Picture 1](../media/EM-21.png)
 
-1. Kindly notice **Encrypt message** at the top and click on **Send**.
+1. Kindly notice **Encrypt message (1)** at the top and click on **Send (2)**.
 
     ![Picture 1](../media/EM-22.png)
 
@@ -106,15 +106,25 @@ In this task you'll test Message Encryption 
 
 1. Wait for 2 - 3 mins once you recevie the message notice that the email is recevied is encrypted.
 
-1. In order to access the email you that you have received, follow the following steps:
+1. In order to access the email that you have received, follow the following steps:
 
-   -  Click on **Read message**.
+   -  Select **Read the message**.
+
+       ![Picture 1](../media/EM-(13).png)
+      
    -  Click on Sign in with a one-time passcode.
-   -  Enter one-time passcode and click on **Continue**.
-   -  
-   -  
 
-    ![Picture 1](../media/EM-23.png)
+       ![Picture 1](../media/EM-14.png)
+      
+   -   Go to your personal email portal and open the message with subject Your one-time passcode to view the message and Copy the passcode.
+         
+   - Paste the passcode into the **One-time passcode (1)** field  and select **Continue (2)**.
+
+       ![Picture 1](../media/EM-15.png)
+     
+   -  Review the encrypted message.
+  
+        ![Picture 1](../media/EM-23.png)
 
    >**Note**: Creating a Mail Flow Encryption Rule is essential for organizations seeking to enhance the security of their email communication. By defining conditions and actions, such as encrypting messages for external recipients, organizations can safeguard sensitive information and ensure that communication remains confidential, especially when shared outside the organizational boundaries.
 
