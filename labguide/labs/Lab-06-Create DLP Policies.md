@@ -115,7 +115,7 @@ In this task you'll create Alert policy
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, select **Policies (1)** > **Alert policies (2)**.
 
-      ![](../media/EM-28.png)
+      ![](../media/EM-(28).png)
    
 1. On the **Alert Policy** window, select **New Alert Policy**.
 
