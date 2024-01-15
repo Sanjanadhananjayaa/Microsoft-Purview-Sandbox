@@ -106,10 +106,9 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
 
-### Task 3 : Creating Alert Policy 
+### Task 3 : Create Alert Policy  
 
 In this task you'll create Alert policy 
-
 
 1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
 
@@ -160,7 +159,48 @@ In this task you'll create Alert policy
 
 1. Click on **Done**.
 
-   
+### Task 4 : Assigning Role Group permission
+
+In this task you'll assigne permission to user to view dlp alerts in **Alert** dashboard.
+
+1. In the **Microsoft Purview** portal, in the left navigation pane, Expand and select **Roles & scopes (1)** > **Permissions (2)** and under **Microsoft purview solutions** select **Roles (3)**
+
+     ![](../media/EM-29.png)   
+
+1. On **Role groups for Microsoft Purview solutions** window, search and select **Security Administrator** then at the top select **Edit**.
+
+     ![](../media/EM-30.png)
+
+1. On the **Edit members of the role group** window, select **Choose users (1)** then on **Choose users** blade click on **<inject key="AzureAdUserEmail"></inject> (2)** > **Select (3)**.
+
+    ![](../media/EM-31.png)
+
+ 1. Click on **Next** > **Save** > **Done**.  
+
+ 1. Repeat the above step for assign the **Role Group** permission to user:
+
+      - Compliance Proctection
+
+      - Security Reader
+
+      - Information Protection
+
+      - Information Protection Investigators
+
+      - Information Protection Analysts
+
+      - Information Protection Admins
+
+
+1.  
+
+
+
+
+
+
+
+
 ### Task 2: Demonstrating Data Loss Prevention (DLP) Policy
 
 In this task, you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
