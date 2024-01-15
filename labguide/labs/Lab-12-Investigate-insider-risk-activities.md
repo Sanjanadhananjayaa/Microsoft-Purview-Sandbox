@@ -79,7 +79,7 @@ In this task, you'll Investigate insider risk activities.
 
      ![](../media/lab5-image5.png) 
 
-1. Select **New Email** from the top left corner of the screen and send an email to an outside organisation person with a document or any text with the subject.
+1. Select **New Email** from the top left corner of the screen and send an email to an outside organisation person by attraching **Document** with the subject.
 
 1. Repeat the above step at least 4 to 5 times to view more activities.   
 
@@ -88,6 +88,9 @@ In this task, you'll Investigate insider risk activities.
 1. From  **Insider risk management** page select **Users (1)** tab and select user **<inject key="AzureAdUserEmail"></inject> (2)** to view the User profile details.
 
       ![](../media/demo4.png)
+
+
+   >**Note**: It will take up to 3 - 4 hours for the user activities to reflect under the **User activity** blade, meanwhile you can proceed with the next exercise. 
 
 1. Select **User activity** tab and review the details and notice **Exfiltration** then click on 1 Email link.
 
