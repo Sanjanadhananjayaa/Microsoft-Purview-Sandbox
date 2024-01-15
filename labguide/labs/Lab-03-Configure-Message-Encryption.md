@@ -12,7 +12,7 @@ In this lab, you'll configure Microsoft Purview Message Encryption which enables
 In this lab, you will complete the following task:
 
 + Task 1: Create a Mail Flow Encryption Rule using the Exchange admin center
-+ Task 2: Testing Message Encryption 
++ Task 2: Test and Review the Message Encryption  
 
 ## Estimated timing: 60 minutes
 
@@ -36,7 +36,7 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
     ![Picture 1](../media/EM-2.png)
 
-1. Select the drop-down arrow in the **Apply this rule if (1)** condition box. In the drop-down menu, select **The subject or body (2)** and from **Select one (3)** drop-down select **subject or body includes any of these words (4)**  and on specify words or phrases window provide **Encrypted Document (5)** in box and click on **Add (6)** > **save (7)**.
+1. Select the drop-down arrow in the **Apply this rule if (1)** condition box. In the drop-down menu, select **The subject or body (2)** and from **Select one (3)** drop-down select **subject or body includes any of these words (4)**  and on **Specify words or phrases** window provide **Encrypted Document (5)** in box and click on **Add (6)** > **save (7)**.
 
    ![Picture 1](../media/EM-3.png)
 
@@ -66,36 +66,36 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
     ![Picture 1](../media/EM-19.png)
 
-### Task 2 : Testing Message Encryption  
+### Task 2 : Test and Review the Message Encryption  
 
 In this task you'll test Message Encryption
 
 1. From the start menu search and select **Outlook**.
 
-1. When **Sign in to get started with Office** prompted use the following the crendential to sign in.
+1. When **Sign in to get started with Office** prompted use the following credential.
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
     * Password: <inject key="AzureAdUserPassword"></inject>
 
-    >**Note**: If you face any error click on **Done** and enter email address and select **connect** and **Next**>
+    >**Note**: If you face any error click on **Done** and enter email address and select **connect** > **Next**.
 
-1. From the left top concer select **New Email**.    
+1. Choose **New Email** from the upper-left corner.
 
 1. Specify the following details.
 
 
      | **Settings**        | **Values**   | 
      | ------------------- | ------------ |
-     | **To**              | Enter your **personal Email (1)** address     | 
-     | **Subject**         |   **Encrypted Document (2)**           |                                  
-     | **Boby**            |     **This Email contains Encrypted Document to safeguard sensitive information. (3)**  |                                   
+     | **To**              | Enter your **Personal Email (1)** address     | 
+     | **Subject**         | **Encrypted Document (2)**           |                                  
+     | **Boby**            | **This Email contains Encrypted Document to safeguard sensitive information. (3)**  |                                   
      |||
                                 
    
     ![Picture 1](../media/EM-20.png)
       
-1. From the menu bar select **Option (1)** > **Encrypt (2)** then choose **Encrypt only (3)** from drop-down.
+1. Navigate to the menu bar and select **Option (1)** > **Encrypt (2)** then choose **Encrypt only (3)** from drop-down.
 
    ![Picture 1](../media/EM-21.png)
 
@@ -105,7 +105,7 @@ In this task you'll test Message Encryption
 
 1. After sending the email, kindly open your personal email account.
 
-1. Wait for 2 - 3 mins once you recevie the message notice that the email is recevied is encrypted.
+1. Wait for 2 - 3 mins once you receive the message notice that the email is received is encrypted.
 
 1. In order to access the email that you have received, follow the following steps:
 
