@@ -65,9 +65,9 @@ In this task, you will create a Mail Flow Encryption Rule within the Exchange ad
 
     ![Picture 1](../media/EM-19.png)
 
-### Task 2 : Testing
+### Task 2 : Testing Message Encryption  
 
-In this task 
+In this task you'll test Message Encryption 
 
 1. From the start menu search and select **Outlook**.
 
@@ -75,7 +75,6 @@ In this task
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-    
     * Password: <inject key="AzureAdUserPassword"></inject>
 
     >**Note**: If you face any error click on **Done** and enter email address and select **connect** and **Next**>
