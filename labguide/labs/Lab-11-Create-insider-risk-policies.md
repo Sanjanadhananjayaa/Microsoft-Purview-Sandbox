@@ -11,10 +11,10 @@ In this lab, you will explore the capabilities of Insider Risk Management to ide
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Process of setting up an insider risk policy.
-+ Task 2: Apply to all insider risk management policies.
-+ Task 3: Create policy.
-
++ Task 1: Process of setting up an insider risk policy
++ Task 2: Apply to all insider risk management policies
++ Task 3: Create policy
+  
 ## Estimated timing: 60 minutes
 
 ## Architecture diagram
