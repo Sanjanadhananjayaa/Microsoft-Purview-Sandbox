@@ -213,7 +213,7 @@ In this task, you'll Compose an email containing sensitive information that matc
 
      ![](../media/demo1.png)
 
-   >**Note**: Browse for test credit card numbers and paste those while performing this step.
+   >**Note**: Browse for test credit card numbers and copy/paste them when executing this step.
 
 1. Repeat the last step for at least 4 to 5 times to in order to trigger the alerts. until you receive the **Severity alert** mail from office 365.
  
