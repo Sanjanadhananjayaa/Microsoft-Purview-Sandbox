@@ -72,7 +72,7 @@ In addition to content marking, the label protection setting was set for encrypt
 
       ![](../media/lab5-image5.png) 
 
-1. Select **New Email** from the top left corner of the screen. Enter an email address to which you have access and is not part of this domain and enter **Test** in the subject line.
+1. Select **New Email** from the top left corner of the screen. Enter your personal email address and enter **Test** in the subject line.
 
 1. Select **Attach**.
 
