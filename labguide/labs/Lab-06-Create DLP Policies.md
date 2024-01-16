@@ -209,9 +209,7 @@ In this task, you'll Compose an email containing sensitive information that matc
 
 1. Select **New Email** from the top left corner of the screen.
 
-1. Enter an email address to which you have access and is not part of this domain and provide the subject as **Sending credit card number**, enter multiple demo credit card numbers and click on **Send**.
-
-    >**Note**: observe if a policy tip appears as a dialog for the end user before sending. This will inform the user about the sensitive content in the email and educate them on proper usage.
+1. Enter your personal email address and provide the subject as **Sending credit card number**, enter multiple demo credit card numbers and click on **Send**.
 
      ![](../media/demo1.png)
 
