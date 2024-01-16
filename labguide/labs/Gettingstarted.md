@@ -7,7 +7,7 @@ Welcome to your Data Security with Microsoft Purview Workshop on Data Governance
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![](../media/intropur1.png)
+![](../media/labguide.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -17,7 +17,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
-![](../media/EM-35.png)
+![](../media/enviornment.png)
 
 ## Utilizing the Split Window Feature
  
@@ -35,7 +35,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. On your virtual machine, click on the Microsoft Edge icon
 
-1. Log in to Admin portal **admin.microsoft.com**(https://admin.microsoft.com/).
+1. Log in to Admin portal [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 1. You'll see the **Microsoft** window, enter your credentials:
  

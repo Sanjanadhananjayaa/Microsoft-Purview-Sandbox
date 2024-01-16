@@ -34,9 +34,7 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 
 1. Back on **Choose sensitivity labels to publish** blade, click on **Next**.
 
-     ![](../media/lab2-image3.png)    
-     
-1. Under the Sensitivity labels to publish. Don’t change any settings. Select **Next** at the bottom of the page.
+     ![](../media/next1.png)    
      
 1. Click on **Next** on the Assign Admin Units page.
 
@@ -72,7 +70,7 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
     
 1. Review the settings and click on **Submit** and then select **Done**.
 
-   ![](../media/lab2-image12.png)   
+   ![](../media/submit.png)   
     
    ![](../media/lab2-image13.png)   
 
@@ -82,6 +80,12 @@ In this task, you'll focus on publishing existing sensitivity labels in Microsof
 
    >**Note**: Publishing sensitivity labels is essential for ensuring uniform data protection across the organization. Finally, we could have published sensitivity labels and make these labels available to all users, so organizations can enforce consistent policies for handling sensitive information. This step contributes to a cohesive approach to data security and compliance, as it ensures that established sensitivity labels are effectively communicated and applied throughout the user base.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Conclusion
 
 The conclusion emphasizes the importance of publishing sensitivity labels as a critical step in the overall data protection strategy. By making labels available to all users, organizations can enforce standardized security measures, fostering a culture of responsible data handling. The conclusion also highlights the user's ability to review and confirm the published labels, ensuring the successful implementation of the publishing process.
@@ -90,6 +94,4 @@ The conclusion emphasizes the importance of publishing sensitivity labels as a c
 
 During this lab, you've gained knowledge on the process of publishing sensitivity labels to users.
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.
