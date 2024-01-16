@@ -213,6 +213,10 @@ In this task, you'll Compose an email containing sensitive information that matc
 
      ![](../media/demo1.png)
 
+1. Repeat the last step for at least 4 to 5 times to in order to trigger the alerts. until you receive the **Severity alert** mail from office 365.
+ 
+    ![](../media/demo2.png)
+
 1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
 
      ![](../media/demo3.png)
