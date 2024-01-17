@@ -34,7 +34,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you will create a Data Loss Prevention policy in the Microsoft Purview portal to protect sensitive data from being shared by users.
 
-1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)** 
+1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Policies (2)**.
 
@@ -48,9 +48,9 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    ![](../media/lab6-image3.png)
    
-1. On the **Name your DLP policy** page, type **Credit card policy (1)** in the Name field and **Protect credit card numbers from being shared (2)** in the Description field. Select **Next (3)**.
+1. On the **Name your DLP policy** page, type **Credit card policy (1)** in the **Name** field and type **Protect credit card numbers from being shared. (2)** in the Description field. Select **Next (3)**.
 
-   ![](../media/cc1.png)
+   ![](../media/creditcardpolicy.png)
 
 1. On the Assign admin units page, click **Next**.
 
@@ -86,11 +86,11 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
     ![](../media/cc9.png)
 
-1. Unser **User notifications** select toggle for Use notifications to inform your user and help educate them on the proper use of sensitive info is **On (1)** and enable the check box for **Show the policy tip as a dialog for the end user before send (2)**.
+1. Under **User notifications** select toggle for Use notifications to inform your user and help educate them on the proper use of sensitive info is **On (1)** and enable the check box for **Show the policy tip as a dialog for the end user before send (2)**.
 
    ![](../media/cc11.png)
 
-1. Under **Incident reports** select **severity level** as **Medium (2)** click on  the toggle for **Under send an alert to admins when a rule match occurs (1)** and click on **Save (3)**.
+1. Under **Incident reports** select **severity level** as **Medium (1)** click on the toggle for under **send an alert to admins when a rule match occurs (2)** and click on **Save (3)**.
 
     ![](../media/cc12.png)
 
@@ -98,9 +98,11 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
     ![](../media/cc13.png)
 
-1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
+1. On **Policy mode** select **Turn the policy on immediately (1)** and click **Next (2)**.
+
+   ![](../media/turnthepolicy.png)
   
-1. On the Review and finish review the information and click **Submit**. 
+1. On the Review and finish review the information click **Submit**. Select **Done** on the **New policy created** page.
 
      ![](../media/cc15.png)
 
@@ -108,17 +110,25 @@ In this task, you will create a Data Loss Prevention policy in the Microsoft Pur
 
    >**Note**: Data Loss Prevention policies are critical for organizations to prevent inadvertent sharing of sensitive information. In this scenario, the focus is on protecting Credit Card numbers. The lab ensures that users are informed and prompted before sharing such data. This proactive approach helps in securing sensitive information and ensures that users are aware of the policy requirements.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Task 2 : Create Alert Policy  
 
 In this task you'll create Alert policy 
 
-1. In **Microsoft Edge**, navigate to **[compliance mirosoft com](https://compliance.microsoft.com/)**.
+1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, select **Policies (1)** > **Alert policies (2)**.
 
       ![](../media/EM-(28).png)
    
 1. On the **Alert Policy** window, select **New Alert Policy**.
+
+   ![](../media/newalertpolicy.png)
 
 1. On **Name your alert**  window, specify the following and click **Next (4)**.
         
@@ -179,9 +189,9 @@ In this task you will actively engage in the process of adding user to a predefi
 
  1. Click on **Next** > **Save** > **Done**.  
 
- 1. Repeat the above 1 - 3 steps for assign the following **Role Group** permission to user:
+ 1. Repeat the above 1 - 4 steps for assign the following **Role Group** permission to user:
 
-      - Compliance Proctection
+      - Compliance Administrator
 
       - Security Reader
 
@@ -194,22 +204,34 @@ In this task you will actively engage in the process of adding user to a predefi
       - Information Protection Admins
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, under **Solution** select **Audit**.
-  
-1. On the Audit page, select the blue bar at the top page and  select **start an end** date under **Data and time range (UTC)** and for User provide **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Search**. 
 
->**Note**: Please wait for *two - three* hours as we allocate the necessary permissions to the user. This process requires time and effort before we proceed with the subsequent task. 
+   ![](../media/audit.png)
+  
+1. On the Audit page, select the blue bar at the top page which says **Start recording and admin  activity**, on the pop-up select **Yes**.
+
+   ![](../media/start.png)
+
+   ![](../media/yes.png)
+
+1. Select **Start (1)** and **End (2)** date under **Data and time range (UTC)** and for **Users** provide **<inject key="AzureAdUserEmail"></inject> (3)** and click on **Search (4)**. 
+
+   ![](../media/startend.png)
+
+   >**Note**: Please anticipate a delay of *two-three* hours for the allocation of the required permissions to the user. This process necessitates time and effort before we can proceed with the following task. 
 
 ### Task 4 : Demonstrating Data Loss Prevention (DLP) Policy
 
 In this task, you'll Compose an email containing sensitive information that matches the conditions specified in the DLP policy. For example, include credit card numbers in the email body.
 
-1. From the Microsoft Purview home page, select the **App launcher icon**, and **right-click on the Outlook icon (1)** and select **Open in new tab (2)**.
+1. Navigate back to the [Microsoft Purview](https://compliance.microsoft.com/) home page, select **App launcher icon (1)**, on the **Outlook** select **Open context menu (2)** and select **Open in new tab (3)**.
 
-     ![](../media/lab5-image5.png) 
+      ![](../media/outlook11.png) 
 
 1. Select **New Email** from the top left corner of the screen.
 
-1. Enter your personal email address and provide the subject as **Sending credit card number**, enter multiple demo credit card numbers and click on **Send**.
+   ![](../media/outlook12.png)
+
+1. Enter your **personal email address (1)** and provide the subject as **Sending credit card number (2)**, enter **multiple demo credit card numbers (3)** and click on **Send (4)**.
 
      ![](../media/demo1.png)
 
@@ -224,9 +246,9 @@ In this task, you'll Compose an email containing sensitive information that matc
 
      ![](../media/demo3.png)
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Alert (2)**.
+1. Navigate back to the **Microsoft Purview** portal. In the left navigation pane, expand **Data loss prevention (1)** and select **Alert (2)**.
 
-   >**Note** wait for 1 - 2 mins and please refresh the page until you see the alerts.
+   >**Note** Generating alerts will require some time, allowing you to move on to the next lab; however, it's essential to monitor the alerts.
 
      ![](../media/EM-32.png)
 
@@ -242,6 +264,4 @@ Creating a Data Loss Prevention (DLP) policy is a fundamental step in safeguardi
 ### Review
 During this lab, you've gained knowledge on the process of creating and Demonstration of Data Loss Prevention
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.

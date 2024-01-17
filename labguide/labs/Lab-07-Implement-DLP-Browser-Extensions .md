@@ -31,38 +31,52 @@ In this lab, you will complete the following tasks:
 
 >**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
-1. From Start menu type cmd right-click **Command prompt** and select **Run as administrator**.
+1. From Start menu type **cmd (1)**, right-click on **Command prompt (2)** and select **Run as administrator (3)**.
+
+   ![](../media/commandprompt.png)
 
 1. Enter the following command and press Enter:
     ```
     netsh winhttp set proxy 10.0.0.6:8080
     ```
 
+   ![](../media/proxy.png)
+   
    >**Note**: This will affect all applications including Windows services which use WinHTTP with default proxy.
 
 ### Task 1.2: Join device to Microsoft Entra
 
-1. Select the Start menu and type, then choose **Settings** from the search results.
+1. Select the Start menu and type **settings (1)**, then choose **Settings (2)** from the search results.
+
+   ![](../media/settings.png)
    
-1. From the left menu select **Account** > **Access work or school** and click on **Connect** button.
+1. From the left menu select **Accounts (1)** > **Access work or school (2)** and click on **Connect** button.
+
+   ![](../media/accessorworkschool.png)
    
-1. On Sign in page select Join to **Microsoft Entra ID** and sign in with the following credential
+1. On the **Set up a work or school account**, select **Join this device to Microsoft Entra ID** and sign in with the following credential, select **Join** on the **Make sure this is your organization**. Select **Done**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
    * Password: <inject key="AzureAdUserPassword"></inject>
+
+   ![](../media/jointhis.png)
+
+   ![](../media/join.png)
   
 ### Task 1.3: Onboard Windows 11 devices into Microsoft 365
 
-1. Open Microsoft Edge and go to  **[compliance mirosoft com](https://compliance.microsoft.com/)** portal.
+1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page.
 
 1. Choose **Settings (1)** > **Device onboarding (2)**. 
 
     ![](../media/lab7-image7.png)
 
-1. Select **Device** on **Device Onboarding**, window and choose **Turn on device onboarding**.
+1. Select **Devices (1)** on **Device Onboarding**, window and choose **Turn on device onboarding (2)**. Select **OK**, on the **Turn on device onboarding** pop-up. On the **Device monitoring is being turned on**, select **OK**.
 
    >**Note**: Wait for a few minutes for the device to turn on, and refresh the page.
+
+   ![](../media/turnononboarding.png)
 
 1. Select **Onboarding (1)** to start the onboarding process and follow the steps below:
 
@@ -78,49 +92,77 @@ In this lab, you will complete the following tasks:
 
    ![](../media/lab7-image9.png)
 
-1. On File Explorer, right-click on the **DeviceComplianceOnboardingPackage** file and select **Extract All**.
+1. On File Explorer, right-click on the **DeviceComplianceOnboardingPackage (1)** file and select **Extract All (2)**.
+
+   ![](../media/extractall.png)
 
 1. On the Extract Compressed zip folder, window with the default location click on **Extract**.   
 
    >**Note**: You must enable device monitoring and onboard your endpoints before you can monitor and protect sensitive items on a device. Both of these actions are done in the Microsoft Purview compliance portal.
 
-1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
+   ![](../media/extract.png)
 
-1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
+1. Right-click on the extracted file **DeviceComplianceLocalOnboardingScript.cmd (1)** and select **Properties (2)**. Select the **Unblock (3)** checkbox in the bottom right of the Properties windows and select **OK (4)**.
+
+   ![](../media/properties.png)
+
+   ![](../media/unblock.png)
+
+1. Right-click on the extracted file **DeviceComplianceLocalOnboardingScript.cmd (1)** again and choose **Run as Administrator (2)**.
+
+   ![](../media/runasadministrator.png)
 
 1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says **Successfully onboarded machine to Microsoft Defender for Endpoint**.
+
+   ![](../media/microsoftpurview.png)
    
 1. Press any key to continue. This will close the Command Prompt window.
 
-1. In the Microsoft Defender portal in your browser.
+1. Navigate back to the **Microsoft Edge**, open a new browser tab,  and open [Microsoft Defender](https://security.microsoft.com/homepage?tid=49b4a46f-7815-4223-bfbd-d4f380dc082d) portal in your browser.
 
-1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
+   ![](../media/defenderforendpoint.png)
 
-1. On the Onboarding page, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+1. Select **Settings (1)** from the left menu bar, then from the Settings page select **Endpoints (2)**.
 
-1. In the Windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
+   ![](../media/purview.png)
+
+1. Scroll down, under **Device management** select **Onboarding (1)**. On the Onboarding page, under "2. Run a detection test", copy the detection test script by selecting the **Copy (2)** button.
+
+   ![](../media/runadetection.png)
+
+1. In the Windows search bar of the virtual machine, type **CMD (1)**, on the right pane of the **Command prompt (2)** choose **Run as Administrator (3)**. 
+
+   ![](../media/cmd.png)
 
 1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it.
 
    >**Note**: The window closes automatically after running the script.
 
-1. In the purview portal, in the left-hand menu, select **Devices** and if the device isn't displayed, please wait for a while.
+1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. In the purview portal, in the left-hand menu, select **Settings (1)**, select **Devices (2)**. The device will be displayed (3). if the device isn't displayed, please wait for a while.
 
     >**Note**: If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+
+    ![](../media/devices.png)
 
 ### Task 1.4: Install the extension for Chrome on your Windows devices
 
 1. Open Microsoft Edge and go to **[Microsoft Purview Extension](https://chromewebstore.google.com/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco)**
 
-1. On **Switch to Chrome?** click on **Yes**, then download and install.
+1. On **Switch to Chrome?** click on **Yes (1)**. Select **Download Chrome (2)**.
 
-1. Under **The browser built to be yours** click on **Download Chrome**.
+   ![](../media/switchtochrome.png)  
 
-1. Open the downloaded Chrome.setup.exe file and Install it.     
+   ![](../media/downloadchrome.png) 
+
+1. Once the file get downloaded, select **Open file**, it will start the downloading process, and once the download completes select **Close**.
+
+   ![](../media/openfiles.png)
+
+   >**Note:** On the **Enhanced ad privacy in Chrome** select **Got it**.    
 
 ### Task 2: Create a Data Loss Prevention policy
 
-1. Open Microsoft Edge and go to  **[compliance mirosoft com](https://compliance.microsoft.com/)** 
+1. Open **Microsoft Edge**. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Policies (2)**.
 
@@ -160,7 +202,7 @@ In this lab, you will complete the following tasks:
 
      ![](../media/cc6.png)
 
-1. In the new **Content contains** area, select **+ Add** and select **Sensitive info types** from the drop-down menu. On the **Sensitive info types** page, select **Credit Card Number** and select **Add**.
+1. In the new **Content contains** area, select **+ Add** and select **Sensitive info types** from the drop-down menu. On the **Sensitive info types** page, type **credit (3)**, select **Credit Card Number (4)** and select **Add (5)**.
 
      ![](../media/cc7.png)
 
@@ -169,13 +211,15 @@ In this lab, you will complete the following tasks:
 
     ![](../media/demo10.png)
 
-1. Under **Action** click **Add an actions** and select **Audit or restrict activities on devices** from the drop dowm menu.
+1. Under **Action** click **Add an action (1)** and select **Audit or restrict activities on devices (2)** from the drop dowm menu.
+
+   ![](../media/actioncenter.png)
 
 1. Under **Service Domain and Browser Activities**, select the checkbox for **Upload to a restricted Cloud Service domain or access from an unallowed browser (1)** and from the drop-down select **Block (2)**.
 
     ![](../media/lab7-image3.png)
 
-1. For **Files activities for all apps**, select **Apply restriction to specific activities**  and choose all the activities and from the drop-down select **Block** for all. 
+1. For **Files activities for all apps**, select **Apply restriction to specific activities** and from the drop-down select **Block** for all. 
 
     ![](../media/lab7-image4.png)
 
@@ -185,9 +229,15 @@ In this lab, you will complete the following tasks:
 
 1. Back on **Customize advanced DLP rules** page, and click on **Next**.
 
-1. On **Policy mode** select **Turn the policy on immediately** and click **Next**.
+   ![](../media/createrule.png)
+
+1. On **Policy mode** select **Turn the policy on immediately (1)** and click **Next (2)**.
   
-1. On the Review and finish review the information and click **Submit**.
+   ![](../media/turnthepolicyon.png)
+
+1. On the Review and finish review the information and click **Submit**. Select **Done**.
+
+   ![](../media/reviewfinish.png)
 
 ### Task 3: Updating Endpoint settings
 
@@ -195,7 +245,9 @@ In this task, you'll configure Browser and domain restrictions to sensitive data
 
 1. Navigate to the Policies page and choose the Settings icon located in the top-right corner of the page.
 
-1. From the left menu select **Endpoint settings (1)** and expand **browser and domain restriction to sensitive data**, under Unallowed browsers click on **+ Add or Edit unallowed browsers (2)**, and **Google Chrome (3)** then click on **Save (4)**.
+   ![](../media/settingspurview.png)
+
+1. From the left menu select **Endpoint settings (1)** and expand **browser and domain restriction to sensitive data**, under **Unallowed browsers** click on **+ Add or Edit unallowed browsers (2)**, and select **Google Chrome (3)** then click on **Save (4)**.
 
      ![](../media/lab7-image11.png)
 
@@ -214,12 +266,20 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 
     >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
 
+   ![](../media/googlechrome.png)
+
 1. Open another tab in Google Chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the **Confidential-document** document where sensitivity
    label is applied and notices how policy is blocked from uploading protected files from unallowed browsers Cloud Egress.
 
     ![](../media/demo12.png)
 
    >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Conclusion
 By completing this lab, users gain practical experience in implementing the Microsoft Purview extension for Chrome. The extension enhances data discovery, classification, and protection capabilities, contributing to a comprehensive data governance strategy. The lab emphasizes the importance of configuring policies and endpoint settings to enforce security measures effectively.
@@ -232,6 +292,4 @@ During this lab, you've gained knowledge on the process:
 + Updating Endpoint settings
 + Test the Extension
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.
