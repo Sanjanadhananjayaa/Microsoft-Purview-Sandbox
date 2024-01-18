@@ -262,7 +262,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 
     ![](../media/demo11.png)
 
-1. Search and select Google Chrome from the start menu  copy the link of a Word document containing sensitive information, and then try to paste it into Google Chrome. Observe the notification indicating a lack of permission to access the file.
+1. Search for **Google Chrome (1)** and select **Google Chrome (2)** from the start menu copy the link of a Word document containing sensitive information, and then try to paste it into Google Chrome. Observe the notification indicating a lack of permission to access the file.
 
     >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
 

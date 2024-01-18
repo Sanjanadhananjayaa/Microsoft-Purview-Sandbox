@@ -29,34 +29,49 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
 
-1. Sign in to **Azure portal** with following credentials:
+1. Inside the Lab-VM, double click on the **Azure Portal** shortcut, and sign in with following credentials:
    
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
     * Password: <inject key="AzureAdUserPassword"></inject>
+
+      ![](../media/azureportal.png)
   
-1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra 
-   ID** under services.
+1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Entra ID (1)**, and then select **Microsoft Entra ID (2)** under services.
 
-1. On **Overview** page, Under **Manage** section select **User**.
+   ![](../media/MicrosoftentraID.png)
+
+1. On **Overview** page, Under **Manage** section select **Users**.
+
+   ![](../media/microsoftentraid1.png)
    
-1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the **Properties** tab. Scroll down and navigate to Job Information, click on the **Edit** icon.
+1. Choose **ODL_User <inject key="DeploymentID" enableCopy="false"/> (1)** user, then click on the **Edit properties (2)** tab.
 
-1. Under the **Job information** tab for the Department field, enter **HR (1)**, then click **Save (2)**.
+   ![](../media/odluser1.png)
+
+   ![](../media/editproperties.png)
+
+1. Scroll down and select **Job Information (1)**. Under the **Job information** tab for the **Department** field, enter **HR (2)**, then click **Save (3)**.
 
    ![](../media/b-image10.png)
    
-1. Back on user blade, select **+ New user** from drop down choose **Create new user**.
+1. On the **ODL_User <inject key="DeploymentID" enableCopy="false"/>**, select **Users**. Back on user blade, select **+ New user (1)** from drop down choose **Create new user (2)**.
 
-1. Create a new user on the **Basics** tab with the following settings (leave others with their defaults) and select **Next: properties >**.
+   ![](../media/users.png)
+
+   ![](../media/entraid.png)
+
+1. Create a new user on the **Basics** tab with the following settings (leave others with their defaults) and select **Next: properties > (6)**.
 
     | Setting | Value |
     | --- | --- |
-    | User principal name | **Johndoe**  |
-    | Display Name | **Johndoe** |
-    | Auto-generate password | **unchecked**  |
-    | Password | **Provide a secure password** |
-    | Account enabled | **Checked** |
+    | User principal name | **Johndoe (1)**  |
+    | Display Name | **Johndoe (2)** |
+    | Auto-generate password | **unchecked (3)**  |
+    | Password | **Provide a secure password (4)** |
+    | Account enabled | **Checked (5)** |
+
+    ![](../media/newuser.png)
         
 1. On  the **Properties** tab specify the following settings (leave others with their defaults):  
 
@@ -69,9 +84,15 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. In the list of users, click the newly created user account to display its blade.
 
-1. Select **john doe** user, from the left navigation, under **Manage**, select **Licenses**.
+   ![](../media/johndoe.png)
 
-1. On **john doe | Licenses** page, select the **+ Assignments** button.
+1. Under **Manage**, select **Licenses**.
+
+   ![](../media/licenses.png)
+
+1. On **Johndoe | Licenses** page, select the **+ Assignments** button.
+
+   ![](../media/licenses1.png)
 
 1. On the Update license assignments page, select the check box for the **Office 365 E5** license.
 
@@ -79,11 +100,13 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. When complete, select **Save**.
 
-1. Now navigate to the user profile of **john doe**  from the left navigation pane select **Licenses**.
+1. Now navigate to the user profile of **John doe**, from the left navigation pane select **Licenses**.
 
 1. Notice that the license has been assigned.
 
    >**Note**: If you're not able to view the assigned license kindly refresh the page.
+
+   ![](../media/licenses2.png)
 
 ### Task 2: Create segments for Information Barriers
 
@@ -245,6 +268,4 @@ During this lab, you've gained knowledge on the following:
 + Apply Information barrier policies
 + Assess Information Barriers functionality within Microsoft Teams.
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.
