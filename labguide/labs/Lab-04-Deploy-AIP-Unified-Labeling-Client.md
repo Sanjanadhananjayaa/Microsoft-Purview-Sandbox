@@ -54,11 +54,7 @@ In this task, you'll classify files by using File Explorer
 
 1. From the bottom of the Lab-VM, open **File Explorer (1)**, select **Documents (2)**.
 
-   ![](../media/fileexplorer.png)
-
 1. In the **Documents**, create one folder, right-click anywhere, select **New (1)** > **Folder (2)**, and name the folder as per your choice.
-
-   ![](../media/newfolder.png)
 
 1. Now, right-click on the new folder, select **Show More options**. Select **Classify and protect**.
 
