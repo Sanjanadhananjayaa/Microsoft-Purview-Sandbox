@@ -38,7 +38,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
    >**Note:** Select **Close** on **Your privacy option**.
 
-1. From the top menu bar, select **Sensitivity (1)**. (**Note**: If the option is not available, it will take some time to reflect Alternatively try refreshing the page or sign out and sign in again) From the drop-down select **Confidential-Finance (2)**.
+1. From the top menu bar, select **Sensitivity (1)**. (**Note**: If the option is not available, it will take some time wait until you see the **Sensitivity** option, reflect Alternatively try refreshing the page or sign out and sign in again) From the drop-down select **Confidential-Finance (2)**.
 
     ![](../media/finance.png)
 
