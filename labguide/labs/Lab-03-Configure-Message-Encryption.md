@@ -74,8 +74,6 @@ In this task you'll test Message Encryption
 
 1. From the start menu search for **Outlook (1)** and select **Outlook (2)**.
 
-    ![Picture 1](../media/outlook.png)
-
 1. When **Sign in to get started with Office** prompted, select **Sign in or create account**, and use the following credential. 
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
