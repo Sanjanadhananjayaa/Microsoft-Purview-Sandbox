@@ -155,7 +155,7 @@ In this task you'll create Alert policy
 
       | **Settings**                                        | **Values**   | 
       | -------------------                                 | ------------ | 
-      | **Email recipients**                                | Select **<inject key="AzureAdUserEmail"></inject> (1)** | 
+      | **Email recipients**                                | Select **ODL_User <inject key="DeploymentID" enableCopy="false"/>** | 
       ||| 
 
       ![](../media/EM-26.png)
