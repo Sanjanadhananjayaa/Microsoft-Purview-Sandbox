@@ -33,8 +33,6 @@ In this lab, you will complete the following tasks:
 
 1. From Start menu type **cmd (1)**, right-click on **Command prompt (2)** and select **Run as administrator (3)**.
 
-   ![](../media/commandprompt.png)
-
 1. Enter the following command and press Enter:
     ```
     netsh winhttp set proxy 10.0.0.6:8080
