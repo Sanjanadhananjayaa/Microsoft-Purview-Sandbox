@@ -160,6 +160,8 @@ In this lab, you will complete the following tasks:
 
    >**Note:** On the **Enhanced ad privacy in Chrome** select **Got it**.    
 
+1. Close the **Google chrome** window.
+
 ### Task 2: Create a Data Loss Prevention policy
 
 1. Open **Microsoft Edge**. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. 
