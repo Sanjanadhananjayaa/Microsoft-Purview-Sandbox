@@ -213,10 +213,20 @@ In this task you will actively engage in the process of adding user to a predefi
 
    ![](../media/yes.png)
 
-1. Select **Start (1)** and **End (2)** date under **Data and time range (UTC)** and for **Users** provide **<inject key="AzureAdUserEmail"></inject> (3)** and click on **Search (4)**. 
+1. Under **New Search** tab, specify the following and click on **Search (6)**. 
 
-   ![](../media/startend.png)
+      | **Settings**                                        | **Values**   | 
+      | -------------------                                 | ------------ | 
+      | **Date and time range (UTC)**                       |  **Start** and **End** **(1)** | 
+      | **Activities - friendly names**                     | Select **Matched DLP rule (2)** | 
+      | **Record types**                                    | Select **Alert (3)** | 
+      | **Users**                                           | Select **<inject key="AzureAdUserEmail"></inject> (4)** | 
+      | **Workloads**                                       | Select **Exchange** and **Endpoint** **(5)**| 
 
+   ![](../media/EM-42.png)
+
+   >**Note**: Ignore any error pop up.
+   
    >**Note**: Please anticipate a delay of *two-three* hours for the allocation of the required permissions to the user. This process necessitates time and effort before we can proceed with the following task. 
 
 ### Task 4 : Demonstrating Data Loss Prevention (DLP) Policy
