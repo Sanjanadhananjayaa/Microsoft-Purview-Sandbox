@@ -134,7 +134,7 @@ In this task you'll create Alert policy
         
       | **Settings**        | **Values**   | 
       | ------------------- | ------------ | 
-      | **Name**            | Enter  **DLP-Alert_Policy (1)** | 
+      | **Name**            | Enter  **DLP-Alert-Policy (1)** | 
       |  **Severity**       | Select **Medium (2)**        |
       |  **Category**       | Select **Information governance (3)**        |  
       |||
