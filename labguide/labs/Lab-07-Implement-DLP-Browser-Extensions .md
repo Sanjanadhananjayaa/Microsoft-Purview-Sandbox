@@ -281,6 +281,9 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
     - Then Close **Word** document  and wait until its shown as Green mark which indicates **Available on this device**.
  
        ![](../media/EM-39.png)
+    - Search and select **OneDrive** and sign in user account
+  
+    - 
  
     - Right click on **Confidential-document** in cascade menu select **Share** then on the share **Confidential-document** window click on **Copy Link** button.
  
