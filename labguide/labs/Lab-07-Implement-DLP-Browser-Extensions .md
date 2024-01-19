@@ -60,9 +60,9 @@ In this lab, you will complete the following tasks:
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](../media/jointhis.png)
+    !![](../media/EM-43.png)
 
-   ![](../media/join.png)
+    ![](../media/join.png)
   
 ### Task 1.3: Onboard Windows 11 devices into Microsoft 365
 
