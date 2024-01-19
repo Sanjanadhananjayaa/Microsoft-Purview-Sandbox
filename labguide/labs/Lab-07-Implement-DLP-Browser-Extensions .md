@@ -32,8 +32,6 @@ In this lab, you will complete the following tasks:
 >**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
 1. From Start menu type **cmd (1)**, right-click on **Command prompt (2)** and select **Run as administrator (3)**.
-
-     ![](../media/EM-43.png)
    
 1. Enter the following command and press Enter:
     ```
@@ -50,9 +48,11 @@ In this lab, you will complete the following tasks:
 
    ![](../media/EM-43.png)
    
-1. From the left menu select **Accounts (1)** > **Access work or school (2)** and click on **Connect** button.
+1. From the left menu select **Accounts (1)** > **Access work or school (2)** and click on **Connect (3)** button.
 
    ![](../media/accessorworkschool.png)
+
+   ![](../media/EM-43.png)
    
 1. On the **Set up a work or school account**, select **Join this device to Microsoft Entra ID** and sign in with the following credential, select **Join** on the **Make sure this is your organization**. Select **Done**.
 
