@@ -270,6 +270,8 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
 1. To Save file as **Confidential-document** in **One drive** and to copy the link of **Confidential-document** file following the below step :
  
+     - Search and select **OneDrive** and sign in with user credential.
+    
     - From menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
  
        ![](../media/EM-38.png)
@@ -281,13 +283,12 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
     - Then Close **Word** document  and wait until its shown as Green mark which indicates **Available on this device**.
  
        ![](../media/EM-39.png)
-    - Search and select **OneDrive** and sign in user account
-  
-    - 
+    
  
     - Right click on **Confidential-document** in cascade menu select **Share** then on the share **Confidential-document** window click on **Copy Link** button.
  
        ![](../media/EM-40.png)
+
 1. Search and select Google Chrome from the start menu  paste the link of a Word document containing sensitive information. Observe the notification indicating a lack of permission to access the file.
  
     >**Note**: The policy will take **one to two** hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
@@ -297,7 +298,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
     ![](../media/demo12.png)
  
-   >**Note**: If you have tried performing this step please clear the history.
+   >**Note**: If you have tried performing this step please clear the history and perform the task.
 
    >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
 
