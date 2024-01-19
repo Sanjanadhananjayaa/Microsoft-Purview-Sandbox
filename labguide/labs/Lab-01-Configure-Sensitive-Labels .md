@@ -28,7 +28,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. If you have not already logged in to the admin center, in the address bar of Microsoft Edge enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
-1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Next**. 
+1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
@@ -71,8 +71,8 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
     | **Name** | Enter **Confidential-Finance (1)** |
     | **Display name** | Enter **Confidential-Finance (2)** |
     | **Description for users** | Enter **Confidential-Finance Demo (3)** | 
-
-    !![](../media/lab1-image3.png)
+     
+    ![](../media/lab1-image3.png)
 
 1. Note the scope for this label. The scope is set to **Items**. Read the description but don’t change anything. Select **Next** at the bottom of the page.
 
@@ -86,7 +86,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
     
     ![](../media/lab1-image6.png)
 
-1. Select the user name **ODL_User <inject key="DeploymentID" enableCopy="false"/> (1)** and click on **Add (2)**.
+1. On the **Add users or groups** window, select the user name **ODL_User <inject key="DeploymentID" enableCopy="false"/> (1)** and click on **Add (2)**.
 
     ![](../media/odluser.png)
 
@@ -107,7 +107,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
    
 1. Under **Add a watermark**, click on **Customize text (1)**. Under **Watermark text**, type **Confidential watermark text (2)** and click on **Save (3)**.
 
-    ![](../media/headertext.png)
+    ![](../media/EM-41.png)
   
 1. Under **Add a header**, click on **Customize text (1)**. Under **Header text**, type **Confidential Document (2)** and click on **Save (3)**.
 
