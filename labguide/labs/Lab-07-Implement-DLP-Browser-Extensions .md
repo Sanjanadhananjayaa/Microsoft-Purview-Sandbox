@@ -45,8 +45,6 @@ In this lab, you will complete the following tasks:
 ### Task 1.2: Join device to Microsoft Entra
 
 1. Select the Start menu and type **settings (1)**, then choose **Settings (2)** from the search results.
-
-   ![](../media/EM-43.png)
    
 1. From the left menu select **Accounts (1)** > **Access work or school (2)** and click on **Connect (3)** button.
 
@@ -60,7 +58,7 @@ In this lab, you will complete the following tasks:
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-    !![](../media/EM-43.png)
+    !![](../media/EM-44.png)
 
     ![](../media/join.png)
   
@@ -138,11 +136,15 @@ In this lab, you will complete the following tasks:
 
    >**Note**: The window closes automatically after running the script.
 
-1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. In the purview portal, in the left-hand menu, select **Settings (1)**, select **Devices (2)**. The device will be displayed (3). if the device isn't displayed, please wait for a while.
+1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. In the purview portal, in the left-hand menu, select **Settings (1)**, select **Devices onboarding(2)**. Select the **Device (3)**, notice onboarded device **svm-<inject key="DeploymentID" enableCopy="false"/>(4)**. If the device isn't displayed, please wait for a while.
+
+    >**Note**: It will take some time to onboard the device procced with next task and come back after performing **Task 1.4** then check the device status here.
 
     >**Note**: If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
-    ![](../media/devices.png)
+    ![](../media/EM-47.png)
+
+    ![](../media/EM-48.png)
 
 ### Task 1.4: Install the extension for Chrome on your Windows devices
 
