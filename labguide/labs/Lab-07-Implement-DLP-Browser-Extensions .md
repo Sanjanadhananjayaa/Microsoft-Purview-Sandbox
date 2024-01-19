@@ -48,7 +48,7 @@ In this lab, you will complete the following tasks:
 
 1. Select the Start menu and type **settings (1)**, then choose **Settings (2)** from the search results.
 
-   ![](../media/settings.png)
+   ![](../media/EM-43.png)
    
 1. From the left menu select **Accounts (1)** > **Access work or school (2)** and click on **Connect** button.
 
