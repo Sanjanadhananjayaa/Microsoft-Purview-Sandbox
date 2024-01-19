@@ -259,11 +259,13 @@ In this task, you'll configure Browser and domain restrictions to sensitive data
 
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
-1. From start menu search and select **Word** and select Blank document then select **Sensitivity (1)** icon from menu bar then select **Confidential-Finance (2)** label  and 
+1. From start menu search and select **Word** and select Blank document then select **Sensitivity (1)** icon from menu bar then select **Confidential-Finance (2)** label. 
    add some demo credit card numbers into a Word document.
  
     ![](../media/demo11.png)
- 
+
+1. Add some demo credit card numbers into a Word document.
+   
     ![](../media/EM-37.png)
  
 1. To Save file as **Confidential-document** in **One drive** and to copy the link of **Confidential-document** file following the below step :
@@ -271,8 +273,12 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
     - From menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
  
        ![](../media/EM-38.png)
+      
     - In file explorer provide **Confidential-document** in File name and click on **Save**.
-    - Then Close **Word** app and wait until its shown as Green mark which indicates **Available on this device**.
+
+       ![](../media/EM-46.png)
+      
+    - Then Close **Word** document  and wait until its shown as Green mark which indicates **Available on this device**.
  
        ![](../media/EM-39.png)
  
