@@ -108,16 +108,13 @@ In this task you'll test Message Encryption
 
 1. Specify the following details.
 
-
      | **Settings**        | **Values**   | 
      | ------------------- | ------------ |
      | **To**              | Enter your **Personal  Email (1)** address | 
      | **Subject**         | **Encrypted Document (2)** |                                  
-     | **Boby**            | **This Email contains Encrypted Document to safeguard sensitive information. (3)**|                                   
-     
-                                
+     | **Boby**            | **This Email contains Encrypted Document to safeguard sensitive information. (3)**|                                                                 
    
-    ![Picture 1](../media/EM-20.png)
+     ![Picture 1](../media/EM-20.png)
       
 1. On top of the menu bar select **Option (1)** > **Encrypt (2)** then choose **Encrypt only (3)** from drop-down.
 
