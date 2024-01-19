@@ -227,6 +227,10 @@ In this lab, you will complete the following tasks:
 
     ![](../media/lab7-image4.png)
 
+1. For Restricted app activities from the drop-down select **Block**.
+
+   ![](../media/block.png)
+
 1.  Under the Incident report, select the severity to **Medium (1)** and turn on the toggle for **Send an alert to admin when rule match occurs (2)** and select **Send alert every time an alert on an activity matches the rule (3)** and click on **Save (4)**.
 
       ![](../media/lab7-image5.png)
@@ -262,8 +266,7 @@ In this task, you'll configure Browser and domain restrictions to sensitive data
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
 1. From start menu search and select **Word** and select Blank document then select **Sensitivity (1)** icon from menu bar then select **Confidential-Finance (2)** label. 
-   add some demo credit card numbers into a Word document.
- 
+  
     ![](../media/demo11.png)
 
 1. Add some demo credit card numbers into a Word document.
@@ -274,7 +277,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
      - Search and select **OneDrive** and sign in with user credential.
     
-    - From menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
+    - On word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
  
        ![](../media/EM-38.png)
       
@@ -282,11 +285,10 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 
        ![](../media/EM-46.png)
       
-    - Then Close **Word** document  and wait until its shown as Green mark which indicates **Available on this device**.
+    - Then Close **Word** document and wait until its shown as Green mark which indicates **Available on this device**.
  
        ![](../media/EM-39.png)
     
- 
     - Right click on **Confidential-document** in cascade menu select **Share** then on the share **Confidential-document** window click on **Copy Link** button.
  
        ![](../media/EM-40.png)
