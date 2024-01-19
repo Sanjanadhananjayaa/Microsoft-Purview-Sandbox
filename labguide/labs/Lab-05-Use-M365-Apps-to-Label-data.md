@@ -26,25 +26,27 @@ In this task, you'll use a Word document to go through the process of applying a
 
 >**Note**: Applying sensitivity labels to your content enables you to keep your data secure by stating how sensitive certain data is in your organization. It also abstracts the data itself, so you use labels to track the type of data, without exposing sensitive data on another platform.
 
-1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon**, and **right click on the Word icon (1)** and select **Open in new tab (2)**. 
+1. Navigate back to the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon (1)**, on the **Word** select **Open context menu (2)** and select **Open in new tab (3)**. 
 
-   ![](../media/lab5-image1.png) 
+   ![](../media/opencontextmenu.png)  
 
-1. Select **blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down arrow, next to where it says **Document - Saved (1)**, and in the File Name box enter, **Test-label (2)**.
+1. Select **blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down arrow, next to where it says **Document (1)**, and in the File Name box enter, **Test-label (2)** and press enter.
 
-   ![](../media/lab5-image2.png)
+   ![](../media/testlabel.png)
 
    >**Note**: In this step, we are creating a new Word document that will be utilized for applying a sensitivity label.
 
-1. From the top menu bar, select **Sensitivity (1)** (**Note**: If the option is not available, it will take some time to reflect Alternatively try refreshing the page or sign out and sign in again) From the drop-down select **Confidential-Finance (2)**.
+   >**Note:** Select **Close** on **Your privacy option**.
 
-    ![](../media/lab5-image3.png)
+1. From the top menu bar, select **Sensitivity (1)**. (**Note**: If the option is not available, it will take some time to reflect Alternatively try refreshing the page or sign out and sign in again) From the drop-down select **Confidential-Finance (2)**.
+
+    ![](../media/finance.png)
 
    >**Note**: The sensitivity bar makes it easy for you to see what label is applied to your file, and to apply or change a label whenever you need to, including when saving the file. Just select the sensitivity bar in the save dialog to see the labelling options for this file.
    
    >**Note**: Applying a sensitivity label helps secure data by abstracting sensitive content.
 
-1. From the top menu bar, select **View**, then select **Reading view**.
+1. From the top menu bar, select **View (1)**, then select **Reading view (2)**.
 
      ![](../media/lab5-image4.png)       
 
@@ -52,7 +54,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
 1. Notice how the document includes the watermark.
 
-    ![](../media/lab5-image7.png) 
+    ![](../media/testlabell.png) 
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
@@ -68,21 +70,33 @@ In addition to content marking, the label protection setting was set for encrypt
 
 >**Note**: These steps demonstrate the practical impact of the sensitivity label, showcasing how protection settings and permissions affect the opening of the document in a real-world scenario.
 
-1. From the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon**, and **right click on the Outlook icon (1)** and select **Open in new tab (2)**.
+1. Navigate back to the [Microsoft Purview](https://compliance.microsoft.com/) home page, select **App launcher icon (1)** on the **Outlook** select **Open context menu (2)** and select **Open in new tab (3)**.
 
-      ![](../media/lab5-image5.png) 
+      ![](../media/outlook11.png) 
 
-1. Select **New Email** from the top left corner of the screen. Enter your personal email address and enter **Test** in the subject line.
+1. Select **New Email** from the top left corner of the screen. In **To** section, enter your **personal email address (1)** and enter **Test (2)** in the subject line. Select **Attach (3)**.
 
-1. Select **Attach**.
+   ![](../media/outlook12.png)
+
+   ![](../media/test.png)
 
 1. Select **One drive**.
 
-1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**. Press **Send**.
+   ![](../media/onedrive.png)
+
+1. From the list that shows up, select the checkbox of the **Test-label (1)** document you created and to which you applied the label. Select **drop-down (2)** button next to the **Share link**, and select **Attach (3)**. Press **Send (4)**.
+
+   ![](../media/test-label.png)
+
+   ![](../media/send.png)
 
 1. Check the email to which you sent the document. Note, that the email may be directed to your junk folder. When you attempt to open the attached Word file you will see a notification that you do not have permission to open the document.
 
-1. Close the open browser tabs.
+   ![](../media/spam.png)
+
+   ![](../media/preview.png)
+
+1. Close the Outlook tabs.
 
    >**Note**: For example, applying the sensitivity label ‘confidential finance’ to a document that contains credit card numbers helps you identify the sensitivity of the document without knowing the actual data in the document.
 
@@ -97,6 +111,4 @@ During this lab, you've gained knowledge on the process:
 + How to apply a Sensitivity label to a Word document 
 + Testing Sensitivity Label Impact by Sending and Checking an Encrypted Document
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.

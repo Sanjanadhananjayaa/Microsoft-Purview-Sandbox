@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. 
 In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. If you have not already logged in to the admin center, the address bar of Microsoft Edge enter **admin.microsoft.com**.
+1. Navigate back to the **Microsoft 365 admin center** portal.
 
 1. On **Sign in** blade, you will see a login screen, in which you enter the following email/username 
  
@@ -44,7 +44,7 @@ In this task, you as the global admin, will add specific users as members of the
 
     ![](../media/sc-900-lab15-1-02.png)
 
-1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**. You may need to scroll down to see this option.
+1. From the left navigation pane of the Microsoft Defender portal, select **Permissions**. You may need to scroll down to see this option.
 
 1. From the Permissions page, under **Email & collaboration roles (1)** select **Roles (2)**.
 
@@ -64,7 +64,7 @@ In this task, you as the global admin, will add specific users as members of the
 
    ![](../media/lab15-image3.png)
 
-1. On **Manage ediscovery Administrator**, click on **Choose users (1)** and select **ODL_User (2)** from the list and click on **Select (3)** and **Next**.
+1. On **Manage ediscovery Administrator**, click on **Choose users (1)** and select **ODL_User <inject key="DeploymentID" enableCopy="false"/> (2)** from the list and click on **Select (3)** and **Next**.
 
    ![](../media/lab15-image4.png)
 
@@ -78,7 +78,7 @@ In this task, you as the global admin, will add specific users as members of the
 
 1. On **You successfully updated the role group** page, select **Done**.
  
-1. Close all the tabs except the **admin.microsoft.com** and then **Sign out** from the admin center page and **Sign in** back again to reflect the permissions added for users faster.
+1. Close all the tabs except the **Microsoft 365 admin center** and then **Sign out** from the admin center page and **Sign in** back again to reflect the permissions added for users faster.
 
 ## Task 2: Create a case to start using Core eDiscovery
 
@@ -126,7 +126,7 @@ In this task, you will create an eDiscovery hold for the case you just created. 
 
     ![](../media/lab15-image14.png)
 
-1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the Status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (3)** user and click on **Done (4)**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
+1. On **Choose locations** page, select toggle switch next to Exchange mailboxes to set the Status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL_User <inject key="DeploymentID" enableCopy="false" /> (3)** user and click on **Done (4)**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
     
     ![](../media/lab15-image15.png)
    
@@ -167,7 +167,7 @@ In this task, you will create a search query. Once your search is complete you w
 
      ![](../media/lab15-image23.png)
 
-1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**.  
+1. On **Choose locations** page, select toggle switch next to Exchange mailbox to set the status to **On (1)**, select **Choose users, groups, or teams (2)** and select the **ODL_User <inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**.  
 
     ![](../media/lab15-image24.png)
    
@@ -239,6 +239,4 @@ During this lab, you've gained knowledge on the following:
 - Created an eDiscovery hold
 - Created a search query
   
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.

@@ -29,34 +29,49 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
 
-1. Sign in to **Azure portal** with following credentials:
+1. Inside the Lab-VM, double click on the **Azure Portal** shortcut, and sign in with following credentials:
    
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
     * Password: <inject key="AzureAdUserPassword"></inject>
+
+      ![](../media/azureportal.png)
   
-1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Entra ID**, and then select **Microsoft Entra 
-   ID** under services.
+1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Microsoft Entra ID (1)**, and then select **Microsoft Entra ID (2)** under services.
 
-1. On **Overview** page, Under **Manage** section select **User**.
+   ![](../media/MicrosoftentraID.png)
+
+1. On **Overview** page, Under **Manage** section select **Users**.
+
+   ![](../media/microsoftentraid1.png)
    
-1. Choose the <inject key="AzureAdUserEmail"></inject> user, then click on the **Properties** tab. Scroll down and navigate to Job Information, click on the **Edit** icon.
+1. Choose **ODL_User <inject key="DeploymentID" enableCopy="false"/> (1)** user, then click on the **Edit properties (2)** tab.
 
-1. Under the **Job information** tab for the Department field, enter **HR (1)**, then click **Save (2)**.
+   ![](../media/odluser1.png)
+
+   ![](../media/editproperties.png)
+
+1. Scroll down and select **Job Information (1)**. Under the **Job information** tab for the **Department** field, enter **HR (2)**, then click **Save (3)**.
 
    ![](../media/b-image10.png)
    
-1. Back on user blade, select **+ New user** from drop down choose **Create new user**.
+1. On the **ODL_User <inject key="DeploymentID" enableCopy="false"/>**, select **Users**. Back on user blade, select **+ New user (1)** from drop down choose **Create new user (2)**.
 
-1. Create a new user on the **Basics** tab with the following settings (leave others with their defaults) and select **Next: properties >**.
+   ![](../media/users.png)
+
+   ![](../media/entraid.png)
+
+1. Create a new user on the **Basics** tab with the following settings (leave others with their defaults) and select **Next: properties > (6)**.
 
     | Setting | Value |
     | --- | --- |
-    | User principal name | **Johndoe**  |
-    | Display Name | **Johndoe** |
-    | Auto-generate password | **unchecked**  |
-    | Password | **Provide a secure password** |
-    | Account enabled | **Checked** |
+    | User principal name | **Johndoe (1)**  |
+    | Display Name | **Johndoe (2)** |
+    | Auto-generate password | **unchecked (3)**  |
+    | Password | **Provide a secure password (4)** |
+    | Account enabled | **Checked (5)** |
+
+    ![](../media/newuser.png)
         
 1. On  the **Properties** tab specify the following settings (leave others with their defaults):  
 
@@ -69,9 +84,15 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. In the list of users, click the newly created user account to display its blade.
 
-1. Select **john doe** user, from the left navigation, under **Manage**, select **Licenses**.
+   ![](../media/johndoe.png)
 
-1. On **john doe | Licenses** page, select the **+ Assignments** button.
+1. Under **Manage**, select **Licenses**.
+
+   ![](../media/licenses.png)
+
+1. On **Johndoe | Licenses** page, select the **+ Assignments** button.
+
+   ![](../media/licenses1.png)
 
 1. On the Update license assignments page, select the check box for the **Office 365 E5** license.
 
@@ -79,11 +100,13 @@ In this task, you'll set the department attribute and assign a license to the us
 
 1. When complete, select **Save**.
 
-1. Now navigate to the user profile of **john doe**  from the left navigation pane select **Licenses**.
+1. Now navigate to the user profile of **John doe**, from the left navigation pane select **Licenses**.
 
 1. Notice that the license has been assigned.
 
    >**Note**: If you're not able to view the assigned license kindly refresh the page.
+
+   ![](../media/licenses2.png)
 
 ### Task 2: Create segments for Information Barriers
 
@@ -91,9 +114,13 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 
 >**Note**: Segments are nothing but a grouping of users
 
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**
+1. In **Microsoft Edge**, navigate to **[Microsoft Purview](https://compliance.microsoft.com/homepage)**
 
-1. Under Information barrier, select Segment and  click on **+ New segment**.
+1. From the left-navigation pane, select **Information barrier (1)** drop-down, select **Segment (2)** and  click on **+ New segment (3)**.
+
+   ![](../media/segments.png)
+
+   ![](../media/segmentnew.png)
 
 1. On the **Provide a segment name** page enter **HR (1)** in name field and click **Next (2)**.
 
@@ -105,17 +132,25 @@ In this task, you'll create organization segments for the **HR** and **Finance**
 
     ![](../media/lab13-image(23).png)
    
-1. On the Summary page, click on **Submit**.
+1. On the Summary page, click on **Submit**. Once, the segment created, select **Done**.
+
+   ![](../media/submit1.png)
 
 1. Repeat the last 4 steps to create another segment with the name **Finance**. 
+
+   ![](../media/finance-hr.png)
 
 ## Task 3: Create Information barrier policies
 
 In this task, you'll create Information barrier policies to block communication between the  **HR** and **Finance** departments.
 
-1. From the left navigation page of Microsoft Purview, expand the Information Barrier and select **Policies**.
+1. From the left navigation pane of Microsoft Purview, expand the Information Barrier and select **Policies**.
+
+   ![](../media/policies.png)
 
 1. Click on **+ Create policy**.
+
+   ![](../media/createpolicy.png)
 
 1. On **Provide a policy name** page, enter **Block communication from HR to Finance (1)** and click on **Next (2)**.
 
@@ -123,19 +158,25 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. On the Add assigned segment details page, select **+ Choose segment**.
 
+   ![](../media/choosesegment.png)
+   
 1. On Select assigned segment for this policy window select **HR (1)** and click on **Add (2)**.
 
    ![](../media/lab13-image25.png)
 
 1. Back on **Add assigned segment details** page and click **Next**.
 
+   ![](../media/next3.png)
+
 1. On the **Configure communication and collaboration details** page, enter or select the following details:
 
-   - **Communication and collaboration**: Blocked
+   - **Communication and collaboration**: **Blocked (1)**
    
-   - **+ Choose segment**: Select **Finance** and click **Add**
+   - **+ Choose segment**: Select **Finance (2)** and click **Add**
    
-   - Click **Next**
+   - Click **Next (3)**
+
+   ![](../media/blocked.png)
 
 1. On the **Configure policy status** page turn on the toggle for Set your policy to active state.
 
@@ -145,54 +186,75 @@ In this task, you'll create Information barrier policies to block communication 
 
 1. Back on **Policies** page.
 
+   ![](../media/policypage.png)
+
 1. Click on **+ Create policy**.
 
-1. On the **Provide a policy name** page, enter **Block communication from Finance to HR** and click on **Next**.
+   ![](../media/policypage1.png)
+
+1. On the **Provide a policy name** page, enter **Block communication from Finance to HR (1)** and click on **Next (2)**.
+
+   ![](../media/blockfinance.png)
    
 1. On the Add assigned segment details page, select **+ Choose segment**.
 
+   ![](../media/choosesegment1.png)
+
 1. On Select assigned segment for this policy window select **Finance** and click on **Add**.
+
+   ![](../media/financeadd.png)
     
 1. Back on **Add assigned segment details** page and click **Next**.
 
+   ![](../media/financeadd1.png)
+
 1. On the **Configure communication and collaboration details** page, enter or select the following information:
 
-   - **Communication and collaboration**: Blocked
+   - **Communication and collaboration**: **Blocked (1)**
    
-   - **+ Choose segment**: select **HR** and click **Add**
+   - **+ Choose segment**: select **HR (2)** and click **Add**
    
-   - Click **Next**
+   - Click **Next (3)**
 
-1. On the **Configure policy status** page turn on the toggle for Set your policy to active state.
+      ![](../media/blocked1.png)
+
+1. On the Configure Policy Status page, **turn on the toggle (1)** to set your policy to an active state. Select **Next (2)**.
 
     ![](../media/lab13-image26.png)
 
 1. On Summary page click on **Submit** and **Done**.
 
+   ![](../media/policies1.png)
+
 ### Task 4: Enable Scoped Directory Search on Microsoft Teams
 
 In this task, you'll learn how to Enable Scoped Directory Search on Microsoft Teams
 
-1. Sign in to Office 365 (https://www.office.com/) portal.
+1. In **Microsoft Edge**, open a new browser tab, navigate to [Microsoft 365](https://www.office.com/) portal. 
+
+   >**Note:** If it asks you for the **Sign in**, enter the following * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**. On **Enter Password** blade, enter the following * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **Sign in**.
 
 1. Select **Admin** from left pane.
 
+   ![](../media/admin.png)
+
 1. On **Microsoft 365 admin center** portal, select **Show all**.
+
+   ![](../media/microsoft365admincenter.png)
    
 1. Under **Admin center** section, select **Teams**.
 
-1. On **Microsoft Teams admin center**, from the left navigation pane select **Teams settings (1)** and scroll down under search by name  then turn on the toggle for **Scope 
-   directory search using an Exchange address book policy (2)**.
+   ![](../media/teams.png)
 
-     ![](../media/b-image13.png)
+1. On **Microsoft Teams admin center**, from the left navigation pane, expand **Teams (1)** select **Teams settings (2)** and scroll down under search by name  then turn on the toggle for **Scope directory search using an Exchange address book policy (3)**. Click on **Save (4)**. Select **Confirm** on the **Changes might take some time to take effect** pop-up.
 
-1. Click on **Save**.
+     ![](../media/teamssettings.png)
 
 ## Task 5: Apply Information barrier policies
 
 In this task, you will apply the active Information barrier policies and check their application status.
 
-1. From the left Navigation Pane, expand the Information Barrier and select **Policy application**.
+1. Naviagte back to the **Microsoft Purview** portal. From the left Navigation Pane, expand **Information Barrier (1)** and select **Policy application (2)**.
 
     ![](../media/lab13-image27.png)
 
@@ -206,7 +268,7 @@ In this task, you will apply the active Information barrier policies and check t
 
    >**Note**: Kindly **Refresh** page and Wait for the status to transition from **NotStarted** to **Completed**; this process may take 5 to 10 minutes.
 
-### Task 5: Assess Information Barriers functionality within Microsoft Teams.
+### Task 6: Assess Information Barriers functionality within Microsoft Teams.
 
 In this task, you'll test the Use Information Barriers policy which blocks users from sending messages in teams.
 
@@ -234,6 +296,12 @@ In this task, you'll test the Use Information Barriers policy which blocks users
 
     >**Note**: If the users conducting these activities in Microsoft Teams are included in an IB policy to prevent the activity, they won't be able to proceed. In addition, everyone included in an IB policy can be potentially blocked from communicating with other users in Microsoft Teams. When users affected by IB policies are part of the same team or group chat, they may be removed from those chat sessions and further communication with the group may not be allowed.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 ### Conclusion:
 By completing these tasks, you successfully configured Information Barriers, assigned attributes and licenses, created segments and policies, and tested their functionality in Microsoft Teams. This ensures data security, compliance, and controlled communication within the organisation.
 
@@ -245,6 +313,4 @@ During this lab, you've gained knowledge on the following:
 + Apply Information barrier policies
 + Assess Information Barriers functionality within Microsoft Teams.
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.

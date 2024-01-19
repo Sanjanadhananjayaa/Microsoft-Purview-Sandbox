@@ -120,7 +120,7 @@ In this task, you will create a retention policy for the finance and legal depar
 
     ![](../media/lab16-image16.png)
 
-1. For the **Query operator**, **Attribute**, **Operator**, and **Value** input, ensure the checkboxes are selected next to each attribute then select **Next**.
+1. For the **Query operator**, **Attribute**, **Operator**, and **Value** input, enter the following information,
 
    - **Query operator**: Or
    
@@ -146,7 +146,7 @@ In this task, you will create a retention policy for the finance and legal depar
 
 1. On the **Data lifecycle management** page select the **Retention policies** tab then select **+ New retention policy**.
 
-1. On the **Name your retention policy** page input and select **Next**.
+1. On the **Name your retention policy** page input and select **Next (3)**.
 
     - **Name (1)**: Legal Data Retention
     
@@ -174,12 +174,12 @@ In this task, you will create a retention policy for the finance and legal depar
  
       ![](../media/lab16-image25.png)
 
-1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section input and select **Next**.
+1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section input and select **Next (4)**.
 
     - **Retain items for a specific period**: Choose **Custom** from the dropdown list.
-    -  Change the **years** field to **0**, **month** field to **3** and **days** to **0**.
-    - **Start the retention period based on**: When items were created
-    - **At the end of the retention period**: Do nothing
+    -  Change the **years** field to **0**, **month** field to **3** and **days** to **0** (1).
+    - **Start the retention period based on**: When items were created (2)
+    - **At the end of the retention period**: Do nothing (3)
 
         ![](../media/lab16-image26.png)
 
@@ -194,6 +194,12 @@ In this task, you will create a retention policy for the finance and legal depar
    You have successfully applied an adaptive scope to a retention policy.
 
    >**Note**: Retention policies are crucial for organizations to systematically manage data, comply with legal requirements, and enforce consistent information governance. By creating retention policies, Contoso Ltd. aims to adhere to state laws that specify the deletion of records after one day. 
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Conclusion
 

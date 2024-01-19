@@ -29,13 +29,21 @@ In this lab, you will complete the following tasks:
 
 In this lab, you'll create a purview account on the Azure Portal
 
-1. Sign in to **Azure Portal**.
+1. Inside the Lab-VM, double click on the **Azure Portal** shortcut, and sign in with following credentials:
+   
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+    * Password: <inject key="AzureAdUserPassword"></inject>
+
+      ![](../media/azureportal.png)
 
 1. On the Azure Portal page, in the **Search resources, services and docs** box at the top of the portal, enter **Microsoft Purview (1)**, and then select **Microsoft Purview accounts (2)** under services.
    
    ![](../media/lab14-image1.png)
 
 1. Select **+ Create** on Microsoft Purview accounts page.
+
+   ![](../media/microsoftpurviewcreate.png)
 
 1. On the Basics tab specify the following details and click **Review + Create (5)**.
 
@@ -45,7 +53,7 @@ In this lab, you'll create a purview account on the Azure Portal
      | Subscription                           | Accept the default             |
      | Resource Group                         | **Purview-rg (2)**                     | 
      | Microsoft cover your account name      | **purview-account1-<inject key="DeploymentID" enableCopy="false"/>** **(3)**              | 
-     |    location                            | **West US (4)**                       |
+     |    location                            | **Accept the default (4)**                       |
      |||
 
     ![](../media/lab14-image2.png)
@@ -56,9 +64,13 @@ In this lab, you'll create a purview account on the Azure Portal
 
 In this task, you'll create a storage account and container
 
-1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Storage accounts**, and then select  **Storage accounts** under services.
+1. On Azure Portal page, in **Search resources, services and docs** box at the top of the portal, enter **Storage accounts (1)**, and then select  **Storage accounts (2)** under services.
+
+   ![](../media/storageaccounts.png)
 
 1. On the **Storage accounts** page, click on **+ Create**.
+
+   ![](../media/storageaccountcreate.png)
 
 1. On the Basics tab specify the following details and click **Next : Advance > (6)**.
 
@@ -68,7 +80,7 @@ In this task, you'll create a storage account and container
      | Subscription | Accept the default     |
      | Resource Group  | **Purview-rg (2)**     | 
      | Storage account name | **storage<inject key="DeploymentID" enableCopy="false"/> (3)** |  
-     | Region         | **West US (4)**   |
+     | Region         | **Accept the default (4)**   |
      | Redundancy    |     **Locally-redundant storage (LRS) (5)**|
      |||
 
@@ -82,7 +94,9 @@ In this task, you'll create a storage account and container
 
 1. Once the storage account is created, click on the storage account which you created.
    
-1. Under the Data Storage section, select the **Containers** option and click on **+ Container**. Provide some name and click on **Create**.
+1. From the left navigation pane, under the Data Storage section, select the **Containers (1)** option and click on **+ Container (2)**. Provide some name and click on **Create**.
+
+   ![](../media/containers.png)  
 
 1. Open the File Explorer and create some text files.
 
@@ -92,11 +106,9 @@ In this task, you'll create a storage account and container
 
 In this task, you'll work on Azure Storage in-place data sharing with Microsoft Purview
 
-1. Sign in to Purview (https://purview.microsoft.com/)
+1. In **Microsoft Edge**, open a new tab, and sign in to Purview (https://purview.microsoft.com/).
 
-1. On the **Select a Microsoft Purview account** page, leave default for **Microsoft Entra ID (1)** and for **Account name (2)** select purview and click on **Continue (3)**.
-   
-    ![](../media/lab14-image5.png)
+1. On **Welcome to the new Microsoft Purview portal!** pop-up, select both the checkboxes, and select **Try now**.
 
 1. On the Microsoft Purview portal from the left navigation Pane, select **Data Map**. in the Data sources click on the **Register icon (2)**.
 
@@ -121,15 +133,23 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 
     ![](../media/lab14-image8.png)
 
-1. In the Azure portal, in the search bar, search for subscription and select Subscription which is listed.
+1. Navigate back to the **Azure portal**, in the search bar, search for **subscriptions (1)** select **Subscriptions (2)**,  and select the subscriptions which is listed.
+
+   ![](../media/microsoftpurviews.png)
 
 1. Under the Settings section, select the **Preview features** option.
 
-1. In Search bar search for allow, select **AllowDataSharingInheroRegion** and **AllowDataSharing**, click on **+ Register**.
+   ![](../media/micrsoftpurviewfeatures.png)
 
-1. Under the Setting section, select **Resource providers** and in the search bar search for storage and select **Microsoft.StorageActions**,  **Microsoft.StorageTasks** and click on **Register**.
+1. In Search bar search for **AllowData (1)**, select **AllowDataSharingInheroRegion (2)** and **AllowDataSharing (2)**, click on **+ Register (3)**.
 
-1. Return back to **Purview (https://purview.microsoft.com/)**.
+   ![](../media/register.png)
+
+1. Under the Setting section, select **Resource providers (1)** and in the search bar search for **storage (2)** and select **Microsoft.StorageActions (3)**,  and click on **Register (4)**. Now, select ****Microsoft.StorageTasks**, and click on **Register**.
+
+   ![](../media/storageactions.png)
+
+1. Navigate back to **[Microsoft Purview](https://purview.microsoft.com/)**.
 
 1. Select **Data Catalog**, Under Data Sharing section, select **Shares** and click on **+ New share**.
 
@@ -152,6 +172,12 @@ In this task, you'll work on Azure Storage in-place data sharing with Microsoft 
 1. Back on shares notice Sent shares.
 
     ![](../media/lab14-image12.png)
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 4: Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 
@@ -195,6 +221,4 @@ During this lab, you've gained knowledge on the following:
 + Task 4: Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 + Task 5: Updated received share (Read Only)
 
-### You have successfully completed the lab
-
-### Click on Next to continue with the next lab
+## You have successfully completed the lab. Click on Next >>.
