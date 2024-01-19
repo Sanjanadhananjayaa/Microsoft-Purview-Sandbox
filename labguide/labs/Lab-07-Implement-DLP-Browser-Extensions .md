@@ -260,20 +260,35 @@ In this task, you'll configure Browser and domain restrictions to sensitive data
 In this task, you'll assess the implementation of the Microsoft Purview extension for Chrome and observe how the policy restricts activities that violate the established guidelines.
 
 1. From start menu search and select **Word** and select Blank document then select **Sensitivity (1)** icon from menu bar then select **Confidential-Finance (2)** label  and 
-   add some text into a Word document and save the file as **Confidential-document**.
-
+   add some demo credit card numbers into a Word document.
+ 
     ![](../media/demo11.png)
-
-1. Search for **Google Chrome (1)** and select **Google Chrome (2)** from the start menu copy the link of a Word document containing sensitive information, and then try to paste it into Google Chrome. Observe the notification indicating a lack of permission to access the file.
-
-    >**Note**: The policy will take *one to two* hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
-
-   ![](../media/googlechrome.png)
-
+ 
+    ![](../media/EM-37.png)
+ 
+1. To Save file as **Confidential-document** in **One drive** and to copy the link of **Confidential-document** file following the below step :
+ 
+    - From menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
+ 
+       ![](../media/EM-38.png)
+    - In file explorer provide **Confidential-document** in File name and click on **Save**.
+    - Then Close **Word** app and wait until its shown as Green mark which indicates **Available on this device**.
+ 
+       ![](../media/EM-39.png)
+ 
+    - Right click on **Confidential-document** in cascade menu select **Share** then on the share **Confidential-document** window click on **Copy Link** button.
+ 
+       ![](../media/EM-40.png)
+1. Search and select Google Chrome from the start menu  paste the link of a Word document containing sensitive information. Observe the notification indicating a lack of permission to access the file.
+ 
+    >**Note**: The policy will take **one to two** hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
+ 
 1. Open another tab in Google Chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the **Confidential-document** document where sensitivity
    label is applied and notices how policy is blocked from uploading protected files from unallowed browsers Cloud Egress.
-
+ 
     ![](../media/demo12.png)
+ 
+   >**Note**: If you have tried performing this step please clear the history.
 
    >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
 
