@@ -294,7 +294,9 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
        ![](../media/EM-40.png)
 
 1. Search and select Google Chrome from the start menu  paste the link of a Word document containing sensitive information. Observe the notification indicating a lack of permission to access the file.
- 
+
+     ![](../media/EM-49.png)
+
     >**Note**: The policy will take **one to two** hours to take effect. Please proceed with the next **Exercise** and return to complete this task afterwards.
  
 1. Open another tab in Google Chrome and browse for (https://www.virustotal.com/gui/home/upload) and upload the **Confidential-document** document where sensitivity
