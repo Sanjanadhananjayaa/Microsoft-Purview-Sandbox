@@ -248,9 +248,7 @@ In this task, you'll Compose an email containing sensitive information that matc
    >**Note**: Browse for test credit card numbers and copy/paste them when executing this step, you can use this website for accessing demo credit card number 
      [Test Credit Card Numbers.](https://support.bluesnap.com/docs/test-credit-card-numbers)
 
-1. Repeat the last step for at least 4 to 5 times to in order to trigger the alerts. until you receive the **Severity alert** mail from office 365.
- 
-    ![](../media/demo2.png)
+1. Repeat the last step for at least **four to five** times send credit card number to different email id, in order to trigger the alerts.
 
 1. Observe that email is blocked by the policy, and you'll receive a message as demonstrated below.
 
@@ -265,7 +263,6 @@ In this task, you'll Compose an email containing sensitive information that matc
    >**Note**: Alerts can be sent every time an activity matches a rule, which can be noisy or they can be aggregated based on the number of matches or volume of items over a set period.
    
    >**Note**: Ensure that the DLP policy is configured to block everyone for the specified actions. When the sensitive content triggers the DLP rule, the email should be blocked from being sent.
-
 
 ### Conclusion
 
