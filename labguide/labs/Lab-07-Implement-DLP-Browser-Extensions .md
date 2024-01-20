@@ -277,7 +277,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
      - Search and select **OneDrive** and sign in with user credential.
     
-    - On word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
+     - On word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
  
        ![](../media/EM-38.png)
       
@@ -304,7 +304,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
     ![](../media/demo12.png)
  
-   >**Note**: If you have tried performing this step please clear the history and perform the task.
+   >**Note**:  Before proceeding, kindly clear your browsing history to avoid any potential issues. If you have already to tried performing this step before.
 
    >**Note**: By successfully implementing the Microsoft Purview extension for Google Chrome, you have enhanced data discovery capabilities, allowing for more effective management and protection of sensitive information across web pages and documents. This integration supports a proactive approach to data governance within your organization.
 
