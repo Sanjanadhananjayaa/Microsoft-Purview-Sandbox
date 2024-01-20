@@ -28,6 +28,8 @@ In this task, you'll explore investigating DLP alerts in Microsoft Purview.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention** and select **Alerts (1)** and notice alerts have been generated you can view details for each alert.
 
+   >**Note**: We would like to inform you that our Data Loss Prevention (DLP) policy may take some time to trigger an alert, and in certain instances, it may not generate an alert randomly. Please proceed with the task at hand, keeping in mind that while the DLP policy is in place to enhance security, occasional delays or non-triggering of alerts can occur.
+    
    ![](../media/cc19.png)
 
 1. Choose filters to refine the list of alerts. Choose Customize columns to list the properties you want to see. You can also choose to sort the alerts in ascending or descending order in any column.
