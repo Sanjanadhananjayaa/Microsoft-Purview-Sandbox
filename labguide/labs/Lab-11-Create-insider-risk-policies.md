@@ -84,7 +84,7 @@ In this task, you will walk through the settings associated with the Insider Ris
    
     - **Privacy tab**: For users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities. Select **Do not show anonymized versions of usernames** then select **Save**. Select the **Policy indicators** tab.
 
-      ![](../media/sc-900-lab14-T3-2.png)
+      ![](../media/EM-52.png)
     
     - **Policy indicators tab**: Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. Policy indicators selected here are included in the Insider risk policy templates. Scroll to view all the indicators available and any associated information. Under **Office indicators**, select **Select all**, scroll down and then select **Save**.  Select the **Policy timeframes** tab.
 
@@ -94,12 +94,20 @@ In this task, you will walk through the settings associated with the Insider Ris
 
       ![](../media/sc-900-lab14-T3-4.png)
    
-    - **Intelligent detections tab**:  Review the options here. scroll down and under **Alert Volume** move slide bar to **More alerts**.
+    - **Intelligent detections tab (1)**:  Review the options here. scroll down and under **Alert Volume (2)** move slide bar to **More alerts (3)**.
          
          >**Note**: The domain settings and how they relate to the indicators.
 
-      ![](../media/EM-33.png)
-   
+      ![](../media/EM-(33).png)
+
+    - **Data sharing (1)** tab : turn on toogle for **Export alert details to SIEM services (2)** and **Share data with Microsoft Defender XDR (preview) (3)**.
+        
+       ![](../media/EM-50.png)
+  
+    - **Admin notification (1)**:  Review the settings and turn on all **Check boxs** **(2)** and select **Save** button from the buttom of the page.
+
+       ![](../media/EM-51.png)
+       
     - Other items listed in the settings are in preview. Explore these at will and note that as a preview, they are subject to change.
 
 1. To return to the Insider risk management overview, select **Insider risk management** from the top-left corner of the page, above where it says Settings.
