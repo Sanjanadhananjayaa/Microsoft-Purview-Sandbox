@@ -121,7 +121,7 @@ In this task, you'll Investigate insider risk activities.
 
       ![](../media/demo4.png)
 
-   >**Note**: It will take up to 3 - 4 hours for the user activities to reflect under the **User activity** blade, meanwhile you can proceed with the next exercise. 
+   >**Note**: It will take up to 24 hours for the user activities to reflect under the **User activity** blade, meanwhile you can proceed with the next exercise. 
 
 1. Select **User activity** tab and review the details and notice **Exfiltration** then click on 1 Email link.
 
