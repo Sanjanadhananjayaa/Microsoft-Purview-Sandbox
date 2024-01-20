@@ -53,7 +53,7 @@ In this lab, you'll create a purview account on the Azure Portal
      | Subscription                           | Accept the default             |
      | Resource Group                         | **Purview-rg (2)**                     | 
      | Microsoft cover your account name      | **purview-account1-<inject key="DeploymentID" enableCopy="false"/>** **(3)**              | 
-     |    location                            | **Accept the default (4)**                       |
+     |    location                            | **West us (4)**                       |
      |||
 
     ![](../media/lab14-image2.png)
@@ -80,7 +80,7 @@ In this task, you'll create a storage account and container
      | Subscription | Accept the default     |
      | Resource Group  | **Purview-rg (2)**     | 
      | Storage account name | **storage<inject key="DeploymentID" enableCopy="false"/> (3)** |  
-     | Region         | **Accept the default (4)**   |
+     | Region         | **West us (4)**   |
      | Redundancy    |     **Locally-redundant storage (LRS) (5)**|
      |||
 
