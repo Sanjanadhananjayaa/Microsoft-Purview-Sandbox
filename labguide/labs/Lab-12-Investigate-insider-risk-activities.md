@@ -102,8 +102,7 @@ In this task, you'll Investigate insider risk activities.
 
    ![](../media/opencontextmenu.png)
    
-1. select **Black document** and 
-   create  2 - 3 plain word document and save it.
+1. select **Black document** and create  two - three plain word document and save it.
 
 1. Navigate back to the Microsoft Purview home page, From the Microsoft Purview home page, select **App launcher icon (1)**, on the **Outlook** select **Open context menu (2)** and select **Open in new tab (3)**.
 
@@ -113,7 +112,7 @@ In this task, you'll Investigate insider risk activities.
 
     ![](../media/outlook12.png)
 
-1. Repeat the above step at least 4 to 5 times to view more activities.   
+1. Repeat the above step at least *four to five* times to view more activities.   
 
 1. Navigate to the **Insider risk management** page, select the Overview tab scroll down and select **Investigate user activity**, where you can view user activity.
 
@@ -121,7 +120,7 @@ In this task, you'll Investigate insider risk activities.
 
       ![](../media/demo4.png)
 
-   >**Note**: It will take up to 24 hours for the user activities to reflect under the **User activity** blade, meanwhile you can proceed with the next exercise. 
+   >**Note**: It will take up to 24 hours to reflect the user activities under the **User activity** blade and alerts, meanwhile you can proceed with the next exercise. 
 
 1. Select **User activity** tab and review the details and notice **Exfiltration** then click on 1 Email link.
 
