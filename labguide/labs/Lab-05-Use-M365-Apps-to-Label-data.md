@@ -90,11 +90,11 @@ In addition to content marking, the label protection setting was set for encrypt
 
    ![](../media/send.png)
 
-1. Check the email to which you sent the document. Note, that the email may be directed to your junk folder. When you attempt to open the attached Word file you will see a notification that you do not have permission to open the document.
+1. Check the email to which you sent the document. Note, that the email may be directed to your junk or spam folder. When you open you will see a notification as shown as below picture.
 
    ![](../media/spam.png)
 
-   ![](../media/preview.png)
+   ![](../media/EM-(53).png)
 
 1. Close the Outlook tabs.
 
