@@ -287,9 +287,13 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
      
      - Click on **OK** and **Done**.
 
-     - Select **Next** for all the wizard and click **ok** on **Back up folder on this PC**.
+     - Select **Next** and click **I'll do it later** on **On the Back up folders on this PC**.
 
      - On the **Get the mobile app** select **Later**.
+
+     - Select for **Next** for rest of the wizard.
+       
+     - On the **Your OneDrive is ready for you** select **Open my OneDrive folder**.
     
      - Back to word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
  
