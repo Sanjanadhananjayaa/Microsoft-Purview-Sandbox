@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 In this lab, you'll install Azure Information Protection Unified Labeling Client 
 
-1. Open a new tab in **Microsoft Edge** and browse for [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53018) to download AzInfoProtection_UL.exe.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, open a new tab in **Microsoft Edge** and browse for [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53018) to download AzInfoProtection_UL.exe.
 
 1. On the **Azure Information Protection** page click on **Download**.
 
