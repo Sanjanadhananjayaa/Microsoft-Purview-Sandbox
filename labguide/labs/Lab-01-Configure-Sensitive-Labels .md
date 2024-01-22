@@ -26,7 +26,34 @@ In this lab, you will complete the following tasks:
 
 In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
 
-1. If you have not already logged in to the admin center, in the address bar of Microsoft Edge enter [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+1. In the **Azure Portal** from the **Resource groups** blade, select **purview-rg**.
+
+    ![](../media/azureportal3.png)
+  
+1. From the list of resouces select **cvm**.
+
+    ![](../media/azureportal4.png)
+
+1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the drop-down.
+
+    ![](../media/azureportal5.png)
+
+1. Within **cvm | Connect** blade, under most common select **Download RDP file**.
+
+     ![](../media/azureportal6.png)
+   
+1. **Open** the downloaded RDP file and click **Connect** when prompted.
+
+     ![](../media/azureportal8.png)
+
+1. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username **.\demouser (1)** and the password **Pa$$w0rd1234 (2)**. Click **OK (3)** to connect.
+
+     ![](../media/azureportal9.png)
+
+1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+
+1. Within **cvm** RDP session. Doubt click on Microsoft Edge and enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
 
