@@ -295,7 +295,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
        
      - On the **Your OneDrive is ready for you** select **Open my OneDrive folder**.
     
-     - Back to word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
+     - Back to word document from the top of the menu select **File** option then click **Save as (1)** and under **Recent** doubt click on **OneDrive (2)**.
  
        ![](../media/EM-38.png)
       
