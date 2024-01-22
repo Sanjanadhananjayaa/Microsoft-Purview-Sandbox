@@ -31,7 +31,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/azureportal3.png)
   
-1. From the list of resouces select **cvm**.
+1. From the list of resouces select **cvm-<inject key="DeploymentID" enableCopy="false"/>**.
 
     ![](../media/azureportal4.png)
 
@@ -55,7 +55,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/azureportal10.png)
 
-1. Within **cvm** RDP session. Doubt click on Microsoft Edge and enter [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session. Doubt click on Microsoft Edge and enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
 
