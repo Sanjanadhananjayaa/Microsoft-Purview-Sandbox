@@ -53,6 +53,8 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
+    ![](../media/azureportal10.png)
+
 1. Within **cvm** RDP session. Doubt click on Microsoft Edge and enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
