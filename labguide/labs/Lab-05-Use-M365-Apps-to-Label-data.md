@@ -26,7 +26,7 @@ In this task, you'll use a Word document to go through the process of applying a
 
 >**Note**: Applying sensitivity labels to your content enables you to keep your data secure by stating how sensitive certain data is in your organization. It also abstracts the data itself, so you use labels to track the type of data, without exposing sensitive data on another platform.
 
-1. Navigate back to the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon (1)**, on the **Word** select **Open context menu (2)** and select **Open in new tab (3)**. 
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, navigate back to the [Microsoft Purview](https://compliance.microsoft.com/) home page, select the **App launcher icon (1)**, on the **Word** select **Open context menu (2)** and select **Open in new tab (3)**. 
 
    ![](../media/opencontextmenu.png)  
 
