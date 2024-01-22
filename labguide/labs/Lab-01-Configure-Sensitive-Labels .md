@@ -31,15 +31,15 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/azureportal3.png)
   
-1. From the list of resouces select **cvm-<inject key="DeploymentID" enableCopy="false"/>**.
+1. From the list of resouces select **cvm-<inject key="DeploymentID" enableCopy="false"/>** virtual machine.
 
     ![](../media/azureportal4.png)
 
-1. On the virtual machine **Overview** blade, click the **Connect (1)** button and choose the **Connect (2)** from the drop-down.
+1. On the virtual machine **Overview** blade, click the **Connect (1)** button and choose **Connect (2)** from the drop-down list.
 
     ![](../media/azureportal5.png)
 
-1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** | Connect** blade, under most common select **Download RDP file**.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/> | Connect** blade, under **Most common** select **Download RDP file**.
 
      ![](../media/azureportal6.png)
    
@@ -51,11 +51,11 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
      ![](../media/azureportal(9).png)
 
-1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+1. You may receive a certificate warning during the sign-in process. Click **Yes**. You should connect successfully.
 
     ![](../media/azureportal10.png)
 
-1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session. Doubt click on Microsoft Edge and enter [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from the start menu search and select **Microsoft Edge** and in the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
 
