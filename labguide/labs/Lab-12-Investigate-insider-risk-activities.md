@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the global administrator, will enable permissions for Insider Risk Management Investigators. Specifically, you will add users to the Insider Risk Management Investigators role group to ensure that designated users can access and manage insider risk management Investigators features.
 
-1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com/#/homepage).
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, navigate to the [Microsoft 365 admin center](https://admin.microsoft.com/#/homepage).
 
     >**Note:** If it asks you for the **Sign in**, enter the following * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**. On **Enter Password** blade, enter the following * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **Sign in**.
 
