@@ -57,7 +57,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. Now let's perform the lab within this RDP session.
    
-1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from the start menu search and select **Microsoft Edge** and in the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from desktop double click on **Microsoft Edge** and in the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
 
