@@ -31,7 +31,7 @@ In this lab, you will complete the following tasks:
 
 >**Note**: If you're onboarding Windows 10 or Windows 11 devices, we need to make sure that the device can communicate with the cloud DLP service.
 
-1. From Start menu type **cmd (1)**, right-click on **Command prompt (2)** and select **Run as administrator (3)**.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from Start menu type **cmd (1)**, right-click on **Command prompt (2)** and select **Run as administrator (3)**.
    
 1. Enter the following command and press Enter:
     ```
@@ -136,7 +136,7 @@ In this lab, you will complete the following tasks:
 
    >**Note**: The window closes automatically after running the script.
 
-1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. In the purview portal, in the left-hand menu, select **Settings (1)**, select **Devices onboarding(2)**. Select the **Device (3)**, notice onboarded device **svm-<inject key="DeploymentID" enableCopy="false"/>(4)**. If the device isn't displayed, please wait for a while.
+1. Navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. In the purview portal, in the left-hand menu, select **Settings (1)**, select **Devices onboarding(2)**. Select the **Device (3)**, notice onboarded device **cvm-<inject key="DeploymentID" enableCopy="false"/>(4)**. If the device isn't displayed, please wait for a while.
 
     >**Note**: It will take some time to onboard the device procced with next task and come back after performing **Task 1.4** then check the device status here.
 
