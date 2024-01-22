@@ -275,9 +275,23 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
 1. To Save file as **Confidential-document** in **One drive** and to copy the link of **Confidential-document** file following the below step :
  
-     - Search and select **OneDrive** and sign in with user credential.
+     - from the start menu search and select **OneDrive**.
+     
+     -  On the **Set up OneDrive** window enter the  **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Sign in (2)**
+
+           ![](../media/EM-54.png)
     
-     - On word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
+     -  On the **Office 365** window enter the password and click on **Sign in**
+
+          ![](../media/EM-55.png)
+     
+     - Click on **OK** and **Done**.
+
+     - Select **Next** for all the wizard and click **ok** on **Back up folder on this PC**.
+
+     - On the **Get the mobile app** select **Later**.
+    
+     - Back to word document from the top of the menu select **File** option then click **Save as** and under **Recent** doubt click on **OneDrive**.
  
        ![](../media/EM-38.png)
       
@@ -285,7 +299,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
 
        ![](../media/EM-46.png)
       
-    - Then Close **Word** document and wait until its shown as Green mark which indicates **Available on this device**.
+    - Then Close **Word** document and back on **Onedrive** wait until its shown as Green mark which indicates **Available on this device**.
  
        ![](../media/EM-39.png)
     
