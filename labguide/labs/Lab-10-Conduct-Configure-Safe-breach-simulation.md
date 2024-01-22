@@ -23,7 +23,7 @@ In this lab, you will complete the following task:
 
 In this task, you'll create an attack simulation, specifically a simulated phishing attack, using the Microsoft Defender portal. The objective is to guide users through the process of launching a simulated phishing attack for training and awareness purposes within the organization.
 
-1. In **Microsoft Edge**, open a new browser, and navigate to the [Microsoft Defender](https://security.microsoft.com) portal.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, in **Microsoft Edge**, open a new browser, and navigate to the [Microsoft Defender](https://security.microsoft.com) portal.
 
 1. From the left navigation menu expand **Email & collaboration (1)** and select **Attack simulation training (2)**. 
 
