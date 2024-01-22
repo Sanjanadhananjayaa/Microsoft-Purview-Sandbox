@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. 
 In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. Navigate back to the **Microsoft 365 admin center** portal.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, navigate back to the **Microsoft 365 admin center** portal.
 
 1. On **Sign in** blade, you will see a login screen, in which you enter the following email/username 
  
