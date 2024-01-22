@@ -47,7 +47,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
      ![](../media/azureportal8.png)
 
-1. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username **.\demouser (1)** and the password **<inject key="Labvm Admin" enableCopy="false"/> (2)**. Click **OK (3)** to connect.
+1. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username **.\demouser (1)** and the password **<inject key="Labvm Admin Password"></inject>**. Click **OK (3)** to connect.
 
      ![](../media/azureportal(9).png)
 
