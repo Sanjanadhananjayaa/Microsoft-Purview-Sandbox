@@ -35,11 +35,11 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
     ![](../media/azureportal4.png)
 
-1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the drop-down.
+1. On the virtual machine **Overview** blade, click the **Connect (1)** button and choose the **Connect (2)** from the drop-down.
 
     ![](../media/azureportal5.png)
 
-1. Within **cvm | Connect** blade, under most common select **Download RDP file**.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** | Connect** blade, under most common select **Download RDP file**.
 
      ![](../media/azureportal6.png)
    
@@ -49,7 +49,7 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username **.\demouser (1)** and the password **Pa$$w0rd1234 (2)**. Click **OK (3)** to connect.
 
-     ![](../media/azureportal9.png)
+     ![](../media/azureportal(9).png)
 
 1. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
