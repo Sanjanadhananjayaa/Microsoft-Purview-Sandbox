@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
 In this lab, you'll create a purview account on the Azure Portal
 
-1. Inside the Lab-VM, double click on the **Azure Portal** shortcut, and sign in with following credentials:
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, double click on the **Azure Portal** shortcut, and sign in with following credentials:
    
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
