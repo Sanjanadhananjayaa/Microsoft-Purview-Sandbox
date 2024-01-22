@@ -279,7 +279,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
      
      -  On the **Set up OneDrive** window enter the  **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Sign in (2)**
 
-           ![](../media/EM-54.png)
+        ![](../media/EM-54.png)
     
      -  On the **Office 365** window enter the password and click on **Sign in**
 
