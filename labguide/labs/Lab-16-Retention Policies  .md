@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you will create a company-wide retention policy, apply a retention period, and set the locations in which the policy will be applied.
 
-1. In **Microsoft Edge**, navigate to **https://compliance.microsoft.com**.
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, in **Microsoft Edge**, navigate to **https://compliance.microsoft.com**.
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data lifecycle management (1)** then select **Microsoft 365 (2)**.
 
