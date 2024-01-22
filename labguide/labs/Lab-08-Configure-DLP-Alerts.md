@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll create a dlp policy in Microsoft purview
 
-1. In **Microsoft Edge**, navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. 
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, in **Microsoft Edge**, navigate back to the **[Microsoft Purview](https://compliance.microsoft.com/)** home page. 
 
 1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data loss prevention (1)** and select **Policies (2)**.
 
