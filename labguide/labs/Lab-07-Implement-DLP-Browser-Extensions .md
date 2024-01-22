@@ -275,7 +275,7 @@ In this task, you'll assess the implementation of the Microsoft Purview extensio
  
 1. To Save file as **Confidential-document** in **One drive** and to copy the link of **Confidential-document** file following the below step :
  
-     - from the start menu search and select **OneDrive**.
+     - From the start menu search and select **OneDrive**.
      
      -  On the **Set up OneDrive** window enter the  **<inject key="AzureAdUserEmail"></inject> (1)** and click on **Sign in (2)**
 
