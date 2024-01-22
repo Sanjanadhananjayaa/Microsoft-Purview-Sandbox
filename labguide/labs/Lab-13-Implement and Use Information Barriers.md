@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll set the department attribute and assign a license to the user Johndoe.
 
-1. Inside the Lab-VM, double click on the **Azure Portal** shortcut, and sign in with following credentials:
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, double click on the **Azure Portal** shortcut, and sign in with following credentials:
    
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
