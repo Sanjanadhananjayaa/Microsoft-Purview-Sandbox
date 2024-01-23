@@ -28,7 +28,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../media/newlab6.png)
+![](../media/lab6-1-image.png)
 
 ### Task 1: Create a Data Loss Prevention (DLP) policy
 
