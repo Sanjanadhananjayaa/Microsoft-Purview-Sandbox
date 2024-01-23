@@ -18,7 +18,7 @@ In this lab, you will complete the following task:
 
 ## Architecture diagram
 
-![](../media/part1lab3.png)
+![](../media/lab3-1-image.png)
 
 ### Task 1: Create a Mail Flow Encryption Rule using the Exchange admin center
 
