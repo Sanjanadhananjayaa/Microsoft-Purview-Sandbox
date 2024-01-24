@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../media/archi-8.png)
+![](../media/teams.png)
 
 ### Task 1: Modifying the attribute and assigning a license for the user named *Johndoe*.
 
