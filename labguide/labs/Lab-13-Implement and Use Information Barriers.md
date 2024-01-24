@@ -16,8 +16,9 @@ In this lab, you will complete the following tasks:
 + Task 1: Modifying the attribute and assigning a license for the user named *Johndoe*.
 + Task 2: Creating segments for Information Barriers
 + Task 3: Create Information barrier policies
-+ Task 4: Apply Information barrier policies
-+ Task 5: Assess Information Barriers functionality within Microsoft Teams.
++ Task 4: Enable Scoped Directory Search on Microsoft Teams
++ Task 5: Apply Information barrier policies
++ Task 6: Assess Information Barriers functionality within Microsoft Teams.
 
 ## Estimated timing: 60 minutes
 
