@@ -24,7 +24,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../media/teams.png)
+![](../media/teams1.png)
 
 ### Task 1: Modifying the attribute and assigning a license for the user named *Johndoe*.
 
