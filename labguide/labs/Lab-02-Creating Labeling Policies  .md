@@ -6,7 +6,7 @@ The task aims to provide a streamlined method for publishing sensitivity labels 
 
 ## Lab scenario
 
-In this lab, you need to publish labels to make them available to people and services in your organization.  After you create your sensitivity labels, The sensitivity labels can then be applied to Office documents emails, and other items that support sensitivity labels.
+In this lab, you need to publish labels to make them available to people and services in your organization. After you create your sensitivity labels. The sensitivity labels can then be applied to Office documents emails, and other items that support sensitivity labels.
 
 ## Lab objectives
 
