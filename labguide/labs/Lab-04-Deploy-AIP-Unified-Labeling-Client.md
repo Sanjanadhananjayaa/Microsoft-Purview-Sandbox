@@ -44,6 +44,8 @@ In this lab, you'll install Azure Information Protection Unified Labeling Client
 
    ![](../media/lab4-image3.png)
 
+1. If prompted select **Yes** on **Do you want to allow this app to make changes to your device?.   
+
 1. Click **Close**.
 
    ![](../media/lab4-image4.png)
