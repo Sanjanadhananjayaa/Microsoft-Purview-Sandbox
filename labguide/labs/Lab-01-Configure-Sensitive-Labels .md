@@ -58,8 +58,12 @@ In this lab, you will complete the following tasks:
 
 In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
 
-1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from desktop double click on **Microsoft Edge** and in the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
-   
+1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from start menu search and select **Microsoft Edge**.  
+
+   **Note**: On the **Microsoft Edge** if **Your Profit** prompted then click on **+ Add profile** and sign-in with username <inject key="AzureAdUserEmail"></inject> and password <inject key="AzureAdUserPassword"></inject>. Click on **OK** on **Stay signed in to all your apps**, then select **Done** on **you're all set!** page.
+
+1. In the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
+
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
