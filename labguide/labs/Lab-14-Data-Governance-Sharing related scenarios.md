@@ -19,6 +19,7 @@ In this lab, you will complete the following tasks:
 + Task 4: Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 + Task 5: Update received share (Read Only)
 + Task 6: Delete Microsoft Purview Account
++ Task 7: Delete Storage Account
 
 ## Estimated timing: 60 minutes
 
@@ -227,6 +228,23 @@ In this task, you will remove the Microsoft Purview account created earlier to m
  
 1. Wait for the deletion process to complete.
 
+## Task 7: Delete Storage Account
+ 
+In this task, you will delete the storage account created earlier to store data files for Microsoft Purview scanning. Removing the storage account ensures that unnecessary storage resources are not retained, contributing to cost optimization and resource management.
+ 
+1. Navigate to the Azure Portal homepage.
+ 
+1. In the Search resources, services and docs box at the top of the portal, enter Storage accounts, and then select Storage accounts under services.
+ 
+1. Select the storage account created for this lab.
+ 
+1. In the storage account blade, locate and click on Delete.
+ 
+1. Follow the prompts to confirm the deletion of the storage account.
+ 
+1. Wait for the deletion process to complete.
+
+
 ### Conclusion
 Through these tasks, Joni demonstrates the practical implementation of Azure services, showcasing how organizations can efficiently manage data sharing and access control. The lab ensures that data is shared securely and adheres to compliance standards, providing a foundation for secure collaboration within the organization.
 
@@ -239,5 +257,6 @@ During this lab, you've gained knowledge on the following:
 + Task 4: Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 + Task 5: Updated received share (Read Only)
 + Task 6: Delete Microsoft Purview Account
++ Task 7: Delete Storage Account
 
 ## You have successfully completed the lab. Click on Next >>.
