@@ -227,7 +227,6 @@ In this task, you will remove the Microsoft Purview account created earlier to m
  
 1. Wait for the deletion process to complete.
 
-
 ### Conclusion
 Through these tasks, Joni demonstrates the practical implementation of Azure services, showcasing how organizations can efficiently manage data sharing and access control. The lab ensures that data is shared securely and adheres to compliance standards, providing a foundation for secure collaboration within the organization.
 
