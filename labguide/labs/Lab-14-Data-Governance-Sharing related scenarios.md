@@ -18,6 +18,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Azure Storage in-place data sharing with Microsoft Purview
 + Task 4: Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 + Task 5: Update received share (Read Only)
++ Task 6: Delete Microsoft Purview Account
 
 ## Estimated timing: 60 minutes
 
@@ -209,6 +210,24 @@ In this task, you'll update the Received share
 
    >**Note**: You can access shared data from the target storage account through the Azure portal, Azure Storage Explorer, Azure Storage SDK, PowerShell or CLI. You can also analyze the shared data by connecting your storage account to Azure Synapse Analytics Spark or Databricks.
 
+
+## Task 6: Delete Microsoft Purview Account
+ 
+In this task, you will remove the Microsoft Purview account created earlier to manage data governance. Deleting the Purview account ensures that resources are not unnecessarily consumed and helps maintain a clean Azure environment.
+ 
+1. Navigate to the Azure Portal homepage.
+ 
+1. In the Search resources, services and docs box at the top of the portal, enter Microsoft purview accounts, and then select Microsoft purview accounts under services.
+ 
+1. Select the Purview account you created for this lab.
+ 
+1. In the Purview account blade, locate and click on Delete.
+ 
+1. Follow the prompts to confirm the deletion of the Purview account.
+ 
+1. Wait for the deletion process to complete.
+
+
 ### Conclusion
 Through these tasks, Joni demonstrates the practical implementation of Azure services, showcasing how organizations can efficiently manage data sharing and access control. The lab ensures that data is shared securely and adheres to compliance standards, providing a foundation for secure collaboration within the organization.
 
@@ -220,5 +239,6 @@ During this lab, you've gained knowledge on the following:
 + Task 3: Azure Storage in-place data sharing with Microsoft Purview
 + Task 4: Azure Storage in-place data Receive share with Microsoft Purview (Read Only)
 + Task 5: Updated received share (Read Only)
++ Task 6: Delete Microsoft Purview Account
 
 ## You have successfully completed the lab. Click on Next >>.
