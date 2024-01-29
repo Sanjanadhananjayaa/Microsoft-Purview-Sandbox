@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ![](../media/purview-lab1.png)
 
-## Task 1 : Login to Client VM from lab VM
+## Login to Client VM from lab VM
 
 1. In the **Azure Portal** from the **Resource groups** blade, select **purview-rg**.
 
@@ -52,8 +52,12 @@ In this lab, you will complete the following tasks:
 
     ![](../media/azureportal10.png)
 
-1. Now let's perform the lab within this RDP session.
-   
+   **Important**: You will be performing rest of the labs within the **cvm** RDP session.
+
+### Task 1: Create sensitivity labels in Microsoft Purview
+
+In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
+
 1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from desktop double click on **Microsoft Edge** and in the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
    
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
@@ -79,14 +83,7 @@ In this lab, you will complete the following tasks:
     ![](../media/sc-900-lab15-1-2.png)
     
     ![](../media/sc-900-lab13-01.png)
-
-   **Important**: You will be performing rest of all the labs in cvm RDP session.
-
-### Task 1: Create sensitivity labels in Microsoft Purview
-
-In this task, the focus is on creating Sensitivity labels in Microsoft Purview, a crucial step in classifying and safeguarding organizational data. The process involves accessing the Microsoft 365 admin center, navigating to the Compliance center, and utilizing Purview to define and implement Sensitivity labels.
-
-
+   
 1. From the left navigation pane of the Microsoft Purview, under **Solutions**, Expand **Information protection (1)**, and in the dropdown select **Overview (2)** and review the information.
 
     ![](../media/overview.png)
