@@ -60,8 +60,10 @@ In this task, the focus is on creating Sensitivity labels in Microsoft Purview, 
 
 1. Within **cvm-<inject key="DeploymentID" enableCopy="false"/>** RDP session, from start menu search and select **Microsoft Edge**.  
 
-   **Note**: On the **Microsoft Edge** if **Your Profit** prompted then click on **Sign in** and sign-in with username <inject key="AzureAdUserEmail"></inject> and password <inject key="AzureAdUserPassword"></inject> then click on **Sign in**. Click on **OK** on **Stay signed in to all your apps**, then select **Done** on **you're all set!** page.
+1. On the **Microsoft Edge** if **Your Profit** prompted then click on **Sign in** and sign-in with username <inject key="AzureAdUserEmail"></inject> and password <inject key="AzureAdUserPassword"></inject> then click on **Sign in**. Click on **OK** on **Stay signed in to all your apps**, then select **Done** on **you're all set!** page.
 
+   **Note**: On **Welcome to Microsoft Edge, the best performing browser on Windows** click **Confirm and continue**, then select **Continue without this data**.
+   
 1. In the browser window enter [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 1. In the Sign in window you will see a login screen, in that enter the following email/username and then click on **Ask Later**. 
